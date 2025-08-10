@@ -717,7 +717,7 @@ rules:
   - RULE-SET,hp,DIRECT
   - RULE-SET,lenovo,DIRECT
   - RULE-SET,ir-cidr,DIRECT
-  - MATCH,✅ گلوبال,🔁 سیستم فیلبک
+  - MATCH,✅ گلوبال
 
 ntp:
   enable: true
