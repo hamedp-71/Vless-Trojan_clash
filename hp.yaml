@@ -468,6 +468,7 @@ proxy-groups:
     type: select
     proxies:
       - "😎 انتخاب خودکار(بهترین) 😎"
+      - "🔁 سیستم فیلبک"
       - "🇩🇪 hamedp71-1-V"
       - "🇩🇪 hamedp71-2-V"
       - "🇩🇪 hamedp71-3-V"
@@ -492,6 +493,30 @@ proxy-groups:
     url: "https://www.gstatic.com/generate_204"
     interval: 30
     tolerance: 50
+    proxies:
+      - "🇩🇪 hamedp71-1-V"
+      - "🇩🇪 hamedp71-2-V"
+      - "🇩🇪 hamedp71-3-V"
+      - "🇩🇪 hamedp71-4-V"
+      - "🇩🇪 hamedp71-5-V"
+      - "🇩🇪 hamedp71-6-V"
+      - "🇩🇪 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇩🇪 hamedp71-1-T"
+      - "🇩🇪 hamedp71-2-T"
+      - "🇩🇪 hamedp71-3-T"
+      - "🇩🇪 hamedp71-4-T"
+      - "🇩🇪 hamedp71-5-T"
+      - "🇩🇪 hamedp71-6-T"
+      - "🇩🇪 hamedp71-7-T"
+      - "🇩🇪 hamedp71-8-T"
+      - "🇩🇪 hamedp71-9-T"
+
+  - name: "🔁 سیستم فیلبک"
+    type: fallback
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
     proxies:
       - "🇩🇪 hamedp71-1-V"
       - "🇩🇪 hamedp71-2-V"
@@ -676,7 +701,7 @@ rules:
   - RULE-SET,hp,DIRECT
   - RULE-SET,lenovo,DIRECT
   - RULE-SET,ir-cidr,DIRECT
-  - MATCH,✅ گلوبال
+  - MATCH,✅ گلوبال,🔁 سیستم فیلبک
 
 ntp:
   enable: true
