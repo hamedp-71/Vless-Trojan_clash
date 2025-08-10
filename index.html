@@ -1,835 +1,710 @@
-{
-    "mixed-port": 7890,
-    "ipv6": true,
-    "allow-lan": true,
-    "mode": "rule",
-    "log-level": "warning",
-    "disable-keep-alive": false,
-    "keep-alive-idle": 10,
-    "keep-alive-interval": 15,
-    "unified-delay": false,
-    "geo-auto-update": true,
-    "geo-update-interval": 168,
-    "external-controller": "127.0.0.1:9090",
-    "external-ui-url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
-    "external-ui": "ui",
-    "external-controller-cors": {
-        "allow-origins": [
-            "*"
-        ],
-        "allow-private-network": true
-    },
-    "profile": {
-        "store-selected": true,
-        "store-fake-ip": true
-    },
-    "dns": {
-        "enable": true,
-        "listen": "0.0.0.0:1053",
-        "ipv6": false,
-        "respect-rules": true,
-        "use-system-hosts": false,
-        "nameserver": [
-            "https://8.8.8.8/dns-query"
-        ],
-        "proxy-server-nameserver": [
-            "8.8.8.8#DIRECT"
-        ],
-        "nameserver-policy": {
-            "raw.githubusercontent.com": "8.8.8.8#DIRECT",
-            "time.apple.com": "8.8.8.8#DIRECT",
-            "rule-set:ir": "8.8.8.8#DIRECT",
-            "rule-set:openai": "78.157.42.100#DIRECT",
-            "rule-set:microsoft": "78.157.42.100#DIRECT",
-            "rule-set:oracle": "78.157.42.100#DIRECT",
-            "rule-set:docker": "78.157.42.100#DIRECT",
-            "rule-set:adobe": "78.157.42.100#DIRECT",
-            "rule-set:epicgames": "78.157.42.100#DIRECT",
-            "rule-set:intel": "78.157.42.100#DIRECT",
-            "rule-set:amd": "78.157.42.100#DIRECT",
-            "rule-set:nvidia": "78.157.42.100#DIRECT",
-            "rule-set:asus": "78.157.42.100#DIRECT",
-            "rule-set:hp": "78.157.42.100#DIRECT",
-            "rule-set:lenovo": "78.157.42.100#DIRECT"
-        },
-        "hosts": {
-            "rule-set:malware": "127.0.0.1",
-            "rule-set:phishing": "127.0.0.1",
-            "rule-set:cryptominers": "127.0.0.1",
-            "rule-set:category-ads-all": "127.0.0.1"
-        },
-        "enhanced-mode": "fake-ip",
-        "fake-ip-range": "198.18.0.1/16",
-        "fake-ip-filter": [
-            "*",
-            "+.lan",
-            "+.local"
-        ]
-    },
-    "tun": {
-        "enable": true,
-        "stack": "mixed",
-        "auto-route": true,
-        "strict-route": true,
-        "auto-detect-interface": true,
-        "dns-hijack": [
-            "any:53",
-            "tcp://any:53"
-        ],
-        "mtu": 9000
-    },
-    "sniffer": {
-        "enable": true,
-        "force-dns-mapping": true,
-        "parse-pure-ip": true,
-        "override-destination": false,
-        "sniff": {
-            "HTTP": {
-                "ports": [
-                    80,
-                    8080,
-                    8880,
-                    2052,
-                    2082,
-                    2086,
-                    2095
-                ]
-            },
-            "TLS": {
-                "ports": [
-                    443,
-                    8443,
-                    2053,
-                    2083,
-                    2087,
-                    2096
-                ]
-            }
-        }
-    },
-    "proxies": [
-        {
-            "name": "🇩🇪 hamedp71-1-V",
-            "type": "vless",
-            "server": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev",
-            "port": 443,
-            "uuid": "0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6",
-            "packet-encoding": "packetaddr",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/32bAZz9yQnwhjVAP/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "servername": "FqjedAZa7B2vofj9IHeMx319rmO41l7b.pages.dEv",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-2-V",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "port": 443,
-            "uuid": "0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6",
-            "packet-encoding": "packetaddr",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/4lY8DRfZheGQbS4v/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "servername": "FqJeDazA7b2voFj9IhEmX319RMO41l7b.PAgEs.Dev",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-3-V",
-            "type": "vless",
-            "server": "104.21.16.1",
-            "port": 443,
-            "uuid": "0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6",
-            "packet-encoding": "packetaddr",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/vt8WpNTPxf5shxql/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "servername": "FqjeDazA7b2voFj9IhEMx319rmO41l7B.pageS.dEv",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-4-V",
-            "type": "vless",
-            "server": "104.21.112.1",
-            "port": 443,
-            "uuid": "0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6",
-            "packet-encoding": "packetaddr",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/3YZ7FiPvc0YQHWF9/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "servername": "fqJeDAzA7B2vofj9iHeMx319Rmo41L7B.pagES.Dev",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-5-V",
-            "type": "vless",
-            "server": "104.21.64.1",
-            "port": 443,
-            "uuid": "0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6",
-            "packet-encoding": "packetaddr",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/fmHqIl0AeHeKerNs/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "servername": "FQJEdAza7B2vofj9ihEmX319rMO41L7B.pAges.dEV",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-6-V",
-            "type": "vless",
-            "server": "104.21.96.1",
-            "port": 443,
-            "uuid": "0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6",
-            "packet-encoding": "packetaddr",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/FZ60ubJcttQDyNir/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "servername": "fQJeDAzA7B2vOfj9IHEmx319rmO41l7b.PAGeS.dev",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-7-V",
-            "type": "vless",
-            "server": "104.21.48.1",
-            "port": 443,
-            "uuid": "0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6",
-            "packet-encoding": "packetaddr",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/dqJuEEmikX2d5Iw5/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "servername": "fQJedAZa7B2vOfj9iHemX319Rmo41l7b.PaGEs.DeV",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-8-V",
-            "type": "vless",
-            "server": "104.21.32.1",
-            "port": 443,
-            "uuid": "0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6",
-            "packet-encoding": "packetaddr",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/AVCxyIb4kvWZvlX3/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "servername": "FqJeDaZa7B2vofJ9ihEMx319rmo41L7b.PaGES.DeV",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-9-V",
-            "type": "vless",
-            "server": "104.21.80.1",
-            "port": 443,
-            "uuid": "0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6",
-            "packet-encoding": "packetaddr",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/OQy4yEcmb02yy8ks/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "servername": "fqJedaza7b2VofJ9iHeMx319RmO41L7b.paGEs.Dev",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-1-T",
-            "type": "trojan",
-            "server": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev",
-            "port": 443,
-            "password": ")x$AQ3HS2z,?",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/trqY1VyOi3lCFKr1qK/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "fQjEdAzA7b2vofJ9iHeMx319rMo41l7B.pAgEs.deV",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-2-T",
-            "type": "trojan",
-            "server": "www.speedtest.net",
-            "port": 443,
-            "password": ")x$AQ3HS2z,?",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/tr1XiKWlo5vKgZtktK/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "fqjedAzA7b2VOfj9IhEMX319RMo41L7b.pAGES.DEV",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-3-T",
-            "type": "trojan",
-            "server": "104.21.16.1",
-            "port": 443,
-            "password": ")x$AQ3HS2z,?",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/tr92CANIqhnXAlReFo/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "fqjEdAZa7b2VOfj9iHEMX319rMO41L7b.PaGeS.DEv",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-4-T",
-            "type": "trojan",
-            "server": "104.21.112.1",
-            "port": 443,
-            "password": ")x$AQ3HS2z,?",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/trBAOffSh3ziH9XWVP/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "FQjeDAzA7b2vOfj9IHEmx319rmO41L7b.PaGeS.DeV",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-5-T",
-            "type": "trojan",
-            "server": "104.21.64.1",
-            "port": 443,
-            "password": ")x$AQ3HS2z,?",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/tr10QCfLjDeYxuprF3/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "FqJEdaZa7b2vOFj9ihemX319rmO41L7B.paGEs.dev",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-6-T",
-            "type": "trojan",
-            "server": "104.21.96.1",
-            "port": 443,
-            "password": ")x$AQ3HS2z,?",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/traKGTJ8DxqBSQmvDJ/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "fqjeDAzA7B2vOFJ9IHemx319rMo41l7B.pAGEs.dEV",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-7-T",
-            "type": "trojan",
-            "server": "104.21.48.1",
-            "port": 443,
-            "password": ")x$AQ3HS2z,?",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/trz15cGrwwn3lOMlw0/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "FqjeDazA7B2VOFJ9IHEMX319Rmo41l7B.pagES.dEV",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-8-T",
-            "type": "trojan",
-            "server": "104.21.32.1",
-            "port": 443,
-            "password": ")x$AQ3HS2z,?",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/trNjj0PQyEEBOc8hdz/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "FQJEDaZA7b2VOFj9iHemx319rmO41L7b.PageS.Dev",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        },
-        {
-            "name": "🇩🇪 hamedp71-9-T",
-            "type": "trojan",
-            "server": "104.21.80.1",
-            "port": 443,
-            "password": ")x$AQ3HS2z,?",
-            "ip-version": "ipv4",
-            "tls": true,
-            "network": "ws",
-            "tfo": true,
-            "mptcp": true,
-            "ws-opts": {
-                "path": "/trgwkkSHCbz4vbzyIr/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE=",
-                "headers": {
-                    "Host": "fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev"
-                },
-                "max-early-data": 2560,
-                "early-data-header-name": "Sec-WebSocket-Protocol"
-            },
-            "sni": "fQJeDaZa7B2voFj9iheMX319RMo41l7B.PageS.deV",
-            "alpn": [
-                "http/1.1"
-            ],
-            "client-fingerprint": "random",
-            "skip-cert-verify": false
-        }
-    ],
-    "proxy-groups": [
-        {
-            "name": "✅ گلوبال",
-            "type": "select",
-            "proxies": [
-                "😎 انتخاب خودکار(بهترین) 😎",
-                "🇩🇪 hamedp71-1-V",
-                "🇩🇪 hamedp71-2-V",
-                "🇩🇪 hamedp71-3-V",
-                "🇩🇪 hamedp71-4-V",
-                "🇩🇪 hamedp71-5-V",
-                "🇩🇪 hamedp71-6-V",
-                "🇩🇪 hamedp71-7-V",
-                "🇩🇪 hamedp71-8-V",
-                "🇩🇪 hamedp71-9-V",
-                "🇩🇪 hamedp71-1-T",
-                "🇩🇪 hamedp71-2-T",
-                "🇩🇪 hamedp71-3-T",
-                "🇩🇪 hamedp71-4-T",
-                "🇩🇪 hamedp71-5-T",
-                "🇩🇪 hamedp71-6-T",
-                "🇩🇪 hamedp71-7-T",
-                "🇩🇪 hamedp71-8-T",
-                "🇩🇪 hamedp71-9-T"
-            ]
-        },
-        {
-            "name": "😎 انتخاب خودکار(بهترین) 😎",
-            "type": "url-test",
-            "url": "https://www.gstatic.com/generate_204",
-            "interval": 30,
-            "tolerance": 50,
-            "proxies": [
-                "🇩🇪 hamedp71-1-V",
-                "🇩🇪 hamedp71-2-V",
-                "🇩🇪 hamedp71-3-V",
-                "🇩🇪 hamedp71-4-V",
-                "🇩🇪 hamedp71-5-V",
-                "🇩🇪 hamedp71-6-V",
-                "🇩🇪 hamedp71-7-V",
-                "🇩🇪 hamedp71-8-V",
-                "🇩🇪 hamedp71-9-V",
-                "🇩🇪 hamedp71-1-T",
-                "🇩🇪 hamedp71-2-T",
-                "🇩🇪 hamedp71-3-T",
-                "🇩🇪 hamedp71-4-T",
-                "🇩🇪 hamedp71-5-T",
-                "🇩🇪 hamedp71-6-T",
-                "🇩🇪 hamedp71-7-T",
-                "🇩🇪 hamedp71-8-T",
-                "🇩🇪 hamedp71-9-T"
-            ]
-        }
-    ],
-    "rule-providers": {
-        "malware": {
-            "type": "http",
-            "format": "text",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.txt",
-            "path": "./ruleset/malware.txt",
-            "interval": 86400
-        },
-        "malware-cidr": {
-            "type": "http",
-            "format": "text",
-            "behavior": "ipcidr",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware-ip.txt",
-            "path": "./ruleset/malware-cidr.txt",
-            "interval": 86400
-        },
-        "phishing": {
-            "type": "http",
-            "format": "text",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.txt",
-            "path": "./ruleset/phishing.txt",
-            "interval": 86400
-        },
-        "phishing-cidr": {
-            "type": "http",
-            "format": "text",
-            "behavior": "ipcidr",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing-ip.txt",
-            "path": "./ruleset/phishing-cidr.txt",
-            "interval": 86400
-        },
-        "cryptominers": {
-            "type": "http",
-            "format": "text",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.txt",
-            "path": "./ruleset/cryptominers.txt",
-            "interval": 86400
-        },
-        "category-ads-all": {
-            "type": "http",
-            "format": "text",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/category-ads-all.txt",
-            "path": "./ruleset/category-ads-all.txt",
-            "interval": 86400
-        },
-        "ir": {
-            "type": "http",
-            "format": "text",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt",
-            "path": "./ruleset/ir.txt",
-            "interval": 86400
-        },
-        "ir-cidr": {
-            "type": "http",
-            "format": "text",
-            "behavior": "ipcidr",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt",
-            "path": "./ruleset/ir-cidr.txt",
-            "interval": 86400
-        },
-        "openai": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/openai.yaml",
-            "path": "./ruleset/openai.yaml",
-            "interval": 86400
-        },
-        "microsoft": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.yaml",
-            "path": "./ruleset/microsoft.yaml",
-            "interval": 86400
-        },
-        "oracle": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/oracle.yaml",
-            "path": "./ruleset/oracle.yaml",
-            "interval": 86400
-        },
-        "docker": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/docker.yaml",
-            "path": "./ruleset/docker.yaml",
-            "interval": 86400
-        },
-        "adobe": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/adobe.yaml",
-            "path": "./ruleset/adobe.yaml",
-            "interval": 86400
-        },
-        "epicgames": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/epicgames.yaml",
-            "path": "./ruleset/epicgames.yaml",
-            "interval": 86400
-        },
-        "intel": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/intel.yaml",
-            "path": "./ruleset/intel.yaml",
-            "interval": 86400
-        },
-        "amd": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/amd.yaml",
-            "path": "./ruleset/amd.yaml",
-            "interval": 86400
-        },
-        "nvidia": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/nvidia.yaml",
-            "path": "./ruleset/nvidia.yaml",
-            "interval": 86400
-        },
-        "asus": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/asus.yaml",
-            "path": "./ruleset/asus.yaml",
-            "interval": 86400
-        },
-        "hp": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/hp.yaml",
-            "path": "./ruleset/hp.yaml",
-            "interval": 86400
-        },
-        "lenovo": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/lenovo.yaml",
-            "path": "./ruleset/lenovo.yaml",
-            "interval": 86400
-        }
-    },
-    "rules": [
-        "NETWORK,udp,REJECT",
-        "RULE-SET,malware,REJECT",
-        "RULE-SET,phishing,REJECT",
-        "RULE-SET,cryptominers,REJECT",
-        "RULE-SET,category-ads-all,REJECT",
-        "RULE-SET,malware-cidr,REJECT",
-        "RULE-SET,phishing-cidr,REJECT",
-        "RULE-SET,ir,DIRECT",
-        "RULE-SET,openai,DIRECT",
-        "RULE-SET,microsoft,DIRECT",
-        "RULE-SET,oracle,DIRECT",
-        "RULE-SET,docker,DIRECT",
-        "RULE-SET,adobe,DIRECT",
-        "RULE-SET,epicgames,DIRECT",
-        "RULE-SET,intel,DIRECT",
-        "RULE-SET,amd,DIRECT",
-        "RULE-SET,nvidia,DIRECT",
-        "RULE-SET,asus,DIRECT",
-        "RULE-SET,hp,DIRECT",
-        "RULE-SET,lenovo,DIRECT",
-        "RULE-SET,ir-cidr,DIRECT",
-        "MATCH,✅ گلوبال"
-    ],
-    "ntp": {
-        "enable": true,
-        "server": "time.cloudflare.com",
-        "port": 123,
-        "interval": 30
-    }
-}
+mixed-port: 7890
+ipv6: true
+allow-lan: true
+mode: rule
+log-level: warning
+disable-keep-alive: false
+keep-alive-idle: 10
+keep-alive-interval: 15
+unified-delay: false
+geo-auto-update: true
+geo-update-interval: 168
+external-controller: '127.0.0.1:9090'
+external-ui-url: 'https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip'
+external-ui: ui
+external-controller-cors:
+  allow-origins: ['*']
+  allow-private-network: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+dns:
+  enable: true
+  listen: '0.0.0.0:1053'
+  ipv6: false
+  respect-rules: true
+  use-system-hosts: false
+  nameserver:
+    - 'https://8.8.8.8/dns-query'
+  proxy-server-nameserver:
+    - '8.8.8.8#DIRECT'
+  nameserver-policy:
+    raw.githubusercontent.com: '8.8.8.8#DIRECT'
+    time.apple.com: '8.8.8.8#DIRECT'
+    'rule-set:ir': '8.8.8.8#DIRECT'
+    'rule-set:openai': '78.157.42.100#DIRECT'
+    'rule-set:microsoft': '78.157.42.100#DIRECT'
+    'rule-set:oracle': '78.157.42.100#DIRECT'
+    'rule-set:docker': '78.157.42.100#DIRECT'
+    'rule-set:adobe': '78.157.42.100#DIRECT'
+    'rule-set:epicgames': '78.157.42.100#DIRECT'
+    'rule-set:intel': '78.157.42.100#DIRECT'
+    'rule-set:amd': '78.157.42.100#DIRECT'
+    'rule-set:nvidia': '78.157.42.100#DIRECT'
+    'rule-set:asus': '78.157.42.100#DIRECT'
+    'rule-set:hp': '78.157.42.100#DIRECT'
+    'rule-set:lenovo': '78.157.42.100#DIRECT'
+  hosts:
+    'rule-set:malware': '127.0.0.1'
+    'rule-set:phishing': '127.0.0.1'
+    'rule-set:cryptominers': '127.0.0.1'
+    'rule-set:category-ads-all': '127.0.0.1'
+  enhanced-mode: fake-ip
+  fake-ip-range: '198.18.0.1/16'
+  fake-ip-filter:
+    - '*'
+    - '+.lan'
+    - '+.local'
+tun:
+  enable: true
+  stack: mixed
+  auto-route: true
+  strict-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - 'any:53'
+    - 'tcp://any:53'
+  mtu: 9000
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports: [80, 8080, 8880, 2052, 2082, 2086, 2095]
+    TLS:
+      ports: [443, 8443, 2053, 2083, 2087, 2096]
+proxies:
+  - name: "🇩🇪 hamedp71-1-V"
+    type: vless
+    server: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+    port: 443
+    uuid: 0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/32bAZz9yQnwhjVAP/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: FqjedAZa7B2vofj9IHeMx319rmO41l7b.pages.dEv
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-2-V"
+    type: vless
+    server: www.speedtest.net
+    port: 443
+    uuid: 0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/4lY8DRfZheGQbS4v/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: FqJeDazA7b2voFj9IhEmX319RMO41l7b.PAgEs.Dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-3-V"
+    type: vless
+    server: 104.21.16.1
+    port: 443
+    uuid: 0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/vt8WpNTPxf5shxql/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: FqjeDazA7b2voFj9IhEMx319rmO41l7B.pageS.dEv
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-4-V"
+    type: vless
+    server: 104.21.112.1
+    port: 443
+    uuid: 0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/3YZ7FiPvc0YQHWF9/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: fqJeDAzA7B2vofj9iHeMx319Rmo41L7B.pagES.Dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-5-V"
+    type: vless
+    server: 104.21.64.1
+    port: 443
+    uuid: 0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/fmHqIl0AeHeKerNs/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: FQJEdAza7B2vofj9ihEmX319rMO41L7B.pAges.dEV
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-6-V"
+    type: vless
+    server: 104.21.96.1
+    port: 443
+    uuid: 0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/FZ60ubJcttQDyNir/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: fQJeDAzA7B2vOfj9IHEmx319rmO41l7b.PAGeS.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-7-V"
+    type: vless
+    server: 104.21.48.1
+    port: 443
+    uuid: 0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/dqJuEEmikX2d5Iw5/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: fQJedAZa7B2vOfj9iHemX319Rmo41l7b.PaGEs.DeV
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-8-V"
+    type: vless
+    server: 104.21.32.1
+    port: 443
+    uuid: 0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/AVCxyIb4kvWZvlX3/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: FqJeDaZa7B2vofJ9ihEMx319rmo41L7b.PaGES.DeV
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-9-V"
+    type: vless
+    server: 104.21.80.1
+    port: 443
+    uuid: 0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/OQy4yEcmb02yy8ks/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: fqJedaza7b2VofJ9iHeMx319RmO41L7b.paGEs.Dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-1-T"
+    type: trojan
+    server: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+    port: 443
+    password: ")x$AQ3HS2z,?"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trqY1VyOi3lCFKr1qK/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: fQjEdAzA7b2vofJ9iHeMx319rMo41l7B.pAgEs.deV
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-2-T"
+    type: trojan
+    server: www.speedtest.net
+    port: 443
+    password: ")x$AQ3HS2z,?"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/tr1XiKWlo5vKgZtktK/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: fqjedAzA7b2VOfj9IhEMX319RMo41L7b.pAGES.DEV
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-3-T"
+    type: trojan
+    server: 104.21.16.1
+    port: 443
+    password: ")x$AQ3HS2z,?"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/tr92CANIqhnXAlReFo/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: fqjEdAZa7b2VOfj9iHEMX319rMO41L7b.PaGeS.DEv
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-4-T"
+    type: trojan
+    server: 104.21.112.1
+    port: 443
+    password: ")x$AQ3HS2z,?"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trBAOffSh3ziH9XWVP/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: FQjeDAzA7b2vOfj9IHEmx319rmO41L7b.PaGeS.DeV
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-5-T"
+    type: trojan
+    server: 104.21.64.1
+    port: 443
+    password: ")x$AQ3HS2z,?"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/tr10QCfLjDeYxuprF3/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: FqJEdaZa7b2vOFj9ihemX319rmO41L7B.paGEs.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-6-T"
+    type: trojan
+    server: 104.21.96.1
+    port: 443
+    password: ")x$AQ3HS2z,?"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/traKGTJ8DxqBSQmvDJ/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: fqjeDAzA7B2vOFJ9IHemx319rMo41l7B.pAGEs.dEV
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-7-T"
+    type: trojan
+    server: 104.21.48.1
+    port: 443
+    password: ")x$AQ3HS2z,?"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trz15cGrwwn3lOMlw0/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: FqjeDazA7B2VOFJ9IHEMX319Rmo41l7B.pagES.dEV
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-8-T"
+    type: trojan
+    server: 104.21.32.1
+    port: 443
+    password: ")x$AQ3HS2z,?"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trNjj0PQyEEBOc8hdz/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: FQJEDaZA7b2VOFj9iHemx319rmO41L7b.PageS.Dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇩🇪 hamedp71-9-T"
+    type: trojan
+    server: 104.21.80.1
+    port: 443
+    password: ")x$AQ3HS2z,?"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trgwkkSHCbz4vbzyIr/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      headers:
+        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: fQJeDaZa7B2voFj9iheMX319RMo41l7B.PageS.deV
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+proxy-groups:
+  - name: "✅ گلوبال"
+    type: select
+    proxies:
+      - "😎 انتخاب خودکار(بهترین) 😎"
+      - "🔁 سیستم فیلبک"
+      - "🇩🇪 hamedp71-1-V"
+      - "🇩🇪 hamedp71-2-V"
+      - "🇩🇪 hamedp71-3-V"
+      - "🇩🇪 hamedp71-4-V"
+      - "🇩🇪 hamedp71-5-V"
+      - "🇩🇪 hamedp71-6-V"
+      - "🇩🇪 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇩🇪 hamedp71-1-T"
+      - "🇩🇪 hamedp71-2-T"
+      - "🇩🇪 hamedp71-3-T"
+      - "🇩🇪 hamedp71-4-T"
+      - "🇩🇪 hamedp71-5-T"
+      - "🇩🇪 hamedp71-6-T"
+      - "🇩🇪 hamedp71-7-T"
+      - "🇩🇪 hamedp71-8-T"
+      - "🇩🇪 hamedp71-9-T"
+
+  - name: "😎 انتخاب خودکار(بهترین) 😎"
+    type: url-test
+    url: "https://www.gstatic.com/generate_204"
+    interval: 30
+    tolerance: 50
+    proxies:
+      - "🇩🇪 hamedp71-1-V"
+      - "🇩🇪 hamedp71-2-V"
+      - "🇩🇪 hamedp71-3-V"
+      - "🇩🇪 hamedp71-4-V"
+      - "🇩🇪 hamedp71-5-V"
+      - "🇩🇪 hamedp71-6-V"
+      - "🇩🇪 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇩🇪 hamedp71-1-T"
+      - "🇩🇪 hamedp71-2-T"
+      - "🇩🇪 hamedp71-3-T"
+      - "🇩🇪 hamedp71-4-T"
+      - "🇩🇪 hamedp71-5-T"
+      - "🇩🇪 hamedp71-6-T"
+      - "🇩🇪 hamedp71-7-T"
+      - "🇩🇪 hamedp71-8-T"
+      - "🇩🇪 hamedp71-9-T"
+
+  - name: "🔁 سیستم فیلبک"
+    type: fallback
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    proxies:
+      - "🇩🇪 hamedp71-1-V"
+      - "🇩🇪 hamedp71-2-V"
+      - "🇩🇪 hamedp71-3-V"
+      - "🇩🇪 hamedp71-4-V"
+      - "🇩🇪 hamedp71-5-V"
+      - "🇩🇪 hamedp71-6-V"
+      - "🇩🇪 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇩🇪 hamedp71-1-T"
+      - "🇩🇪 hamedp71-2-T"
+      - "🇩🇪 hamedp71-3-T"
+      - "🇩🇪 hamedp71-4-T"
+      - "🇩🇪 hamedp71-5-T"
+      - "🇩🇪 hamedp71-6-T"
+      - "🇩🇪 hamedp71-7-T"
+      - "🇩🇪 hamedp71-8-T"
+      - "🇩🇪 hamedp71-9-T"
+
+rule-providers:
+  malware:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.txt"
+    path: "./ruleset/malware.txt"
+    interval: 86400
+  malware-cidr:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware-ip.txt"
+    path: "./ruleset/malware-cidr.txt"
+    interval: 86400
+  phishing:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.txt"
+    path: "./ruleset/phishing.txt"
+    interval: 86400
+  phishing-cidr:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing-ip.txt"
+    path: "./ruleset/phishing-cidr.txt"
+    interval: 86400
+  cryptominers:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.txt"
+    path: "./ruleset/cryptominers.txt"
+    interval: 86400
+  category-ads-all:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/category-ads-all.txt"
+    path: "./ruleset/category-ads-all.txt"
+    interval: 86400
+  ir:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt"
+    path: "./ruleset/ir.txt"
+    interval: 86400
+  ir-cidr:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt"
+    path: "./ruleset/ir-cidr.txt"
+    interval: 86400
+  openai:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/openai.txt"
+    path: "./ruleset/openai.txt"
+    interval: 86400
+  microsoft:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/microsoft.txt"
+    path: "./ruleset/microsoft.txt"
+    interval: 86400
+  oracle:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/oracle.txt"
+    path: "./ruleset/oracle.txt"
+    interval: 86400
+  docker:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/docker.txt"
+    path: "./ruleset/docker.txt"
+    interval: 86400
+  adobe:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/adobe.txt"
+    path: "./ruleset/adobe.txt"
+    interval: 86400
+  epicgames:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/epicgames.txt"
+    path: "./ruleset/epicgames.txt"
+    interval: 86400
+  intel:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/intel.txt"
+    path: "./ruleset/intel.txt"
+    interval: 86400
+  amd:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/amd.txt"
+    path: "./ruleset/amd.txt"
+    interval: 86400
+  nvidia:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/nvidia.txt"
+    path: "./ruleset/nvidia.txt"
+    interval: 86400
+  asus:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/asus.txt"
+    path: "./ruleset/asus.txt"
+    interval: 86400
+  hp:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/hp.txt"
+    path: "./ruleset/hp.txt"
+    interval: 86400
+  lenovo:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/lenovo.txt"
+    path: "./ruleset/lenovo.txt"
+    interval: 86400   
+
+rules:
+  - NETWORK,udp,REJECT
+  - RULE-SET,malware,REJECT
+  - RULE-SET,phishing,REJECT
+  - RULE-SET,cryptominers,REJECT
+  - RULE-SET,category-ads-all,REJECT
+  - RULE-SET,malware-cidr,REJECT
+  - RULE-SET,phishing-cidr,REJECT
+  - RULE-SET,ir,DIRECT
+  - RULE-SET,openai,DIRECT
+  - RULE-SET,microsoft,DIRECT
+  - RULE-SET,oracle,DIRECT
+  - RULE-SET,docker,DIRECT
+  - RULE-SET,adobe,DIRECT
+  - RULE-SET,epicgames,DIRECT
+  - RULE-SET,intel,DIRECT
+  - RULE-SET,amd,DIRECT
+  - RULE-SET,nvidia,DIRECT
+  - RULE-SET,asus,DIRECT
+  - RULE-SET,hp,DIRECT
+  - RULE-SET,lenovo,DIRECT
+  - RULE-SET,ir-cidr,DIRECT
+  - MATCH,✅ گلوبال,🔁 سیستم فیلبک
+
+ntp:
+  enable: true
+  server: time.cloudflare.com
+  port: 123
+  interval: 30
