@@ -28,13 +28,13 @@ dns:
     - 'https://8.8.8.8/dns-query#✅ گلوبال'
   proxy-server-nameserver:
     - '8.8.8.8#DIRECT'
-    - '9.9.9.9#DIRECT'
-    - '2620:fe::fe'
-    - '1.1.1.1#DIRECT'
-    - '2606:4700:4700::1111'
-    - '2001:4860:4860::8888'
     - '8.8.4.4#DIRECT'
-    - '2001:4860:4860::8844'
+    - '9.9.9.9#DIRECT'
+    - '1.1.1.1#DIRECT'
+    - '2620:fe::fe#DIRECT'
+    - '2606:4700:4700::1111#DIRECT'
+    - '2001:4860:4860::8888#DIRECT'
+    - '2001:4860:4860::8844#DIRECT'
   nameserver-policy:
     raw.githubusercontent.com: '8.8.8.8#DIRECT'
     time.apple.com: '8.8.8.8#DIRECT'
@@ -498,7 +498,7 @@ proxy-groups:
   - name: "😎 انتخاب خودکار(بهترین) 😎"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
-    interval: 100
+    interval: 50
     tolerance: 50
     proxies:
       - "🇩🇪 hamedp71-1-V"
