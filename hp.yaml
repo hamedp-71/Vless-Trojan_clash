@@ -468,8 +468,7 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: random
     skip-cert-verify: false
-    
-  # VLESS Configs
+
   - name: "🇺🇸🇯🇵 hamedp71-1-V"
     type: vless
     server: schqqn0yhrrs34qn3a2k4i6g9xap1tph.pages.dev
@@ -668,7 +667,6 @@ proxies:
     client-fingerprint: random
     skip-cert-verify: false
 
-  # Trojan Configs
   - name: "🇺🇸🇯🇵 hamedp71-1-T"
     type: trojan
     server: schqqn0yhrrs34qn3a2k4i6g9xap1tph.pages.dev
