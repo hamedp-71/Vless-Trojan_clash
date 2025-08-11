@@ -1129,7 +1129,7 @@ proxies:
     client-fingerprint: random
     skip-cert-verify: false
 
-  - name: "🇺🇸 hamedp71-T-15"
+  - name: "🇺🇸 hamedp71-15-T"
     type: trojan
     server: 2606:4700:3030::6815:4001
     port: 443
@@ -1150,7 +1150,7 @@ proxies:
     client-fingerprint: random
     skip-cert-verify: false
 
-  - name: "🇺🇸 hamedp71-T-16"
+  - name: "🇺🇸 hamedp71-16-T"
     type: trojan
     server: 2606:4700:3030::6815:2001
     port: 443
