@@ -468,8 +468,7 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: random
     skip-cert-verify: false
-
-proxies:
+    
   # VLESS Configs
   - name: "🇺🇸🇯🇵 hamedp71-1-V"
     type: vless
