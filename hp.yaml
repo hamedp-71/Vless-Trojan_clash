@@ -150,7 +150,7 @@ proxies:
 
   - name: "🇹🇷🇩🇪 hamedp71-4-V"
     type: vless
-    server: 104.21.162.1
+    server: 104.21.112.1
     port: 443
     uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
     packet-encoding: packetaddr
@@ -471,7 +471,7 @@ proxies:
 
   - name: "🇺🇸🇯🇵 hamedp71-1-V"
     type: vless
-    server: 104.21.152.1
+    server: 104.17.52.81
     port: 443
     uuid: 0d0f0fea-64be-46fb-bb98-f8d5f5740752
     packet-encoding: packetaddr
@@ -669,7 +669,7 @@ proxies:
 
   - name: "🇺🇸🇯🇵 hamedp71-1-T"
     type: trojan
-    server: 104.21.146.1
+    server: 104.16.137.120
     port: 443
     password: "zY0HGcoAcY2v"
     ip-version: ipv4
@@ -711,7 +711,7 @@ proxies:
 
   - name: "🇺🇸🇯🇵 hamedp71-3-T"
     type: trojan
-    server: 104.21.132.1
+    server: 162.159.153.144
     port: 443
     password: "zY0HGcoAcY2v"
     ip-version: ipv4
