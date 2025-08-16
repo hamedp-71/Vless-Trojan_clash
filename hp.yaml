@@ -481,7 +481,7 @@ proxies:
     tfo: true
     mptcp: true
     ws-opts:
-      path: "/1gWykyI7zP6RJ7Zd/NDQuMjI0LjI0LjkxLDE4LjE4My4xNTguMjEx"
+      path: "/2nJY7lNyjg3vYPHW/NDQuMjI0LjI0LjkxLDE4LjE4My4xNTguMjEx"
       headers:
         Host: schqqn0yhrrs34qn3a2k4i6g9xap1tph.pages.dev
       max-early-data: 2560
@@ -657,7 +657,7 @@ proxies:
     tfo: true
     mptcp: true
     ws-opts:
-      path: "/JQu09cRQYvdBWCvd/NDQuMjI0LjI0LjkxLDE4LjE4My4xNTguMjEx"
+      path: "/XDtiT6H1XyJ0PBhr/NDQuMjI0LjI0LjkxLDE4LjE4My4xNTguMjEx"
       headers:
         Host: schqqn0yhrrs34qn3a2k4i6g9xap1tph.pages.dev
       max-early-data: 2560
