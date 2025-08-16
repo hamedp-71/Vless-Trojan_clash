@@ -82,11 +82,11 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 proxies:
-  - name: "🇩🇪 hamedp71-1-V"
+  - name: "🇹🇷🇩🇪 hamedp71-1-V"
     type: vless
-    server: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+    server: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
     port: 443
-    uuid: 0f0c8014-6c01-46b6-b0cc-2f76d6bae7f6
+    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
     packet-encoding: packetaddr
     ip-version: ipv4
     tls: true
@@ -94,12 +94,12 @@ proxies:
     tfo: true
     mptcp: true
     ws-opts:
-      path: "/32bAZz9yQnwhjVAP/MzUuMTU3LjI0MC4yMzcsMTguMTk4LjIyNy4xNjE="
+      path: "/9KCApnzMATzAseQy/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
       headers:
-        Host: fqjedaza7b2vofj9ihemx319rmo41l7b.pages.dev
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-    servername: FqjedAZa7B2vofj9IHeMx319rmO41l7b.pages.dEv
+    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
     alpn: ["http/1.1"]
     client-fingerprint: random
     skip-cert-verify: false
@@ -862,7 +862,7 @@ proxy-groups:
     proxies: 
       - "😎 انتخاب خودکار(بهترین) 😎"
       - "🔁 سیستم فیلبک"
-      - "🇩🇪 hamedp71-1-V"
+      - "🇹🇷🇩🇪 hamedp71-1-V"
       - "🇩🇪 hamedp71-2-V"
       - "🇩🇪 hamedp71-3-V"
       - "🇩🇪 hamedp71-4-V"
@@ -905,7 +905,7 @@ proxy-groups:
     interval: 30
     tolerance: 50
     proxies:
-      - "🇩🇪 hamedp71-1-V"
+      - "🇹🇷🇩🇪 hamedp71-1-V"
       - "🇩🇪 hamedp71-2-V"
       - "🇩🇪 hamedp71-3-V"
       - "🇩🇪 hamedp71-4-V"
@@ -947,7 +947,7 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     proxies:
-      - "🇩🇪 hamedp71-1-V"
+      - "🇹🇷🇩🇪 hamedp71-1-V"
       - "🇩🇪 hamedp71-2-V"
       - "🇩🇪 hamedp71-3-V"
       - "🇩🇪 hamedp71-4-V"
