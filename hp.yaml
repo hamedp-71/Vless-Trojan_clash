@@ -81,8 +81,8 @@ sniffer:
       ports: [80, 8080, 8880, 2052, 2082, 2086, 2095]
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
- proxies:
-  - name: "🇺🇸🇯🇵 hamedp71-1-V"
+proxies:
+  - name: "🇺🇸🇯🇵 hamedp71-2-V"
     type: vless
     server: usahxc8rg-ta8vj5epncfrdzo6vgnj8mh26.pages.dev
     port: 443
