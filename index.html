@@ -82,7 +82,7 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 proxies:
-  - name: "anytls-443"
+  - name: "🇩🇪 anytls-443"
     type: anytls
     server: 80.240.26.147
     port: 443
@@ -112,666 +112,6 @@ proxies:
     sni: "net2025.afsharidempire.uk"
     skip-cert-verify: true
     alpn: ["h3"]
-
-  - name: "🇩🇪1 hamedp71-1-V"
-    type: vless
-    server: 188.166.150.199
-    port: 443
-    uuid: a8b11fe0-51f0-4ae6-a337-78ce42004879
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 188.166.150.199
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪1 hamedp71-2-V"
-    type: vless
-    server: 139.59.213.120
-    port: 443
-    uuid: be92350d-1967-48d0-8e4a-e58c8d869e74
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 139.59.213.120
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪1 hamedp71-3-V"
-    type: vless
-    server: 51.178.42.187
-    port: 443
-    uuid: a9652d45-b93b-4178-81a5-29fb45c033b3
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 51.178.42.187
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪1 hamedp71-4-V"
-    type: vless
-    server: 139.59.75.181
-    port: 443
-    uuid: 6564b639-8857-4fec-a45b-ada20d4bd315
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 139.59.75.181
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪1 hamedp71-5-V"
-    type: vless
-    server: 134.209.90.171
-    port: 443
-    uuid: 707012d8-6b03-454f-89e6-15070a3ecbe7
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 152.42.139.83
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪1 hamedp71-6-V"
-    type: vless
-    server: 148.113.207.224
-    port: 443
-    uuid: c1bbfa35-8326-4b41-9b62-19cb98a289b4
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 148.113.207.224
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪1 hamedp71-7-V"
-    type: vless
-    server: 68.183.216.44
-    port: 443
-    uuid: 074ceb2a-a580-4c86-a10e-39b5b262c6e0
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 46.101.237.150
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪1 hamedp71-8-V"
-    type: vless
-    server: 68.183.234.52
-    port: 443
-    uuid: d78ac0ca-96fa-4b01-9b6d-b40284b5dfb2
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 15.235.146.5
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪1 hamedp71-9-V"
-    type: vless
-    server: 157.230.91.47
-    port: 443
-    uuid: 9df6183b-ca47-4d4d-b014-e24aa41d401a
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 157.230.91.47
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪1 hamedp71-10-V"
-    type: vless
-    server: 143.198.15.103
-    port: 443
-    uuid: 56eb5545-c337-4a37-881f-78c317e36397
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 174.138.82.85
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪1 hamedp71-11-V"
-    type: vless
-    server: 209.38.20.147
-    port: 443
-    uuid: 59f87868-47e7-4208-b624-13c4c6c65fab
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 170.64.183.81
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪1 hamedp71-12-V"
-    type: vless
-    server: 57.128.219.105
-    port: 443
-    uuid: 7e7c6751-0e11-4acd-af06-2d82e6e9f14a
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 57.128.219.105
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-1-V"
-    type: vless
-    server: 138.124.15.58
-    port: 2087
-    uuid: aa435167-a592-44d1-9ba7-50521a3ddb99
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/vless"
-      headers:
-        Host: 138.124.15.58
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-2-V"
-    type: vless
-    server: 31.169.127.40
-    port: 2087
-    uuid: 0aee83e9-2fce-4d16-8fad-8beb619db831
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/vless"
-      headers:
-        Host: 31.169.127.40
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-3-V"
-    type: vless
-    server: 185.58.115.104
-    port: 2087
-    uuid: c2e5afa0-907f-4b26-a2e2-2c8f17d332de
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/vless"
-      headers:
-        Host: 185.58.115.104
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-4-V"
-    type: vless
-    server: 95.215.8.25
-    port: 443
-    uuid: 3883c5ae-0494-546e-aa55-f56b437ac581
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/vless"
-      headers:
-        Host: 95.215.8.25
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-5-V"
-    type: vless
-    server: 38.76.247.230
-    port: 443
-    uuid: cc9bd61b-9c4f-5ace-8a93-f23a868d6ee9
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/vless"
-      headers:
-        Host: 38.76.247.230
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-6-V"
-    type: vless
-    server: 41.216.182.162
-    port: 443
-    uuid: c6b88243-a3fc-57a1-a78f-c989a84476b7
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/vless"
-      headers:
-        Host: 41.216.182.162
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-7-V"
-    type: vless
-    server: 51.195.202.129
-    port: 443
-    uuid: e7e9b808-20ac-4bd7-b71f-76374156fac6
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 51.195.202.129
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-8-V"
-    type: vless
-    server: 188.166.150.199
-    port: 443
-    uuid: a8b11fe0-51f0-4ae6-a337-78ce42004879
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 188.166.150.199
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-9-V"
-    type: vless
-    server: 139.59.213.120
-    port: 443
-    uuid: be92350d-1967-48d0-8e4a-e58c8d869e74
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 139.59.213.120
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-10-V"
-    type: vless
-    server: 51.178.42.187
-    port: 443
-    uuid: a9652d45-b93b-4178-81a5-29fb45c033b3
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 51.178.42.187
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["h3"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-11-V"
-    type: vless
-    server: 139.59.75.181
-    port: 443
-    uuid: 6564b639-8857-4fec-a45b-ada20d4bd315
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 139.59.75.181
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["h3"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-12-V"
-    type: vless
-    server: 134.209.90.171
-    port: 443
-    uuid: 707012d8-6b03-454f-89e6-15070a3ecbe7
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 152.42.139.83
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["h3"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-13-V"
-    type: vless
-    server: 148.113.207.224
-    port: 443
-    uuid: c1bbfa35-8326-4b41-9b62-19cb98a289b4
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 148.113.207.224
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["h3"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-14-V"
-    type: vless
-    server: 51.195.101.222
-    port: 443
-    uuid: 9740c971-8b82-4721-9c07-a657dc4cfb0e
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 51.195.101.222
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["h3"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-15-V"
-    type: vless
-    server: 68.183.216.44
-    port: 443
-    uuid: 074ceb2a-a580-4c86-a10e-39b5b262c6e0
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 46.101.237.150
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["h3"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-16-V"
-    type: vless
-    server: 68.183.234.52
-    port: 443
-    uuid: d78ac0ca-96fa-4b01-9b6d-b40284b5dfb2
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 15.235.146.5
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["h3"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-17-V"
-    type: vless
-    server: 157.230.91.47
-    port: 443
-    uuid: 9df6183b-ca47-4d4d-b014-e24aa41d401a
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 157.230.91.47
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["h3"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71-18-V"
-    type: vless
-    server: 143.198.15.103
-    port: 443
-    uuid: 56eb5545-c337-4a37-881f-78c317e36397
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 174.138.82.85
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: zula.ir
-    alpn: ["h3"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
 
   - name: "🇸🇪 hamedp71-1-V"
     type: vless
@@ -1080,6 +420,666 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
+
+  - name: "1 hamedp71-1-V"
+    type: vless
+    server: 188.166.150.199
+    port: 443
+    uuid: a8b11fe0-51f0-4ae6-a337-78ce42004879
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 188.166.150.199
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "1 hamedp71-2-V"
+    type: vless
+    server: 139.59.213.120
+    port: 443
+    uuid: be92350d-1967-48d0-8e4a-e58c8d869e74
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 139.59.213.120
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "1 hamedp71-3-V"
+    type: vless
+    server: 51.178.42.187
+    port: 443
+    uuid: a9652d45-b93b-4178-81a5-29fb45c033b3
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 51.178.42.187
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "1 hamedp71-4-V"
+    type: vless
+    server: 139.59.75.181
+    port: 443
+    uuid: 6564b639-8857-4fec-a45b-ada20d4bd315
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 139.59.75.181
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "1 hamedp71-5-V"
+    type: vless
+    server: 134.209.90.171
+    port: 443
+    uuid: 707012d8-6b03-454f-89e6-15070a3ecbe7
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 152.42.139.83
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "1 hamedp71-6-V"
+    type: vless
+    server: 148.113.207.224
+    port: 443
+    uuid: c1bbfa35-8326-4b41-9b62-19cb98a289b4
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 148.113.207.224
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "1 hamedp71-7-V"
+    type: vless
+    server: 68.183.216.44
+    port: 443
+    uuid: 074ceb2a-a580-4c86-a10e-39b5b262c6e0
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 46.101.237.150
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "1 hamedp71-8-V"
+    type: vless
+    server: 68.183.234.52
+    port: 443
+    uuid: d78ac0ca-96fa-4b01-9b6d-b40284b5dfb2
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 15.235.146.5
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "1 hamedp71-9-V"
+    type: vless
+    server: 157.230.91.47
+    port: 443
+    uuid: 9df6183b-ca47-4d4d-b014-e24aa41d401a
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 157.230.91.47
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "1 hamedp71-10-V"
+    type: vless
+    server: 143.198.15.103
+    port: 443
+    uuid: 56eb5545-c337-4a37-881f-78c317e36397
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 174.138.82.85
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "1 hamedp71-11-V"
+    type: vless
+    server: 209.38.20.147
+    port: 443
+    uuid: 59f87868-47e7-4208-b624-13c4c6c65fab
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 170.64.183.81
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "1 hamedp71-12-V"
+    type: vless
+    server: 57.128.219.105
+    port: 443
+    uuid: 7e7c6751-0e11-4acd-af06-2d82e6e9f14a
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 57.128.219.105
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-1-V"
+    type: vless
+    server: 138.124.15.58
+    port: 2087
+    uuid: aa435167-a592-44d1-9ba7-50521a3ddb99
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: 138.124.15.58
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-2-V"
+    type: vless
+    server: 31.169.127.40
+    port: 2087
+    uuid: 0aee83e9-2fce-4d16-8fad-8beb619db831
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: 31.169.127.40
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-3-V"
+    type: vless
+    server: 185.58.115.104
+    port: 2087
+    uuid: c2e5afa0-907f-4b26-a2e2-2c8f17d332de
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: 185.58.115.104
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-4-V"
+    type: vless
+    server: 95.215.8.25
+    port: 443
+    uuid: 3883c5ae-0494-546e-aa55-f56b437ac581
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: 95.215.8.25
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-5-V"
+    type: vless
+    server: 38.76.247.230
+    port: 443
+    uuid: cc9bd61b-9c4f-5ace-8a93-f23a868d6ee9
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: 38.76.247.230
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-6-V"
+    type: vless
+    server: 41.216.182.162
+    port: 443
+    uuid: c6b88243-a3fc-57a1-a78f-c989a84476b7
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/vless"
+      headers:
+        Host: 41.216.182.162
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-7-V"
+    type: vless
+    server: 51.195.202.129
+    port: 443
+    uuid: e7e9b808-20ac-4bd7-b71f-76374156fac6
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 51.195.202.129
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-8-V"
+    type: vless
+    server: 188.166.150.199
+    port: 443
+    uuid: a8b11fe0-51f0-4ae6-a337-78ce42004879
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 188.166.150.199
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-9-V"
+    type: vless
+    server: 139.59.213.120
+    port: 443
+    uuid: be92350d-1967-48d0-8e4a-e58c8d869e74
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 139.59.213.120
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-10-V"
+    type: vless
+    server: 51.178.42.187
+    port: 443
+    uuid: a9652d45-b93b-4178-81a5-29fb45c033b3
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 51.178.42.187
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["h3"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-11-V"
+    type: vless
+    server: 139.59.75.181
+    port: 443
+    uuid: 6564b639-8857-4fec-a45b-ada20d4bd315
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 139.59.75.181
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["h3"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-12-V"
+    type: vless
+    server: 134.209.90.171
+    port: 443
+    uuid: 707012d8-6b03-454f-89e6-15070a3ecbe7
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 152.42.139.83
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["h3"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-13-V"
+    type: vless
+    server: 148.113.207.224
+    port: 443
+    uuid: c1bbfa35-8326-4b41-9b62-19cb98a289b4
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 148.113.207.224
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["h3"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-14-V"
+    type: vless
+    server: 51.195.101.222
+    port: 443
+    uuid: 9740c971-8b82-4721-9c07-a657dc4cfb0e
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 51.195.101.222
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["h3"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-15-V"
+    type: vless
+    server: 68.183.216.44
+    port: 443
+    uuid: 074ceb2a-a580-4c86-a10e-39b5b262c6e0
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 46.101.237.150
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["h3"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-16-V"
+    type: vless
+    server: 68.183.234.52
+    port: 443
+    uuid: d78ac0ca-96fa-4b01-9b6d-b40284b5dfb2
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 15.235.146.5
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["h3"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-17-V"
+    type: vless
+    server: 157.230.91.47
+    port: 443
+    uuid: 9df6183b-ca47-4d4d-b014-e24aa41d401a
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 157.230.91.47
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["h3"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "2 hamedp71-18-V"
+    type: vless
+    server: 143.198.15.103
+    port: 443
+    uuid: 56eb5545-c337-4a37-881f-78c317e36397
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 174.138.82.85
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: zula.ir
+    alpn: ["h3"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
 
   - name: "🇺🇸🇪🇸🇯🇵 hamedp71-1-V"
     type: vless
@@ -1818,39 +1818,9 @@ proxy-groups:
     proxies: 
       - "😎 انتخاب خودکار(بهترین) 😎"
       - "🔁 سیستم فیلبک"
-      - "anytls-443"
+      - "🇸🇪 anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
-      - "🇩🇪1 hamedp71-1-V"
-      - "🇩🇪1 hamedp71-2-V"
-      - "🇩🇪1 hamedp71-3-V"
-      - "🇩🇪1 hamedp71-4-V"
-      - "🇩🇪1 hamedp71-5-V"
-      - "🇩🇪1 hamedp71-6-V"
-      - "🇩🇪1 hamedp71-7-V"
-      - "🇩🇪1 hamedp71-8-V"
-      - "🇩🇪1 hamedp71-9-V"
-      - "🇩🇪1 hamedp71-10-V"
-      - "🇩🇪1 hamedp71-11-V"
-      - "🇩🇪1 hamedp71-12-V"
-      - "🇩🇪 hamedp71-1-V"
-      - "🇩🇪 hamedp71-2-V"
-      - "🇩🇪 hamedp71-3-V"
-      - "🇩🇪 hamedp71-4-V"
-      - "🇩🇪 hamedp71-5-V"
-      - "🇩🇪 hamedp71-6-V"
-      - "🇩🇪 hamedp71-7-V"
-      - "🇩🇪 hamedp71-8-V"
-      - "🇩🇪 hamedp71-9-V"
-      - "🇩🇪 hamedp71-10-V"
-      - "🇩🇪 hamedp71-11-V"
-      - "🇩🇪 hamedp71-12-V"
-      - "🇩🇪 hamedp71-13-V"
-      - "🇩🇪 hamedp71-14-V"
-      - "🇩🇪 hamedp71-15-V"
-      - "🇩🇪 hamedp71-16-V"
-      - "🇩🇪 hamedp71-17-V"
-      - "🇩🇪 hamedp71-18-V"
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
       - "🇸🇪 hamedp71-3-V"
@@ -1865,6 +1835,36 @@ proxy-groups:
       - "🇸🇪 hamedp71-12-V"
       - "🇸🇪 hamedp71-13-V"
       - "🇸🇪 hamedp71-14-V"
+      - "1 hamedp71-1-V"
+      - "1 hamedp71-2-V"
+      - "1 hamedp71-3-V"
+      - "1 hamedp71-4-V"
+      - "1 hamedp71-5-V"
+      - "1 hamedp71-6-V"
+      - "1 hamedp71-7-V"
+      - "1 hamedp71-8-V"
+      - "1 hamedp71-9-V"
+      - "1 hamedp71-10-V"
+      - "1 hamedp71-11-V"
+      - "1 hamedp71-12-V"
+      - "2 hamedp71-1-V"
+      - "2 hamedp71-2-V"
+      - "2 hamedp71-3-V"
+      - "2 hamedp71-4-V"
+      - "2 hamedp71-5-V"
+      - "2 hamedp71-6-V"
+      - "2 hamedp71-7-V"
+      - "2 hamedp71-8-V"
+      - "2 hamedp71-9-V"
+      - "2 hamedp71-10-V"
+      - "2 hamedp71-11-V"
+      - "2 hamedp71-12-V"
+      - "2 hamedp71-13-V"
+      - "2 hamedp71-14-V"
+      - "2 hamedp71-15-V"
+      - "2 hamedp71-16-V"
+      - "2 hamedp71-17-V"
+      - "2 hamedp71-18-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-1-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-2-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-3-V"
@@ -1906,39 +1906,9 @@ proxy-groups:
     interval: 30
     tolerance: 50
     proxies:
-      - "anytls-443"
+      - "🇸🇪 anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
-      - "🇩🇪1 hamedp71-1-V"
-      - "🇩🇪1 hamedp71-2-V"
-      - "🇩🇪1 hamedp71-3-V"
-      - "🇩🇪1 hamedp71-4-V"
-      - "🇩🇪1 hamedp71-5-V"
-      - "🇩🇪1 hamedp71-6-V"
-      - "🇩🇪1 hamedp71-7-V"
-      - "🇩🇪1 hamedp71-8-V"
-      - "🇩🇪1 hamedp71-9-V"
-      - "🇩🇪1 hamedp71-10-V"
-      - "🇩🇪1 hamedp71-11-V"
-      - "🇩🇪1 hamedp71-12-V"
-      - "🇩🇪 hamedp71-1-V"
-      - "🇩🇪 hamedp71-2-V"
-      - "🇩🇪 hamedp71-3-V"
-      - "🇩🇪 hamedp71-4-V"
-      - "🇩🇪 hamedp71-5-V"
-      - "🇩🇪 hamedp71-6-V"
-      - "🇩🇪 hamedp71-7-V"
-      - "🇩🇪 hamedp71-8-V"
-      - "🇩🇪 hamedp71-9-V"
-      - "🇩🇪 hamedp71-10-V"
-      - "🇩🇪 hamedp71-11-V"
-      - "🇩🇪 hamedp71-12-V"
-      - "🇩🇪 hamedp71-13-V"
-      - "🇩🇪 hamedp71-14-V"
-      - "🇩🇪 hamedp71-15-V"
-      - "🇩🇪 hamedp71-16-V"
-      - "🇩🇪 hamedp71-17-V"
-      - "🇩🇪 hamedp71-18-V"
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
       - "🇸🇪 hamedp71-3-V"
@@ -1953,6 +1923,36 @@ proxy-groups:
       - "🇸🇪 hamedp71-12-V"
       - "🇸🇪 hamedp71-13-V"
       - "🇸🇪 hamedp71-14-V"
+      - "1 hamedp71-1-V"
+      - "1 hamedp71-2-V"
+      - "1 hamedp71-3-V"
+      - "1 hamedp71-4-V"
+      - "1 hamedp71-5-V"
+      - "1 hamedp71-6-V"
+      - "1 hamedp71-7-V"
+      - "1 hamedp71-8-V"
+      - "1 hamedp71-9-V"
+      - "1 hamedp71-10-V"
+      - "1 hamedp71-11-V"
+      - "1 hamedp71-12-V"
+      - "2 hamedp71-1-V"
+      - "2 hamedp71-2-V"
+      - "2 hamedp71-3-V"
+      - "2 hamedp71-4-V"
+      - "2 hamedp71-5-V"
+      - "2 hamedp71-6-V"
+      - "2 hamedp71-7-V"
+      - "2 hamedp71-8-V"
+      - "2 hamedp71-9-V"
+      - "2 hamedp71-10-V"
+      - "2 hamedp71-11-V"
+      - "2 hamedp71-12-V"
+      - "2 hamedp71-13-V"
+      - "2 hamedp71-14-V"
+      - "2 hamedp71-15-V"
+      - "2 hamedp71-16-V"
+      - "2 hamedp71-17-V"
+      - "2 hamedp71-18-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-1-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-2-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-3-V"
@@ -1993,39 +1993,9 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     proxies:
-      - "anytls-443"
+      - "🇸🇪 anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
-      - "🇩🇪1 hamedp71-1-V"
-      - "🇩🇪1 hamedp71-2-V"
-      - "🇩🇪1 hamedp71-3-V"
-      - "🇩🇪1 hamedp71-4-V"
-      - "🇩🇪1 hamedp71-5-V"
-      - "🇩🇪1 hamedp71-6-V"
-      - "🇩🇪1 hamedp71-7-V"
-      - "🇩🇪1 hamedp71-8-V"
-      - "🇩🇪1 hamedp71-9-V"
-      - "🇩🇪1 hamedp71-10-V"
-      - "🇩🇪1 hamedp71-11-V"
-      - "🇩🇪1 hamedp71-12-V"
-      - "🇩🇪 hamedp71-1-V"
-      - "🇩🇪 hamedp71-2-V"
-      - "🇩🇪 hamedp71-3-V"
-      - "🇩🇪 hamedp71-4-V"
-      - "🇩🇪 hamedp71-5-V"
-      - "🇩🇪 hamedp71-6-V"
-      - "🇩🇪 hamedp71-7-V"
-      - "🇩🇪 hamedp71-8-V"
-      - "🇩🇪 hamedp71-9-V"
-      - "🇩🇪 hamedp71-10-V"
-      - "🇩🇪 hamedp71-11-V"
-      - "🇩🇪 hamedp71-12-V"
-      - "🇩🇪 hamedp71-13-V"
-      - "🇩🇪 hamedp71-14-V"
-      - "🇩🇪 hamedp71-15-V"
-      - "🇩🇪 hamedp71-16-V"
-      - "🇩🇪 hamedp71-17-V"
-      - "🇩🇪 hamedp71-18-V"
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
       - "🇸🇪 hamedp71-3-V"
@@ -2040,6 +2010,36 @@ proxy-groups:
       - "🇸🇪 hamedp71-12-V"
       - "🇸🇪 hamedp71-13-V"
       - "🇸🇪 hamedp71-14-V"
+      - "1 hamedp71-1-V"
+      - "1 hamedp71-2-V"
+      - "1 hamedp71-3-V"
+      - "1 hamedp71-4-V"
+      - "1 hamedp71-5-V"
+      - "1 hamedp71-6-V"
+      - "1 hamedp71-7-V"
+      - "1 hamedp71-8-V"
+      - "1 hamedp71-9-V"
+      - "1 hamedp71-10-V"
+      - "1 hamedp71-11-V"
+      - "1 hamedp71-12-V"
+      - "2 hamedp71-1-V"
+      - "2 hamedp71-2-V"
+      - "2 hamedp71-3-V"
+      - "2 hamedp71-4-V"
+      - "2 hamedp71-5-V"
+      - "2 hamedp71-6-V"
+      - "2 hamedp71-7-V"
+      - "2 hamedp71-8-V"
+      - "2 hamedp71-9-V"
+      - "2 hamedp71-10-V"
+      - "2 hamedp71-11-V"
+      - "2 hamedp71-12-V"
+      - "2 hamedp71-13-V"
+      - "2 hamedp71-14-V"
+      - "2 hamedp71-15-V"
+      - "2 hamedp71-16-V"
+      - "2 hamedp71-17-V"
+      - "2 hamedp71-18-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-1-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-2-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-3-V"
