@@ -82,393 +82,6 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 proxies:
-  - name: "🇹🇷🇩🇪 hamedp71-1-V"
-    type: vless
-    server: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    port: 443
-    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/KDFhqNhLO8ypJnnP/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-2-V"
-    type: vless
-    server: www.speedtest.net
-    port: 443
-    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/2ifYunutFM97kQGy/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-3-V"
-    type: vless
-    server: 104.21.16.1
-    port: 443
-    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/H2zNNXWkw7iilZ6i/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-4-V"
-    type: vless
-    server: 104.21.112.1
-    port: 443
-    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/KLpBiyMAKUARrnUe/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-5-V"
-    type: vless
-    server: 104.21.64.1
-    port: 443
-    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/hOlmjVCajXeuuVXX/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-6-V"
-    type: vless
-    server: 104.21.96.1
-    port: 443
-    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/tFt7oU8Fa8vLYCRa/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-7-V"
-    type: vless
-    server: 104.21.48.1
-    port: 443
-    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/ciAJHRIaQNXxzsAN/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-8-V"
-    type: vless
-    server: 104.21.32.1
-    port: 443
-    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/mObfOvJwBbhhnBB7/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-9-V"
-    type: vless
-    server: 104.21.80.1
-    port: 443
-    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/M0MtbZX2PeeoI6Ze/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-1-T"
-    type: trojan
-    server: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    port: 443
-    password: "?Xw8SSnx_|fk"
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/tr3hmtIUQ2xGPyk3tg/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-2-T"
-    type: trojan
-    server: www.speedtest.net
-    port: 443
-    password: "?Xw8SSnx_|fk"
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/trv1aiJXmjjiuWT5je/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-3-T"
-    type: trojan
-    server: 104.21.16.1
-    port: 443
-    password: "?Xw8SSnx_|fk"
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/trUdc7VHf5edxuufon/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-4-T"
-    type: trojan
-    server: 104.21.112.1
-    port: 443
-    password: "?Xw8SSnx_|fk"
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/trNipGEIzqShTxfi7C/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-5-T"
-    type: trojan
-    server: 104.21.64.1
-    port: 443
-    password: "?Xw8SSnx_|fk"
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/trWu3HqZDO8MHfDroJ/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-6-T"
-    type: trojan
-    server: 104.21.96.1
-    port: 443
-    password: "?Xw8SSnx_|fk"
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/trkHDSmEkjro67mmKN/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-7-T"
-    type: trojan
-    server: 104.21.48.1
-    port: 443
-    password: "?Xw8SSnx_|fk"
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/treNE3M60ZymFuAClx/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-8-T"
-    type: trojan
-    server: 104.21.32.1
-    port: 443
-    password: "?Xw8SSnx_|fk"
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/trAQ5SEjNqSi4Oe2m5/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
-  - name: "🇹🇷🇩🇪 hamedp71-9-T"
-    type: trojan
-    server: 104.21.80.1
-    port: 443
-    password: "?Xw8SSnx_|fk"
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/trjQbMaRRTOQwjSwxX/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
-      headers:
-        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
-    alpn: ["http/1.1"]
-    client-fingerprint: random
-    skip-cert-verify: false
-
   - name: "🇺🇸🇯🇵 hamedp71-1-V"
     type: vless
     server: 104.17.52.81
@@ -856,6 +469,393 @@ proxies:
     client-fingerprint: random
     skip-cert-verify: false
 
+  - name: "🇹🇷🇩🇪 hamedp71-1-V"
+    type: vless
+    server: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    port: 443
+    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/KDFhqNhLO8ypJnnP/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-2-V"
+    type: vless
+    server: www.speedtest.net
+    port: 443
+    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/2ifYunutFM97kQGy/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-3-V"
+    type: vless
+    server: 104.21.16.1
+    port: 443
+    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/H2zNNXWkw7iilZ6i/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-4-V"
+    type: vless
+    server: 104.21.112.1
+    port: 443
+    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/KLpBiyMAKUARrnUe/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-5-V"
+    type: vless
+    server: 104.21.64.1
+    port: 443
+    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/hOlmjVCajXeuuVXX/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-6-V"
+    type: vless
+    server: 104.21.96.1
+    port: 443
+    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/tFt7oU8Fa8vLYCRa/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-7-V"
+    type: vless
+    server: 104.21.48.1
+    port: 443
+    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/ciAJHRIaQNXxzsAN/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-8-V"
+    type: vless
+    server: 104.21.32.1
+    port: 443
+    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/mObfOvJwBbhhnBB7/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-9-V"
+    type: vless
+    server: 104.21.80.1
+    port: 443
+    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
+    packet-encoding: packetaddr
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/M0MtbZX2PeeoI6Ze/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-1-T"
+    type: trojan
+    server: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    port: 443
+    password: "?Xw8SSnx_|fk"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/tr3hmtIUQ2xGPyk3tg/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-2-T"
+    type: trojan
+    server: www.speedtest.net
+    port: 443
+    password: "?Xw8SSnx_|fk"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trv1aiJXmjjiuWT5je/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-3-T"
+    type: trojan
+    server: 104.21.16.1
+    port: 443
+    password: "?Xw8SSnx_|fk"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trUdc7VHf5edxuufon/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-4-T"
+    type: trojan
+    server: 104.21.112.1
+    port: 443
+    password: "?Xw8SSnx_|fk"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trNipGEIzqShTxfi7C/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-5-T"
+    type: trojan
+    server: 104.21.64.1
+    port: 443
+    password: "?Xw8SSnx_|fk"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trWu3HqZDO8MHfDroJ/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-6-T"
+    type: trojan
+    server: 104.21.96.1
+    port: 443
+    password: "?Xw8SSnx_|fk"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trkHDSmEkjro67mmKN/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-7-T"
+    type: trojan
+    server: 104.21.48.1
+    port: 443
+    password: "?Xw8SSnx_|fk"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/treNE3M60ZymFuAClx/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-8-T"
+    type: trojan
+    server: 104.21.32.1
+    port: 443
+    password: "?Xw8SSnx_|fk"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trAQ5SEjNqSi4Oe2m5/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
+  - name: "🇹🇷🇩🇪 hamedp71-9-T"
+    type: trojan
+    server: 104.21.80.1
+    port: 443
+    password: "?Xw8SSnx_|fk"
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/trjQbMaRRTOQwjSwxX/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
+      headers:
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+    sni: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
+    alpn: ["http/1.1"]
+    client-fingerprint: random
+    skip-cert-verify: false
+
   - name: "🇫🇷🇳🇱🇵🇱 hamedp71-1-V"
     type: vless
     server: gerkr1dlsujtpy4c4xi8lotul76mgjxn-we.pages.dev
@@ -1206,24 +1206,6 @@ proxy-groups:
     proxies: 
       - "😎 انتخاب خودکار(بهترین) 😎"
       - "🔁 سیستم فیلبک"
-      - "🇹🇷🇩🇪 hamedp71-1-V"
-      - "🇹🇷🇩🇪 hamedp71-2-V"
-      - "🇹🇷🇩🇪 hamedp71-3-V"
-      - "🇹🇷🇩🇪 hamedp71-4-V"
-      - "🇹🇷🇩🇪 hamedp71-5-V"
-      - "🇹🇷🇩🇪 hamedp71-6-V"
-      - "🇹🇷🇩🇪 hamedp71-7-V"
-      - "🇹🇷🇩🇪 hamedp71-8-V"
-      - "🇹🇷🇩🇪 hamedp71-9-V"
-      - "🇹🇷🇩🇪 hamedp71-1-T"
-      - "🇹🇷🇩🇪 hamedp71-2-T"
-      - "🇹🇷🇩🇪 hamedp71-3-T"
-      - "🇹🇷🇩🇪 hamedp71-4-T"
-      - "🇹🇷🇩🇪 hamedp71-5-T"
-      - "🇹🇷🇩🇪 hamedp71-6-T"
-      - "🇹🇷🇩🇪 hamedp71-7-T"
-      - "🇹🇷🇩🇪 hamedp71-8-T"
-      - "🇹🇷🇩🇪 hamedp71-9-T"
       - "🇺🇸🇯🇵 hamedp71-1-V"
       - "🇺🇸🇯🇵 hamedp71-2-V"
       - "🇺🇸🇯🇵 hamedp71-3-V"
@@ -1242,6 +1224,24 @@ proxy-groups:
       - "🇺🇸🇯🇵 hamedp71-7-T"
       - "🇺🇸🇯🇵 hamedp71-8-T"
       - "🇺🇸🇯🇵 hamedp71-9-T"
+      - "🇹🇷🇩🇪 hamedp71-1-V"
+      - "🇹🇷🇩🇪 hamedp71-2-V"
+      - "🇹🇷🇩🇪 hamedp71-3-V"
+      - "🇹🇷🇩🇪 hamedp71-4-V"
+      - "🇹🇷🇩🇪 hamedp71-5-V"
+      - "🇹🇷🇩🇪 hamedp71-6-V"
+      - "🇹🇷🇩🇪 hamedp71-7-V"
+      - "🇹🇷🇩🇪 hamedp71-8-V"
+      - "🇹🇷🇩🇪 hamedp71-9-V"
+      - "🇹🇷🇩🇪 hamedp71-1-T"
+      - "🇹🇷🇩🇪 hamedp71-2-T"
+      - "🇹🇷🇩🇪 hamedp71-3-T"
+      - "🇹🇷🇩🇪 hamedp71-4-T"
+      - "🇹🇷🇩🇪 hamedp71-5-T"
+      - "🇹🇷🇩🇪 hamedp71-6-T"
+      - "🇹🇷🇩🇪 hamedp71-7-T"
+      - "🇹🇷🇩🇪 hamedp71-8-T"
+      - "🇹🇷🇩🇪 hamedp71-9-T"
       - "🇫🇷🇳🇱🇵🇱 hamedp71-1-V"
       - "🇫🇷🇳🇱🇵🇱 hamedp71-2-V"
       - "🇫🇷🇳🇱🇵🇱 hamedp71-3-V"
@@ -1265,24 +1265,6 @@ proxy-groups:
     interval: 30
     tolerance: 50
     proxies:
-      - "🇹🇷🇩🇪 hamedp71-1-V"
-      - "🇹🇷🇩🇪 hamedp71-2-V"
-      - "🇹🇷🇩🇪 hamedp71-3-V"
-      - "🇹🇷🇩🇪 hamedp71-4-V"
-      - "🇹🇷🇩🇪 hamedp71-5-V"
-      - "🇹🇷🇩🇪 hamedp71-6-V"
-      - "🇹🇷🇩🇪 hamedp71-7-V"
-      - "🇹🇷🇩🇪 hamedp71-8-V"
-      - "🇹🇷🇩🇪 hamedp71-9-V"
-      - "🇹🇷🇩🇪 hamedp71-1-T"
-      - "🇹🇷🇩🇪 hamedp71-2-T"
-      - "🇹🇷🇩🇪 hamedp71-3-T"
-      - "🇹🇷🇩🇪 hamedp71-4-T"
-      - "🇹🇷🇩🇪 hamedp71-5-T"
-      - "🇹🇷🇩🇪 hamedp71-6-T"
-      - "🇹🇷🇩🇪 hamedp71-7-T"
-      - "🇹🇷🇩🇪 hamedp71-8-T"
-      - "🇹🇷🇩🇪 hamedp71-9-T"
       - "🇺🇸🇯🇵 hamedp71-1-V"
       - "🇺🇸🇯🇵 hamedp71-2-V"
       - "🇺🇸🇯🇵 hamedp71-3-V"
@@ -1301,6 +1283,24 @@ proxy-groups:
       - "🇺🇸🇯🇵 hamedp71-7-T"
       - "🇺🇸🇯🇵 hamedp71-8-T"
       - "🇺🇸🇯🇵 hamedp71-9-T"
+      - "🇹🇷🇩🇪 hamedp71-1-V"
+      - "🇹🇷🇩🇪 hamedp71-2-V"
+      - "🇹🇷🇩🇪 hamedp71-3-V"
+      - "🇹🇷🇩🇪 hamedp71-4-V"
+      - "🇹🇷🇩🇪 hamedp71-5-V"
+      - "🇹🇷🇩🇪 hamedp71-6-V"
+      - "🇹🇷🇩🇪 hamedp71-7-V"
+      - "🇹🇷🇩🇪 hamedp71-8-V"
+      - "🇹🇷🇩🇪 hamedp71-9-V"
+      - "🇹🇷🇩🇪 hamedp71-1-T"
+      - "🇹🇷🇩🇪 hamedp71-2-T"
+      - "🇹🇷🇩🇪 hamedp71-3-T"
+      - "🇹🇷🇩🇪 hamedp71-4-T"
+      - "🇹🇷🇩🇪 hamedp71-5-T"
+      - "🇹🇷🇩🇪 hamedp71-6-T"
+      - "🇹🇷🇩🇪 hamedp71-7-T"
+      - "🇹🇷🇩🇪 hamedp71-8-T"
+      - "🇹🇷🇩🇪 hamedp71-9-T"
       - "🇫🇷🇳🇱🇵🇱 hamedp71-1-V"
       - "🇫🇷🇳🇱🇵🇱 hamedp71-2-V"
       - "🇫🇷🇳🇱🇵🇱 hamedp71-3-V"
@@ -1323,24 +1323,6 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     proxies:
-      - "🇹🇷🇩🇪 hamedp71-1-V"
-      - "🇹🇷🇩🇪 hamedp71-2-V"
-      - "🇹🇷🇩🇪 hamedp71-3-V"
-      - "🇹🇷🇩🇪 hamedp71-4-V"
-      - "🇹🇷🇩🇪 hamedp71-5-V"
-      - "🇹🇷🇩🇪 hamedp71-6-V"
-      - "🇹🇷🇩🇪 hamedp71-7-V"
-      - "🇹🇷🇩🇪 hamedp71-8-V"
-      - "🇹🇷🇩🇪 hamedp71-9-V"
-      - "🇹🇷🇩🇪 hamedp71-1-T"
-      - "🇹🇷🇩🇪 hamedp71-2-T"
-      - "🇹🇷🇩🇪 hamedp71-3-T"
-      - "🇹🇷🇩🇪 hamedp71-4-T"
-      - "🇹🇷🇩🇪 hamedp71-5-T"
-      - "🇹🇷🇩🇪 hamedp71-6-T"
-      - "🇹🇷🇩🇪 hamedp71-7-T"
-      - "🇹🇷🇩🇪 hamedp71-8-T"
-      - "🇹🇷🇩🇪 hamedp71-9-T"
       - "🇺🇸🇯🇵 hamedp71-1-V"
       - "🇺🇸🇯🇵 hamedp71-2-V"
       - "🇺🇸🇯🇵 hamedp71-3-V"
@@ -1359,6 +1341,24 @@ proxy-groups:
       - "🇺🇸🇯🇵 hamedp71-7-T"
       - "🇺🇸🇯🇵 hamedp71-8-T"
       - "🇺🇸🇯🇵 hamedp71-9-T"
+      - "🇹🇷🇩🇪 hamedp71-1-V"
+      - "🇹🇷🇩🇪 hamedp71-2-V"
+      - "🇹🇷🇩🇪 hamedp71-3-V"
+      - "🇹🇷🇩🇪 hamedp71-4-V"
+      - "🇹🇷🇩🇪 hamedp71-5-V"
+      - "🇹🇷🇩🇪 hamedp71-6-V"
+      - "🇹🇷🇩🇪 hamedp71-7-V"
+      - "🇹🇷🇩🇪 hamedp71-8-V"
+      - "🇹🇷🇩🇪 hamedp71-9-V"
+      - "🇹🇷🇩🇪 hamedp71-1-T"
+      - "🇹🇷🇩🇪 hamedp71-2-T"
+      - "🇹🇷🇩🇪 hamedp71-3-T"
+      - "🇹🇷🇩🇪 hamedp71-4-T"
+      - "🇹🇷🇩🇪 hamedp71-5-T"
+      - "🇹🇷🇩🇪 hamedp71-6-T"
+      - "🇹🇷🇩🇪 hamedp71-7-T"
+      - "🇹🇷🇩🇪 hamedp71-8-T"
+      - "🇹🇷🇩🇪 hamedp71-9-T"
       - "🇫🇷🇳🇱🇵🇱 hamedp71-1-V"
       - "🇫🇷🇳🇱🇵🇱 hamedp71-2-V"
       - "🇫🇷🇳🇱🇵🇱 hamedp71-3-V"
