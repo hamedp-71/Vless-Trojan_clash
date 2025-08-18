@@ -84,7 +84,7 @@ sniffer:
 proxies:
   - name: "🇺🇸🇯🇵 hamedp71-1-V"
     type: vless
-    server: 104.17.52.81
+    server: usahxc8rg-ta8vj5epncfrdzo6vgnj8mh26.pages.dev
     port: 443
     uuid: 4ba8a7f1-628a-4556-9aaa-6b1720bc9ac9
     packet-encoding: packetaddr
