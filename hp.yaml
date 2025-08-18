@@ -82,7 +82,7 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 proxies:
-  - name: "🇹🇷🇩🇪 hamedp71-1-V"
+  - name: "🇺🇸🇯🇵 hamedp71-1-V"
     type: vless
     server: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
     port: 443
