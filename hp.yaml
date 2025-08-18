@@ -82,6 +82,18 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 proxies:
+  - name: "🇸🇪 Hysteria2 - Hamedp71"
+    type: hysteria2
+    server: drhystuichdfy.samanidempire.org
+    port: 20335
+    password: "80747420-96c4-4a2f-83e6-eea4e46beb09"
+    obfs:
+      type: salamander
+      password: "U1wBrYQyFm"
+    sni: "drhystuichdfy.samanidempire.org"
+    alpn: ["h3"]
+    skip-cert-verify: false 
+
   - name: "🇺🇸🇪🇸🇯🇵 hamedp71-1-V"
     type: vless
     server: usahxc8rg-ta8vj5epncfrdzo6vgnj8mh26.pages.dev
@@ -1206,6 +1218,7 @@ proxy-groups:
     proxies: 
       - "😎 انتخاب خودکار(بهترین) 😎"
       - "🔁 سیستم فیلبک"
+      - "🇸🇪 Hysteria2 - Hamedp71"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-1-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-2-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-3-V"
@@ -1265,6 +1278,7 @@ proxy-groups:
     interval: 30
     tolerance: 50
     proxies:
+      - "🇸🇪 Hysteria2 - Hamedp71"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-1-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-2-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-3-V"
@@ -1323,6 +1337,7 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     proxies:
+      - "🇸🇪 Hysteria2 - Hamedp71"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-1-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-2-V"
       - "🇺🇸🇪🇸🇯🇵 hamedp71-3-V"
