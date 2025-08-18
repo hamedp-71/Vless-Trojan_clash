@@ -82,6 +82,15 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 proxies:
+  - name: "anytls-443"
+    type: anytls
+    server: 80.240.26.147
+    port: 443
+    password: "mvztmmOZjZ"
+    tls: true
+    sni: "suiany.makingirangreatagain.com"
+    servername: "suiany.makingirangreatagain.com"
+
   - name: "🇸🇪 hamedp71 hy2"
     type: hysteria2
     server: drhystuichdfy.samanidempire.org
@@ -1809,6 +1818,7 @@ proxy-groups:
     proxies: 
       - "😎 انتخاب خودکار(بهترین) 😎"
       - "🔁 سیستم فیلبک"
+      - "anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
       - "🇩🇪1 hamedp71-1-V"
@@ -1896,6 +1906,7 @@ proxy-groups:
     interval: 30
     tolerance: 50
     proxies:
+      - "anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
       - "🇩🇪1 hamedp71-1-V"
@@ -1982,6 +1993,7 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     proxies:
+      - "anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
       - "🇩🇪1 hamedp71-1-V"
