@@ -82,11 +82,11 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 proxies:
-  - name: "🇺🇸🇯🇵 hamedp71-2-V"
+  - name: "🇹🇷🇩🇪 hamedp71-1-V"
     type: vless
-    server: usahxc8rg-ta8vj5epncfrdzo6vgnj8mh26.pages.dev
+    server: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
     port: 443
-    uuid: 4ba8a7f1-628a-4556-9aaa-6b1720bc9ac9
+    uuid: 0503fa3c-f914-4421-a1e5-72c1f8d781a2
     packet-encoding: packetaddr
     ip-version: ipv4
     tls: true
@@ -94,12 +94,12 @@ proxies:
     tfo: true
     mptcp: true
     ws-opts:
-      path: "/7BpRXeAVo8IW8o8y/OTEuMTQ5LjI0Mi4xMTAsNDUuNDIuMjE0LjE1MywzLjExMi4yMS4xMDI="
+      path: "/KDFhqNhLO8ypJnnP/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM="
       headers:
-        Host: usahxc8rg-ta8vj5epncfrdzo6vgnj8mh26.pages.dev
+        Host: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-    servername: usahxc8rg-ta8vj5epncfrdzo6vgnj8mh26.pages.dev
+    servername: hpgbag3g9kik7ase4cn1tt8inexozr4nji7.pages.dev
     alpn: ["http/1.1"]
     client-fingerprint: random
     skip-cert-verify: false
