@@ -157,7 +157,7 @@ proxies:
     client-fingerprint: chrome
     skip-cert-verify: true
 
- - name: "🇸🇪 hamedp71-1-V"
+  - name: "🇸🇪 hamedp71-1-V"
     type: vless
     server: nkang2replace.airlineshoma.com
     port: 443
