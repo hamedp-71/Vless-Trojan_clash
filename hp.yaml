@@ -422,7 +422,7 @@ proxies:
     skip-cert-verify: false
 
   # UK - I
-  - name: "hamedp71-1-V"
+  - name: "UK hamedp71-1-V"
     type: vless
     server: 51.195.202.129
     port: 443
@@ -439,7 +439,7 @@ proxies:
     encryption: none
 
   # UK - II
-  - name: "hamedp71-2-V"
+  - name: "UK hamedp71-2-V"
     type: vless
     server: 188.166.150.199
     port: 443
@@ -456,7 +456,7 @@ proxies:
     encryption: none
 
   # ES - I
-  - name: "hamedp71-3-V"
+  - name: "ES hamedp71-3-V"
     type: vless
     server: 139.59.209.171
     port: 443
@@ -473,7 +473,7 @@ proxies:
     encryption: none
 
   # FR - I
-  - name: "hamedp71-4-V"
+  - name: "FR hamedp71-4-V"
     type: vless
     server: 139.59.213.120
     port: 443
@@ -490,7 +490,7 @@ proxies:
     encryption: none
 
   # FR - II
-  - name: "hamedp71-5-V"
+  - name: "FR hamedp71-5-V"
     type: vless
     server: 51.178.42.187
     port: 443
@@ -507,7 +507,7 @@ proxies:
     encryption: none
 
   # NL - II
-  - name: "hamedp71-6-V"
+  - name: "NL hamedp71-6-V"
     type: vless
     server: 134.209.90.171
     port: 443
@@ -558,7 +558,7 @@ proxies:
     encryption: none
 
   # DE - II
-  - name: "hamedp71-9-V"
+  - name: "DE hamedp71-9-V"
     type: vless
     server: 68.183.216.44
     port: 443
@@ -575,7 +575,7 @@ proxies:
     encryption: none
 
   # SG - II
-  - name: "hamedp71-10-V"
+  - name: "SG hamedp71-10-V"
     type: vless
     server: 68.183.234.52
     port: 443
@@ -592,7 +592,7 @@ proxies:
     encryption: none
 
   # US - II
-  - name: "hamedp71-11-V"
+  - name: "US hamedp71-11-V"
     type: vless
     server: 143.198.15.103
     port: 443
@@ -609,7 +609,7 @@ proxies:
     encryption: none
 
   # AU - I
-  - name: "hamedp71-12-V"
+  - name: "AU hamedp71-12-V"
     type: vless
     server: 209.38.20.147
     port: 443
