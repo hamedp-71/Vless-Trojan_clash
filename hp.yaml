@@ -113,6 +113,72 @@ proxies:
     skip-cert-verify: true
     alpn: ["h3"]
 
+  - name: "🇩🇪-Direct-VLESS"
+    type: vless
+    server: hdfynpv2d1.makingirangreatagain.com
+    port: 443
+    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
+    packet-encoding: xudp
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
+      headers:
+        Host: hdfynpv2d1.makingirangreatagain.com
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hdfynpv2d1.makingirangreatagain.com
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "🇩🇪-AD-CDN-VLESS"
+    type: vless
+    server: hdfynpv2c1.farvaharforever.com
+    port: 443
+    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
+    packet-encoding: xudp
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
+      headers:
+        Host: hdfynpv2c1.farvaharforever.com
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hdfynpv2c1.farvaharforever.com
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
+  - name: "🇩🇪-Telegram-VLESS"
+    type: vless
+    server: hdfynpv2d1.farvaharforever.com
+    port: 443
+    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
+    packet-encoding: xudp
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    ws-opts:
+      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
+      headers:
+        Host: hdfynpv2d1.farvaharforever.com
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+    servername: hdfynpv2d1.farvaharforever.com
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+
   # UK - I
   - name: "UK hamedp71-1-V"
     type: vless
@@ -2025,6 +2091,9 @@ proxy-groups:
       - "🇩🇪 anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
+      - "🇩🇪-Direct-VLESS"
+      - "🇩🇪-AD-CDN-VLESS"
+      - "🇩🇪-Telegram-VLESS"
       - "UK hamedp71-1-V"
       - "UK hamedp71-2-V"
       - "ES hamedp71-3-V"
@@ -2125,6 +2194,9 @@ proxy-groups:
       - "🇩🇪 anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
+      - "🇩🇪-Direct-VLESS"
+      - "🇩🇪-AD-CDN-VLESS"
+      - "🇩🇪-Telegram-VLESS"
       - "UK hamedp71-1-V"
       - "UK hamedp71-2-V"
       - "ES hamedp71-3-V"
@@ -2224,6 +2296,9 @@ proxy-groups:
       - "🇩🇪 anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
+      - "🇩🇪-Direct-VLESS"
+      - "🇩🇪-AD-CDN-VLESS"
+      - "🇩🇪-Telegram-VLESS"
       - "UK hamedp71-1-V"
       - "UK hamedp71-2-V"
       - "ES hamedp71-3-V"
