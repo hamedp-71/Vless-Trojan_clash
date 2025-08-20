@@ -488,7 +488,7 @@ proxies:
     alpn: ["h3"]
 
   # UK - I
-  - name: "UK hamedp71-1-V"
+  - name: "🇬🇧 hamedp71-1-V"
     type: vless
     server: 51.195.202.129
     port: 443
@@ -505,7 +505,7 @@ proxies:
     encryption: none
 
   # UK - II
-  - name: "UK hamedp71-2-V"
+  - name: "🇬🇧 hamedp71-2-V"
     type: vless
     server: 188.166.150.199
     port: 443
@@ -522,7 +522,7 @@ proxies:
     encryption: none
 
   # ES - I
-  - name: "ES hamedp71-3-V"
+  - name: "🇪🇸 hamedp71-3-V"
     type: vless
     server: 139.59.209.171
     port: 443
@@ -539,7 +539,7 @@ proxies:
     encryption: none
 
   # FR - I
-  - name: "FR hamedp71-4-V"
+  - name: "🇫🇷 hamedp71-4-V"
     type: vless
     server: 139.59.213.120
     port: 443
@@ -556,7 +556,7 @@ proxies:
     encryption: none
 
   # FR - II
-  - name: "FR hamedp71-5-V"
+  - name: "🇫🇷 hamedp71-5-V"
     type: vless
     server: 51.178.42.187
     port: 443
@@ -573,7 +573,7 @@ proxies:
     encryption: none
 
   # NL - II
-  - name: "NL hamedp71-6-V"
+  - name: "🇳🇱 hamedp71-6-V"
     type: vless
     server: 134.209.90.171
     port: 443
@@ -590,7 +590,7 @@ proxies:
     encryption: none
 
   # CA - I
-  - name: "CA hamedp71-7-V"
+  - name: "🇨🇦 hamedp71-7-V"
     type: vless
     server: 148.113.207.224
     port: 443
@@ -607,7 +607,7 @@ proxies:
     encryption: none
 
   # DE - I
-  - name: "DE hamedp71-8-V"
+  - name: "🇩🇪 hamedp71-8-V"
     type: vless
     server: 51.195.101.222
     port: 443
@@ -624,7 +624,7 @@ proxies:
     encryption: none
 
   # DE - II
-  - name: "DE hamedp71-9-V"
+  - name: "🇩🇪 hamedp71-9-V"
     type: vless
     server: 68.183.216.44
     port: 443
@@ -641,7 +641,7 @@ proxies:
     encryption: none
 
   # SG - II
-  - name: "SG hamedp71-10-V"
+  - name: "🇸🇬 hamedp71-10-V"
     type: vless
     server: 68.183.234.52
     port: 443
@@ -658,7 +658,7 @@ proxies:
     encryption: none
 
   # US - II
-  - name: "US hamedp71-11-V"
+  - name: "🇺🇸 hamedp71-11-V"
     type: vless
     server: 143.198.15.103
     port: 443
@@ -675,7 +675,7 @@ proxies:
     encryption: none
 
   # AU - I
-  - name: "AU hamedp71-12-V"
+  - name: "🇦🇺 hamedp71-12-V"
     type: vless
     server: 209.38.20.147
     port: 443
@@ -717,18 +717,18 @@ proxy-groups:
       - "🇸🇪 hamedp71-14-V"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
-      - "UK hamedp71-1-V"
-      - "UK hamedp71-2-V"
-      - "ES hamedp71-3-V"
-      - "FR hamedp71-4-V"
-      - "FR hamedp71-5-V"
-      - "NL hamedp71-6-V"
-      - "CA hamedp71-7-V"
-      - "DE hamedp71-8-V"
-      - "DE hamedp71-9-V"
-      - "SG hamedp71-10-V"
-      - "US hamedp71-11-V"
-      - "AU hamedp71-12-V"
+      - "🇬🇧 hamedp71-1-V"
+      - "🇬🇧 hamedp71-2-V"
+      - "🇪🇸 hamedp71-3-V"
+      - "🇫🇷 hamedp71-4-V"
+      - "🇫🇷 hamedp71-5-V"
+      - "🇳🇱 hamedp71-6-V"
+      - "🇨🇦 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇸🇬 hamedp71-10-V"
+      - "🇺🇸 hamedp71-11-V"
+      - "🇦🇺 hamedp71-12-V"
 
   - name: "😎 انتخاب خودکار(بهترین) 😎"
     type: url-test
@@ -756,18 +756,18 @@ proxy-groups:
       - "🇸🇪 hamedp71-14-V"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
-      - "UK hamedp71-1-V"
-      - "UK hamedp71-2-V"
-      - "ES hamedp71-3-V"
-      - "FR hamedp71-4-V"
-      - "FR hamedp71-5-V"
-      - "NL hamedp71-6-V"
-      - "CA hamedp71-7-V"
-      - "DE hamedp71-8-V"
-      - "DE hamedp71-9-V"
-      - "SG hamedp71-10-V"
-      - "US hamedp71-11-V"
-      - "AU hamedp71-12-V"
+      - "🇬🇧 hamedp71-1-V"
+      - "🇬🇧 hamedp71-2-V"
+      - "🇪🇸 hamedp71-3-V"
+      - "🇫🇷 hamedp71-4-V"
+      - "🇫🇷 hamedp71-5-V"
+      - "🇳🇱 hamedp71-6-V"
+      - "🇨🇦 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇸🇬 hamedp71-10-V"
+      - "🇺🇸 hamedp71-11-V"
+      - "🇦🇺 hamedp71-12-V"
 
   - name: "🔁 سیستم فیلبک"
     type: fallback
@@ -794,18 +794,18 @@ proxy-groups:
       - "🇸🇪 hamedp71-14-V"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
-      - "UK hamedp71-1-V"
-      - "UK hamedp71-2-V"
-      - "ES hamedp71-3-V"
-      - "FR hamedp71-4-V"
-      - "FR hamedp71-5-V"
-      - "NL hamedp71-6-V"
-      - "CA hamedp71-7-V"
-      - "DE hamedp71-8-V"
-      - "DE hamedp71-9-V"
-      - "SG hamedp71-10-V"
-      - "US hamedp71-11-V"
-      - "AU hamedp71-12-V"
+      - "🇬🇧 hamedp71-1-V"
+      - "🇬🇧 hamedp71-2-V"
+      - "🇪🇸 hamedp71-3-V"
+      - "🇫🇷 hamedp71-4-V"
+      - "🇫🇷 hamedp71-5-V"
+      - "🇳🇱 hamedp71-6-V"
+      - "🇨🇦 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇸🇬 hamedp71-10-V"
+      - "🇺🇸 hamedp71-11-V"
+      - "🇦🇺 hamedp71-12-V"
 
 rule-providers:
   malware:
