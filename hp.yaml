@@ -130,6 +130,44 @@ proxies:
       h3: 1214405368
       h4: 1739253821
 
+  - name: "🇺🇸 US-hysteria"
+    type: hysteria
+    server: 208.87.243.151
+    port: 38845
+    auth_str: dongtaiwang.com
+    alpn:
+    - h3
+    sni: www.bing.com
+    skip-cert-verify: true
+    up: 11 Mbps
+    down: 55 Mbps
+  
+  - name: "🇺🇸 1 US-hysteria"
+    type: hysteria
+    server: 108.181.24.77
+    port: 37872
+    auth-str: dongtaiwang.com
+    sni: apple.com
+    skip-cert-verify: true
+    alpn:
+    - h3
+    protocol: udp
+    up: 11 Mbps
+    down: 55 Mbps
+    
+  - name: "🇳🇱 NL-hysteria"
+    type: hysteria
+    server: 109.104.153.91
+    port: 37519
+    ports: 10000-20000
+    auth_str: dongtaiwang.com
+    alpn:
+    - h3
+    sni: apple.com
+    skip-cert-verify: true
+    up: 11 Mbps
+    down: 55 Mbps
+
   - name: "🇩🇪 anytls-443"
     type: anytls
     server: 80.240.26.147
@@ -747,6 +785,9 @@ proxy-groups:
       - "🔁 سیستم فیلبک"
       - "🇹🇷 hamedp71 - WireGuard"
       - "🇦🇪 hamedp71 - WireGuard"
+      - "🇺🇸 US-hysteria"
+      - "🇺🇸 1 US-hysteria"
+      - "🇳🇱 NL-hysteria"
       - "🇩🇪 anytls-443"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
@@ -788,6 +829,9 @@ proxy-groups:
     proxies:
       - "🇹🇷 hamedp71 - WireGuard"
       - "🇦🇪 hamedp71 - WireGuard"
+      - "🇺🇸 US-hysteria"
+      - "🇺🇸 1 US-hysteria"
+      - "🇳🇱 NL-hysteria"
       - "🇩🇪 anytls-443"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
@@ -828,6 +872,9 @@ proxy-groups:
     proxies:
       - "🇹🇷 hamedp71 - WireGuard"
       - "🇦🇪 hamedp71 - WireGuard"
+      - "🇺🇸 US-hysteria"
+      - "🇺🇸 1 US-hysteria"
+      - "🇳🇱 NL-hysteria"
       - "🇩🇪 anytls-443"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
