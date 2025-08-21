@@ -106,7 +106,7 @@ proxies:
       h3: 1214405368
       h4: 1739253821
 
-  - name: "🇦🇪 hamedp71 - WireGuard 2"
+  - name: "🇦🇪 hamedp71 - WireGuard"
     type: wireguard
     ip: 10.136.1.207/32
     private-key: "cFv5swsto2vF1ObPYNoBkAVF2hi1NAL9DJCMBg6+AWc="
