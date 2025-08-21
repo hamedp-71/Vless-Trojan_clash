@@ -82,6 +82,30 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 proxies:
+  - name: "🇹🇷 hamedp71 - WireGuard"
+    type: wireguard
+    ip: 10.201.3.192/32
+    private-key: "ONdbWgRkq38T1FO89NsXwBn746AcN0zXOl4zfhp2+F8="
+    server: tr01a.kcufwfgnkr.net
+    port: 62931
+    public-key: "6T9PkVHfTvMfDtKANISJqnW1Ulmd5kYyh8IsVkQYemU="
+    pre-shared-key: "x1asVSzzMUP3h4T6n+V/TnQpqJ7cEnwNF3TzizOuOws="
+    allowed-ips: ["0.0.0.0/0", "::/0"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1380
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 43
+      jmin: 50
+      jmax: 70
+      s1: 110
+      s2: 120
+      h1: 1593635057
+      h2: 430880481
+      h3: 1214405368
+      h4: 1739253821
+
   - name: "🇩🇪 anytls-443"
     type: anytls
     server: 80.240.26.147
@@ -697,6 +721,7 @@ proxy-groups:
     proxies: 
       - "😎 انتخاب خودکار(بهترین) 😎"
       - "🔁 سیستم فیلبک"
+      - "🇹🇷 hamedp71 - WireGuard"
       - "🇩🇪 anytls-443"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
@@ -736,6 +761,7 @@ proxy-groups:
     interval: 30
     tolerance: 50
     proxies:
+      - "🇹🇷 hamedp71 - WireGuard"
       - "🇩🇪 anytls-443"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
@@ -774,6 +800,7 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     proxies:
+      - "🇹🇷 hamedp71 - WireGuard"
       - "🇩🇪 anytls-443"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
