@@ -177,6 +177,412 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
+  - name: "🇳🇱 1 hamedp71 - Vless"
+    type: vless
+    server: braze.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 2 hamedp71 - Vless"
+    type: vless
+    server: vinted.fr
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 3 hamedp71 - Vless"
+    type: vless
+    server: indeed.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 4 hamedp71 - Vless"
+    type: vless
+    server: economist.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 5 hamedp71 - Vless"
+    type: vless
+    server: autotrader.co.uk
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 6 hamedp71 - Vless"
+    type: vless
+    server: ico.org.uk
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 7 hamedp71 - Vless"
+    type: vless
+    server: thailandnet65.ir
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 8 hamedp71 - Vless"
+    type: vless
+    server: tgju.org
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 9 hamedp71 - Vless"
+    type: vless
+    server: cdnjs.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 10 hamedp71 - Vless"
+    type: vless
+    server: npmjs.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 11 hamedp71 - Vless"
+    type: vless
+    server: nodejs.org
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 12 hamedp71 - Vless"
+    type: vless
+    server: fonts.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 13 hamedp71 - Vless"
+    type: vless
+    server: w3.org
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 14 hamedp71 - Vless"
+    type: vless
+    server: bluehost.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 15 hamedp71 - Vless"
+    type: vless
+    server: ahrefs.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 16 hamedp71 - Vless"
+    type: vless
+    server: chatgpt.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 17 hamedp71 - Vless"
+    type: vless
+    server: codepen.io
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 18 hamedp71 - Vless"
+    type: vless
+    server: hubspot.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 19 hamedp71 - Vless"
+    type: vless
+    server: surfiran.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 20 hamedp71 - Vless"
+    type: vless
+    server: tappersia.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 21 hamedp71 - Vless"
+    type: vless
+    server: didnegar.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 22 hamedp71 - Vless"
+    type: vless
+    server: ihiran.ir
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 23 hamedp71 - Vless"
+    type: vless
+    server: vandiet.ir
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 24 hamedp71 - Vless"
+    type: vless
+    server: check-host.net
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 25 hamedp71 - Vless"
+    type: vless
+    server: db-ip.com
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 26 hamedp71 - Vless"
+    type: vless
+    server: hunter.io
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+  - name: "🇳🇱 27 hamedp71 - Vless"
+    type: vless
+    server: mvps.net
+    port: 443
+    uuid: 7d18fc67-1994-4f7e-8ff8-c024223f33bb
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+
   - name: "🇩🇪-Direct-VLESS"
     type: vless
     server: hdfynpv2d1.makingirangreatagain.com
@@ -789,6 +1195,33 @@ proxy-groups:
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
       - "🇩🇪 anytls-443"
+      - "🇳🇱 hamedp71-1-V"
+      - "🇳🇱 hamedp71-2-V"
+      - "🇳🇱 hamedp71-3-V"
+      - "🇳🇱 hamedp71-4-V"
+      - "🇳🇱 hamedp71-5-V"
+      - "🇳🇱 hamedp71-6-V"
+      - "🇳🇱 hamedp71-7-V"
+      - "🇳🇱 hamedp71-8-V"
+      - "🇳🇱 hamedp71-9-V"
+      - "🇳🇱 hamedp71-10-V"
+      - "🇳🇱 hamedp71-11-V"
+      - "🇳🇱 hamedp71-12-V"
+      - "🇳🇱 hamedp71-13-V"
+      - "🇳🇱 hamedp71-14-V"
+      - "🇳🇱 hamedp71-15-V"
+      - "🇳🇱 hamedp71-16-V"
+      - "🇳🇱 hamedp71-17-V"
+      - "🇳🇱 hamedp71-18-V"
+      - "🇳🇱 hamedp71-19-V"
+      - "🇳🇱 hamedp71-20-V"
+      - "🇳🇱 hamedp71-21-V"
+      - "🇳🇱 hamedp71-22-V"
+      - "🇳🇱 hamedp71-23-V"
+      - "🇳🇱 hamedp71-24-V"
+      - "🇳🇱 hamedp71-25-V"
+      - "🇳🇱 hamedp71-26-V"
+      - "🇳🇱 hamedp71-27-V"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
       - "🇩🇪-Telegram-VLESS"
@@ -833,6 +1266,33 @@ proxy-groups:
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
       - "🇩🇪 anytls-443"
+      - "🇳🇱 hamedp71-1-V"
+      - "🇳🇱 hamedp71-2-V"
+      - "🇳🇱 hamedp71-3-V"
+      - "🇳🇱 hamedp71-4-V"
+      - "🇳🇱 hamedp71-5-V"
+      - "🇳🇱 hamedp71-6-V"
+      - "🇳🇱 hamedp71-7-V"
+      - "🇳🇱 hamedp71-8-V"
+      - "🇳🇱 hamedp71-9-V"
+      - "🇳🇱 hamedp71-10-V"
+      - "🇳🇱 hamedp71-11-V"
+      - "🇳🇱 hamedp71-12-V"
+      - "🇳🇱 hamedp71-13-V"
+      - "🇳🇱 hamedp71-14-V"
+      - "🇳🇱 hamedp71-15-V"
+      - "🇳🇱 hamedp71-16-V"
+      - "🇳🇱 hamedp71-17-V"
+      - "🇳🇱 hamedp71-18-V"
+      - "🇳🇱 hamedp71-19-V"
+      - "🇳🇱 hamedp71-20-V"
+      - "🇳🇱 hamedp71-21-V"
+      - "🇳🇱 hamedp71-22-V"
+      - "🇳🇱 hamedp71-23-V"
+      - "🇳🇱 hamedp71-24-V"
+      - "🇳🇱 hamedp71-25-V"
+      - "🇳🇱 hamedp71-26-V"
+      - "🇳🇱 hamedp71-27-V"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
       - "🇩🇪-Telegram-VLESS"
@@ -876,6 +1336,33 @@ proxy-groups:
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
       - "🇩🇪 anytls-443"
+      - "🇳🇱 hamedp71-1-V"
+      - "🇳🇱 hamedp71-2-V"
+      - "🇳🇱 hamedp71-3-V"
+      - "🇳🇱 hamedp71-4-V"
+      - "🇳🇱 hamedp71-5-V"
+      - "🇳🇱 hamedp71-6-V"
+      - "🇳🇱 hamedp71-7-V"
+      - "🇳🇱 hamedp71-8-V"
+      - "🇳🇱 hamedp71-9-V"
+      - "🇳🇱 hamedp71-10-V"
+      - "🇳🇱 hamedp71-11-V"
+      - "🇳🇱 hamedp71-12-V"
+      - "🇳🇱 hamedp71-13-V"
+      - "🇳🇱 hamedp71-14-V"
+      - "🇳🇱 hamedp71-15-V"
+      - "🇳🇱 hamedp71-16-V"
+      - "🇳🇱 hamedp71-17-V"
+      - "🇳🇱 hamedp71-18-V"
+      - "🇳🇱 hamedp71-19-V"
+      - "🇳🇱 hamedp71-20-V"
+      - "🇳🇱 hamedp71-21-V"
+      - "🇳🇱 hamedp71-22-V"
+      - "🇳🇱 hamedp71-23-V"
+      - "🇳🇱 hamedp71-24-V"
+      - "🇳🇱 hamedp71-25-V"
+      - "🇳🇱 hamedp71-26-V"
+      - "🇳🇱 hamedp71-27-V"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
       - "🇩🇪-Telegram-VLESS"
