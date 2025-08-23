@@ -82,7 +82,7 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 proxies:
-  - name: "ShadowTLS-Proxy-1"
+  - name: "🇩🇪 ShadowTLS-Proxy"
     type: ss
     server: net2026.safavidempire.org
     port: 443
@@ -1201,7 +1201,7 @@ proxy-groups:
     proxies: 
       - "😎 انتخاب خودکار(بهترین) 😎"
       - "🔁 سیستم فیلبک"
-      - "ShadowTLS-Proxy-1"
+      - "🇩🇪 ShadowTLS-Proxy"
       - "🇹🇷 hamedp71 - WireGuard"
       - "🇦🇪 hamedp71 - WireGuard"
       - "🇺🇸 US-hysteria"
@@ -1273,7 +1273,7 @@ proxy-groups:
     interval: 30
     tolerance: 50
     proxies:
-      - "ShadowTLS-Proxy-1"
+      - "🇩🇪 ShadowTLS-Proxy"
       - "🇹🇷 hamedp71 - WireGuard"
       - "🇦🇪 hamedp71 - WireGuard"
       - "🇺🇸 US-hysteria"
@@ -1344,7 +1344,7 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     proxies:
-      - "ShadowTLS-Proxy-1"
+      - "🇩🇪 ShadowTLS-Proxy"
       - "🇹🇷 hamedp71 - WireGuard"
       - "🇦🇪 hamedp71 - WireGuard"
       - "🇺🇸 US-hysteria"
