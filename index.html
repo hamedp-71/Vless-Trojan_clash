@@ -82,6 +82,18 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 proxies:
+  - name: "ShadowTLS-Proxy-1"
+    type: ss
+    server: net2026.safavidempire.org
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "164c1a57-a952-4962-a848-77355f4864fc"
+    plugin: shadow-tls
+    plugin-opts:
+      host: www.google.com
+      password: "164c1a57-a952-4962-a848-77355f4864fc"
+      version: 3
+
   - name: "🇹🇷 hamedp71 - WireGuard"
     type: wireguard
     ip: 10.201.3.192/32
@@ -1189,6 +1201,7 @@ proxy-groups:
     proxies: 
       - "😎 انتخاب خودکار(بهترین) 😎"
       - "🔁 سیستم فیلبک"
+      - "ShadowTLS-Proxy-1"
       - "🇹🇷 hamedp71 - WireGuard"
       - "🇦🇪 hamedp71 - WireGuard"
       - "🇺🇸 US-hysteria"
@@ -1260,6 +1273,7 @@ proxy-groups:
     interval: 30
     tolerance: 50
     proxies:
+      - "ShadowTLS-Proxy-1"
       - "🇹🇷 hamedp71 - WireGuard"
       - "🇦🇪 hamedp71 - WireGuard"
       - "🇺🇸 US-hysteria"
@@ -1330,6 +1344,7 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     proxies:
+      - "ShadowTLS-Proxy-1"
       - "🇹🇷 hamedp71 - WireGuard"
       - "🇦🇪 hamedp71 - WireGuard"
       - "🇺🇸 US-hysteria"
