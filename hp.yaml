@@ -1053,10 +1053,6 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1105,10 +1101,6 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1157,10 +1149,6 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1209,10 +1197,6 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1261,10 +1245,6 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1313,10 +1293,6 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1365,10 +1341,6 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
