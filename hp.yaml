@@ -1443,8 +1443,8 @@ proxy-groups:
   - name: "✅ گلوبال"
     type: select
     proxies: 
-      - "😎 انتخاب خودکار(بهترین) 😎"
-      - "🔁 سیستم فیلبک"
+      - "⚡انتخاب خودکار
+      - "🔁 پایداری"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
       - "🇹🇷 hamedp71 - Warp"
@@ -1512,7 +1512,7 @@ proxy-groups:
       - "🇸🇪 hamedp71-13-V"
       - "🇸🇪 hamedp71-14-V"
 
-  - name: "😎 انتخاب خودکار(بهترین) 😎"
+  - name: "⚡انتخاب خودکار"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
     interval: 30
@@ -1585,7 +1585,7 @@ proxy-groups:
       - "🇸🇪 hamedp71-13-V"
       - "🇸🇪 hamedp71-14-V"
 
-  - name: "🔁 سیستم فیلبک"
+  - name: "🔁 پایداری"
     type: fallback
     url: "http://www.gstatic.com/generate_204"
     interval: 300
