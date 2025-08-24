@@ -25,6 +25,10 @@ dns:
   respect-rules: true
   use-system-hosts: false
   nameserver:
+    - 'https://1.1.1.1/dns-query'
+    - 'https://dns.google/dns-query'
+    - '178.22.122.100'  # Shecan
+    - '78.157.42.100'   # Electro
     - 'https://8.8.8.8/dns-query#✅ گلوبال'
   proxy-server-nameserver:
     - 'https://rustdns.devefun.org/dns-query'
