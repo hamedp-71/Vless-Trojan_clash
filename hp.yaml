@@ -30,7 +30,6 @@ dns:
     - '8.8.8.8#DIRECT'
     - '8.8.4.4#DIRECT'
     - '1.1.1.1#DIRECT'
-    - 'https://dns.google/dns-query#DIRECT'
   nameserver-policy:
     raw.githubusercontent.com: '8.8.8.8#DIRECT'
     time.apple.com: '8.8.8.8#DIRECT'
@@ -67,7 +66,7 @@ tun:
   dns-hijack:
     - 'tcp://any:53'
     - 'udp://any:53'
-  mtu: 1492
+  mtu: 1480
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -78,6 +77,8 @@ sniffer:
       ports: [80, 8080, 8880, 2052, 2082, 2086, 2095]
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
+    QUIC:
+      ports: [443, 8443]
 proxies:
   - name: "🇩🇪 ShadowTLS-Proxy"
     type: ss
