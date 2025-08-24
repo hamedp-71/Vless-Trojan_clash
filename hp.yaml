@@ -1885,7 +1885,6 @@ rule-providers:
     interval: 86400   
 
 rules:
-  - NETWORK,udp,REJECT
   - RULE-SET,malware,REJECT
   - RULE-SET,phishing,REJECT
   - RULE-SET,cryptominers,REJECT
@@ -1893,6 +1892,7 @@ rules:
   - RULE-SET,malware-cidr,REJECT
   - RULE-SET,phishing-cidr,REJECT
   - RULE-SET,ir,DIRECT
+  - RULE-SET,ir-cidr,DIRECT
   - RULE-SET,openai,DIRECT
   - RULE-SET,microsoft,DIRECT
   - RULE-SET,oracle,DIRECT
@@ -1905,7 +1905,6 @@ rules:
   - RULE-SET,asus,DIRECT
   - RULE-SET,hp,DIRECT
   - RULE-SET,lenovo,DIRECT
-  - RULE-SET,ir-cidr,DIRECT
   - MATCH,✅ گلوبال
 
 ntp:
