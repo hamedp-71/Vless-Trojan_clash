@@ -69,8 +69,9 @@ tun:
   strict-route: true
   auto-detect-interface: true
   dns-hijack:
-    - 'any:53'
-  mtu: 9000
+    - 'tcp://any:53'
+    - 'udp://any:53'
+  mtu: 1492
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -143,6 +144,8 @@ proxies:
       jc: 4
       jmin: 40
       jmax: 70
+      s1: 2
+      s2: 2
       h1: 1
       h2: 2
       h3: 3
@@ -228,276 +231,6 @@ proxies:
     up: 11 Mbps
     down: 55 Mbps
 
-  - name: "🇩🇪-Direct-VLESS"
-    type: vless
-    server: hdfynpv2d1.makingirangreatagain.com
-    port: 443
-    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
-    packet-encoding: xudp
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
-      headers:
-        Host: hdfynpv2d1.makingirangreatagain.com
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hdfynpv2d1.makingirangreatagain.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪-AD-CDN-VLESS"
-    type: vless
-    server: hdfynpv2c1.farvaharforever.com
-    port: 443
-    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
-    packet-encoding: xudp
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
-      headers:
-        Host: hdfynpv2c1.farvaharforever.com
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hdfynpv2c1.farvaharforever.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  - name: "🇩🇪-Telegram-VLESS"
-    type: vless
-    server: hdfynpv2d1.farvaharforever.com
-    port: 443
-    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
-    packet-encoding: xudp
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    ws-opts:
-      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
-      headers:
-        Host: hdfynpv2d1.farvaharforever.com
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-    servername: hdfynpv2d1.farvaharforever.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-
-  # UK - I
-  - name: "🇬🇧 hamedp71-1-V"
-    type: vless
-    server: 51.195.202.129
-    port: 443
-    uuid: f3939d9d-6638-4c28-a6d0-950f392766af
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: zula.ir
-
-  # UK - II
-  - name: "🇬🇧 hamedp71-2-V"
-    type: vless
-    server: 188.166.150.199
-    port: 443
-    uuid: 9094dfcd-4bf5-4beb-aab7-2dfd813070f8
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: zula.ir
-
-  # ES - I
-  - name: "🇪🇸 hamedp71-3-V"
-    type: vless
-    server: 139.59.209.171
-    port: 443
-    uuid: 7e6bc431-d7b5-4664-811e-8ac2b08ad25e
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: zula.ir
-
-  # FR - I
-  - name: "🇫🇷 hamedp71-4-V"
-    type: vless
-    server: 139.59.213.120
-    port: 443
-    uuid: 2bb5518a-5937-44b7-87ed-8987dddbdd19
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: zula.ir
-
-  # FR - II
-  - name: "🇫🇷 hamedp71-5-V"
-    type: vless
-    server: 51.178.42.187
-    port: 443
-    uuid: 762397ec-790e-4c42-9a50-94d0c10a2b16
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: zula.ir
-
-  # NL - II
-  - name: "🇳🇱 hamedp71-6-V"
-    type: vless
-    server: 134.209.90.171
-    port: 443
-    uuid: cbef22b9-f7fb-48b5-acc3-7044736ed83a
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: 152.42.139.83
-
-  # CA - I
-  - name: "🇨🇦 hamedp71-7-V"
-    type: vless
-    server: 148.113.207.224
-    port: 443
-    uuid: 24ac612c-b1ac-4066-ae1e-24b158b46457
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: zula.ir
-
-  # DE - I
-  - name: "🇩🇪 hamedp71-8-V"
-    type: vless
-    server: 51.195.101.222
-    port: 443
-    uuid: 63c865a4-aedb-43eb-9177-828519561ea9
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: zula.ir
-
-  # DE - II
-  - name: "🇩🇪 hamedp71-9-V"
-    type: vless
-    server: 68.183.216.44
-    port: 443
-    uuid: 1c03bf51-6773-495f-8a44-4111b1ada9aa
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: zula.ir
-
-  # SG - II
-  - name: "🇸🇬 hamedp71-10-V"
-    type: vless
-    server: 68.183.234.52
-    port: 443
-    uuid: 4056f359-d0b1-4aed-8368-8455bc759ed8
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: zula.ir
-
-  # US - II
-  - name: "🇺🇸 hamedp71-11-V"
-    type: vless
-    server: 143.198.15.103
-    port: 443
-    uuid: 5aebb705-2521-49b6-87f0-17dc1d53e77f
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: zula.ir
-
-  # AU - I
-  - name: "🇦🇺 hamedp71-12-V"
-    type: vless
-    server: 209.38.20.147
-    port: 443
-    uuid: 7f8fa84c-6c40-4787-b0b9-a2b3e7420a26
-    tls: true
-    network: ws
-    sni: "zula.ir"
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    encryption: none
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: zula.ir
-
   - name: "🇳🇱 1 hamedp71 - Vless"
     type: vless
     server: braze.com
@@ -507,13 +240,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 2 hamedp71 - Vless"
     type: vless
     server: vinted.fr
@@ -533,7 +269,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 3 hamedp71 - Vless"
     type: vless
     server: indeed.com
@@ -543,13 +278,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 4 hamedp71 - Vless"
     type: vless
     server: economist.com
@@ -569,7 +307,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 5 hamedp71 - Vless"
     type: vless
     server: autotrader.co.uk
@@ -579,13 +316,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 6 hamedp71 - Vless"
     type: vless
     server: ico.org.uk
@@ -605,7 +345,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 7 hamedp71 - Vless"
     type: vless
     server: thailandnet65.ir
@@ -615,13 +354,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 8 hamedp71 - Vless"
     type: vless
     server: tgju.org
@@ -641,7 +383,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 9 hamedp71 - Vless"
     type: vless
     server: cdnjs.com
@@ -651,13 +392,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 10 hamedp71 - Vless"
     type: vless
     server: npmjs.com
@@ -677,7 +421,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 11 hamedp71 - Vless"
     type: vless
     server: nodejs.org
@@ -687,13 +430,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 12 hamedp71 - Vless"
     type: vless
     server: fonts.com
@@ -713,7 +459,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 13 hamedp71 - Vless"
     type: vless
     server: w3.org
@@ -723,13 +468,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 14 hamedp71 - Vless"
     type: vless
     server: bluehost.com
@@ -749,7 +497,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 15 hamedp71 - Vless"
     type: vless
     server: ahrefs.com
@@ -759,13 +506,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 16 hamedp71 - Vless"
     type: vless
     server: chatgpt.com
@@ -785,7 +535,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 17 hamedp71 - Vless"
     type: vless
     server: codepen.io
@@ -795,13 +544,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 18 hamedp71 - Vless"
     type: vless
     server: hubspot.com
@@ -821,7 +573,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 19 hamedp71 - Vless"
     type: vless
     server: surfiran.com
@@ -831,13 +582,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 20 hamedp71 - Vless"
     type: vless
     server: tappersia.com
@@ -857,7 +611,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 21 hamedp71 - Vless"
     type: vless
     server: didnegar.com
@@ -867,13 +620,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 22 hamedp71 - Vless"
     type: vless
     server: ihiran.ir
@@ -893,7 +649,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 23 hamedp71 - Vless"
     type: vless
     server: vandiet.ir
@@ -903,13 +658,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 24 hamedp71 - Vless"
     type: vless
     server: check-host.net
@@ -929,7 +687,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 25 hamedp71 - Vless"
     type: vless
     server: db-ip.com
@@ -939,13 +696,16 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 26 hamedp71 - Vless"
     type: vless
     server: hunter.io
@@ -965,7 +725,6 @@ proxies:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
-
   - name: "🇳🇱 27 hamedp71 - Vless"
     type: vless
     server: mvps.net
@@ -975,12 +734,346 @@ proxies:
     network: ws
     servername: revcloud.migacpi.org
     client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
         Host: revcloud.migacpi.org
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
+
+  - name: "🇩🇪-Direct-VLESS"
+    type: vless
+    server: hdfynpv2d1.makingirangreatagain.com
+    port: 443
+    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
+    packet-encoding: xudp
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    servername: hdfynpv2d1.makingirangreatagain.com
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
+      headers:
+        Host: hdfynpv2d1.makingirangreatagain.com
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+
+  - name: "🇩🇪-AD-CDN-VLESS"
+    type: vless
+    server: hdfynpv2c1.farvaharforever.com
+    port: 443
+    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
+    packet-encoding: xudp
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    servername: hdfynpv2c1.farvaharforever.com
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
+      headers:
+        Host: hdfynpv2c1.farvaharforever.com
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+
+  - name: "🇩🇪-Telegram-VLESS"
+    type: vless
+    server: hdfynpv2d1.farvaharforever.com
+    port: 443
+    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
+    packet-encoding: xudp
+    ip-version: ipv4
+    tls: true
+    network: ws
+    tfo: true
+    mptcp: true
+    servername: hdfynpv2d1.farvaharforever.com
+    alpn: ["http/1.1"]
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
+      headers:
+        Host: hdfynpv2d1.farvaharforever.com
+      max-early-data: 2048
+      early-data-header-name: Sec-WebSocket-Protocol
+
+  # UK - I
+  - name: "🇬🇧 hamedp71-1-V"
+    type: vless
+    server: 51.195.202.129
+    port: 443
+    uuid: f3939d9d-6638-4c28-a6d0-950f392766af
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
+
+  # UK - II
+  - name: "🇬🇧 hamedp71-2-V"
+    type: vless
+    server: 188.166.150.199
+    port: 443
+    uuid: 9094dfcd-4bf5-4beb-aab7-2dfd813070f8
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
+
+  # ES - I
+  - name: "🇪🇸 hamedp71-3-V"
+    type: vless
+    server: 139.59.209.171
+    port: 443
+    uuid: 7e6bc431-d7b5-4664-811e-8ac2b08ad25e
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
+
+  # FR - I
+  - name: "🇫🇷 hamedp71-4-V"
+    type: vless
+    server: 139.59.213.120
+    port: 443
+    uuid: 2bb5518a-5937-44b7-87ed-8987dddbdd19
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
+
+  # FR - II
+  - name: "🇫🇷 hamedp71-5-V"
+    type: vless
+    server: 51.178.42.187
+    port: 443
+    uuid: 762397ec-790e-4c42-9a50-94d0c10a2b16
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
+
+  # NL - II
+  - name: "🇳🇱 hamedp71-6-V"
+    type: vless
+    server: 134.209.90.171
+    port: 443
+    uuid: cbef22b9-f7fb-48b5-acc3-7044736ed83a
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: 152.42.139.83
+
+  # CA - I
+  - name: "🇨🇦 hamedp71-7-V"
+    type: vless
+    server: 148.113.207.224
+    port: 443
+    uuid: 24ac612c-b1ac-4066-ae1e-24b158b46457
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
+
+  # DE - I
+  - name: "🇩🇪 hamedp71-8-V"
+    type: vless
+    server: 51.195.101.222
+    port: 443
+    uuid: 63c865a4-aedb-43eb-9177-828519561ea9
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
+
+  # DE - II
+  - name: "🇩🇪 hamedp71-9-V"
+    type: vless
+    server: 68.183.216.44
+    port: 443
+    uuid: 1c03bf51-6773-495f-8a44-4111b1ada9aa
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
+
+  # SG - II
+  - name: "🇸🇬 hamedp71-10-V"
+    type: vless
+    server: 68.183.234.52
+    port: 443
+    uuid: 4056f359-d0b1-4aed-8368-8455bc759ed8
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
+
+  # US - II
+  - name: "🇺🇸 hamedp71-11-V"
+    type: vless
+    server: 143.198.15.103
+    port: 443
+    uuid: 5aebb705-2521-49b6-87f0-17dc1d53e77f
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
+
+  # AU - I
+  - name: "🇦🇺 hamedp71-12-V"
+    type: vless
+    server: 209.38.20.147
+    port: 443
+    uuid: 7f8fa84c-6c40-4787-b0b9-a2b3e7420a26
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
 
   - name: "🇸🇪 hamedp71-1-V"
     type: vless
@@ -997,6 +1090,10 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1045,6 +1142,10 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1093,6 +1194,10 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1141,6 +1246,10 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1189,6 +1298,10 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1237,6 +1350,10 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1285,6 +1402,10 @@ proxies:
     alpn: ["http/1.1"]
     client-fingerprint: chrome
     skip-cert-verify: false
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1334,21 +1455,6 @@ proxy-groups:
       - "🇺🇸 US-hysteria"
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
-      - "🇩🇪-Direct-VLESS"
-      - "🇩🇪-AD-CDN-VLESS"
-      - "🇩🇪-Telegram-VLESS"
-      - "🇬🇧 hamedp71-1-V"
-      - "🇬🇧 hamedp71-2-V"
-      - "🇪🇸 hamedp71-3-V"
-      - "🇫🇷 hamedp71-4-V"
-      - "🇫🇷 hamedp71-5-V"
-      - "🇳🇱 hamedp71-6-V"
-      - "🇨🇦 hamedp71-7-V"
-      - "🇩🇪 hamedp71-8-V"
-      - "🇩🇪 hamedp71-9-V"
-      - "🇸🇬 hamedp71-10-V"
-      - "🇺🇸 hamedp71-11-V"
-      - "🇦🇺 hamedp71-12-V"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
@@ -1376,6 +1482,21 @@ proxy-groups:
       - "🇳🇱 25 hamedp71 - Vless"
       - "🇳🇱 26 hamedp71 - Vless"
       - "🇳🇱 27 hamedp71 - Vless"
+      - "🇩🇪-Direct-VLESS"
+      - "🇩🇪-AD-CDN-VLESS"
+      - "🇩🇪-Telegram-VLESS"
+      - "🇬🇧 hamedp71-1-V"
+      - "🇬🇧 hamedp71-2-V"
+      - "🇪🇸 hamedp71-3-V"
+      - "🇫🇷 hamedp71-4-V"
+      - "🇫🇷 hamedp71-5-V"
+      - "🇳🇱 hamedp71-6-V"
+      - "🇨🇦 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇸🇬 hamedp71-10-V"
+      - "🇺🇸 hamedp71-11-V"
+      - "🇦🇺 hamedp71-12-V"
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
       - "🇸🇪 hamedp71-3-V"
@@ -1394,8 +1515,8 @@ proxy-groups:
   - name: "😎 انتخاب خودکار(بهترین) 😎"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
-    interval: 150
-    tolerance: 50
+    interval: 30
+    tolerance: 25
     proxies:
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
@@ -1407,21 +1528,6 @@ proxy-groups:
       - "🇺🇸 US-hysteria"
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
-      - "🇩🇪-Direct-VLESS"
-      - "🇩🇪-AD-CDN-VLESS"
-      - "🇩🇪-Telegram-VLESS"
-      - "🇬🇧 hamedp71-1-V"
-      - "🇬🇧 hamedp71-2-V"
-      - "🇪🇸 hamedp71-3-V"
-      - "🇫🇷 hamedp71-4-V"
-      - "🇫🇷 hamedp71-5-V"
-      - "🇳🇱 hamedp71-6-V"
-      - "🇨🇦 hamedp71-7-V"
-      - "🇩🇪 hamedp71-8-V"
-      - "🇩🇪 hamedp71-9-V"
-      - "🇸🇬 hamedp71-10-V"
-      - "🇺🇸 hamedp71-11-V"
-      - "🇦🇺 hamedp71-12-V"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
@@ -1449,6 +1555,21 @@ proxy-groups:
       - "🇳🇱 25 hamedp71 - Vless"
       - "🇳🇱 26 hamedp71 - Vless"
       - "🇳🇱 27 hamedp71 - Vless"
+      - "🇩🇪-Direct-VLESS"
+      - "🇩🇪-AD-CDN-VLESS"
+      - "🇩🇪-Telegram-VLESS"
+      - "🇬🇧 hamedp71-1-V"
+      - "🇬🇧 hamedp71-2-V"
+      - "🇪🇸 hamedp71-3-V"
+      - "🇫🇷 hamedp71-4-V"
+      - "🇫🇷 hamedp71-5-V"
+      - "🇳🇱 hamedp71-6-V"
+      - "🇨🇦 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇸🇬 hamedp71-10-V"
+      - "🇺🇸 hamedp71-11-V"
+      - "🇦🇺 hamedp71-12-V"
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
       - "🇸🇪 hamedp71-3-V"
@@ -1479,21 +1600,6 @@ proxy-groups:
       - "🇺🇸 US-hysteria"
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
-      - "🇩🇪-Direct-VLESS"
-      - "🇩🇪-AD-CDN-VLESS"
-      - "🇩🇪-Telegram-VLESS"
-      - "🇬🇧 hamedp71-1-V"
-      - "🇬🇧 hamedp71-2-V"
-      - "🇪🇸 hamedp71-3-V"
-      - "🇫🇷 hamedp71-4-V"
-      - "🇫🇷 hamedp71-5-V"
-      - "🇳🇱 hamedp71-6-V"
-      - "🇨🇦 hamedp71-7-V"
-      - "🇩🇪 hamedp71-8-V"
-      - "🇩🇪 hamedp71-9-V"
-      - "🇸🇬 hamedp71-10-V"
-      - "🇺🇸 hamedp71-11-V"
-      - "🇦🇺 hamedp71-12-V"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
@@ -1521,6 +1627,21 @@ proxy-groups:
       - "🇳🇱 25 hamedp71 - Vless"
       - "🇳🇱 26 hamedp71 - Vless"
       - "🇳🇱 27 hamedp71 - Vless"
+      - "🇩🇪-Direct-VLESS"
+      - "🇩🇪-AD-CDN-VLESS"
+      - "🇩🇪-Telegram-VLESS"
+      - "🇬🇧 hamedp71-1-V"
+      - "🇬🇧 hamedp71-2-V"
+      - "🇪🇸 hamedp71-3-V"
+      - "🇫🇷 hamedp71-4-V"
+      - "🇫🇷 hamedp71-5-V"
+      - "🇳🇱 hamedp71-6-V"
+      - "🇨🇦 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇸🇬 hamedp71-10-V"
+      - "🇺🇸 hamedp71-11-V"
+      - "🇦🇺 hamedp71-12-V"
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
       - "🇸🇪 hamedp71-3-V"
@@ -1676,7 +1797,7 @@ rule-providers:
     behavior: domain
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/lenovo.txt"
     path: "./ruleset/lenovo.txt"
-    interval: 86400
+    interval: 86400   
 
 rules:
   - RULE-SET,malware,REJECT
