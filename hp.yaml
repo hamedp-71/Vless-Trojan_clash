@@ -1447,9 +1447,6 @@ proxy-groups:
       - "🔁 پایداری"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
-      - "🇹🇷 hamedp71 - Warp"
-      - "🇷🇺 hamedp71 - Warp"
-      - "🇷🇺 hamedp71 - Warp-2"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
       - "🇺🇸 US-hysteria"
@@ -1520,9 +1517,6 @@ proxy-groups:
     proxies:
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
-      - "🇹🇷 hamedp71 - Warp"
-      - "🇷🇺 hamedp71 - Warp"
-      - "🇷🇺 hamedp71 - Warp-2"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
       - "🇺🇸 US-hysteria"
@@ -1592,9 +1586,6 @@ proxy-groups:
     proxies:
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
-      - "🇹🇷 hamedp71 - Warp"
-      - "🇷🇺 hamedp71 - Warp"
-      - "🇷🇺 hamedp71 - Warp-2"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
       - "🇺🇸 US-hysteria"
@@ -1656,6 +1647,13 @@ proxy-groups:
       - "🇸🇪 hamedp71-12-V"
       - "🇸🇪 hamedp71-13-V"
       - "🇸🇪 hamedp71-14-V"
+
+    - name: "🔒 اتصال زنجیره‌ای"
+    type: relay
+    proxies:
+      - "🇹🇷 hamedp71 - Warp"
+      - "🇷🇺 hamedp71 - Warp"
+      - "🇷🇺 hamedp71 - Warp-2"    
 
 rule-providers:
   malware:
