@@ -1795,8 +1795,6 @@ rules:
   - RULE-SET,hp,DIRECT
   - RULE-SET,lenovo,DIRECT
   - RULE-SET,ir-cidr,DIRECT
-  - GEOIP,IR,DIRECT
-  - GEOSITE,IR,DIRECT
   - MATCH,✅ گلوبال
 
 ntp:
