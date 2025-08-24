@@ -83,6 +83,27 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 proxies:
+  - name: "🇩🇪 ShadowTLS-Proxy"
+    type: ss
+    server: net2026.safavidempire.org
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "164c1a57-a952-4962-a848-77355f4864fc"
+    plugin: shadow-tls
+    plugin-opts:
+      host: www.google.com
+      password: "164c1a57-a952-4962-a848-77355f4864fc"
+      version: 3
+
+  - name: "🇩🇪 anytls-443"
+    type: anytls
+    server: 80.240.26.147
+    port: 443
+    password: "qzJvszJHOB"
+    tls: true
+    sni: "suiany.makingirangreatagain.com"
+    servername: "suiany.makingirangreatagain.com"
+
   - name: "🇺🇸 US-hysteria"
     type: hysteria
     server: 208.87.243.151
@@ -120,27 +141,6 @@ proxies:
     skip-cert-verify: true
     up: 11 Mbps
     down: 55 Mbps
-
-  - name: "🇩🇪 ShadowTLS-Proxy"
-    type: ss
-    server: net2026.safavidempire.org
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "164c1a57-a952-4962-a848-77355f4864fc"
-    plugin: shadow-tls
-    plugin-opts:
-      host: www.google.com
-      password: "164c1a57-a952-4962-a848-77355f4864fc"
-      version: 3
-
-  - name: "🇩🇪 anytls-443"
-    type: anytls
-    server: 80.240.26.147
-    port: 443
-    password: "qzJvszJHOB"
-    tls: true
-    sni: "suiany.makingirangreatagain.com"
-    servername: "suiany.makingirangreatagain.com"
 
   - name: "🇸🇪 hamedp71 hy2"
     type: hysteria2
@@ -1202,11 +1202,11 @@ proxy-groups:
     proxies: 
       - "😎 انتخاب خودکار(بهترین) 😎"
       - "🔁 سیستم فیلبک"
+      - "🇩🇪 ShadowTLS-Proxy"
+      - "🇩🇪 anytls-443"
       - "🇺🇸 US-hysteria"
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
-      - "🇩🇪 ShadowTLS-Proxy"
-      - "🇩🇪 anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
       - "🇹🇷 hamedp71 - WireGuard"
@@ -1274,11 +1274,11 @@ proxy-groups:
     interval: 30
     tolerance: 50
     proxies:
+      - "🇩🇪 ShadowTLS-Proxy"
+      - "🇩🇪 anytls-443"
       - "🇺🇸 US-hysteria"
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
-      - "🇩🇪 ShadowTLS-Proxy"
-      - "🇩🇪 anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
       - "🇹🇷 hamedp71 - WireGuard"
@@ -1345,11 +1345,11 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     proxies:
+      - "🇩🇪 ShadowTLS-Proxy"
+      - "🇩🇪 anytls-443"
       - "🇺🇸 US-hysteria"
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
-      - "🇩🇪 ShadowTLS-Proxy"
-      - "🇩🇪 anytls-443"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
       - "🇹🇷 hamedp71 - WireGuard"
