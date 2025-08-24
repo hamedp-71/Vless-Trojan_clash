@@ -21,7 +21,7 @@ profile:
 dns:
   enable: true
   listen: '0.0.0.0:1053'
-  ipv6: false
+  ipv6: true
   respect-rules: true
   use-system-hosts: false
   nameserver:
@@ -30,6 +30,7 @@ dns:
     - '8.8.8.8#DIRECT'
     - '8.8.4.4#DIRECT'
     - '1.1.1.1#DIRECT'
+    - '9.9.9.9#DIRECT'
   nameserver-policy:
     raw.githubusercontent.com: '8.8.8.8#DIRECT'
     time.apple.com: '8.8.8.8#DIRECT'
@@ -64,9 +65,8 @@ tun:
   strict-route: true
   auto-detect-interface: true
   dns-hijack:
-    - 'tcp://any:53'
-    - 'udp://any:53'
-  mtu: 1480
+    - 'any:53'
+  mtu: 9000
 sniffer:
   enable: true
   force-dns-mapping: true
