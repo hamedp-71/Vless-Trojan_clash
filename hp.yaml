@@ -220,7 +220,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -239,7 +239,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -258,7 +258,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -277,7 +277,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -296,7 +296,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -315,7 +315,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -334,7 +334,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -353,7 +353,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -372,7 +372,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -391,7 +391,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -410,7 +410,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -429,7 +429,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -448,7 +448,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -467,7 +467,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -486,7 +486,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -505,7 +505,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -524,7 +524,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -543,7 +543,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -562,7 +562,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -581,7 +581,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -600,7 +600,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -619,7 +619,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -638,7 +638,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -657,7 +657,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -676,7 +676,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -695,7 +695,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -714,7 +714,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
       headers:
@@ -740,7 +740,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/Iyq035lnud9R8ruNNrqGxZZ2"
       headers:
@@ -766,7 +766,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/Iyq035lnud9R8ruNNrqGxZZ2"
       headers:
@@ -792,7 +792,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/Iyq035lnud9R8ruNNrqGxZZ2"
       headers:
@@ -815,7 +815,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -836,7 +836,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -857,7 +857,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -878,7 +878,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -899,7 +899,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -920,7 +920,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -941,7 +941,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -962,7 +962,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -983,7 +983,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -1004,7 +1004,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -1025,7 +1025,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -1046,7 +1046,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/ws"
       headers:
@@ -1070,7 +1070,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1096,7 +1096,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1122,7 +1122,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1148,7 +1148,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1174,7 +1174,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1200,7 +1200,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1226,7 +1226,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1252,7 +1252,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1278,7 +1278,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1304,7 +1304,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1330,7 +1330,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1356,7 +1356,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1382,7 +1382,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
@@ -1408,7 +1408,7 @@ proxies:
     fragment:
       packets: tlshello
       length: '10-20'
-      interval: '5-10'
+      interval: '10-20'
     ws-opts:
       path: "/"
       headers:
