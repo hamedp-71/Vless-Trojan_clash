@@ -26,8 +26,8 @@ dns:
   use-system-hosts: false
   nameserver:
     - 'https://8.8.8.8/dns-query#✅ گلوبال'
-    - 'https://rustdns.devefun.org/dns-query'
   proxy-server-nameserver:
+    - 'https://rustdns.devefun.org/dns-query'
     - '8.8.8.8#DIRECT'
     - '8.8.4.4#DIRECT'
     - '9.9.9.9#DIRECT'
