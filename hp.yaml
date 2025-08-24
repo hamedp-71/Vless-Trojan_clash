@@ -30,7 +30,6 @@ dns:
     - '8.8.8.8#DIRECT'
     - '8.8.4.4#DIRECT'
     - '1.1.1.1#DIRECT'
-    - 'https://dns.google/dns-query#DIRECT'
   nameserver-policy:
     raw.githubusercontent.com: '8.8.8.8#DIRECT'
     time.apple.com: '8.8.8.8#DIRECT'
@@ -78,6 +77,8 @@ sniffer:
       ports: [80, 8080, 8880, 2052, 2082, 2086, 2095]
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
+    QUIC:
+      ports: [443, 8443]
 proxies:
   - name: "🇩🇪 ShadowTLS-Proxy"
     type: ss
@@ -1491,7 +1492,7 @@ proxy-groups:
   - name: "😎 انتخاب خودکار(بهترین) 😎"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
-    interval: 150
+    interval: 300
     tolerance: 50
     proxies:
       - "🇩🇪 ShadowTLS-Proxy"
@@ -1774,7 +1775,6 @@ rule-providers:
     interval: 86400   
 
 rules:
-  - NETWORK,udp,REJECT
   - RULE-SET,malware,REJECT
   - RULE-SET,phishing,REJECT
   - RULE-SET,cryptominers,REJECT
@@ -1795,6 +1795,8 @@ rules:
   - RULE-SET,hp,DIRECT
   - RULE-SET,lenovo,DIRECT
   - RULE-SET,ir-cidr,DIRECT
+  - GEOIP,IR,DIRECT
+  - GEOSITE,IR,DIRECT
   - MATCH,✅ گلوبال
 
 ntp:
