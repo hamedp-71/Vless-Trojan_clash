@@ -1675,20 +1675,6 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/category-ads-all.txt"
     path: "./ruleset/category-ads-all.txt"
     interval: 86400
-  ir:
-    type: http
-    format: text
-    behavior: domain
-    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt"
-    path: "./ruleset/ir.txt"
-    interval: 86400
-  ir-cidr:
-    type: http
-    format: text
-    behavior: domain
-    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt"
-    path: "./ruleset/ir-cidr.txt"
-    interval: 86400
   openai:
     type: http
     format: text
@@ -1772,7 +1758,23 @@ rule-providers:
     behavior: domain
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/lenovo.txt"
     path: "./ruleset/lenovo.txt"
-    interval: 86400   
+    interval: 86400 
+
+  iran-domains:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt"
+    path: "./ruleset/iran-domains.txt"
+    interval: 86400
+
+  iran-ips:
+    type: http
+    format: text
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt"
+    path: "./ruleset/iran-ips.txt"
+    interval: 86400
 
 rules:
   - RULE-SET,malware,REJECT
@@ -1781,7 +1783,6 @@ rules:
   - RULE-SET,category-ads-all,REJECT
   - RULE-SET,malware-cidr,REJECT
   - RULE-SET,phishing-cidr,REJECT
-  - RULE-SET,ir,DIRECT
   - RULE-SET,openai,DIRECT
   - RULE-SET,microsoft,DIRECT
   - RULE-SET,oracle,DIRECT
@@ -1794,7 +1795,6 @@ rules:
   - RULE-SET,asus,DIRECT
   - RULE-SET,hp,DIRECT
   - RULE-SET,lenovo,DIRECT
-  - RULE-SET,ir-cidr,DIRECT
   - RULE-SET,iran-domains,DIRECT  # <-- جایگزین GEOSITE
   - RULE-SET,iran-ips,DIRECT      # <-- جایگزین GEOIP
   - MATCH,✅ گلوبال
