@@ -26,18 +26,15 @@ dns:
   use-system-hosts: false
   nameserver:
     - 'https://8.8.8.8/dns-query#✅ گلوبال'
-    - 'https://dns.google/dns-query'
-    - 'https://1.1.1.1/dns-query'
-    - '178.22.122.100'  # Shecan
-    - '78.157.42.100'   # Electro
+    - 'https://dns.google/dns-query#✅ گلوبال'
+    - 'https://1.1.1.1/dns-query#✅ گلوبال'
   proxy-server-nameserver:
     - '8.8.8.8#DIRECT'
     - '8.8.4.4#DIRECT'
     - '9.9.9.9#DIRECT'
     - '1.1.1.1#DIRECT'
-    - 'https://dns.google/dns-query'
-    - 'https://1.1.1.1/dns-query'
-    - 'https://rustdns.devefun.org/dns-query'
+    - 'https://dns.google/dns-query#DIRECT'
+    - 'https://1.1.1.1/dns-query#DIRECT'
   nameserver-policy:
     raw.githubusercontent.com: '8.8.8.8#DIRECT'
     time.apple.com: '8.8.8.8#DIRECT'
