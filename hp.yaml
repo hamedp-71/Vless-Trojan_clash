@@ -1443,7 +1443,7 @@ proxy-groups:
   - name: "✅ گلوبال"
     type: select
     proxies: 
-      - "⚡انتخاب خودکار
+      - "⚡انتخاب خودکار"
       - "🔁 پایداری"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
@@ -1512,8 +1512,8 @@ proxy-groups:
   - name: "⚡انتخاب خودکار"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
-    interval: 30
-    tolerance: 25
+    interval: 120
+    tolerance: 50
     proxies:
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
@@ -1582,7 +1582,7 @@ proxy-groups:
   - name: "🔁 پایداری"
     type: fallback
     url: "http://www.gstatic.com/generate_204"
-    interval: 300
+    interval: 600
     proxies:
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
