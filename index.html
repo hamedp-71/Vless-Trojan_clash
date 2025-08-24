@@ -26,11 +26,9 @@ dns:
   use-system-hosts: false
   nameserver:
     - 'https://8.8.8.8/dns-query#✅ گلوبال'
-    - 'https://dns.google/dns-query#✅ گلوبال'
   proxy-server-nameserver:
     - '8.8.8.8#DIRECT'
     - '8.8.4.4#DIRECT'
-    - '9.9.9.9#DIRECT'
     - '1.1.1.1#DIRECT'
     - 'https://dns.google/dns-query#DIRECT'
   nameserver-policy:
@@ -62,14 +60,13 @@ dns:
     - '+.local'
 tun:
   enable: true
-  stack: mixed
+  stack: gvisor
   auto-route: true
   strict-route: true
   auto-detect-interface: true
   dns-hijack:
     - 'any:53'
-    - 'tcp://any:53'
-  mtu: 1500
+  mtu: 1492
 sniffer:
   enable: true
   force-dns-mapping: true
