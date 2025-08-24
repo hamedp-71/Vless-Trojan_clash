@@ -1795,6 +1795,8 @@ rules:
   - RULE-SET,hp,DIRECT
   - RULE-SET,lenovo,DIRECT
   - RULE-SET,ir-cidr,DIRECT
+  - RULE-SET,iran-domains,DIRECT  # <-- جایگزین GEOSITE
+  - RULE-SET,iran-ips,DIRECT      # <-- جایگزین GEOIP
   - MATCH,✅ گلوبال
 
 ntp:
