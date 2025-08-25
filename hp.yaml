@@ -1456,6 +1456,106 @@ proxies:
       h3: 3
       h4: 4
 
+  - name: "🇳🇱 hamedp71 - Warp"
+    type: wireguard
+    ip: 100.80.234.177/32
+    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+    server: 94.242.50.185
+    port: 65142
+    public-key: "Yom91OWyt0otz1S4hgQMhp1q1y8tpDvUWwVkNXpmpjc="
+    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+    persistent-keepalive: 15
+    mtu: 1380
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    allowed-ips: ["0.0.0.0/0"]
+    udp: true
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
+  - name: "🇳🇱 hamedp71 - Warp-2"
+    type: wireguard
+    ip: 100.80.234.177/32
+    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+    server: 185.225.28.52
+    port: 65142
+    public-key: "9J0kA4c4i7N/+6B+3j0zFkDTHocZNsw6eK6+sLZ1qCQ="
+    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+    persistent-keepalive: 15
+    mtu: 1380
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    allowed-ips: ["0.0.0.0/0"]
+    udp: true
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
+  - name: "🇱🇹 hamedp71 - Warp"
+    type: wireguard
+    ip: 100.80.234.177/32
+    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+    server: 37.156.216.148
+    port: 65142
+    public-key: "0CUpqMsVggxsjvdZewCsBFsw84goCitq0G9nytQhpDw="
+    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+    persistent-keepalive: 15
+    mtu: 1380
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    allowed-ips: ["0.0.0.0/0"]
+    udp: true
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
+  - name: "🇩🇪 hamedp71 - Warp"
+    type: wireguard
+    ip: 100.80.234.177/32
+    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+    server: 149.57.28.226
+    port: 65142
+    public-key: "vwimooPysZvNdJULeFQVovYfqhsLG5gVdzgoTnfm+iE="
+    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+    persistent-keepalive: 15
+    mtu: 1380
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    allowed-ips: ["0.0.0.0/0"]
+    udp: true
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
 proxy-groups:
   - name: "✅ گلوبال"
     type: select
@@ -1532,11 +1632,15 @@ proxy-groups:
     type: url-test
     url: "https://www.google.com/generate_204"
     interval: 30
-    tolerance: 50
+    tolerance: 100
     proxies:
       - "🇹🇷 hamedp71 - Warp"
       - "🇷🇺 hamedp71 - Warp"      
       - "🇷🇺 hamedp71 - Warp-2"
+      - "🇳🇱 hamedp71 - Warp"
+      - "🇳🇱 hamedp71 - Warp-2"
+      - "🇱🇹 hamedp71 - Warp"
+      - "🇩🇪 hamedp71 - Warp"
     
   - name: "⚡انتخاب خودکار"
     type: url-test
