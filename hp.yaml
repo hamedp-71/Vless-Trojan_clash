@@ -1382,7 +1382,7 @@ proxies:
     port: 62931
     public-key: "6T9PkVHfTvMfDtKANISJqnW1Ulmd5kYyh8IsVkQYemU="
     pre-shared-key: "ZMNacbDp5sZhDlKLX0iGhcn+7zRno1gMPmx1ZU3JeWU="
-    reserved: [AAAA]
+    reserved: [AAA]
     persistent-keepalive: 15
     mtu: 1380
     dns:
