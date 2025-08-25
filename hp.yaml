@@ -1390,7 +1390,7 @@ proxies:
       - '1.1.1.1#DIRECT'
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
-    dialer-proxy: "🇩🇪 anytls-443"
+    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
     amnezia-wg-option:
       jc: 43
       jmin: 50
@@ -1418,7 +1418,7 @@ proxies:
       - '1.1.1.1#DIRECT'
     allowed-ips: ["0.0.0.0/0"]
     udp: true
-    dialer-proxy: "🇩🇪 anytls-443"
+    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1446,7 +1446,7 @@ proxies:
       - '1.1.1.1#DIRECT'
     allowed-ips: ["0.0.0.0/0"]
     udp: true
-    dialer-proxy: "🇩🇪 anytls-443"
+    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
     amnezia-wg-option:
       jc: 4
       jmin: 40
