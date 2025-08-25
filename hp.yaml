@@ -25,7 +25,7 @@ dns:
   respect-rules: true
   use-system-hosts: false
   nameserver:
-    - 'https://8.8.8.8/dns-query#✅ گلوبال'
+    - 'https://8.8.8.8/dns-query#💚 گلوبال'
   proxy-server-nameserver:
     - '8.8.8.8#DIRECT'
     - '8.8.4.4#DIRECT'
