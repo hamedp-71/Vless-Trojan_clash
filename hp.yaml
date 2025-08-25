@@ -1383,7 +1383,7 @@ proxies:
     public-key: "6T9PkVHfTvMfDtKANISJqnW1Ulmd5kYyh8IsVkQYemU="
     pre-shared-key: "ZMNacbDp5sZhDlKLX0iGhcn+7zRno1gMPmx1ZU3JeWU="
     reserved: [251, 19, 4]
-    persistent-keepalive: 25
+    persistent-keepalive: 15
     mtu: 1380
     dns:
       - '8.8.8.8#DIRECT'
@@ -1411,7 +1411,7 @@ proxies:
     public-key: "1Ulbw0GbKVAKxrQJ7j89uNY9cGu+n4yfr/NxaOwkYjc="
     pre-shared-key: "sNr3ohi6mvRpN2FcPIMwDaFx6sk605XzaLRjjBi3cXA="
     reserved: [17, 0, 212]
-    persistent-keepalive: 25
+    persistent-keepalive: 15
     mtu: 1380
     dns:
       - '8.8.8.8#DIRECT'
@@ -1439,7 +1439,7 @@ proxies:
     public-key: "A557Tcs9ezMHjMO3QoCox2fgcc9/uR/nOjbw28AKqkg="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
     reserved: [8, 14, 255]
-    persistent-keepalive: 25
+    persistent-keepalive: 15
     mtu: 1380
     dns:
       - '8.8.8.8#DIRECT'
@@ -1534,7 +1534,7 @@ proxy-groups:
     type: url-test
     url: "https://www.gstatic.com/generate_204"
     interval: 120
-    tolerance: 50
+    tolerance: 150
     proxies:
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
