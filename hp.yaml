@@ -71,7 +71,7 @@ tun:
   dns-hijack:
     - 'tcp://any:53'
     - 'udp://any:53'
-  mtu: 1480
+  mtu: 1330
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -5284,21 +5284,7 @@ proxy-groups:
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
       - "🇸🇪 hamedp71 hy2"
-      - "🇳🇱 hamedp71 hy2"   
-      - "🇸🇪 hamedp71-1-V"
-      - "🇸🇪 hamedp71-2-V"
-      - "🇸🇪 hamedp71-3-V"
-      - "🇸🇪 hamedp71-4-V"
-      - "🇸🇪 hamedp71-5-V"
-      - "🇸🇪 hamedp71-6-V"
-      - "🇸🇪 hamedp71-7-V"
-      - "🇸🇪 hamedp71-8-V"
-      - "🇸🇪 hamedp71-9-V"
-      - "🇸🇪 hamedp71-10-V"
-      - "🇸🇪 hamedp71-11-V"
-      - "🇸🇪 hamedp71-12-V"
-      - "🇸🇪 hamedp71-13-V"
-      - "🇸🇪 hamedp71-14-V"
+      - "🇳🇱 hamedp71 hy2"
       - "🇬🇧 hamedp71-1-V"
       - "🇬🇧 hamedp71-2-V"
       - "🇪🇸 hamedp71-3-V"
@@ -5313,7 +5299,21 @@ proxy-groups:
       - "🇦🇺 hamedp71-12-V"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
-      - "🇩🇪-Telegram-VLESS"  
+      - "🇩🇪-Telegram-VLESS"
+      - "🇸🇪 hamedp71-1-V"
+      - "🇸🇪 hamedp71-2-V"
+      - "🇸🇪 hamedp71-3-V"
+      - "🇸🇪 hamedp71-4-V"
+      - "🇸🇪 hamedp71-5-V"
+      - "🇸🇪 hamedp71-6-V"
+      - "🇸🇪 hamedp71-7-V"
+      - "🇸🇪 hamedp71-8-V"
+      - "🇸🇪 hamedp71-9-V"
+      - "🇸🇪 hamedp71-10-V"
+      - "🇸🇪 hamedp71-11-V"
+      - "🇸🇪 hamedp71-12-V"
+      - "🇸🇪 hamedp71-13-V"
+      - "🇸🇪 hamedp71-14-V"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
