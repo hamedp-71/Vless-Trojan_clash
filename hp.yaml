@@ -5345,7 +5345,7 @@ proxy-groups:
   - name: "❤️ اختصاصی"
     type: fallback
     url: "http://www.gstatic.com/generate_204"
-    interval: 90
+    interval: 300
     proxies:
       - "🇺🇸@hamedp71_vless-US-1"
       - "🇺🇸@hamedp71_vless-US-2"
