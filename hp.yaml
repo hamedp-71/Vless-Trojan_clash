@@ -1382,15 +1382,15 @@ proxies:
     port: 62931
     public-key: "6T9PkVHfTvMfDtKANISJqnW1Ulmd5kYyh8IsVkQYemU="
     pre-shared-key: "ZMNacbDp5sZhDlKLX0iGhcn+7zRno1gMPmx1ZU3JeWU="
-    reserved: "AAAA"
+    reserved: [251, 19, 4]
     persistent-keepalive: 15
     mtu: 1380
     dns:
-      - '8.8.8.8'
-      - '1.1.1.1'
+      - 8.8.8.8
+      - 1.1.1.1
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
-    dialer-proxy: "🇳🇱 1 hamedp71 - Vless"
+    dialer-proxy: "🇩🇪 hamedp71-9-V"
     amnezia-wg-option:
       jc: 43
       jmin: 50
@@ -1412,10 +1412,10 @@ proxies:
     pre-shared-key: "sNr3ohi6mvRpN2FcPIMwDaFx6sk605XzaLRjjBi3cXA="
     reserved: [17, 0, 212]
     persistent-keepalive: 15
-    mtu: 1280
+    mtu: 1380
     dns:
-      - '8.8.8.8'
-      - '1.1.1.1'
+      - 8.8.8.8
+      - 1.1.1.1
     allowed-ips: ["0.0.0.0/0"]
     udp: true
     dialer-proxy: ""
@@ -1438,12 +1438,12 @@ proxies:
     port: 65142
     public-key: "A557Tcs9ezMHjMO3QoCox2fgcc9/uR/nOjbw28AKqkg="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    reserved: "AAAA"
+    reserved: [8, 14, 255]
     persistent-keepalive: 15
     mtu: 1380
     dns:
-      - '8.8.8.8'
-      - '1.1.1.1'
+      - 1.1.1.1
+      - 8.8.8.8
     allowed-ips: ["0.0.0.0/0"]
     udp: true
     dialer-proxy: ""
