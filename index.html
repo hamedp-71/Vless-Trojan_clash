@@ -25,7 +25,7 @@ dns:
   respect-rules: true
   use-system-hosts: false
   nameserver:
-    - 'https://8.8.8.8/dns-query#✅ گلوبال'
+    - 'https://8.8.8.8/dns-query#💚 گلوبال'
   proxy-server-nameserver:
     - '8.8.8.8#DIRECT'
     - '8.8.4.4#DIRECT'
@@ -5272,11 +5272,11 @@ proxies:
       interval: '10-20'
 
 proxy-groups:
-  - name: "✅ گلوبال"
+  - name: "💚 گلوبال"
     type: select
     proxies: 
       - "❤️ اختصاصی"
-      - "💚 وارپ"
+      - "🤍 وارپ"
       - "⚡انتخاب خودکار"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
@@ -5340,84 +5340,8 @@ proxy-groups:
       - "🇳🇱 24 hamedp71 - Vless"
       - "🇳🇱 25 hamedp71 - Vless"
       - "🇳🇱 26 hamedp71 - Vless"
-      - "🇳🇱 27 hamedp71 - Vless"  
-
-  - name: "💚 وارپ"
-    type: url-test
-    url: "https://www.google.com/generate_204"
-    interval: 120
-    tolerance: 100
-    proxies:
-      - "🇹🇷 hamedp71 - Warp"
-      - "🇦🇹 Austria-WG"
-      - "🇦🇹 Austria-WG-1"
-      - "🇦🇺 Australia-WG-1"
-      - "🇦🇺 Australia-WG-2"
-      - "🇦🇺 Australia-WG-3"
-      - "🇦🇺 Australia-WG-4"
-      - "🇦🇺 Australia-WG-5"
-      - "🇦🇺 Australia-WG"
-      - "🇦🇺 Australia-WG-6"
-      - "🇧🇦 Bosnia-WG"
-      - "🇨🇦 Canada-WG"
-      - "🇨🇦 Canada-WG-1"
-      - "🇨🇦 Canada-WG-3"
-      - "🇨🇦 Canada-WG-3"
-      - "🇨🇦 Canada-WG-4"
-      - "🇨🇭 Switzerland-WG-1"
-      - "🇨🇭 Switzerland-WG-2"
-      - "🇨🇾 Cyprus-WG"
-      - "🇨🇿 Czechia-WG"
-      - "🇨🇿 Czechia-WG-1"
-      - "🇫🇷 France-WG"
-      - "🇫🇷 France-WG-1"
-      - "🇫🇷 France-WG-2"
-      - "🇬🇧 United Kingdom-WG"
-      - "🇭🇰 Hong Kong-WG"
-      - "🇮🇸 Iceland-WG"
-      - "🇮🇸 Iceland-WG-1"
-      - "🇮🇸 Iceland-WG-2"
-      - "🇮🇹 Italy-WG"
-      - "🇯🇵 Japan-WG"
-      - "🇰🇪 Kenya-WG"
-      - "🇱🇹 Lithuania-WG"
-      - "🇱🇹 Lithuania-WG-1"
-      - "🇱🇺 Luxembourg-WG"
-      - "🇲🇰 North Macedonia-WG"
-      - "🇳🇱 Netherlands-WG-1"
-      - "🇳🇱 Netherlands-WG-2"
-      - "🇳🇱 Netherlands-WG-3"
-      - "🇳🇴 Norway-WG"
-      - "🇳🇿 New Zealand-WG"
-      - "🇵🇦 Panama-WG"
-      - "🇵🇱 Poland-WG"
-      - "🇷🇺 Russia-WG"
-      - "🇷🇺 Russia-WG-1"
-      - "🇷🇺 Russia-WG-2"
-      - "🇷🇺 Russia-WG-3"
-      - "🇸🇪 Sweden-WG"
-      - "🇸🇪 Sweden-WG-1"
-      - "🇸🇪 Sweden-WG-2"
-      - "🇺🇦 Ukraine"
-      - "🇹🇼 Taiwan"
-      - "🇸🇬 Singapore"
-      - "🇸🇬 Singapore 1"
-      - "🇸🇬 Singapore 2"
-      - "🇺🇸 United States 2"
-      - "🇺🇸 United States 3"
-      - "🇺🇸 United States 4"
-      - "🇺🇸 United States 5"
-      - "🇺🇸 United States 6"
-      - "🇺🇸 United States 7"
-      - "🇺🇸 United States 8"
-      - "🇺🇸 United States 9"
-      - "🇺🇸 United States 10"
-      - "🇺🇸 United States 11"
-      - "🇺🇸 United States"
-      - "🇻🇳 Vietnam"
-      - "🇿🇦 South Africa 1"
-      - "🇿🇦 South Africa"
-
+      - "🇳🇱 27 hamedp71 - Vless"
+      
   - name: "❤️ اختصاصی"
     type: url-test
     url: "https://www.google.com/generate_204"
@@ -5558,6 +5482,82 @@ proxy-groups:
       - "🇳🇱@hamedp71_ss-NL-6"
       - "🇳🇱@hamedp71_ss-NL-7"
       - "🇺🇸@hamedp71_ss-US-4"
+
+  - name: "🤍 وارپ"
+    type: url-test
+    url: "https://www.google.com/generate_204"
+    interval: 120
+    tolerance: 100
+    proxies:
+      - "🇹🇷 hamedp71 - Warp"
+      - "🇦🇹 Austria-WG"
+      - "🇦🇹 Austria-WG-1"
+      - "🇦🇺 Australia-WG-1"
+      - "🇦🇺 Australia-WG-2"
+      - "🇦🇺 Australia-WG-3"
+      - "🇦🇺 Australia-WG-4"
+      - "🇦🇺 Australia-WG-5"
+      - "🇦🇺 Australia-WG"
+      - "🇦🇺 Australia-WG-6"
+      - "🇧🇦 Bosnia-WG"
+      - "🇨🇦 Canada-WG"
+      - "🇨🇦 Canada-WG-1"
+      - "🇨🇦 Canada-WG-3"
+      - "🇨🇦 Canada-WG-3"
+      - "🇨🇦 Canada-WG-4"
+      - "🇨🇭 Switzerland-WG-1"
+      - "🇨🇭 Switzerland-WG-2"
+      - "🇨🇾 Cyprus-WG"
+      - "🇨🇿 Czechia-WG"
+      - "🇨🇿 Czechia-WG-1"
+      - "🇫🇷 France-WG"
+      - "🇫🇷 France-WG-1"
+      - "🇫🇷 France-WG-2"
+      - "🇬🇧 United Kingdom-WG"
+      - "🇭🇰 Hong Kong-WG"
+      - "🇮🇸 Iceland-WG"
+      - "🇮🇸 Iceland-WG-1"
+      - "🇮🇸 Iceland-WG-2"
+      - "🇮🇹 Italy-WG"
+      - "🇯🇵 Japan-WG"
+      - "🇰🇪 Kenya-WG"
+      - "🇱🇹 Lithuania-WG"
+      - "🇱🇹 Lithuania-WG-1"
+      - "🇱🇺 Luxembourg-WG"
+      - "🇲🇰 North Macedonia-WG"
+      - "🇳🇱 Netherlands-WG-1"
+      - "🇳🇱 Netherlands-WG-2"
+      - "🇳🇱 Netherlands-WG-3"
+      - "🇳🇴 Norway-WG"
+      - "🇳🇿 New Zealand-WG"
+      - "🇵🇦 Panama-WG"
+      - "🇵🇱 Poland-WG"
+      - "🇷🇺 Russia-WG"
+      - "🇷🇺 Russia-WG-1"
+      - "🇷🇺 Russia-WG-2"
+      - "🇷🇺 Russia-WG-3"
+      - "🇸🇪 Sweden-WG"
+      - "🇸🇪 Sweden-WG-1"
+      - "🇸🇪 Sweden-WG-2"
+      - "🇺🇦 Ukraine"
+      - "🇹🇼 Taiwan"
+      - "🇸🇬 Singapore"
+      - "🇸🇬 Singapore 1"
+      - "🇸🇬 Singapore 2"
+      - "🇺🇸 United States 2"
+      - "🇺🇸 United States 3"
+      - "🇺🇸 United States 4"
+      - "🇺🇸 United States 5"
+      - "🇺🇸 United States 6"
+      - "🇺🇸 United States 7"
+      - "🇺🇸 United States 8"
+      - "🇺🇸 United States 9"
+      - "🇺🇸 United States 10"
+      - "🇺🇸 United States 11"
+      - "🇺🇸 United States"
+      - "🇻🇳 Vietnam"
+      - "🇿🇦 South Africa 1"
+      - "🇿🇦 South Africa"
 
   - name: "⚡انتخاب خودکار"
     type: url-test
@@ -5792,7 +5792,7 @@ rules:
   - RULE-SET,asus,DIRECT
   - RULE-SET,hp,DIRECT
   - RULE-SET,lenovo,DIRECT
-  - MATCH,✅ گلوبال
+  - MATCH,💚 گلوبال
 
 ntp:
   enable: true
