@@ -1390,7 +1390,7 @@ proxies:
       - 1.1.1.1
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
-    dialer-proxy: "🇩🇪 hamedp71-9-V"
+    dialer-proxy: ""
     amnezia-wg-option:
       jc: 43
       jmin: 50
@@ -1461,6 +1461,7 @@ proxy-groups:
     type: select
     proxies: 
       - "⚡انتخاب خودکار"
+      - "💚 وارپ"
       - "🔁 پایدارتر"
       - "🚀 توزیع بار (دانلود)"
       - "🇩🇪 ShadowTLS-Proxy"
