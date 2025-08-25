@@ -106,71 +106,6 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
-  - name: "🇹🇷 hamedp71 - Warp"
-    type: wireguard
-    ip: 10.201.2.124/32
-    private-key: "gCQsj/7vZrBCjLuKtNvCrwhEa0CqSXRWRHvoddNin38="
-    server: tr01a.kcufwfgnkr.net
-    port: 62931
-    public-key: "6T9PkVHfTvMfDtKANISJqnW1Ulmd5kYyh8IsVkQYemU="
-    pre-shared-key: "ZMNacbDp5sZhDlKLX0iGhcn+7zRno1gMPmx1ZU3JeWU="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    udp: true
-    mtu: 1380
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 43
-      jmin: 50
-      jmax: 70
-      s1: 110
-      s2: 120
-      h1: 1593635057
-      h2: 430880481
-      h3: 1214405368
-      h4: 1739253821
-
-  - name: "🇷🇺 hamedp71 - Warp"
-    type: wireguard
-    ip: 10.67.2.227/32
-    private-key: "SGgSBCU1LZdOTIwndvn0TxrN2/dVj7beiedkx3Aaelc="
-    server: ruwg.lapti.win
-    port: 10700
-    public-key: "1Ulbw0GbKVAKxrQJ7j89uNY9cGu+n4yfr/NxaOwkYjc="
-    pre-shared-key: "sNr3ohi6mvRpN2FcPIMwDaFx6sk605XzaLRjjBi3cXA="
-    allowed-ips: ["0.0.0.0/0"]
-    udp: true
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 2
-      s2: 2
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇷🇺 hamedp71 - Warp-2"
-    type: wireguard
-    ip: 100.80.234.177/32
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 95.143.177.67
-    port: 65142
-    public-key: "A557Tcs9ezMHjMO3QoCox2fgcc9/uR/nOjbw28AKqkg="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0"]
-    udp: true
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
   - name: "🇸🇪 hamedp71 hy2"
     type: hysteria2
     server: drhystuichdfy.samanidempire.org
@@ -1439,19 +1374,131 @@ proxies:
       max-early-data: 2560
       early-data-header-name: Sec-WebSocket-Protocol
 
+  - name: "🇹🇷 hamedp71 - Warp"
+    type: wireguard
+    ip: 10.201.2.124/32
+    private-key: "gCQsj/7vZrBCjLuKtNvCrwhEa0CqSXRWRHvoddNin38="
+    server: tr01a.kcufwfgnkr.net
+    port: 62931
+    public-key: "6T9PkVHfTvMfDtKANISJqnW1Ulmd5kYyh8IsVkQYemU="
+    pre-shared-key: "ZMNacbDp5sZhDlKLX0iGhcn+7zRno1gMPmx1ZU3JeWU="
+    reserved: [AAAA]
+    persistent-keepalive: 15
+    mtu: 1380
+    dns:
+      - '8.8.8.8'
+      - '1.1.1.1'
+    allowed-ips: ["0.0.0.0/0", "::/0"]
+    udp: true
+    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
+    amnezia-wg-option:
+      jc: 43
+      jmin: 50
+      jmax: 70
+      s1: 110
+      s2: 120
+      h1: 1593635057
+      h2: 430880481
+      h3: 1214405368
+      h4: 1739253821
+
+  - name: "🇷🇺 hamedp71 - Warp"
+    type: wireguard
+    ip: 10.67.2.227/32
+    private-key: "SGgSBCU1LZdOTIwndvn0TxrN2/dVj7beiedkx3Aaelc="
+    server: ruwg.lapti.win
+    port: 10700
+    public-key: "1Ulbw0GbKVAKxrQJ7j89uNY9cGu+n4yfr/NxaOwkYjc="
+    pre-shared-key: "sNr3ohi6mvRpN2FcPIMwDaFx6sk605XzaLRjjBi3cXA="
+    reserved: [17, 0, 212]
+    persistent-keepalive: 15
+    mtu: 1280
+    dns:
+      - '8.8.8.8'
+      - '1.1.1.1'
+    allowed-ips: ["0.0.0.0/0"]
+    udp: true
+    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      s1: 2
+      s2: 2
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
+  - name: "🇷🇺 hamedp71 - Warp-2"
+    type: wireguard
+    ip: 100.80.234.177/32
+    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
+    server: 95.143.177.67
+    port: 65142
+    public-key: "A557Tcs9ezMHjMO3QoCox2fgcc9/uR/nOjbw28AKqkg="
+    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
+    reserved: [AAA]
+    persistent-keepalive: 15
+    mtu: 1380
+    dns:
+      - '8.8.8.8'
+      - '1.1.1.1'
+    allowed-ips: ["0.0.0.0/0"]
+    udp: true
+    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
 proxy-groups:
   - name: "✅ گلوبال"
     type: select
     proxies: 
       - "⚡انتخاب خودکار"
-      - "🔁 پایداری"
+      - "🔁 پایدارتر"
+      - "🚀 توزیع بار (دانلود)"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
-      - "🇸🇪 hamedp71 hy2"
-      - "🇳🇱 hamedp71 hy2"
       - "🇺🇸 US-hysteria"
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
+      - "🇸🇪 hamedp71-1-V"
+      - "🇸🇪 hamedp71-2-V"
+      - "🇸🇪 hamedp71-3-V"
+      - "🇸🇪 hamedp71-4-V"
+      - "🇸🇪 hamedp71-5-V"
+      - "🇸🇪 hamedp71-6-V"
+      - "🇸🇪 hamedp71-7-V"
+      - "🇸🇪 hamedp71-8-V"
+      - "🇸🇪 hamedp71-9-V"
+      - "🇸🇪 hamedp71-10-V"
+      - "🇸🇪 hamedp71-11-V"
+      - "🇸🇪 hamedp71-12-V"
+      - "🇸🇪 hamedp71-13-V"
+      - "🇸🇪 hamedp71-14-V"
+      - "🇩🇪-Direct-VLESS"
+      - "🇩🇪-AD-CDN-VLESS"
+      - "🇩🇪-Telegram-VLESS"      
+      - "🇸🇪 hamedp71 hy2"
+      - "🇳🇱 hamedp71 hy2"      
+      - "🇬🇧 hamedp71-1-V"
+      - "🇬🇧 hamedp71-2-V"
+      - "🇪🇸 hamedp71-3-V"
+      - "🇫🇷 hamedp71-4-V"
+      - "🇫🇷 hamedp71-5-V"
+      - "🇳🇱 hamedp71-6-V"
+      - "🇨🇦 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇸🇬 hamedp71-10-V"
+      - "🇺🇸 hamedp71-11-V"
+      - "🇦🇺 hamedp71-12-V"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
@@ -1478,42 +1525,20 @@ proxy-groups:
       - "🇳🇱 24 hamedp71 - Vless"
       - "🇳🇱 25 hamedp71 - Vless"
       - "🇳🇱 26 hamedp71 - Vless"
-      - "🇳🇱 27 hamedp71 - Vless"
-      - "🇩🇪-Direct-VLESS"
-      - "🇩🇪-AD-CDN-VLESS"
-      - "🇩🇪-Telegram-VLESS"
-      - "🇬🇧 hamedp71-1-V"
-      - "🇬🇧 hamedp71-2-V"
-      - "🇪🇸 hamedp71-3-V"
-      - "🇫🇷 hamedp71-4-V"
-      - "🇫🇷 hamedp71-5-V"
-      - "🇳🇱 hamedp71-6-V"
-      - "🇨🇦 hamedp71-7-V"
-      - "🇩🇪 hamedp71-8-V"
-      - "🇩🇪 hamedp71-9-V"
-      - "🇸🇬 hamedp71-10-V"
-      - "🇺🇸 hamedp71-11-V"
-      - "🇦🇺 hamedp71-12-V"
-      - "🇸🇪 hamedp71-1-V"
-      - "🇸🇪 hamedp71-2-V"
-      - "🇸🇪 hamedp71-3-V"
-      - "🇸🇪 hamedp71-4-V"
-      - "🇸🇪 hamedp71-5-V"
-      - "🇸🇪 hamedp71-6-V"
-      - "🇸🇪 hamedp71-7-V"
-      - "🇸🇪 hamedp71-8-V"
-      - "🇸🇪 hamedp71-9-V"
-      - "🇸🇪 hamedp71-10-V"
-      - "🇸🇪 hamedp71-11-V"
-      - "🇸🇪 hamedp71-12-V"
-      - "🇸🇪 hamedp71-13-V"
-      - "🇸🇪 hamedp71-14-V"
+      - "🇳🇱 27 hamedp71 - Vless"  
 
+  - name: "💚 انتخاب دستی"
+    type: select
+    proxies: 
+      - "🇹🇷 hamedp71 - Warp"
+      - "🇷🇺 hamedp71 - Warp"      
+      - "🇷🇺 hamedp71 - Warp-2"
+    
   - name: "⚡انتخاب خودکار"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
     interval: 120
-    tolerance: 50
+    tolerance: 150
     proxies:
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
@@ -1522,6 +1547,20 @@ proxy-groups:
       - "🇺🇸 US-hysteria"
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
+      - "🇸🇪 hamedp71-1-V"
+      - "🇸🇪 hamedp71-2-V"
+      - "🇸🇪 hamedp71-3-V"
+      - "🇸🇪 hamedp71-4-V"
+      - "🇸🇪 hamedp71-5-V"
+      - "🇸🇪 hamedp71-6-V"
+      - "🇸🇪 hamedp71-7-V"
+      - "🇸🇪 hamedp71-8-V"
+      - "🇸🇪 hamedp71-9-V"
+      - "🇸🇪 hamedp71-10-V"
+      - "🇸🇪 hamedp71-11-V"
+      - "🇸🇪 hamedp71-12-V"
+      - "🇸🇪 hamedp71-13-V"
+      - "🇸🇪 hamedp71-14-V"      
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
@@ -1564,22 +1603,8 @@ proxy-groups:
       - "🇸🇬 hamedp71-10-V"
       - "🇺🇸 hamedp71-11-V"
       - "🇦🇺 hamedp71-12-V"
-      - "🇸🇪 hamedp71-1-V"
-      - "🇸🇪 hamedp71-2-V"
-      - "🇸🇪 hamedp71-3-V"
-      - "🇸🇪 hamedp71-4-V"
-      - "🇸🇪 hamedp71-5-V"
-      - "🇸🇪 hamedp71-6-V"
-      - "🇸🇪 hamedp71-7-V"
-      - "🇸🇪 hamedp71-8-V"
-      - "🇸🇪 hamedp71-9-V"
-      - "🇸🇪 hamedp71-10-V"
-      - "🇸🇪 hamedp71-11-V"
-      - "🇸🇪 hamedp71-12-V"
-      - "🇸🇪 hamedp71-13-V"
-      - "🇸🇪 hamedp71-14-V"
 
-  - name: "🔁 پایداری"
+  - name: "🔁 پایدارتر"
     type: fallback
     url: "http://www.gstatic.com/generate_204"
     interval: 600
@@ -1591,6 +1616,20 @@ proxy-groups:
       - "🇺🇸 US-hysteria"
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
+      - "🇸🇪 hamedp71-1-V"
+      - "🇸🇪 hamedp71-2-V"
+      - "🇸🇪 hamedp71-3-V"
+      - "🇸🇪 hamedp71-4-V"
+      - "🇸🇪 hamedp71-5-V"
+      - "🇸🇪 hamedp71-6-V"
+      - "🇸🇪 hamedp71-7-V"
+      - "🇸🇪 hamedp71-8-V"
+      - "🇸🇪 hamedp71-9-V"
+      - "🇸🇪 hamedp71-10-V"
+      - "🇸🇪 hamedp71-11-V"
+      - "🇸🇪 hamedp71-12-V"
+      - "🇸🇪 hamedp71-13-V"
+      - "🇸🇪 hamedp71-14-V"      
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
@@ -1633,6 +1672,19 @@ proxy-groups:
       - "🇸🇬 hamedp71-10-V"
       - "🇺🇸 hamedp71-11-V"
       - "🇦🇺 hamedp71-12-V"
+
+  - name: "🚀 توزیع بار (دانلود)"
+    type: load-balance
+    strategy: consistent-hashing
+    proxies:
+      - "🇩🇪 ShadowTLS-Proxy"
+      - "🇩🇪 anytls-443"
+      - "🇩🇪-Direct-VLESS"
+      - "🇩🇪-AD-CDN-VLESS"
+      - "🇩🇪-Telegram-VLESS"      
+      - "🇺🇸 US-hysteria"
+      - "🇺🇸 1 US-hysteria"
+      - "🇳🇱 NL-hysteria"
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
       - "🇸🇪 hamedp71-3-V"
@@ -1646,15 +1698,49 @@ proxy-groups:
       - "🇸🇪 hamedp71-11-V"
       - "🇸🇪 hamedp71-12-V"
       - "🇸🇪 hamedp71-13-V"
-      - "🇸🇪 hamedp71-14-V"
-
-  - name: "🔒 اتصال زنجیره‌ای"
-    type: relay
-    proxies:
-      - "🇹🇷 hamedp71 - Warp"
-      - "🇷🇺 hamedp71 - Warp"
-      - "🇷🇺 hamedp71 - Warp-2"
-
+      - "🇸🇪 hamedp71-14-V" 
+      - "🇸🇪 hamedp71 hy2"
+      - "🇳🇱 hamedp71 hy2"      
+      - "🇬🇧 hamedp71-1-V"
+      - "🇬🇧 hamedp71-2-V"
+      - "🇪🇸 hamedp71-3-V"
+      - "🇫🇷 hamedp71-4-V"
+      - "🇫🇷 hamedp71-5-V"
+      - "🇳🇱 hamedp71-6-V"
+      - "🇨🇦 hamedp71-7-V"
+      - "🇩🇪 hamedp71-8-V"
+      - "🇩🇪 hamedp71-9-V"
+      - "🇸🇬 hamedp71-10-V"
+      - "🇺🇸 hamedp71-11-V"
+      - "🇦🇺 hamedp71-12-V"      
+      - "🇳🇱 1 hamedp71 - Vless"
+      - "🇳🇱 2 hamedp71 - Vless"
+      - "🇳🇱 3 hamedp71 - Vless"
+      - "🇳🇱 4 hamedp71 - Vless"
+      - "🇳🇱 5 hamedp71 - Vless"
+      - "🇳🇱 6 hamedp71 - Vless"
+      - "🇳🇱 7 hamedp71 - Vless"
+      - "🇳🇱 8 hamedp71 - Vless"
+      - "🇳🇱 9 hamedp71 - Vless"
+      - "🇳🇱 10 hamedp71 - Vless"
+      - "🇳🇱 11 hamedp71 - Vless"
+      - "🇳🇱 12 hamedp71 - Vless"
+      - "🇳🇱 13 hamedp71 - Vless"
+      - "🇳🇱 14 hamedp71 - Vless"
+      - "🇳🇱 15 hamedp71 - Vless"
+      - "🇳🇱 16 hamedp71 - Vless"
+      - "🇳🇱 17 hamedp71 - Vless"
+      - "🇳🇱 18 hamedp71 - Vless"
+      - "🇳🇱 19 hamedp71 - Vless"
+      - "🇳🇱 20 hamedp71 - Vless"
+      - "🇳🇱 21 hamedp71 - Vless"
+      - "🇳🇱 22 hamedp71 - Vless"
+      - "🇳🇱 23 hamedp71 - Vless"
+      - "🇳🇱 24 hamedp71 - Vless"
+      - "🇳🇱 25 hamedp71 - Vless"
+      - "🇳🇱 26 hamedp71 - Vless"
+      - "🇳🇱 27 hamedp71 - Vless"
+      
 rule-providers:
   malware:
     type: http
