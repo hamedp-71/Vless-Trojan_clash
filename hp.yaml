@@ -71,7 +71,7 @@ tun:
   dns-hijack:
     - 'tcp://any:53'
     - 'udp://any:53'
-  mtu: 1480
+  mtu: 1330
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -3245,8 +3245,8 @@ proxy-groups:
   - name: "💚 وارپ"
     type: url-test
     url: "https://www.google.com/generate_204"
-    interval: 30
-    tolerance: 100
+    interval: 60
+    tolerance: 150
     proxies:
       - "🇹🇷 hamedp71 - Warp"
       - "🇦🇹 Austria-WG"
