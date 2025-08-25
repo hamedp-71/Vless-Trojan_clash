@@ -71,7 +71,7 @@ tun:
   dns-hijack:
     - 'tcp://any:53'
     - 'udp://any:53'
-  mtu: 1330
+  mtu: 1480
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -1378,19 +1378,17 @@ proxies:
     type: wireguard
     ip: 10.201.2.124/32
     private-key: "gCQsj/7vZrBCjLuKtNvCrwhEa0CqSXRWRHvoddNin38="
-    server: tr01a.kcufwfgnkr.net
+    server: 94.131.108.187/255
     port: 62931
     public-key: "6T9PkVHfTvMfDtKANISJqnW1Ulmd5kYyh8IsVkQYemU="
     pre-shared-key: "ZMNacbDp5sZhDlKLX0iGhcn+7zRno1gMPmx1ZU3JeWU="
+    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
     reserved: [251, 19, 4]
     persistent-keepalive: 15
-    mtu: 1380
-    dns:
-      - 8.8.8.8
-      - 1.1.1.1
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    mtu: 1280
+    dns: ["10.255.255.2", "8.8.8.8"]
     udp: true
-    dialer-proxy: ""
+    dialer-proxy: "🇩🇪 hamedp71-9-V"
     amnezia-wg-option:
       jc: 43
       jmin: 50
@@ -3245,8 +3243,8 @@ proxy-groups:
   - name: "💚 وارپ"
     type: url-test
     url: "https://www.google.com/generate_204"
-    interval: 60
-    tolerance: 150
+    interval: 30
+    tolerance: 100
     proxies:
       - "🇹🇷 hamedp71 - Warp"
       - "🇦🇹 Austria-WG"
