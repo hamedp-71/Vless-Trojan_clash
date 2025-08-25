@@ -1438,7 +1438,7 @@ proxies:
     port: 65142
     public-key: "A557Tcs9ezMHjMO3QoCox2fgcc9/uR/nOjbw28AKqkg="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    reserved: "AAA"
+    reserved: "AAAA"
     persistent-keepalive: 15
     mtu: 1380
     dns:
