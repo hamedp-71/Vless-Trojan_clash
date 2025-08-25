@@ -1386,11 +1386,11 @@ proxies:
     persistent-keepalive: 25
     mtu: 1380
     dns:
-      - 1.1.1.1
-      - 8.8.8.8
+      - '8.8.8.8#DIRECT'
+      - '1.1.1.1#DIRECT'
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
-    dialer-proxy: ""
+    dialer-proxy: "🇩🇪 anytls-443"
     amnezia-wg-option:
       jc: 43
       jmin: 50
@@ -1414,11 +1414,11 @@ proxies:
     persistent-keepalive: 25
     mtu: 1380
     dns:
-      - 1.1.1.1
-      - 8.8.8.8
+      - '8.8.8.8#DIRECT'
+      - '1.1.1.1#DIRECT'
     allowed-ips: ["0.0.0.0/0"]
     udp: true
-    dialer-proxy: ""
+    dialer-proxy: "🇩🇪 anytls-443"
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1442,11 +1442,11 @@ proxies:
     persistent-keepalive: 25
     mtu: 1380
     dns:
-      - 1.1.1.1
-      - 8.8.8.8
+      - '8.8.8.8#DIRECT'
+      - '1.1.1.1#DIRECT'
     allowed-ips: ["0.0.0.0/0"]
     udp: true
-    dialer-proxy: ""
+    dialer-proxy: "🇩🇪 anytls-443"
     amnezia-wg-option:
       jc: 4
       jmin: 40
