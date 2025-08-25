@@ -71,7 +71,7 @@ tun:
   dns-hijack:
     - 'tcp://any:53'
     - 'udp://any:53'
-  mtu: 1492
+  mtu: 1480
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -1529,8 +1529,11 @@ proxy-groups:
       - "🇳🇱 27 hamedp71 - Vless"  
 
   - name: "💚 وارپ"
-    type: select
-    proxies: 
+    type: url-test
+    url: "https://www.google.com/generate_204"
+    interval: 30
+    tolerance: 50
+    proxies:
       - "🇹🇷 hamedp71 - Warp"
       - "🇷🇺 hamedp71 - Warp"      
       - "🇷🇺 hamedp71 - Warp-2"
