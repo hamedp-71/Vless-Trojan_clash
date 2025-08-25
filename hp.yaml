@@ -1382,12 +1382,12 @@ proxies:
     port: 62931
     public-key: "6T9PkVHfTvMfDtKANISJqnW1Ulmd5kYyh8IsVkQYemU="
     pre-shared-key: "ZMNacbDp5sZhDlKLX0iGhcn+7zRno1gMPmx1ZU3JeWU="
-    reserved: [251, 19, 4]
+    reserved: [AAAA]
     persistent-keepalive: 15
     mtu: 1380
     dns:
-      - '8.8.8.8#DIRECT'
-      - '1.1.1.1#DIRECT'
+      - '8.8.8.8'
+      - '1.1.1.1'
     allowed-ips: ["0.0.0.0/0", "::/0"]
     udp: true
     dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
@@ -1412,10 +1412,10 @@ proxies:
     pre-shared-key: "sNr3ohi6mvRpN2FcPIMwDaFx6sk605XzaLRjjBi3cXA="
     reserved: [17, 0, 212]
     persistent-keepalive: 15
-    mtu: 1380
+    mtu: 1280
     dns:
-      - '8.8.8.8#DIRECT'
-      - '1.1.1.1#DIRECT'
+      - '8.8.8.8'
+      - '1.1.1.1'
     allowed-ips: ["0.0.0.0/0"]
     udp: true
     dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
@@ -1438,12 +1438,12 @@ proxies:
     port: 65142
     public-key: "A557Tcs9ezMHjMO3QoCox2fgcc9/uR/nOjbw28AKqkg="
     pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    reserved: [8, 14, 255]
+    reserved: [AAA]
     persistent-keepalive: 15
     mtu: 1380
     dns:
-      - '8.8.8.8#DIRECT'
-      - '1.1.1.1#DIRECT'
+      - '8.8.8.8'
+      - '1.1.1.1'
     allowed-ips: ["0.0.0.0/0"]
     udp: true
     dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
@@ -1463,9 +1463,6 @@ proxy-groups:
       - "⚡انتخاب خودکار"
       - "🔁 پایدارتر"
       - "🚀 توزیع بار (دانلود)"
-      - "🇹🇷 hamedp71 - Warp"
-      - "🇷🇺 hamedp71 - Warp"      
-      - "🇷🇺 hamedp71 - Warp-2"      
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
       - "🇺🇸 US-hysteria"
@@ -1530,6 +1527,13 @@ proxy-groups:
       - "🇳🇱 26 hamedp71 - Vless"
       - "🇳🇱 27 hamedp71 - Vless"  
 
+  - name: "💚 انتخاب دستی"
+    type: select
+    proxies: 
+      - "🇹🇷 hamedp71 - Warp"
+      - "🇷🇺 hamedp71 - Warp"      
+      - "🇷🇺 hamedp71 - Warp-2"
+    
   - name: "⚡انتخاب خودکار"
     type: url-test
     url: "https://www.gstatic.com/generate_204"
