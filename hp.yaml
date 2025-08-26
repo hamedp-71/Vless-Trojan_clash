@@ -758,6 +758,26 @@ proxies:
       max-early-data: 2048
       early-data-header-name: Sec-WebSocket-Protocol
 
+  - name: "🇩🇪 hamedp71-V"
+    type: vless
+    server: 68.183.216.44
+    port: 443
+    uuid: 1c03bf51-6773-495f-8a44-4111b1ada9aa
+    tls: true
+    network: ws
+    sni: "zula.ir"
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    encryption: none
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: zula.ir
+
   - name: "🇬🇧 hamedp71- RVP - UK - II"
     type: vless
     server: 188.166.150.199
@@ -5168,6 +5188,7 @@ proxy-groups:
       - "🇳🇱 NL-hysteria"
       - "🇸🇪 hamedp71 hy2"
       - "🇳🇱 hamedp71 hy2"
+      - "🇩🇪 hamedp71-V"
       - "🇬🇧 hamedp71- RVP - UK - II"
       - "🇪🇸 hamedp71- RVP - ES - I"
       - "🇫🇷 hamedp71- RVP - FR - II"
@@ -5452,6 +5473,7 @@ proxy-groups:
       - "🇺🇸 US-hysteria"
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
+      - "🇩🇪 hamedp71-V"
       - "🇬🇧 hamedp71- RVP - UK - II"
       - "🇪🇸 hamedp71- RVP - ES - I"
       - "🇫🇷 hamedp71- RVP - FR - II"
