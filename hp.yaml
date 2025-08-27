@@ -5482,7 +5482,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "🇩🇪 ShadowTLS-Proxy"
-      - "🇩🇪 anytls-443""
+      - "🇩🇪 anytls-443"
       - "🇺🇸 US-hysteria"
       - "🇺🇸 1 US-hysteria"
       - "🇳🇱 NL-hysteria"
