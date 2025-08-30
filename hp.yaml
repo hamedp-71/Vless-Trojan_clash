@@ -5106,6 +5106,14 @@ proxy-groups:
       - "hamedp71::🇫🇷-13"
       - "hamedp71::🇩🇪-24"
 
+  - name: "گیم (بازی)"
+    type: url-test
+    url: "https://www.gstatic.com/generate_204"
+    interval: 30
+    tolerance: 15
+    proxies:
+
+    
   - name: "🤍 وارپ"
     type: url-test
     url: "http://cp.cloudflare.com"
