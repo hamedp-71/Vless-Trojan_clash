@@ -4890,6 +4890,47 @@ proxies:
     sni: www.bing.com
     skip-cert-verify: true
 
+#games
+  - name: "Game hamedp71-🇹🇷"
+    type: vless
+    server: 45.12.143.191
+    port: 20329
+    uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
+    network: tcp
+    tls: true
+    servername: yahoo.com
+    reality-opts:
+      public-key: Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo
+      short-id: 4602ee9f9f36
+    client-fingerprint: chrome
+
+  - name: "Game hamedp71-🇦🇲"
+    type: vless
+    server: 93.115.240.74
+    port: 15800
+    uuid: 73938f0e-d1af-43ab-9b6d-063bca1dd694
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: 93.115.240.74
+
+  - name: "Game hamedp71-🇮🇱"
+    type: vless
+    server: 103.240.147.14
+    port: 443
+    uuid: 15b18878-e774-4f6e-9c33-d8a6e6205fb3
+    network: grpc
+    tls: true
+    servername: tgju.org
+    reality-opts:
+      public-key: -BtPlG7KnJIIIgh77udPqDKTOIMPsJUy0kYhp3CWBwA
+      short-id: 975cfc3c7441
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
+
 proxy-groups:
   - name: "💚 گلوبال"
     type: select
@@ -5113,7 +5154,9 @@ proxy-groups:
     interval: 30
     tolerance: 15
     proxies:
-
+      - "Game hamedp71-🇮🇱"
+      - "Game hamedp71-🇦🇲"
+      - "Game hamedp71-🇹🇷"
     
   - name: "🤍 وارپ"
     type: url-test
