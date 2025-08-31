@@ -4989,10 +4989,10 @@ proxy-groups:
   - name: "💚 گلوبال"
     type: select
     proxies: 
+      - "⚡انتخاب خودکار"
       - "❤️ اختصاصی"
       - "گیم (بازی)"
       - "🤍 وارپ"
-      - "⚡انتخاب خودکار"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
       - "🇺🇸 US-hysteria"
@@ -5007,10 +5007,9 @@ proxy-groups:
       - "🇫🇷-hamedp71"
 
   - name: "❤️ اختصاصی"
-    type: url-test
-    url: "http://www.gstatic.com/generate_204"
-    interval: 30
-    tolerance: 30
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 600  # بازه زمانی تست سلامت به ثانیه (هر ۱۰ دقیقه)
     proxies:
       - "🇩🇪-hamedp71"
       - "🇸🇪-hamedp71"
@@ -5223,7 +5222,7 @@ proxy-groups:
   - name: "🤍 وارپ"
     type: url-test
     url: "http://cp.cloudflare.com"
-    interval: 60
+    interval: 30
     tolerance: 100
     proxies:
       - "🇹🇷 hamedp71 - Warp"
