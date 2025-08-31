@@ -4945,6 +4945,10 @@ proxies:
       path: "/ws"
       headers:
         Host: zula.ir
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
   - name: "🇸🇪-hamedp71"
     type: vless
     server: 148.113.207.224
@@ -4958,6 +4962,10 @@ proxies:
       path: "/ws"
       headers:
         Host: zula.ir
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
   - name: "🇨🇦-hamedp71"
     type: vless
     server: 51.178.42.187
@@ -4971,6 +4979,10 @@ proxies:
       path: "/ws"
       headers:
         Host: zula.ir
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
   - name: "🇫🇷-hamedp71"
     type: vless
     server: 159.65.119.239
@@ -4984,6 +4996,10 @@ proxies:
       path: "/ws"
       headers:
         Host: zula.ir
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
 
 proxy-groups:
   - name: "💚 گلوبال"
