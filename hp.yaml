@@ -85,6 +85,13 @@ sniffer:
     QUIC:
       ports: [443, 8443]
 proxies:
+  - name: "shadowsocks"
+    type: ss
+    server: azure-sto.edgeservers.org
+    port: 48172
+    cipher: chacha20-ietf-poly1305
+    password: "51yloQC8D9w1Wae7FHtI65"
+    
   - name: "🇩🇪 ShadowTLS-Proxy"
     type: ss
     server: net2026.safavidempire.org
@@ -5171,6 +5178,7 @@ proxy-groups:
     proxies: 
       - "اختصاصی ❤️ خودکار"
       - "🤍 وارپ"
+      - "shadowsocks"
       - "🇩🇪 anytls-443"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇺🇸 US-hysteria"
