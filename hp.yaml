@@ -91,6 +91,11 @@ proxies:
     port: 48172
     cipher: chacha20-ietf-poly1305
     password: "51yloQC8D9w1Wae7FHtI65"
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: azure-sto.edgeservers.org
     
   - name: "🇩🇪 ShadowTLS-Proxy"
     type: ss
