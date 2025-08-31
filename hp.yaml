@@ -97,8 +97,6 @@ proxies:
       mode: websocket
       tls: true
       host: www.google.com
-      path: "/"
-      sni: zula.ir
       skip-cert-verify: true
     
   - name: "🇩🇪 ShadowTLS-Proxy"
