@@ -92,10 +92,14 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "51yloQC8D9w1Wae7FHtI65"
     udp: true
-    plugin: obfs
+    plugin: v2ray-plugin
     plugin-opts:
-      mode: tls
-      host: azure-sto.edgeservers.org
+      mode: websocket
+      tls: true
+      host: www.google.com
+      path: "/"
+      sni: zula.ir
+      skip-cert-verify: true
     
   - name: "🇩🇪 ShadowTLS-Proxy"
     type: ss
