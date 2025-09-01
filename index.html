@@ -89,6 +89,28 @@ sniffer:
     QUIC:
       ports: [443, 8443]
 proxies:
+#ShadowTLS        
+  - name: "🇩🇪 ShadowTLS-Proxy"
+    type: ss
+    server: net2026.safavidempire.org
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "164c1a57-a952-4962-a848-77355f4864fc"
+    plugin: shadow-tls
+    plugin-opts:
+      host: www.google.com
+      password: "164c1a57-a952-4962-a848-77355f4864fc"
+      version: 3
+
+  - name: "🇩🇪 anytls-443"
+    type: anytls
+    server: 80.240.26.147
+    port: 443
+    password: "qzJvszJHOB"
+    tls: true
+    sni: "suiany.makingirangreatagain.com"
+    servername: "suiany.makingirangreatagain.com"
+    
   - name: 🇩🇪 grpc direct vless
     type: vless
     server: 91.98.79.239
@@ -223,28 +245,6 @@ proxies:
       headers:
         Host: net2026.zanddynastyofpersia.org
 
-#ShadowTLS        
-  - name: "🇩🇪 ShadowTLS-Proxy"
-    type: ss
-    server: net2026.safavidempire.org
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "164c1a57-a952-4962-a848-77355f4864fc"
-    plugin: shadow-tls
-    plugin-opts:
-      host: www.google.com
-      password: "164c1a57-a952-4962-a848-77355f4864fc"
-      version: 3
-
-  - name: "🇩🇪 anytls-443"
-    type: anytls
-    server: 80.240.26.147
-    port: 443
-    password: "qzJvszJHOB"
-    tls: true
-    sni: "suiany.makingirangreatagain.com"
-    servername: "suiany.makingirangreatagain.com"
-
   - name: "🇺🇸 US-hysteria - 1"
     type: hysteria
     server: 208.87.243.151
@@ -307,7 +307,7 @@ proxies:
     password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
     sni: www.bing.com
     skip-cert-verify: true
-
+#NL
   - name: "🇳🇱 1 hamedp71 - Vless"
     type: vless
     server: braze.com
@@ -3070,20 +3070,20 @@ proxy-groups:
       - "اختصاصی ❤️ خودکار"
       - "🤍 وارپ"
       - "🔗 پایدار"
-      - "🇩🇪 anytls-443"
       - "🇩🇪 ShadowTLS-Proxy"
+      - "🇩🇪 anytls-443"
       - "🇺🇸 US-hysteria"
-      - "🇺🇸 US-hysteria - 1"
       - "🇳🇱 NL-hysteria"
-      - "🇩🇪 grpc direct vless"
+      - "🇺🇸 US-hysteria - 1"
+      - "🇩🇪 Hysteria2"
       - "🇩🇪 reality tcp direct vless"
+      - "🇩🇪 grpc direct vless"
       - "🇩🇪 WS direct vless"
       - "🇩🇪 TUIC"
-      - "🇩🇪 Hysteria2"
+      - "🇩🇪 tls WS direct vless"
       - "🇩🇪 tls WS CDN vless-trojan"
       - "🇩🇪 tls WS direct vless-frag"
       - "🇩🇪 tls WS CDN vless-trojan-frag"
-      - "🇩🇪 tls WS direct vless"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
       - "🇩🇪-Telegram-VLESS"
@@ -3126,17 +3126,17 @@ proxy-groups:
       - "🇸🇪 hamedp71-13-V"
       - "🇸🇪 hamedp71-14-V"
       - "🇺🇸 US-hysteria"
-      - "🇺🇸 US-hysteria - 1"
       - "🇳🇱 NL-hysteria"
-      - "🇩🇪 grpc direct vless"
+      - "🇺🇸 US-hysteria - 1"
+      - "🇩🇪 Hysteria2"
       - "🇩🇪 reality tcp direct vless"
+      - "🇩🇪 grpc direct vless"
       - "🇩🇪 WS direct vless"
       - "🇩🇪 TUIC"
-      - "🇩🇪 Hysteria2"
+      - "🇩🇪 tls WS direct vless"
       - "🇩🇪 tls WS CDN vless-trojan"
       - "🇩🇪 tls WS direct vless-frag"
       - "🇩🇪 tls WS CDN vless-trojan-frag"
-      - "🇩🇪 tls WS direct vless"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
       - "🇩🇪-Telegram-VLESS"
@@ -3249,8 +3249,8 @@ proxy-groups:
 
   - name: "🔗 پایدار"
     type: fallback
-    url: "http://connectivitycheck.gstatic.com/generate_204"  # آدرس برای تست سلامت
-    interval: 300  # هر 300 ثانیه یکبار تست می‌کند
+    url: "http://connectivitycheck.gstatic.com/generate_204"
+    interval: 300
     proxies:
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
@@ -3267,17 +3267,17 @@ proxy-groups:
       - "🇸🇪 hamedp71-13-V"
       - "🇸🇪 hamedp71-14-V"
       - "🇺🇸 US-hysteria"
-      - "🇺🇸 US-hysteria - 1"
       - "🇳🇱 NL-hysteria"
-      - "🇩🇪 grpc direct vless"
+      - "🇺🇸 US-hysteria - 1"
+      - "🇩🇪 Hysteria2"
       - "🇩🇪 reality tcp direct vless"
+      - "🇩🇪 grpc direct vless"
       - "🇩🇪 WS direct vless"
       - "🇩🇪 TUIC"
-      - "🇩🇪 Hysteria2"
+      - "🇩🇪 tls WS direct vless"
       - "🇩🇪 tls WS CDN vless-trojan"
       - "🇩🇪 tls WS direct vless-frag"
       - "🇩🇪 tls WS CDN vless-trojan-frag"
-      - "🇩🇪 tls WS direct vless"
       - "🇩🇪-Direct-VLESS"
       - "🇩🇪-AD-CDN-VLESS"
       - "🇩🇪-Telegram-VLESS"
