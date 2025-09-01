@@ -3107,7 +3107,7 @@ proxy-groups:
 
   - name: "اختصاصی ❤️ خودکار"
     type: url-test
-    url: "http://connectivitycheck.gstatic.com/generate_204"
+    url: "http://www.google.com/generate_204"
     interval: 150
     tolerance: 60
     proxies:
@@ -3173,7 +3173,7 @@ proxy-groups:
 
   - name: "🤍 وارپ"
     type: url-test
-    url: "https://www.gstatic.com/generate_204"
+    url: "http://www.google.com/generate_204"
     interval: 60
     tolerance: 90
     proxies:
@@ -3249,7 +3249,7 @@ proxy-groups:
 
   - name: "🔗 پایدار"
     type: fallback
-    url: "http://connectivitycheck.gstatic.com/generate_204"
+    url: "http://www.google.com/generate_204"
     interval: 300
     proxies:
       - "🇸🇪 hamedp71-1-V"
