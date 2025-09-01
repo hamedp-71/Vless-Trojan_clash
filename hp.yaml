@@ -108,6 +108,25 @@ proxies:
     tls: true
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
+
+  - name: "🇳🇱 hamedp71-NEW"
+    type: vless
+    server: zula.ir
+    port: 2053
+    uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
+    network: ws
+    tls: true
+    udp: true
+    servername: frAgeU2.cpI2HIdd.eu.ORG
+    fingerprint: chrome
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+    ws-opts:
+      path: "/"
+      headers:
+        Host: frAgeU2.cpI2HIdd.eu.ORG
     
   - name: 🇩🇪 grpc direct vless
     type: vless
@@ -3070,6 +3089,7 @@ proxy-groups:
       - "🔗 پایدار"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
+      - "🇳🇱 hamedp71-NEW"
       - "🇺🇸 US-hysteria"
       - "🇳🇱 NL-hysteria"
       - "🇺🇸 US-hysteria - 1"
@@ -3123,6 +3143,7 @@ proxy-groups:
       - "🇸🇪 hamedp71-12-V"
       - "🇸🇪 hamedp71-13-V"
       - "🇸🇪 hamedp71-14-V"
+      - "🇳🇱 hamedp71-NEW"
       - "🇺🇸 US-hysteria"
       - "🇳🇱 NL-hysteria"
       - "🇺🇸 US-hysteria - 1"
@@ -3264,6 +3285,7 @@ proxy-groups:
       - "🇸🇪 hamedp71-12-V"
       - "🇸🇪 hamedp71-13-V"
       - "🇸🇪 hamedp71-14-V"
+      - "🇳🇱 hamedp71-NEW"
       - "🇺🇸 US-hysteria"
       - "🇳🇱 NL-hysteria"
       - "🇺🇸 US-hysteria - 1"
