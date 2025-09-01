@@ -121,7 +121,7 @@ proxies:
       public-key: 6wcvf78pdo-cH395vAliVVWoc5x8LSBgXJCQEF8KbA8
       short-id: f47f400cc96a4e
 
-  - name: WS direct vless
+  - name: 🇩🇪 WS direct vless
     type: vless
     server: 91.98.79.239
     port: 443
@@ -3075,7 +3075,7 @@ proxy-groups:
       - "🇳🇱 NL-hysteria"
       - "🇩🇪 grpc direct vless"
       - "🇩🇪 reality tcp direct vless"
-      - "WS direct vless"
+      - "🇩🇪 WS direct vless"
       - "🇩🇪 TUIC"
       - "🇩🇪 Hysteria2"
       - "🇩🇪 tls WS CDN vless-trojan"
@@ -3100,7 +3100,7 @@ proxy-groups:
       - "🇳🇱 NL-hysteria"
       - "🇩🇪 grpc direct vless"
       - "🇩🇪 reality tcp direct vless"
-      - "WS direct vless"
+      - "🇩🇪 WS direct vless"
       - "🇩🇪 TUIC"
       - "🇩🇪 Hysteria2"
       - "🇩🇪 tls WS CDN vless-trojan"
