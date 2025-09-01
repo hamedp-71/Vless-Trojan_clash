@@ -3090,12 +3090,26 @@ proxy-groups:
       - "hamedp71-🇩🇪-3"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
+      - "🇸🇪 hamedp71-1-V"
+      - "🇸🇪 hamedp71-2-V"
+      - "🇸🇪 hamedp71-3-V"
+      - "🇸🇪 hamedp71-4-V"
+      - "🇸🇪 hamedp71-5-V"
+      - "🇸🇪 hamedp71-6-V"
+      - "🇸🇪 hamedp71-7-V"
+      - "🇸🇪 hamedp71-8-V"
+      - "🇸🇪 hamedp71-9-V"
+      - "🇸🇪 hamedp71-10-V"
+      - "🇸🇪 hamedp71-11-V"
+      - "🇸🇪 hamedp71-12-V"
+      - "🇸🇪 hamedp71-13-V"
+      - "🇸🇪 hamedp71-14-V"
 
   - name: "اختصاصی ❤️ خودکار"
     type: url-test
-    url: "https://www.gstatic.com/generate_204"
-    interval: 200
-    tolerance: 90
+    url: "http://connectivitycheck.gstatic.com/generate_204"
+    interval: 150
+    tolerance: 60
     proxies:
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
@@ -3159,7 +3173,7 @@ proxy-groups:
 
   - name: "🤍 وارپ"
     type: url-test
-    url: "http://cp.cloudflare.com"
+    url: "https://www.gstatic.com/generate_204"
     interval: 60
     tolerance: 90
     proxies:
@@ -3235,8 +3249,8 @@ proxy-groups:
 
   - name: "🔗 پایدار"
     type: fallback
-    url: "http://www.google.com/generate_204"  # آدرس برای تست سلامت
-    interval: 600  # هر 300 ثانیه یکبار تست می‌کند
+    url: "http://connectivitycheck.gstatic.com/generate_204"  # آدرس برای تست سلامت
+    interval: 300  # هر 300 ثانیه یکبار تست می‌کند
     proxies:
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
