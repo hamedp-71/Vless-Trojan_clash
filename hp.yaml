@@ -3069,7 +3069,7 @@ proxy-groups:
     proxies: 
       - "اختصاصی ❤️ خودکار"
       - "🤍 وارپ"
-      - "⚖️ توازن بار"
+      - "⛓️ زنجیره‌ای"
       - "🇩🇪 anytls-443"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇺🇸 US-hysteria"
@@ -3233,11 +3233,8 @@ proxy-groups:
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
 
-  - name: "⚖️ توازن بار"
-    type: load-balance
-    strategy: consistent-hashing  # یا round-robin
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
+  - name: "⛓️ زنجیره‌ای"
+    type: relay
     proxies:
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
