@@ -116,7 +116,7 @@ proxies:
     server: 47.239.220.214
     port: 2428
     password: NjEkAYYNqFKUbrksyW1COBtdpU
-    sni: zula.ir
+    sni: bing.com
     skip-cert-verify: true
     tfo: false
     auth: ""
