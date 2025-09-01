@@ -111,7 +111,7 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
-  - name: 1 hy2
+  - name: 🇭🇰 hy2
     type: hysteria2
     server: 47.239.220.214
     port: 2428
@@ -123,7 +123,7 @@ proxies:
     fast-open: false
     servername: bing.com
 
-  - name: 2 hy2
+  - name: 🇺🇸 hy2
     type: hysteria2
     server: 38.34.6.180
     port: 22740
@@ -295,7 +295,7 @@ proxies:
     server: 91.98.79.239
     port: 29111
     password: f599eb06-508a-4e24-9d59-4c50bf0332b9
-    sni: plaza.ir
+    sni: zula.ir
     udp: true
     skip-cert-verify: true
     obfs: salamander
@@ -3191,15 +3191,15 @@ proxy-groups:
       - "🇺🇸 US-hysteria"
       - "🇳🇱 NL-hysteria"
       - "🇺🇸 US-hysteria - 1"
-      - "🇩🇪 Hysteria2"
-      - "1 hy2"
-      - "2 hy2"
+      - "🇭🇰 hy2"
+      - "🇺🇸 hy2"
       - "🇳🇱_hy_0"
       - "🇳🇱_hy_1"
       - "🇳🇱_hy_2"
       - "🇳🇱_hy_3"
       - "🇺🇸_hysteria_71"
       - "🇺🇸_hysteria_91"
+      - "🇩🇪 Hysteria2"      
       - "🇩🇪 reality tcp direct vless"
       - "🇩🇪 grpc direct vless"
       - "🇩🇪 WS direct vless"
@@ -3253,15 +3253,15 @@ proxy-groups:
       - "🇺🇸 US-hysteria"
       - "🇳🇱 NL-hysteria"
       - "🇺🇸 US-hysteria - 1"
-      - "🇩🇪 Hysteria2"
-      - "1 hy2"
-      - "2 hy2"
+      - "🇭🇰 hy2"
+      - "🇺🇸 hy2"
       - "🇳🇱_hy_0"
       - "🇳🇱_hy_1"
       - "🇳🇱_hy_2"
       - "🇳🇱_hy_3"
       - "🇺🇸_hysteria_71"
       - "🇺🇸_hysteria_91"
+      - "🇩🇪 Hysteria2"      
       - "🇩🇪 reality tcp direct vless"
       - "🇩🇪 grpc direct vless"
       - "🇩🇪 WS direct vless"
@@ -3402,15 +3402,15 @@ proxy-groups:
       - "🇺🇸 US-hysteria"
       - "🇳🇱 NL-hysteria"
       - "🇺🇸 US-hysteria - 1"
-      - "🇩🇪 Hysteria2"
-      - "1 hy2"
-      - "2 hy2"
+      - "🇭🇰 hy2"
+      - "🇺🇸 hy2"
       - "🇳🇱_hy_0"
       - "🇳🇱_hy_1"
       - "🇳🇱_hy_2"
       - "🇳🇱_hy_3"
       - "🇺🇸_hysteria_71"
       - "🇺🇸_hysteria_91"
+      - "🇩🇪 Hysteria2"      
       - "🇩🇪 reality tcp direct vless"
       - "🇩🇪 grpc direct vless"
       - "🇩🇪 WS direct vless"
