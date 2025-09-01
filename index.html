@@ -3069,7 +3069,7 @@ proxy-groups:
     proxies: 
       - "اختصاصی ❤️ خودکار"
       - "🤍 وارپ"
-      - "⛓️ زنجیره‌ای"
+      - "🔗 پایدار"
       - "🇩🇪 anytls-443"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇺🇸 US-hysteria"
@@ -3233,8 +3233,10 @@ proxy-groups:
       - "🇿🇦 South Africa 1"
       - "🇿🇦 South Africa"
 
-  - name: "⛓️ زنجیره‌ای"
-    type: relay
+  - name: "🔗 پایدار"
+    type: fallback
+    url: "http://www.google.com/generate_204"  # آدرس برای تست سلامت
+    interval: 300  # هر 300 ثانیه یکبار تست می‌کند
     proxies:
       - "🇸🇪 hamedp71-1-V"
       - "🇸🇪 hamedp71-2-V"
