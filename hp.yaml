@@ -129,14 +129,6 @@ proxies:
     sni: www.bing.com
     skip-cert-verify: true
 
-  - name: "hamedp71-🇩🇪-3"
-    type: hysteria2
-    server: 77.223.214.193
-    port: 31468
-    password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
-    sni: www.bing.com
-    skip-cert-verify: true
-
   - name: "🇩🇪 hamedp71"
     type: wireguard
     ip: "100.80.234.177/32"
@@ -2542,7 +2534,6 @@ proxy-groups:
       - "🔗 پایدار"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
-      - "hamedp71-🇩🇪-3"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
 
@@ -2552,7 +2543,6 @@ proxy-groups:
     interval: 150
     tolerance: 60
     proxies:
-      - "hamedp71-🇩🇪-3"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       - "🇳🇱 1 hamedp71 - Vless"
@@ -2705,7 +2695,6 @@ proxy-groups:
       - "🇸🇪 hamedp71-12-V"
       - "🇸🇪 hamedp71-13-V"
       - "🇸🇪 hamedp71-14-V"
-      - "hamedp71-🇩🇪-3"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       
