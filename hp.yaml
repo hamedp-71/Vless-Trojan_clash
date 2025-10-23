@@ -169,7 +169,7 @@ proxies:
     obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
     skip-cert-verify: true
 
-- name: "🇺🇸 hamedp71 - 8"
+  - name: "🇺🇸 hamedp71 - 8"
     type: hysteria2
     server: 108.165.213.197
     port: 23891
