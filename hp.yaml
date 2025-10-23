@@ -99,7 +99,7 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
-- name: "🇳🇱 hamedp71 - 1"
+  - name: "🇳🇱 hamedp71 - 1"
     type: hysteria2
     server: 206.71.158.37
     port: 36300
