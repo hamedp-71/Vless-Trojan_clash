@@ -1069,32 +1069,6 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇷🇺 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: ""
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "188.124.42.116"
-    port: 443
-    public-key: "gLPWBcPANL0mgwEkImb6PUJmR2ncz7S9DKIDDYvgJkk="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    dns: ["10.255.255.2"]
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
   - name: "🇷🇺 hamedp71-1"
     type: wireguard
     ip: "100.80.234.177/32"
@@ -2629,7 +2603,6 @@ proxy-groups:
       - "🇳🇴 hamedp71"
       - "🇳🇿 hamedp71"
       - "🇵🇦 hamedp71"
-      - "🇷🇺 hamedp71"
       - "🇷🇺 hamedp71-1"
       - "🇷🇺 hamedp71-2"
       - "🇸🇪 hamedp71"
