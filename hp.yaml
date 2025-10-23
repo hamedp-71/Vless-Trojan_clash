@@ -99,6 +99,56 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
+- name: "🇳🇱 hamedp71 - 1"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36300
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: false
+
+  - name: "🇳🇱 hamedp71 - 2"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35000
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: true
+
+  - name: "🇳🇱 hamedp71 - 3"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36600
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: true
+
+  - name: "🇳🇱 hamedp71 - 4"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35200
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: false
+
+  - name: "🇳🇱 hamedp71 - 5"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35000
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: false
+
   - name: "hamedp71-🇳🇱-2"
     type: hysteria2
     server: net2025.afsharidempire.uk
@@ -2457,6 +2507,11 @@ proxy-groups:
       - "🇩🇪 anytls-443"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
+      - "🇳🇱 hamedp71 - 1"
+      - "🇳🇱 hamedp71 - 2"
+      - "🇳🇱 hamedp71 - 3"
+      - "🇳🇱 hamedp71 - 4"
+      - "🇳🇱 hamedp71 - 5"
 
   - name: "اختصاصی ❤️ خودکار"
     type: url-test
@@ -2464,8 +2519,11 @@ proxy-groups:
     interval: 150
     tolerance: 60
     proxies:
-      - "hamedp71-🇳🇱-2"
-      - "hamedp71-🇫🇷-2"
+      - "🇳🇱 hamedp71 - 1"
+      - "🇳🇱 hamedp71 - 2"
+      - "🇳🇱 hamedp71 - 3"
+      - "🇳🇱 hamedp71 - 4"
+      - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
@@ -2572,6 +2630,11 @@ proxy-groups:
     url: "http://www.google.com/generate_204"
     interval: 300
     proxies:
+      - "🇳🇱 hamedp71 - 1"
+      - "🇳🇱 hamedp71 - 2"
+      - "🇳🇱 hamedp71 - 3"
+      - "🇳🇱 hamedp71 - 4"
+      - "🇳🇱 hamedp71 - 5"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       - "🇳🇱 1 hamedp71 - Vless"
