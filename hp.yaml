@@ -169,14 +169,12 @@ proxies:
     obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
     skip-cert-verify: true
 
-  - name: "🇩🇪 hamedp71 - 8"
+- name: "🇺🇸 hamedp71 - 8"
     type: hysteria2
-    server: filtercheebyha.arshiacomplus.dpdns.org
-    port: 2083
-    password: "YwuvGJk36B"
-    sni: "kotlet.arshiacomplus.dpdns.org"
-    obfs: salamander
-    obfs-password: "khameniiko@smad@ret"
+    server: 108.165.213.197
+    port: 23891
+    password: "c232f411-96b5-4b07-b2f7-66a434725ffb"
+    sni: "fus01.mistea.top"
     skip-cert-verify: true
 
   - name: "🇬🇧 hamedp71 - 9"
@@ -2590,7 +2588,7 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
       - "🇩🇪 hamedp71 - 7"
-      - "🇩🇪 hamedp71 - 8"
+      - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
       - "🇳🇱 hamedp71 - 10"
 
@@ -2607,7 +2605,7 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
       - "🇩🇪 hamedp71 - 7"
-      - "🇩🇪 hamedp71 - 8"
+      - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
       - "🇳🇱 hamedp71 - 10"
       - "hamedp71-🇳🇱-2"
@@ -2726,7 +2724,7 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
       - "🇩🇪 hamedp71 - 7"
-      - "🇩🇪 hamedp71 - 8"
+      - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
       - "🇳🇱 hamedp71 - 10"
       - "hamedp71-🇳🇱-2"
