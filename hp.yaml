@@ -99,280 +99,14 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
-  - name: 1 hy2
+  - name: "hamedp71-🇳🇱-2"
     type: hysteria2
-    server: 47.239.220.214
-    port: 2428
-    password: NjEkAYYNqFKUbrksyW1COBtdpU
-    sni: bing.com
-    skip-cert-verify: true
-    tfo: false
-    auth: ""
-    fast-open: false
-    servername: bing.com
-
-  - name: 2 hy2
-    type: hysteria2
-    server: 38.34.6.180
-    port: 22740
-    password: TeoP0vNz791156o3UuGb8eBY
-    sni: bing.com
-    skip-cert-verify: true
-    tfo: false
-    auth: ""
-    fast-open: false
-    servername: bing.com
-
-  - name: 🇳🇱_hysteria_81
-    type: hysteria
-    server: 109.104.153.91
-    port: 37519
-    ports: 10000-20000
-    auth_str: dongtaiwang.com
-    alpn:
-    - h3
-    sni: apple.com
-    skip-cert-verify: true
-    up: 11 Mbps
-    down: 55 Mbps
-  - name: 🇳🇱_hy_0
-    type: hysteria
-    server: 109.104.153.91
-    port: 37519
-    ports: 10000-20000
-    auth_str: dongtaiwang.com
-    up: 1000
-    down: 1000
-    fast-open: true
-    protocol: udp
-    sni: apple.com
-    skip-cert-verify: true
-    alpn:
-    - h3
-  - name: 🇳🇱_hy_1
-    type: hysteria
-    server: 109.104.153.91
-    port: 37519
-    ports: 10000-20000
-    auth_str: dongtaiwang.com
-    up: 1000
-    down: 1000
-    fast-open: true
-    protocol: udp
-    sni: apple.com
-    skip-cert-verify: true
-    alpn:
-    - h3
-  - name: 🇳🇱_hy_2
-    type: hysteria
-    server: 109.104.153.91
-    port: 37519
-    ports: 10000-20000
-    auth_str: dongtaiwang.com
-    up: 1000
-    down: 1000
-    fast-open: true
-    protocol: udp
-    sni: apple.com
-    skip-cert-verify: true
-    alpn:
-    - h3
-  - name: 🇳🇱_hy_3
-    type: hysteria
-    server: 109.104.153.91
-    port: 37519
-    ports: 10000-20000
-    auth_str: dongtaiwang.com
-    up: 1000
-    down: 1000
-    fast-open: true
-    protocol: udp
-    sni: apple.com
-    skip-cert-verify: true
-    alpn:
-    - h3
-  - name: 🇺🇸_hysteria_71
-    type: hysteria
-    server: 108.181.24.77
-    port: 37872
-    auth-str: dongtaiwang.com
-    sni: apple.com
-    skip-cert-verify: true
-    alpn:
-    - h3
-    protocol: udp
-    up: 11 Mbps
-    down: 55 Mbps
-  - name: 🇺🇸_hysteria_91
-    type: hysteria
-    server: 208.87.243.151
-    port: 38845
-    auth_str: dongtaiwang.com
-    alpn:
-    - h3
-    sni: www.bing.com
-    skip-cert-verify: true
-    up: 11 Mbps
-    down: 55 Mbps
-    
-  - name: 🇩🇪 grpc direct vless
-    type: vless
-    server: 91.98.79.239
-    port: 443
-    uuid: f599eb06-508a-4e24-9d59-4c50bf0332b9
-    network: grpc
-    tls: true
-    udp: true
-    servername: plaza.ir
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    alpn:
-      - h2
-    grpc-opts:
-      grpc-service-name: JCG7HcKpCWxijB2PP2bFqNR7h7F8
-      grpc-mode: gun
-
-  - name: 🇩🇪 reality tcp direct vless
-    type: vless
-    server: 91.98.79.239
-    port: 443
-    uuid: f599eb06-508a-4e24-9d59-4c50bf0332b9
-    network: tcp
-    tls: true
-    udp: true
-    servername: tempail.com
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 6wcvf78pdo-cH395vAliVVWoc5x8LSBgXJCQEF8KbA8
-      short-id: f47f400cc96a4e
-
-  - name: 🇩🇪 WS direct vless
-    type: vless
-    server: 91.98.79.239
-    port: 443
-    uuid: f599eb06-508a-4e24-9d59-4c50bf0332b9
-    network: ws
-    tls: true
-    udp: true
-    servername: plaza.ir
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    alpn:
-      - http/1.1
-    ws-opts:
-      path: /JCG7HcKpCWxijB2IADOUXiAjgsQ6
-      headers:
-        Host: plaza.ir
-
-  - name: 🇩🇪 TUIC
-    type: tuic
-    server: 91.98.79.239
-    port: 30806
-    uuid: f599eb06-508a-4e24-9d59-4c50bf0332b9
-    password: f599eb06-508a-4e24-9d59-4c50bf0332b9
-    sni: plaza.ir
-    udp: true
-    alpn:
-      - h3
-    congestion-control: cubic
-    skip-cert-verify: true
-
-  - name: 🇩🇪 Hysteria2
-    type: hysteria2
-    server: 91.98.79.239
-    port: 29111
-    password: f599eb06-508a-4e24-9d59-4c50bf0332b9
-    sni: plaza.ir
-    udp: true
-    skip-cert-verify: true
+    server: net2025.afsharidempire.uk
+    port: 30205
+    password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
+    sni: net2025.afsharidempire.uk
     obfs: salamander
-    obfs-password: zVwQtP96XEO8ylpQ
-
-  - name: 🇩🇪 tls WS CDN vless-trojan
-    type: vless
-    server: net2026cd.zanddynastyofpersia.org
-    port: 443
-    uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
-    network: ws
-    tls: true
-    udp: true
-    servername: net2026cd.zanddynastyofpersia.org
-    client-fingerprint: chrome
-    ws-opts:
-      path: /eJsVXFVZ6iavNx1EFxOyH861WH
-      headers:
-        Host: net2026cd.zanddynastyofpersia.org
-
-  - name: 🇩🇪 tls WS direct vless-frag
-    type: vless
-    server: net2026.zanddynastyofpersia.org
-    port: 443
-    uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
-    network: ws
-    tls: true
-    udp: true
-    servername: net2026.zanddynastyofpersia.org
-    client-fingerprint: chrome
-    ws-opts:
-      path: /eJsVXFVZ6iavNx1EFxOyH861WH
-      headers:
-        Host: net2026.zanddynastyofpersia.org
-
-  - name: 🇩🇪 tls WS CDN vless-trojan-frag
-    type: vless
-    server: net2026cd.zanddynastyofpersia.org
-    port: 443
-    uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
-    network: ws
-    tls: true
-    udp: true
-    servername: net2026cd.zanddynastyofpersia.org
-    client-fingerprint: chrome
-    ws-opts:
-      path: /eJsVXFVZ6iavNx1EFxOyH861WH
-      headers:
-        Host: net2026cd.zanddynastyofpersia.org
-
-  - name: 🇩🇪 tls WS direct vless
-    type: vless
-    server: net2026.zanddynastyofpersia.org
-    port: 443
-    uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
-    network: ws
-    tls: true
-    udp: true
-    servername: net2026.zanddynastyofpersia.org
-    client-fingerprint: chrome
-    ws-opts:
-      path: /eJsVXFVZ6iavNx1EFxOyH861WH
-      headers:
-        Host: net2026.zanddynastyofpersia.org
-
-  - name: "🇺🇸 US-hysteria - 1"
-    type: hysteria
-    server: 208.87.243.151
-    port: 38845
-    auth_str: dongtaiwang.com
-    alpn:
-    - h3
-    sni: www.bing.com
-    skip-cert-verify: true
-    up: 11 Mbps
-    down: 55 Mbps
-  
-  - name: "🇺🇸 US-hysteria"
-    type: hysteria
-    server: 108.181.24.77
-    port: 37872
-    auth-str: dongtaiwang.com
-    sni: apple.com
-    skip-cert-verify: true
-    alpn:
-    - h3
-    protocol: udp
-    up: 11 Mbps
-    down: 55 Mbps
+    obfs-password: GdQ4bgvT8RFwuWi2
     
   - name: "🇳🇱 NL-hysteria"
     type: hysteria
@@ -386,15 +120,6 @@ proxies:
     skip-cert-verify: true
     up: 11 Mbps
     down: 55 Mbps
-
-  - name: "hamedp71-🇳🇱-2"
-    type: hysteria2
-    server: net2025.afsharidempire.uk
-    port: 30205
-    password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
-    sni: net2025.afsharidempire.uk
-    obfs: salamander
-    obfs-password: GdQ4bgvT8RFwuWi2
 
   - name: "hamedp71-🇫🇷-2"
     type: hysteria2
@@ -2817,33 +2542,9 @@ proxy-groups:
       - "🔗 پایدار"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
-      - "🇺🇸 US-hysteria"
-      - "🇺🇸 US-hysteria - 1"
       - "hamedp71-🇩🇪-3"
-      - "🇺🇸_hysteria_71"
-      - "🇺🇸_hysteria_91"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
-      - "🇳🇱_hysteria_81"
-      - "🇳🇱 NL-hysteria"
-      - "🇳🇱_hy_0"
-      - "🇳🇱_hy_1"
-      - "🇳🇱_hy_2"
-      - "🇳🇱_hy_3"
-      - "1 hy2"
-      - "2 hy2"
-      - "🇩🇪 reality tcp direct vless"
-      - "🇩🇪 grpc direct vless"
-      - "🇩🇪 WS direct vless"
-      - "🇩🇪 TUIC"
-      - "🇩🇪 tls WS direct vless"
-      - "🇩🇪 tls WS CDN vless-trojan"
-      - "🇩🇪 tls WS direct vless-frag"
-      - "🇩🇪 tls WS CDN vless-trojan-frag"
-      - "🇩🇪 Hysteria2"
-      - "🇩🇪 Telegram-VLESS"
-      - "🇩🇪 Direct-VLESS"
-      - "🇩🇪 AD-CDN-VLESS"
 
   - name: "اختصاصی ❤️ خودکار"
     type: url-test
@@ -2851,43 +2552,6 @@ proxy-groups:
     interval: 150
     tolerance: 60
     proxies:
-      - "🇸🇪 hamedp71-1-V"
-      - "🇸🇪 hamedp71-2-V"
-      - "🇸🇪 hamedp71-3-V"
-      - "🇸🇪 hamedp71-4-V"
-      - "🇸🇪 hamedp71-5-V"
-      - "🇸🇪 hamedp71-6-V"
-      - "🇸🇪 hamedp71-7-V"
-      - "🇸🇪 hamedp71-8-V"
-      - "🇸🇪 hamedp71-9-V"
-      - "🇸🇪 hamedp71-10-V"
-      - "🇸🇪 hamedp71-11-V"
-      - "🇸🇪 hamedp71-12-V"
-      - "🇸🇪 hamedp71-13-V"
-      - "🇸🇪 hamedp71-14-V"
-      - "🇺🇸 US-hysteria"
-      - "🇳🇱 NL-hysteria"
-      - "🇺🇸 US-hysteria - 1"
-      - "🇳🇱_hy_0"
-      - "🇳🇱_hy_1"
-      - "🇳🇱_hy_2"
-      - "🇳🇱_hy_3"
-      - "1 hy2"
-      - "2 hy2"
-      - "🇺🇸_hysteria_71"
-      - "🇺🇸_hysteria_91"
-      - "🇩🇪 reality tcp direct vless"
-      - "🇩🇪 grpc direct vless"
-      - "🇩🇪 WS direct vless"
-      - "🇩🇪 TUIC"
-      - "🇩🇪 tls WS direct vless"
-      - "🇩🇪 tls WS CDN vless-trojan"
-      - "🇩🇪 tls WS direct vless-frag"
-      - "🇩🇪 tls WS CDN vless-trojan-frag"
-      - "🇩🇪 Hysteria2"
-      - "🇩🇪 Telegram-VLESS"
-      - "🇩🇪 Direct-VLESS"
-      - "🇩🇪 AD-CDN-VLESS"
       - "hamedp71-🇩🇪-3"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
@@ -2918,6 +2582,20 @@ proxy-groups:
       - "🇳🇱 25 hamedp71 - Vless"
       - "🇳🇱 26 hamedp71 - Vless"
       - "🇳🇱 27 hamedp71 - Vless"
+      - "🇸🇪 hamedp71-1-V"
+      - "🇸🇪 hamedp71-2-V"
+      - "🇸🇪 hamedp71-3-V"
+      - "🇸🇪 hamedp71-4-V"
+      - "🇸🇪 hamedp71-5-V"
+      - "🇸🇪 hamedp71-6-V"
+      - "🇸🇪 hamedp71-7-V"
+      - "🇸🇪 hamedp71-8-V"
+      - "🇸🇪 hamedp71-9-V"
+      - "🇸🇪 hamedp71-10-V"
+      - "🇸🇪 hamedp71-11-V"
+      - "🇸🇪 hamedp71-12-V"
+      - "🇸🇪 hamedp71-13-V"
+      - "🇸🇪 hamedp71-14-V"
 
   - name: "🤍 وارپ"
     type: url-test
@@ -2986,46 +2664,6 @@ proxy-groups:
     url: "http://www.google.com/generate_204"
     interval: 300
     proxies:
-      - "🇸🇪 hamedp71-1-V"
-      - "🇸🇪 hamedp71-2-V"
-      - "🇸🇪 hamedp71-3-V"
-      - "🇸🇪 hamedp71-4-V"
-      - "🇸🇪 hamedp71-5-V"
-      - "🇸🇪 hamedp71-6-V"
-      - "🇸🇪 hamedp71-7-V"
-      - "🇸🇪 hamedp71-8-V"
-      - "🇸🇪 hamedp71-9-V"
-      - "🇸🇪 hamedp71-10-V"
-      - "🇸🇪 hamedp71-11-V"
-      - "🇸🇪 hamedp71-12-V"
-      - "🇸🇪 hamedp71-13-V"
-      - "🇸🇪 hamedp71-14-V"
-      - "🇺🇸 US-hysteria"
-      - "🇳🇱 NL-hysteria"
-      - "🇺🇸 US-hysteria - 1"
-      - "🇳🇱_hy_0"
-      - "🇳🇱_hy_1"
-      - "🇳🇱_hy_2"
-      - "🇳🇱_hy_3"
-      - "1 hy2"
-      - "2 hy2"
-      - "🇺🇸_hysteria_71"
-      - "🇺🇸_hysteria_91"
-      - "🇩🇪 reality tcp direct vless"
-      - "🇩🇪 grpc direct vless"
-      - "🇩🇪 WS direct vless"
-      - "🇩🇪 TUIC"
-      - "🇩🇪 tls WS direct vless"
-      - "🇩🇪 tls WS CDN vless-trojan"
-      - "🇩🇪 tls WS direct vless-frag"
-      - "🇩🇪 tls WS CDN vless-trojan-frag"
-      - "🇩🇪 Hysteria2"
-      - "🇩🇪 Telegram-VLESS"
-      - "🇩🇪 Direct-VLESS"
-      - "🇩🇪 AD-CDN-VLESS"
-      - "hamedp71-🇩🇪-3"
-      - "hamedp71-🇳🇱-2"
-      - "hamedp71-🇫🇷-2"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
@@ -3053,6 +2691,23 @@ proxy-groups:
       - "🇳🇱 25 hamedp71 - Vless"
       - "🇳🇱 26 hamedp71 - Vless"
       - "🇳🇱 27 hamedp71 - Vless"
+      - "🇸🇪 hamedp71-1-V"
+      - "🇸🇪 hamedp71-2-V"
+      - "🇸🇪 hamedp71-3-V"
+      - "🇸🇪 hamedp71-4-V"
+      - "🇸🇪 hamedp71-5-V"
+      - "🇸🇪 hamedp71-6-V"
+      - "🇸🇪 hamedp71-7-V"
+      - "🇸🇪 hamedp71-8-V"
+      - "🇸🇪 hamedp71-9-V"
+      - "🇸🇪 hamedp71-10-V"
+      - "🇸🇪 hamedp71-11-V"
+      - "🇸🇪 hamedp71-12-V"
+      - "🇸🇪 hamedp71-13-V"
+      - "🇸🇪 hamedp71-14-V"
+      - "hamedp71-🇩🇪-3"
+      - "hamedp71-🇳🇱-2"
+      - "hamedp71-🇫🇷-2"
       
 rule-providers:
   malware:
