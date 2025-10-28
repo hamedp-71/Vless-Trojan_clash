@@ -299,16 +299,6 @@ proxies:
     obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: true
 
-  - name: "🇳🇱 hamedp71 - 10"
-    type: hysteria2
-    server: 206.71.158.40
-    port: 35000
-    password: "680210f5-3b5f-4947-9983-e508a15cf169"
-    sni: "jnir.pichondan.com"
-    obfs: salamander
-    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-    skip-cert-verify: true
-
   - name: "hamedp71-🇳🇱-2"
     type: hysteria2
     server: net2025.afsharidempire.uk
@@ -2337,7 +2327,6 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 6"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
-      - "🇳🇱 hamedp71 - 10"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
       - "hamedp71-🇵🇱-45"
@@ -2369,7 +2358,6 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 6"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
-      - "🇳🇱 hamedp71 - 10"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
@@ -2462,7 +2450,6 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 6"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
-      - "🇳🇱 hamedp71 - 10"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
