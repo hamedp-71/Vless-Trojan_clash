@@ -164,13 +164,6 @@ proxies:
     cipher: aes-256-cfb
     password: "EXN3S3eQpjE7EJu8"
     udp: true
-  - name: "hamedp71-🇵🇱-54"
-    type: ss
-    server: 217.30.10.70
-    port: 9020
-    cipher: aes-256-cfb
-    password: "BNmAXxHHYpTRdzu"
-    udp: true
   - name: "hamedp71-🇵🇱-55"
     type: ss
     server: 217.30.10.18
@@ -206,14 +199,28 @@ proxies:
     cipher: aes-256-cfb
     password: "wfLC2y7rzZyCmuyt"
     udp: true
-  - name: "hamedp71-🇵🇱-64"
+  - name: "hamedp71-🇵🇱-66"
+    type: ss
+    server: 217.30.10.18
+    port: 9046
+    cipher: aes-256-cfb
+    password: "NvS8N4Vf8qAGPSCL"
+    udp: true
+  - name: "hamedp71-🇵🇱-67"
     type: ss
     server: 217.30.10.70
-    port: 9006
+    port: 9046
     cipher: aes-256-cfb
-    password: "FAdUvMJUq5vDgKEq"
+    password: "NvS8N4Vf8qAGPSCL"
     udp: true
-
+  - name: "hamedp71-🇵🇱-68"
+    type: ss
+    server: 217.30.10.18
+    port: 9040
+    cipher: aes-256-cfb
+    password: "p9z5BVADH2YFs3MN"
+    udp: true
+    
   - name: "🇳🇱 hamedp71 - 1"
     type: hysteria2
     server: 206.71.158.37
@@ -2339,13 +2346,14 @@ proxy-groups:
       - "hamedp71-🇵🇱-51"
       - "hamedp71-🇵🇱-52"
       - "hamedp71-🇵🇱-53"
-      - "hamedp71-🇵🇱-54"
       - "hamedp71-🇵🇱-55"
       - "hamedp71-🇵🇱-60"
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-63"
-      - "hamedp71-🇵🇱-64"
+      - "hamedp71-🇵🇱-66"
+      - "hamedp71-🇵🇱-67"
+      - "hamedp71-🇵🇱-68"
 
   - name: "اختصاصی ❤️ خودکار"
     type: url-test
@@ -2372,13 +2380,14 @@ proxy-groups:
       - "hamedp71-🇵🇱-51"
       - "hamedp71-🇵🇱-52"
       - "hamedp71-🇵🇱-53"
-      - "hamedp71-🇵🇱-54"
       - "hamedp71-🇵🇱-55"
       - "hamedp71-🇵🇱-60"
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-63"
-      - "hamedp71-🇵🇱-64"
+      - "hamedp71-🇵🇱-66"
+      - "hamedp71-🇵🇱-67"
+      - "hamedp71-🇵🇱-68"
 
   - name: "🤍 وارپ"
     type: url-test
@@ -2464,13 +2473,14 @@ proxy-groups:
       - "hamedp71-🇵🇱-51"
       - "hamedp71-🇵🇱-52"
       - "hamedp71-🇵🇱-53"
-      - "hamedp71-🇵🇱-54"
       - "hamedp71-🇵🇱-55"
       - "hamedp71-🇵🇱-60"
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-63"
-      - "hamedp71-🇵🇱-64"
+      - "hamedp71-🇵🇱-66"
+      - "hamedp71-🇵🇱-67"
+      - "hamedp71-🇵🇱-68"
       
 rule-providers:
   malware:
