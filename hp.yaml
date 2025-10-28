@@ -122,41 +122,6 @@ proxies:
       headers:
         Host: vless.hubp.de
 
-  - name: "hamedp71-🇵🇱-49"
-    type: ss
-    server: 217.30.10.70
-    port: 9033
-    cipher: aes-256-cfb
-    password: "UTJA57ypk2XKQpnm"
-    udp: true
-  - name: "hamedp71-🇵🇱-50"
-    type: ss
-    server: 217.30.10.70
-    port: 9073
-    cipher: aes-256-cfb
-    password: "daFYagqDdBdA6vTX"
-    udp: true
-  - name: "hamedp71-🇵🇱-51"
-    type: ss
-    server: 217.30.10.70
-    port: 9003
-    cipher: aes-256-cfb
-    password: "JdmRK9gMEqFgs8nP"
-    udp: true
-  - name: "hamedp71-🇵🇱-42"
-    type: ss
-    server: 217.30.10.70
-    port: 9098
-    cipher: aes-256-cfb
-    password: "aLpQtfeZe445QyHk"
-    udp: true
-  - name: "hamedp71-🇵🇱-44"
-    type: ss
-    server: 217.30.10.70
-    port: 9088
-    cipher: aes-256-cfb
-    password: "f8npKgNzdksm2ytn"
-    udp: true
   - name: "hamedp71-🇵🇱-45"
     type: ss
     server: 217.30.10.70
@@ -164,19 +129,26 @@ proxies:
     cipher: aes-256-cfb
     password: "FG5ddLsMPbV5CutE"
     udp: true
-  - name: "hamedp71-🇵🇱-46"
-    type: ss
-    server: 217.30.10.70
-    port: 9059
-    cipher: aes-256-cfb
-    password: "9XwYyzsK8SNzQDtY"
-    udp: true
   - name: "hamedp71-🇵🇱-47"
     type: ss
     server: 217.30.10.70
     port: 9057
     cipher: aes-256-cfb
     password: "wjTugX3ZtHMB9c3Z"
+    udp: true
+  - name: "hamedp71-🇵🇱-49"
+    type: ss
+    server: 217.30.10.70
+    port: 9033
+    cipher: aes-256-cfb
+    password: "UTJA57ypk2XKQpnm"
+    udp: true
+  - name: "hamedp71-🇵🇱-51"
+    type: ss
+    server: 217.30.10.70
+    port: 9003
+    cipher: aes-256-cfb
+    password: "JdmRK9gMEqFgs8nP"
     udp: true
   - name: "hamedp71-🇵🇱-52"
     type: ss
@@ -205,6 +177,41 @@ proxies:
     port: 9084
     cipher: aes-256-cfb
     password: "c3NtHJ5ujV2tGDfj"
+    udp: true
+  - name: "hamedp71-🇵🇱-60"
+    type: ss
+    server: 217.30.10.18
+    port: 9018
+    cipher: aes-256-cfb
+    password: "fG2artUmHfNT2cX7"
+    udp: true
+  - name: "hamedp71-🇵🇱-61"
+    type: ss
+    server: 217.30.10.70
+    port: 9070
+    cipher: aes-256-cfb
+    password: "bf7v334KKDV3YDhH"
+    udp: true
+  - name: "hamedp71-🇵🇱-62"
+    type: ss
+    server: 217.30.10.70
+    port: 9014
+    cipher: aes-256-cfb
+    password: "KnJGad3FqTvjqbaX"
+    udp: true
+  - name: "hamedp71-🇵🇱-63"
+    type: ss
+    server: 217.30.10.70
+    port: 9093
+    cipher: aes-256-cfb
+    password: "wfLC2y7rzZyCmuyt"
+    udp: true
+  - name: "hamedp71-🇵🇱-64"
+    type: ss
+    server: 217.30.10.70
+    port: 9006
+    cipher: aes-256-cfb
+    password: "FAdUvMJUq5vDgKEq"
     udp: true
 
   - name: "🇳🇱 hamedp71 - 1"
@@ -2326,19 +2333,19 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 10"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
-      - "hamedp71-🇵🇱-49"
-      - "hamedp71-🇵🇱-50"
-      - "hamedp71-🇵🇱-51"
-      - "hamedp71-🇵🇱-42"
-      - "hamedp71-🇵🇱-44"
       - "hamedp71-🇵🇱-45"
-      - "hamedp71-🇵🇱-46"
       - "hamedp71-🇵🇱-47"
+      - "hamedp71-🇵🇱-49"
+      - "hamedp71-🇵🇱-51"
       - "hamedp71-🇵🇱-52"
       - "hamedp71-🇵🇱-53"
       - "hamedp71-🇵🇱-54"
       - "hamedp71-🇵🇱-55"
-      
+      - "hamedp71-🇵🇱-60"
+      - "hamedp71-🇵🇱-61"
+      - "hamedp71-🇵🇱-62"
+      - "hamedp71-🇵🇱-63"
+      - "hamedp71-🇵🇱-64"
 
   - name: "اختصاصی ❤️ خودکار"
     type: url-test
@@ -2359,19 +2366,19 @@ proxy-groups:
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
-      - "hamedp71-🇵🇱-49"
-      - "hamedp71-🇵🇱-50"
-      - "hamedp71-🇵🇱-51"
-      - "hamedp71-🇵🇱-42"
-      - "hamedp71-🇵🇱-44"
       - "hamedp71-🇵🇱-45"
-      - "hamedp71-🇵🇱-46"
       - "hamedp71-🇵🇱-47"
+      - "hamedp71-🇵🇱-49"
+      - "hamedp71-🇵🇱-51"
       - "hamedp71-🇵🇱-52"
       - "hamedp71-🇵🇱-53"
       - "hamedp71-🇵🇱-54"
       - "hamedp71-🇵🇱-55"
-      
+      - "hamedp71-🇵🇱-60"
+      - "hamedp71-🇵🇱-61"
+      - "hamedp71-🇵🇱-62"
+      - "hamedp71-🇵🇱-63"
+      - "hamedp71-🇵🇱-64"
 
   - name: "🤍 وارپ"
     type: url-test
@@ -2451,18 +2458,19 @@ proxy-groups:
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
-      - "hamedp71-🇵🇱-49"
-      - "hamedp71-🇵🇱-50"
-      - "hamedp71-🇵🇱-51"
-      - "hamedp71-🇵🇱-42"
-      - "hamedp71-🇵🇱-44"
       - "hamedp71-🇵🇱-45"
-      - "hamedp71-🇵🇱-46"
       - "hamedp71-🇵🇱-47"
+      - "hamedp71-🇵🇱-49"
+      - "hamedp71-🇵🇱-51"
       - "hamedp71-🇵🇱-52"
       - "hamedp71-🇵🇱-53"
       - "hamedp71-🇵🇱-54"
       - "hamedp71-🇵🇱-55"
+      - "hamedp71-🇵🇱-60"
+      - "hamedp71-🇵🇱-61"
+      - "hamedp71-🇵🇱-62"
+      - "hamedp71-🇵🇱-63"
+      - "hamedp71-🇵🇱-64"
       
 rule-providers:
   malware:
