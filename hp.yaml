@@ -122,6 +122,28 @@ proxies:
       headers:
         Host: vless.hubp.de
 
+  - name: "hamedp71-🏁-49"
+    type: ss
+    server: 217.30.10.70
+    port: 9033
+    cipher: aes-256-cfb
+    password: "UTJA57ypk2XKQpnm"
+    udp: true
+  - name: "hamedp71-🏁-50"
+    type: ss
+    server: 217.30.10.70
+    port: 9073
+    cipher: aes-256-cfb
+    password: "daFYagqDdBdA6vTX"
+    udp: true
+  - name: "hamedp71-🏁-51"
+    type: ss
+    server: 217.30.10.70
+    port: 9003
+    cipher: aes-256-cfb
+    password: "JdmRK9gMEqFgs8nP"
+    udp: true
+
   - name: "🇳🇱 hamedp71 - 1"
     type: hysteria2
     server: 206.71.158.37
@@ -2241,6 +2263,9 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 10"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
+      - "hamedp71-🏁-49"
+      - "hamedp71-🏁-50"
+      - "hamedp71-🏁-51"
 
   - name: "اختصاصی ❤️ خودکار"
     type: url-test
@@ -2261,6 +2286,9 @@ proxy-groups:
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
+      - "hamedp71-🏁-49"
+      - "hamedp71-🏁-50"
+      - "hamedp71-🏁-51"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
@@ -2367,6 +2395,9 @@ proxy-groups:
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
+      - "hamedp71-🏁-49"
+      - "hamedp71-🏁-50"
+      - "hamedp71-🏁-51"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
