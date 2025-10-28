@@ -106,54 +106,27 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "VGmbVSd6gEUvxvEx2aNA4q"
 
-  - name: "🇲🇩 Moldova - 6"
-    type: vless
-    server: 86.104.74.45
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
+  - name: "hamedp71-🇻🇳-10"
+    type: ss
+    server: 103.186.155.19
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnU0SV"
     udp: true
-    client-fingerprint: chrome
-    allowInsecure: true
-    grpc-opts:
-      grpc-service-name: ""
-  - name: "🇲🇩 Moldova - 7"
-    type: vless
-    server: 185.234.66.97
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
+  - name: "hamedp71-🇻🇳-11"
+    type: ss
+    server: 103.186.155.21
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnU0SV"
     udp: true
-    client-fingerprint: chrome
-    allowInsecure: true
-    grpc-opts:
-      grpc-service-name: ""
-  - name: "🇲🇩 Moldova - 8"
-    type: vless
-    server: 94.131.14.29
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
+  - name: "hamedp71-🇻🇳-12"
+    type: ss
+    server: 103.186.154.38
+    port: 38388
+    cipher: aes-256-cfb
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnU0SV"
     udp: true
-    client-fingerprint: chrome
-    allowInsecure: true
-    grpc-opts:
-      grpc-service-name: ""
-  - name: "🇲🇩 Moldova - 9"
-    type: vless
-    server: 94.131.13.164
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    udp: true
-    client-fingerprint: chrome
-    allowInsecure: true
-    grpc-opts:
-      grpc-service-name: ""
 
   - name: "🇳🇱 hamedp71 - 1"
     type: hysteria2
@@ -2273,10 +2246,9 @@ proxy-groups:
       - "🇬🇧 hamedp71 - 9"
       - "🇳🇱 hamedp71 - 10"
       - "🇹🇷 hamedp71 - ss"
-      - "🇲🇩 Moldova - 6"
-      - "🇲🇩 Moldova - 7"
-      - "🇲🇩 Moldova - 8"
-      - "🇲🇩 Moldova - 9"
+      - "hamedp71-🇻🇳-10"
+      - "hamedp71-🇻🇳-11"
+      - "hamedp71-🇻🇳-12"
 
   - name: "اختصاصی ❤️ خودکار"
     type: url-test
@@ -2296,10 +2268,9 @@ proxy-groups:
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
-      - "🇲🇩 Moldova - 6"
-      - "🇲🇩 Moldova - 7"
-      - "🇲🇩 Moldova - 8"
-      - "🇲🇩 Moldova - 9"
+      - "hamedp71-🇻🇳-10"
+      - "hamedp71-🇻🇳-11"
+      - "hamedp71-🇻🇳-12"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
@@ -2405,9 +2376,9 @@ proxy-groups:
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
-      - "🇲🇩 Moldova - 7"
-      - "🇲🇩 Moldova - 8"
-      - "🇲🇩 Moldova - 9"
+      - "hamedp71-🇻🇳-10"
+      - "hamedp71-🇻🇳-11"
+      - "hamedp71-🇻🇳-12"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
