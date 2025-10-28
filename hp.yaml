@@ -106,32 +106,6 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "VGmbVSd6gEUvxvEx2aNA4q"
 
-  - name: "🇹🇷 hamedp71 - 1"
-    type: vless
-    server: 45.12.143.191
-    port: 20329
-    uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
-    network: tcp
-    tls: true
-    servername: yahoo.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo
-      short-id: 4602ee9f9f36
-
-  - name: "🇹🇷 hamedp71 - 2"
-    type: vless
-    server: 45.12.143.191
-    port: 20329
-    uuid: e105e56a-5f81-41a2-ab44-bfffc9b00674
-    network: tcp
-    tls: true
-    servername: yahoo.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo
-      short-id: 4602ee9f9f36
-
   - name: "🇳🇱 hamedp71 - 1"
     type: hysteria2
     server: 206.71.158.37
@@ -190,16 +164,6 @@ proxies:
     sni: ""
     obfs: salamander
     obfs-password: "khameniiko@smad@ret"
-    skip-cert-verify: true
-
-  - name: "🇩🇪 hamedp71 - 7"
-    type: hysteria2
-    server: dir.cybsecguru.com
-    port: 35000
-    password: "680210f5-3b5f-4947-9983-e508a15cf169"
-    sni: "jnir.pichondan.com"
-    obfs: salamander
-    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
     skip-cert-verify: true
 
   - name: "🇺🇸 hamedp71 - 8"
@@ -2234,6 +2198,86 @@ proxies:
       max-early-data: 2048
       early-data-header-name: Sec-WebSocket-Protocol
 
+- name: "🇫🇷 France - 1"
+    type: vless
+    server: 194.4.49.40
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+
+  - name: "🇫🇷 France - 2"
+    type: vless
+    server: 194.4.49.16
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+
+  - name: "🇫🇷 France - 3"
+    type: vless
+    server: 185.242.87.137
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+
+  - name: "🇫🇷 France - 4"
+    type: vless
+    server: 185.242.87.69
+    port: 8880
+    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+    tls: true
+    network: ws
+    servername: revcloud.migacpi.org
+    client-fingerprint: chrome
+    fragment:
+      packets: tlshello
+      length: '10-20'
+      interval: '10-20'
+    ws-opts:
+      path: "/cbde4058-6b81-432b-8689-dd7ce10e479c"
+      headers:
+        Host: revcloud.migacpi.org
+      max-early-data: 2560
+      early-data-header-name: Sec-WebSocket-Protocol
+
 #Arista
 #Rayan
 #BPB
@@ -2256,13 +2300,14 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
-      - "🇩🇪 hamedp71 - 7"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
       - "🇳🇱 hamedp71 - 10"
       - "🇹🇷 hamedp71 - ss"
-      - "🇹🇷 hamedp71 - 1"
-      - "🇹🇷 hamedp71 - 2"
+      - "🇫🇷 France - 1"
+      - "🇫🇷 France - 2"
+      - "🇫🇷 France - 3"
+      - "🇫🇷 France - 4"
 
   - name: "اختصاصی ❤️ خودکار"
     type: url-test
@@ -2276,15 +2321,16 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
-      - "🇩🇪 hamedp71 - 7"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
       - "🇳🇱 hamedp71 - 10"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
-      - "🇹🇷 hamedp71 - 1"
-      - "🇹🇷 hamedp71 - 2"
+      - "🇫🇷 France - 1"
+      - "🇫🇷 France - 2"
+      - "🇫🇷 France - 3"
+      - "🇫🇷 France - 4"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
@@ -2384,15 +2430,16 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
-      - "🇩🇪 hamedp71 - 7"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
       - "🇳🇱 hamedp71 - 10"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
-      - "🇹🇷 hamedp71 - 1"
-      - "🇹🇷 hamedp71 - 2"
+      - "🇫🇷 France - 1"
+      - "🇫🇷 France - 2"
+      - "🇫🇷 France - 3"
+      - "🇫🇷 France - 4"
       - "🇳🇱 1 hamedp71 - Vless"
       - "🇳🇱 2 hamedp71 - Vless"
       - "🇳🇱 3 hamedp71 - Vless"
