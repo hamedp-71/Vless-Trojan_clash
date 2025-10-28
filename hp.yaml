@@ -2198,7 +2198,7 @@ proxies:
       max-early-data: 2048
       early-data-header-name: Sec-WebSocket-Protocol
 
-- name: "🇫🇷 France - 1"
+  - name: "🇫🇷 France - 1"
     type: vless
     server: 194.4.49.40
     port: 8880
