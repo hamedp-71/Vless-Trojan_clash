@@ -117,13 +117,6 @@ proxies:
       headers:
         Host: vless.hubp.de
 
-  - name: "hamedp71-🇵🇱-45"
-    type: ss
-    server: 217.30.10.70
-    port: 9050
-    cipher: aes-256-cfb
-    password: "FG5ddLsMPbV5CutE"
-    udp: true
   - name: "hamedp71-🇵🇱-47"
     type: ss
     server: 217.30.10.70
@@ -187,13 +180,6 @@ proxies:
     cipher: aes-256-cfb
     password: "KnJGad3FqTvjqbaX"
     udp: true
-  - name: "hamedp71-🇵🇱-63"
-    type: ss
-    server: 217.30.10.70
-    port: 9093
-    cipher: aes-256-cfb
-    password: "wfLC2y7rzZyCmuyt"
-    udp: true
   - name: "hamedp71-🇵🇱-66"
     type: ss
     server: 217.30.10.18
@@ -215,6 +201,8 @@ proxies:
     cipher: aes-256-cfb
     password: "p9z5BVADH2YFs3MN"
     udp: true
+
+
     
   - name: "🇳🇱 hamedp71 - 1"
     type: hysteria2
@@ -255,38 +243,6 @@ proxies:
     obfs: salamander
     obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: false
-
-  - name: "🇺🇸-hamedp71 1"
-    type: hysteria2
-    server: 104.250.239.32
-    port: 49425
-    auth: 9c859345-959f-491b-b6fc-65cd7a57aeb3
-    sni: real.getafreenode.sbs
-    # udp: true # Hysteria2 by default is UDP-based. This line is usually not needed.
-  - name: "🇺🇸-hamedp71 2"
-    type: hysteria2
-    server: 104.250.239.32
-    port: 49425
-    auth: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
-    sni: real.getafreenode.sbs
-  - name: "🇺🇸-hamedp71 3"
-    type: hysteria2
-    server: 104.250.239.32
-    port: 49425
-    auth: 23125f6e-ec56-4c26-9714-0bbacdb53d01
-    sni: real.getafreenode.sbs
-  - name: "🇺🇸-hamedp71 4"
-    type: hysteria2
-    server: 104.250.239.32
-    port: 49425
-    auth: 942b9cb8-92fa-46ac-ae91-f69c8234434b
-    sni: real.getafreenode.sbs
-  - name: "🇺🇸-hamedp71 5"
-    type: hysteria2
-    server: 104.250.239.32
-    port: 49425
-    auth: 5eaa121d-4362-444d-8219-29b02c35303a
-    sni: real.getafreenode.sbs
 
   - name: "🇳🇱 hamedp71 - 6"
     type: hysteria2
@@ -2345,12 +2301,6 @@ proxy-groups:
       - "🇬🇧 hamedp71 - 9"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
-      - "🇺🇸-hamedp71 1"
-      - "🇺🇸-hamedp71 2"
-      - "🇺🇸-hamedp71 3"
-      - "🇺🇸-hamedp71 4"
-      - "🇺🇸-hamedp71 5"
-      - "hamedp71-🇵🇱-45"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -2360,7 +2310,6 @@ proxy-groups:
       - "hamedp71-🇵🇱-60"
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
-      - "hamedp71-🇵🇱-63"
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
       - "hamedp71-🇵🇱-68"
@@ -2382,12 +2331,6 @@ proxy-groups:
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
-      - "🇺🇸-hamedp71 1"
-      - "🇺🇸-hamedp71 2"
-      - "🇺🇸-hamedp71 3"
-      - "🇺🇸-hamedp71 4"
-      - "🇺🇸-hamedp71 5"
-      - "hamedp71-🇵🇱-45"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -2397,7 +2340,6 @@ proxy-groups:
       - "hamedp71-🇵🇱-60"
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
-      - "hamedp71-🇵🇱-63"
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
       - "hamedp71-🇵🇱-68"
@@ -2478,12 +2420,6 @@ proxy-groups:
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
-      - "🇺🇸-hamedp71 1"
-      - "🇺🇸-hamedp71 2"
-      - "🇺🇸-hamedp71 3"
-      - "🇺🇸-hamedp71 4"
-      - "🇺🇸-hamedp71 5"
-      - "hamedp71-🇵🇱-45"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -2493,7 +2429,6 @@ proxy-groups:
       - "hamedp71-🇵🇱-60"
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
-      - "hamedp71-🇵🇱-63"
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
       - "hamedp71-🇵🇱-68"
@@ -2509,7 +2444,7 @@ rule-providers:
   malware-cidr:
     type: http
     format: text
-    behavior: domain
+    behavior: ipcidr  # <--- تغییر در اینجا
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware-ip.txt"
     path: "./ruleset/malware-cidr.txt"
     interval: 86400
@@ -2523,7 +2458,7 @@ rule-providers:
   phishing-cidr:
     type: http
     format: text
-    behavior: domain
+    behavior: ipcidr  # <--- تغییر در اینجا
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing-ip.txt"
     path: "./ruleset/phishing-cidr.txt"
     interval: 86400
@@ -2551,7 +2486,7 @@ rule-providers:
   ir-cidr:
     type: http
     format: text
-    behavior: domain
+    behavior: ipcidr  # <--- تغییر در اینجا
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt"
     path: "./ruleset/ir-cidr.txt"
     interval: 86400
