@@ -442,7 +442,7 @@ proxies:
     sni: net2025.afsharidempire.uk
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
-    dialer-proxy: "🇩🇪 ShadowTLS-Proxy
+    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
     
   - name: "🇳🇱 NL-hysteria"
     type: hysteria
