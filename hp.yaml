@@ -317,12 +317,6 @@ proxies:
     port: 990
     cipher: chacha20-ietf-poly1305
     password: "f8f7aCzcPKbsF8p3"
-  - name: "🇷🇺-hamedp71- § 18"
-    type: ss
-    server: 185.126.239.250
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: "f8f7aCzcPKbsF8p3"
     
   
   - name: "🇩🇪 hamedp71 1"
