@@ -2435,96 +2435,6 @@ proxies:
 #Rayan
 #BPB
 #Game
-  - name: "⛓️🇺🇸-hamedp71- § 0"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇺🇸-hamedp71- § 0"
-  - name: "⛓️🇵🇾-hamedp71- § 1"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇵🇾-hamedp71- § 1"
-  - name: "⛓️🇬🇧-hamedp71- § 2"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇬🇧-hamedp71- § 2"
-  - name: "⛓️🇵🇱-hamedp71- § 3"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇵🇱-hamedp71- § 3"
-  - name: "⛓️🇨🇦2-hamedp71- § 4"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇨🇦2-hamedp71- § 4"
-  - name: "⛓️🇺🇸2-hamedp71- § 5"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇺🇸2-hamedp71- § 5"
-  - name: "⛓️🇸🇬-hamedp71- § 6"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇸🇬-hamedp71- § 6"
-  - name: "⛓️🇳🇱-hamedp71- § 7"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇳🇱-hamedp71- § 7"
-  - name: "⛓️🇫🇮-hamedp71- § 8"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇫🇮-hamedp71- § 8"
-  - name: "⛓️🇪🇸-hamedp71- § 9"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇪🇸-hamedp71- § 9"
-  - name: "⛓️🇮🇳-hamedp71- § 10"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇮🇳-hamedp71- § 10"
-  - name: "⛓️🇩🇪-hamedp71- § 11"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇩🇪-hamedp71- § 11"
-  - name: "⛓️🇯🇵-hamedp71- § 12"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇯🇵-hamedp71- § 12"
-  - name: "⛓️🇳🇱-hamedp71- § 13"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇳🇱-hamedp71- § 13"
-  - name: "⛓️🇨🇦 -hamedp71- § 14"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇨🇦 -hamedp71- § 14"
-  - name: "⛓️🇹🇷-hamedp71- § 15"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇹🇷-hamedp71- § 15"
-  - name: "⛓️🇺🇸3-hamedp71- § 16"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇺🇸3-hamedp71- § 16"
-  - name: "⛓️🇨🇦-hamedp71- § 17"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇨🇦-hamedp71- § 17"
 
 proxy-groups:
   - name: "💚خانه"
@@ -2694,6 +2604,97 @@ proxy-groups:
       - "⛓️🇹🇷-hamedp71- § 15"
       - "⛓️🇺🇸3-hamedp71- § 16"
       - "⛓️🇨🇦-hamedp71- § 17"
+
+  - name: "⛓️🇺🇸-hamedp71- § 0"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇺🇸-hamedp71- § 0"
+  - name: "⛓️🇵🇾-hamedp71- § 1"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇵🇾-hamedp71- § 1"
+  - name: "⛓️🇬🇧-hamedp71- § 2"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇬🇧-hamedp71- § 2"
+  - name: "⛓️🇵🇱-hamedp71- § 3"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇵🇱-hamedp71- § 3"
+  - name: "⛓️🇨🇦2-hamedp71- § 4"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇨🇦2-hamedp71- § 4"
+  - name: "⛓️🇺🇸2-hamedp71- § 5"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇺🇸2-hamedp71- § 5"
+  - name: "⛓️🇸🇬-hamedp71- § 6"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇸🇬-hamedp71- § 6"
+  - name: "⛓️🇳🇱-hamedp71- § 7"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇳🇱-hamedp71- § 7"
+  - name: "⛓️🇫🇮-hamedp71- § 8"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇫🇮-hamedp71- § 8"
+  - name: "⛓️🇪🇸-hamedp71- § 9"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇪🇸-hamedp71- § 9"
+  - name: "⛓️🇮🇳-hamedp71- § 10"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇮🇳-hamedp71- § 10"
+  - name: "⛓️🇩🇪-hamedp71- § 11"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇩🇪-hamedp71- § 11"
+  - name: "⛓️🇯🇵-hamedp71- § 12"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇯🇵-hamedp71- § 12"
+  - name: "⛓️🇳🇱-hamedp71- § 13"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇳🇱-hamedp71- § 13"
+  - name: "⛓️🇨🇦 -hamedp71- § 14"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇨🇦 -hamedp71- § 14"
+  - name: "⛓️🇹🇷-hamedp71- § 15"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇹🇷-hamedp71- § 15"
+  - name: "⛓️🇺🇸3-hamedp71- § 16"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇺🇸3-hamedp71- § 16"
+  - name: "⛓️🇨🇦-hamedp71- § 17"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇨🇦-hamedp71- § 17"
       
 rule-providers:
   malware:
