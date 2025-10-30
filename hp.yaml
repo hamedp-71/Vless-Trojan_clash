@@ -227,12 +227,6 @@ proxies:
     port: 443
     cipher: aes-128-gcm
     password: "shadowsocks"
-  - name: "🇵🇱-hamedp71- § 3"
-    type: ss
-    server: 217.30.10.18
-    port: 9026
-    cipher: aes-256-cfb
-    password: "QWDDvVE9npNurQfA"
   - name: "🇨🇦2-hamedp71- § 4"
     type: ss
     server: 142.4.216.225
@@ -317,6 +311,12 @@ proxies:
     port: 80
     cipher: chacha20-ietf-poly1305
     password: "JIhN6rBKkaEboLNXVSv5rq"
+  - name: "🇷🇺-hamedp71- § 18"
+    type: ss
+    server: 185.126.239.250
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: "f8f7aCzcPKbsF8p3"
   - name: "🇷🇺-hamedp71- § 18"
     type: ss
     server: 185.126.239.250
@@ -2604,6 +2604,8 @@ proxy-groups:
       - "⛓️🇹🇷-hamedp71- § 15"
       - "⛓️🇺🇸3-hamedp71- § 16"
       - "⛓️🇨🇦-hamedp71- § 17"
+      - "⛓️🇷🇺-hamedp71- § 18"
+      - DIRECT
 
   - name: "⛓️🇺🇸-hamedp71- § 0"
     type: relay
@@ -2695,6 +2697,11 @@ proxy-groups:
     proxies:
       - VLESS-Entry
       - "🇨🇦-hamedp71- § 17"
+  - name: "⛓️🇷🇺-hamedp71- § 18"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇷🇺-hamedp71- § 18"
       
 rule-providers:
   malware:
