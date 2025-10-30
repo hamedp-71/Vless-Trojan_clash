@@ -94,13 +94,6 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
-  - name: "🇹🇷 hamedp71 - ss"
-    type: ss
-    server: 62.133.63.21
-    port: 65262
-    cipher: chacha20-ietf-poly1305
-    password: "VGmbVSd6gEUvxvEx2aNA4q"
-
   - name: "🇦🇲 Armenia - 1"
     type: vless
     server: 188.164.159.61
@@ -201,15 +194,6 @@ proxies:
     cipher: aes-256-cfb
     password: "p9z5BVADH2YFs3MN"
     udp: true
-
-  - name: "🇸🇪-hamedp71"
-    type: hysteria2
-    server: drhystuichdfy.samanidempire.org
-    port: 20335
-    password: 80747420-96c4-4a2f-83e6-eea4e46beb09
-    sni: drhystuichdfy.samanidempire.org
-    obfs: salamander
-    obfs-password: U1wBrYQyFm
   
   - name: "🇩🇪 hamedp71 1"
     type: hysteria2
@@ -2340,9 +2324,7 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 6"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
-      - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
-      - "🇸🇪-hamedp71"
       - "🇩🇪 hamedp71 1"
       - "🇬🇧 hamedp71 13"
       - "🇩🇪 hamedp71 2"
@@ -2375,9 +2357,7 @@ proxy-groups:
       - "🇬🇧 hamedp71 - 9"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
-      - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
-      - "🇸🇪-hamedp71"
       - "🇩🇪 hamedp71 1"
       - "🇬🇧 hamedp71 13"
       - "🇩🇪 hamedp71 2"
@@ -2469,9 +2449,7 @@ proxy-groups:
       - "🇬🇧 hamedp71 - 9"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
-      - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
-      - "🇸🇪-hamedp71"
       - "🇩🇪 hamedp71 1"
       - "🇬🇧 hamedp71 13"
       - "🇩🇪 hamedp71 2"
