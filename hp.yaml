@@ -2444,7 +2444,6 @@ proxy-groups:
       - "اختصاصی ❤️ خودکار"
       - "🤍 وارپ"
       - "🔗 پایدار"
-      - "🔗 Chained - hamedp71"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
       - "hamedp71-🇳🇱-2"
@@ -2598,30 +2597,6 @@ proxy-groups:
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
       - "hamedp71-🇵🇱-68"
-
-  - name: "🔗 Chained - hamedp71"
-    type: selector
-    proxies:
-      - "[CHAIN] 🇺🇸-hamedp71- § 0"
-      - "[CHAIN] 🇵🇾-hamedp71- § 1"
-      - "[CHAIN] 🇬🇧-hamedp71- § 2"
-      - "[CHAIN] 🇵🇱-hamedp71- § 3"
-      - "[CHAIN] 🇨🇦2-hamedp71- § 4"
-      - "[CHAIN] 🇺🇸2-hamedp71- § 5"
-      - "[CHAIN] 🇸🇬-hamedp71- § 6"
-      - "[CHAIN] 🇳🇱-hamedp71- § 7"
-      - "[CHAIN] 🇫🇮-hamedp71- § 8"
-      - "[CHAIN] 🇪🇸-hamedp71- § 9"
-      - "[CHAIN] 🇮🇳-hamedp71- § 10"
-      - "[CHAIN] 🇩🇪-hamedp71- § 11"
-      - "[CHAIN] 🇯🇵-hamedp71- § 12"
-      - "[CHAIN] 🇳🇱-hamedp71- § 13"
-      - "[CHAIN] 🇨🇦 -hamedp71- § 14"
-      - "[CHAIN] 🇹🇷-hamedp71- § 15"
-      - "[CHAIN] 🇺🇸3-hamedp71- § 16"
-      - "[CHAIN] 🇨🇦-hamedp71- § 17"
-      - "[CHAIN] 🇷🇺-hamedp71- § 18"
-      - DIRECT
 
   - name: "عمو زنجیر باف"
     type: relay
