@@ -2599,9 +2599,9 @@ proxy-groups:
       - "⛓️🇷🇺-hamedp71- § 18"
       - DIRECT
 
-- name: RELAY-ALL
-  type: relay
-  proxies:
+  - name: RELAY-ALL
+    type: relay
+    proxies:
       - VLESS-Entry
       - "⛓️🇺🇸-hamedp71- § 0"
       - "⛓️🇵🇾-hamedp71- § 1"
@@ -2621,6 +2621,7 @@ proxy-groups:
       - "⛓️🇺🇸3-hamedp71- § 16"
       - "⛓️🇨🇦-hamedp71- § 17"
       - "⛓️🇷🇺-hamedp71- § 18"
+      - DIRECT
 
   - name: "⛓️🇺🇸-hamedp71- § 0"
     type: relay
