@@ -202,14 +202,12 @@ proxies:
     password: "p9z5BVADH2YFs3MN"
     udp: true
 
-  - name: "🇸🇪-hamedp71"
+- name: "🇸🇪-hamedp71"
     type: hysteria2
     server: drhystuichdfy.samanidempire.org
     port: 20335
     password: 80747420-96c4-4a2f-83e6-eea4e46beb09
     sni: drhystuichdfy.samanidempire.org
-    alpn:
-      - h3
     obfs: salamander
     obfs-password: U1wBrYQyFm
   
