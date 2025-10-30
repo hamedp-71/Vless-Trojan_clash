@@ -221,7 +221,7 @@ proxies:
     sni: hsdg.huasuan666.top
     skip-cert-verify: true
 
-  - name: "🇬🇧 hamedp71"
+  - name: "🇬🇧 hamedp71 13"
     type: hysteria2
     server: 81.168.83.89
     port: 2083
@@ -2346,7 +2346,7 @@ proxy-groups:
       - "🇦🇲 Armenia - 1"
       - "🇸🇪-hamedp71"
       - "🇩🇪 hamedp71 1"
-      - "🇬🇧 hamedp71"
+      - "🇬🇧 hamedp71 13"
       - "🇩🇪 hamedp71 2"
       - "🇭🇰 - hamedp71"
       - "hamedp71-🇵🇱-47"
@@ -2381,7 +2381,7 @@ proxy-groups:
       - "🇦🇲 Armenia - 1"
       - "🇸🇪-hamedp71"
       - "🇩🇪 hamedp71 1"
-      - "🇬🇧 hamedp71"
+      - "🇬🇧 hamedp71 13"
       - "🇩🇪 hamedp71 2"
       - "🇭🇰 - hamedp71"
       - "hamedp71-🇵🇱-47"
@@ -2475,7 +2475,7 @@ proxy-groups:
       - "🇦🇲 Armenia - 1"
       - "🇸🇪-hamedp71"
       - "🇩🇪 hamedp71 1"
-      - "🇬🇧 hamedp71"
+      - "🇬🇧 hamedp71 13"
       - "🇩🇪 hamedp71 2"
       - "🇭🇰 - hamedp71"
       - "hamedp71-🇵🇱-47"
