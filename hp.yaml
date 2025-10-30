@@ -209,7 +209,6 @@ proxies:
       path: "/ed=2560?/"
       headers:
         Host: azadnet-4n9.pages.dev
-
 # --- پراکسی‌های زنجیره‌ای با استفاده از dialer-proxy ---
   - name: "🇺🇸-hamedp71- § 0"
     type: ss
@@ -429,6 +428,7 @@ proxies:
     obfs: salamander
     obfs-password: "khameniiko@smad@ret"
     skip-cert-verify: true
+    dialer-proxy: "🇩🇪 anytls-443"
 
   - name: "🇺🇸 hamedp71 - 8"
     type: hysteria2
