@@ -194,6 +194,136 @@ proxies:
     cipher: aes-256-cfb
     password: "p9z5BVADH2YFs3MN"
     udp: true
+
+  - name: "VLESS-Entry"
+    type: vless
+    server: 185.135.9.17
+    port: 443
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    network: ws
+    tls: true
+    udp: true
+    client-fingerprint: chrome
+    servername: azadnet-4n9.pages.dev
+    ws-opts:
+      path: "/ed=2560?/"
+      headers:
+        Host: azadnet-4n9.pages.dev
+  - name: "🇺🇸-hamedp71- § 0"
+    type: ss
+    server: 37.19.198.244
+    port: 443
+    cipher: aes-128-gcm
+    password: "shadowsocks"
+  - name: "🇵🇾-hamedp71- § 1"
+    type: ss
+    server: 195.181.160.6
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: "f8f7aCzcPKbsF8p3"
+  - name: "🇬🇧-hamedp71- § 2"
+    type: ss
+    server: 141.98.101.181
+    port: 443
+    cipher: aes-128-gcm
+    password: "shadowsocks"
+  - name: "🇵🇱-hamedp71- § 3"
+    type: ss
+    server: 217.30.10.18
+    port: 9026
+    cipher: aes-256-cfb
+    password: "QWDDvVE9npNurQfA"
+  - name: "🇨🇦2-hamedp71- § 4"
+    type: ss
+    server: 142.4.216.225
+    port: 80
+    cipher: chacha20-ietf-poly1305
+    password: "JIhN6rBKkaEboLNXVSv5rq"
+  - name: "🇺🇸2-hamedp71- § 5"
+    type: ss
+    server: 156.146.38.170
+    port: 443
+    cipher: aes-128-gcm
+    password: "shadowsocks"
+  - name: "🇸🇬-hamedp71- § 6"
+    type: ss
+    server: 203.23.128.33
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: "f8f7aCzcPKbsF8p3"
+  - name: "🇳🇱-hamedp71- § 7"
+    type: ss
+    server: 193.29.139.164
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: "4a2rfixophdjffa8KVA4Aa"
+  - name: "🇫🇮-hamedp71- § 8"
+    type: ss
+    server: 89.35.119.87
+    port: 5904
+    cipher: chacha20-ietf-poly1305
+    password: "5TZnwPb23pQS39lIucspJw"
+  - name: "🇪🇸-hamedp71- § 9"
+    type: ss
+    server: 45.154.206.192
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: "f8f7aCzcPKbsF8p3"
+  - name: "🇮🇳-hamedp71- § 10"
+    type: ss
+    server: 82.180.146.173
+    port: 30607
+    cipher: aes-128-gcm
+    password: "162629d7-cb17-43b1-82c9-f9c7ae6cba70"
+  - name: "🇩🇪-hamedp71- § 11"
+    type: ss
+    server: 51.195.119.47
+    port: 1080
+    cipher: chacha20-ietf-poly1305
+    password: "qXvO7zYU7KeaB0Md7DQLow"
+  - name: "🇯🇵-hamedp71- § 12"
+    type: ss
+    server: 149.22.87.204
+    port: 443
+    cipher: aes-128-gcm
+    password: "shadowsocks"
+  - name: "🇳🇱-hamedp71- § 13"
+    type: ss
+    server: 45.158.171.66
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+  - name: "🇨🇦 -hamedp71- § 14"
+    type: ss
+    server: 64.74.163.82
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: "f8f7aCzcPKbsF8p3"
+  - name: "🇹🇷-hamedp71- § 15"
+    type: ss
+    server: 185.123.101.241
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: "f8f7aCzcPKbsF8p3"
+  - name: "🇺🇸3-hamedp71- § 16"
+    type: ss
+    server: 173.244.56.6
+    port: 443
+    cipher: aes-128-gcm
+    password: "shadowsocks"
+  - name: "🇨🇦-hamedp71- § 17"
+    type: ss
+    server: 142.4.216.225
+    port: 80
+    cipher: chacha20-ietf-poly1305
+    password: "JIhN6rBKkaEboLNXVSv5rq"
+  - name: "🇷🇺-hamedp71- § 18"
+    type: ss
+    server: 185.126.239.250
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: "f8f7aCzcPKbsF8p3"
+    
   
   - name: "🇩🇪 hamedp71 1"
     type: hysteria2
@@ -2466,6 +2596,129 @@ proxy-groups:
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
       - "hamedp71-🇵🇱-68"
+
+  - name: "🔗 Chained - hamedp71"
+    type: selector
+    proxies:
+      - "[CHAIN] 🇺🇸-hamedp71- § 0"
+      - "[CHAIN] 🇵🇾-hamedp71- § 1"
+      - "[CHAIN] 🇬🇧-hamedp71- § 2"
+      - "[CHAIN] 🇵🇱-hamedp71- § 3"
+      - "[CHAIN] 🇨🇦2-hamedp71- § 4"
+      - "[CHAIN] 🇺🇸2-hamedp71- § 5"
+      - "[CHAIN] 🇸🇬-hamedp71- § 6"
+      - "[CHAIN] 🇳🇱-hamedp71- § 7"
+      - "[CHAIN] 🇫🇮-hamedp71- § 8"
+      - "[CHAIN] 🇪🇸-hamedp71- § 9"
+      - "[CHAIN] 🇮🇳-hamedp71- § 10"
+      - "[CHAIN] 🇩🇪-hamedp71- § 11"
+      - "[CHAIN] 🇯🇵-hamedp71- § 12"
+      - "[CHAIN] 🇳🇱-hamedp71- § 13"
+      - "[CHAIN] 🇨🇦 -hamedp71- § 14"
+      - "[CHAIN] 🇹🇷-hamedp71- § 15"
+      - "[CHAIN] 🇺🇸3-hamedp71- § 16"
+      - "[CHAIN] 🇨🇦-hamedp71- § 17"
+      - "[CHAIN] 🇷🇺-hamedp71- § 18"
+      - DIRECT
+
+  - name: "عمو زنجیر باف"
+    type: relay
+    proxies:
+  - name: "[CHAIN] 🇺🇸-hamedp71- § 0"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇺🇸-hamedp71- § 0"
+  - name: "[CHAIN] 🇵🇾-hamedp71- § 1"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇵🇾-hamedp71- § 1"
+  - name: "[CHAIN] 🇬🇧-hamedp71- § 2"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇬🇧-hamedp71- § 2"
+  - name: "[CHAIN] 🇵🇱-hamedp71- § 3"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇵🇱-hamedp71- § 3"
+  - name: "[CHAIN] 🇨🇦2-hamedp71- § 4"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇨🇦2-hamedp71- § 4"
+  - name: "[CHAIN] 🇺🇸2-hamedp71- § 5"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇺🇸2-hamedp71- § 5"
+  - name: "[CHAIN] 🇸🇬-hamedp71- § 6"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇸🇬-hamedp71- § 6"
+  - name: "[CHAIN] 🇳🇱-hamedp71- § 7"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇳🇱-hamedp71- § 7"
+  - name: "[CHAIN] 🇫🇮-hamedp71- § 8"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇫🇮-hamedp71- § 8"
+  - name: "[CHAIN] 🇪🇸-hamedp71- § 9"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇪🇸-hamedp71- § 9"
+  - name: "[CHAIN] 🇮🇳-hamedp71- § 10"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇮🇳-hamedp71- § 10"
+  - name: "[CHAIN] 🇩🇪-hamedp71- § 11"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇩🇪-hamedp71- § 11"
+  - name: "[CHAIN] 🇯🇵-hamedp71- § 12"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇯🇵-hamedp71- § 12"
+  - name: "[CHAIN] 🇳🇱-hamedp71- § 13"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇳🇱-hamedp71- § 13"
+  - name: "[CHAIN] 🇨🇦 -hamedp71- § 14"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇨🇦 -hamedp71- § 14"
+  - name: "[CHAIN] 🇹🇷-hamedp71- § 15"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇹🇷-hamedp71- § 15"
+  - name: "[CHAIN] 🇺🇸3-hamedp71- § 16"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇺🇸3-hamedp71- § 16"
+  - name: "[CHAIN] 🇨🇦-hamedp71- § 17"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇨🇦-hamedp71- § 17"
+  - name: "[CHAIN] 🇷🇺-hamedp71- § 18"
+    type: relay
+    proxies:
+      - VLESS-Entry
+      - "🇷🇺-hamedp71- § 18"
       
 rule-providers:
   malware:
