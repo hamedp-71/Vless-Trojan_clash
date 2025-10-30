@@ -2590,7 +2590,7 @@ proxy-groups:
   - name: "⛓️عمو زنجیر باف⛓️"
     type: relay
     proxies:
-      - VLESS-Entry
+      - "VLESS-Entry"
       - "⛓️🇺🇸-hamedp71- § 0"
       - "⛓️🇵🇾-hamedp71- § 1"
       - "⛓️🇬🇧-hamedp71- § 2"
