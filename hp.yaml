@@ -28,22 +28,18 @@ dns:
   respect-rules: true
   use-hosts: true
   use-system-hosts: false
-  
   nameserver:
     - 'https://1.1.1.1/dns-query'
     - 'https://8.8.8.8/dns-query'
     - 'https://dns.quad9.net/dns-query'
-
   proxy-server-nameserver:
     - '178.22.122.100' # شکن
     - '185.51.200.2'   # شکن
     - '10.202.10.10'   # رادار
     - '10.202.10.11'   # رادار
-
   nameserver-policy:
     'domain:+.ir': [proxy-server-nameserver]
     'all': [nameserver]
-
   fallback-filter:
   geoip: true
   geoip-code: IR
@@ -53,7 +49,6 @@ dns:
     - 'cn'
   domain:
     - '+.ir'
-
 tun:
   enable: true
   stack: gvisor
@@ -261,15 +256,37 @@ proxies:
     obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: false
 
-  - name: "🇳🇱 hamedp71 - 5"
+  - name: "🇺🇸-hamedp71 1"
     type: hysteria2
-    server: 206.71.158.37
-    port: 35000
-    password: "Yet-Another-Public-Config-1"
-    sni: "YAPC-1.afshin.ir"
-    obfs: salamander
-    obfs-password: "Yet-Another-Public-Config-1"
-    skip-cert-verify: false
+    server: 104.250.239.32
+    port: 49425
+    auth: 9c859345-959f-491b-b6fc-65cd7a57aeb3
+    sni: real.getafreenode.sbs
+    # udp: true # Hysteria2 by default is UDP-based. This line is usually not needed.
+  - name: "🇺🇸-hamedp71 2"
+    type: hysteria2
+    server: 104.250.239.32
+    port: 49425
+    auth: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
+    sni: real.getafreenode.sbs
+  - name: "🇺🇸-hamedp71 3"
+    type: hysteria2
+    server: 104.250.239.32
+    port: 49425
+    auth: 23125f6e-ec56-4c26-9714-0bbacdb53d01
+    sni: real.getafreenode.sbs
+  - name: "🇺🇸-hamedp71 4"
+    type: hysteria2
+    server: 104.250.239.32
+    port: 49425
+    auth: 942b9cb8-92fa-46ac-ae91-f69c8234434b
+    sni: real.getafreenode.sbs
+  - name: "🇺🇸-hamedp71 5"
+    type: hysteria2
+    server: 104.250.239.32
+    port: 49425
+    auth: 5eaa121d-4362-444d-8219-29b02c35303a
+    sni: real.getafreenode.sbs
 
   - name: "🇳🇱 hamedp71 - 6"
     type: hysteria2
@@ -2323,12 +2340,16 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
-      - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
+      - "🇺🇸-hamedp71 1"
+      - "🇺🇸-hamedp71 2"
+      - "🇺🇸-hamedp71 3"
+      - "🇺🇸-hamedp71 4"
+      - "🇺🇸-hamedp71 5"
       - "hamedp71-🇵🇱-45"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
@@ -2354,7 +2375,6 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
-      - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
@@ -2362,6 +2382,11 @@ proxy-groups:
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
+      - "🇺🇸-hamedp71 1"
+      - "🇺🇸-hamedp71 2"
+      - "🇺🇸-hamedp71 3"
+      - "🇺🇸-hamedp71 4"
+      - "🇺🇸-hamedp71 5"
       - "hamedp71-🇵🇱-45"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
@@ -2446,7 +2471,6 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
-      - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
@@ -2454,6 +2478,11 @@ proxy-groups:
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
+      - "🇺🇸-hamedp71 1"
+      - "🇺🇸-hamedp71 2"
+      - "🇺🇸-hamedp71 3"
+      - "🇺🇸-hamedp71 4"
+      - "🇺🇸-hamedp71 5"
       - "hamedp71-🇵🇱-45"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
