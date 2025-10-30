@@ -202,7 +202,50 @@ proxies:
     password: "p9z5BVADH2YFs3MN"
     udp: true
 
+  - name: "🇸🇪-hamedp71"
+    type: hysteria2
+    server: drhystuichdfy.samanidempire.org
+    port: 20335
+    password: 80747420-96c4-4a2f-83e6-eea4e46beb09
+    sni: drhystuichdfy.samanidempire.org
+    alpn:
+      - h3
+    obfs: salamander
+    obfs-password: U1wBrYQyFm
+  
+  - name: "🇩🇪 hamedp71"
+    type: hysteria2
+    server: hsdg.huasuan666.top
+    port: 22155
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    sni: hsdg.huasuan666.top
+    skip-cert-verify: true
 
+  - name: "🇬🇧 hamedp71"
+    type: hysteria2
+    server: 81.168.83.89
+    port: 2083
+    password: YwuvGJk36B
+    sni: kotlet.arshiacomplus.dpdns.org
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: "khameniiko@smad@ret"
+
+  - name: "🇩🇪 hamedp71 2"
+    type: hysteria2
+    server: 213.108.198.123
+    port: 22155
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    sni: hsdg.huasuan666.top
+    skip-cert-verify: true
+
+  - name: "🇭🇰 - hamedp71"
+    type: hysteria2
+    server: 103.136.150.23
+    port: 22153
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    sni: hsxg.huasuan666.top
+    skip-cert-verify: true
     
   - name: "🇳🇱 hamedp71 - 1"
     type: hysteria2
@@ -2301,6 +2344,11 @@ proxy-groups:
       - "🇬🇧 hamedp71 - 9"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
+      - "🇸🇪-hamedp71"
+      - "🇩🇪 hamedp71"
+      - "🇬🇧 hamedp71"
+      - "🇩🇪 hamedp71 2"
+      - "🇭🇰 - hamedp71"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -2331,6 +2379,11 @@ proxy-groups:
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
+      - "🇸🇪-hamedp71"
+      - "🇩🇪 hamedp71"
+      - "🇬🇧 hamedp71"
+      - "🇩🇪 hamedp71 2"
+      - "🇭🇰 - hamedp71"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -2420,6 +2473,11 @@ proxy-groups:
       - "hamedp71-🇫🇷-2"
       - "🇹🇷 hamedp71 - ss"
       - "🇦🇲 Armenia - 1"
+      - "🇸🇪-hamedp71"
+      - "🇩🇪 hamedp71"
+      - "🇬🇧 hamedp71"
+      - "🇩🇪 hamedp71 2"
+      - "🇭🇰 - hamedp71"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
