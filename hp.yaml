@@ -2440,8 +2440,8 @@ proxy-groups:
   - name: "💚خانه"
     type: select
     proxies: 
-      - "عمو زنجیر باف"
       - "اختصاصی ❤️ خودکار"
+      - "⛓️عمو زنجیر باف⛓️"
       - "🤍 وارپ"
       - "🔗 پایدار"
       - "🇩🇪 ShadowTLS-Proxy"
@@ -2460,6 +2460,24 @@ proxy-groups:
       - "🇬🇧 hamedp71 13"
       - "🇩🇪 hamedp71 2"
       - "🇭🇰 - hamedp71"
+      - "🇺🇸-hamedp71- § 0"
+      - "🇵🇾-hamedp71- § 1"
+      - "🇬🇧-hamedp71- § 2"
+      - "🇵🇱-hamedp71- § 3"
+      - "🇨🇦2-hamedp71- § 4"
+      - "🇺🇸2-hamedp71- § 5"
+      - "🇸🇬-hamedp71- § 6"
+      - "🇳🇱-hamedp71- § 7"
+      - "🇫🇮-hamedp71- § 8"
+      - "🇪🇸-hamedp71- § 9"
+      - "🇮🇳-hamedp71- § 10"
+      - "🇩🇪-hamedp71- § 11"
+      - "🇯🇵-hamedp71- § 12"
+      - "🇳🇱-hamedp71- § 13"
+      - "🇨🇦 -hamedp71- § 14"
+      - "🇹🇷-hamedp71- § 15"
+      - "🇺🇸3-hamedp71- § 16"
+      - "🇨🇦-hamedp71- § 17"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -2601,26 +2619,25 @@ proxy-groups:
   - name: "عمو زنجیر باف"
     type: relay
     proxies:
-      - "[CHAIN] 🇺🇸-hamedp71- § 0"
-      - "[CHAIN] 🇵🇾-hamedp71- § 1"
-      - "[CHAIN] 🇬🇧-hamedp71- § 2"
-      - "[CHAIN] 🇵🇱-hamedp71- § 3"
-      - "[CHAIN] 🇨🇦2-hamedp71- § 4"
-      - "[CHAIN] 🇺🇸2-hamedp71- § 5"
-      - "[CHAIN] 🇸🇬-hamedp71- § 6"
-      - "[CHAIN] 🇳🇱-hamedp71- § 7"
-      - "[CHAIN] 🇫🇮-hamedp71- § 8"
-      - "[CHAIN] 🇪🇸-hamedp71- § 9"
-      - "[CHAIN] 🇮🇳-hamedp71- § 10"
-      - "[CHAIN] 🇩🇪-hamedp71- § 11"
-      - "[CHAIN] 🇯🇵-hamedp71- § 12"
-      - "[CHAIN] 🇳🇱-hamedp71- § 13"
-      - "[CHAIN] 🇨🇦 -hamedp71- § 14"
-      - "[CHAIN] 🇹🇷-hamedp71- § 15"
-      - "[CHAIN] 🇺🇸3-hamedp71- § 16"
-      - "[CHAIN] 🇨🇦-hamedp71- § 17"
-      - "[CHAIN] 🇷🇺-hamedp71- § 18"
-    
+      - "🇺🇸-hamedp71- § 0"
+      - "🇵🇾-hamedp71- § 1"
+      - "🇬🇧-hamedp71- § 2"
+      - "🇵🇱-hamedp71- § 3"
+      - "🇨🇦2-hamedp71- § 4"
+      - "🇺🇸2-hamedp71- § 5"
+      - "🇸🇬-hamedp71- § 6"
+      - "🇳🇱-hamedp71- § 7"
+      - "🇫🇮-hamedp71- § 8"
+      - "🇪🇸-hamedp71- § 9"
+      - "🇮🇳-hamedp71- § 10"
+      - "🇩🇪-hamedp71- § 11"
+      - "🇯🇵-hamedp71- § 12"
+      - "🇳🇱-hamedp71- § 13"
+      - "🇨🇦 -hamedp71- § 14"
+      - "🇹🇷-hamedp71- § 15"
+      - "🇺🇸3-hamedp71- § 16"
+      - "🇨🇦-hamedp71- § 17"
+
   - name: "[CHAIN] 🇺🇸-hamedp71- § 0"
     type: relay
     proxies:
@@ -2711,11 +2728,6 @@ proxy-groups:
     proxies:
       - VLESS-Entry
       - "🇨🇦-hamedp71- § 17"
-  - name: "[CHAIN] 🇷🇺-hamedp71- § 18"
-    type: relay
-    proxies:
-      - VLESS-Entry
-      - "🇷🇺-hamedp71- § 18"
       
 rule-providers:
   malware:
