@@ -442,6 +442,7 @@ proxies:
     sni: net2025.afsharidempire.uk
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
+    dialer-proxy: "🇩🇪 ShadowTLS-Proxy
     
   - name: "🇳🇱 NL-hysteria"
     type: hysteria
@@ -2454,6 +2455,7 @@ proxy-groups:
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
       - "hamedp71-🇳🇱-2"
+      - "🇳🇱 NL-hysteria"
       - "hamedp71-🇫🇷-2"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
@@ -2549,6 +2551,7 @@ proxy-groups:
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
       - "hamedp71-🇳🇱-2"
+      - "🇳🇱 NL-hysteria"
       - "hamedp71-🇫🇷-2"
       - "🇦🇲 Armenia - 1"
       - "🇩🇪 hamedp71 1"
