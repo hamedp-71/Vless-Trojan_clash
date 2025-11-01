@@ -2491,6 +2491,8 @@ proxy-groups:
     interval: 150
     tolerance: 60
     proxies:
+      - "🇩🇪 ShadowTLS-Proxy"
+      - "🇩🇪 anytls-443"
       - "🇺🇸-hamedp71- § 0"
       - "🇵🇾-hamedp71- § 1"
       - "🇬🇧-hamedp71- § 2"
