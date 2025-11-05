@@ -400,13 +400,6 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "4a2rfixophdjffa8KVA4Aa"
     dialer-proxy: "VLESS-Entry"
-  - name: "🇫🇮-hamedp71- § 8"
-    type: ss
-    server: 89.35.119.87
-    port: 5904
-    cipher: chacha20-ietf-poly1305
-    password: "5TZnwPb23pQS39lIucspJw"
-    dialer-proxy: "VLESS-Entry"
   - name: "🇪🇸-hamedp71- § 9"
     type: ss
     server: 45.154.206.192
@@ -472,33 +465,6 @@ proxies:
     dialer-proxy: "VLESS-Entry"
     
 #warp
-  - name: "🇩🇪 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "94.242.50.185"
-    port: 443
-    public-key: "Yom91OWyt0otz1S4hgQMhp1q1y8tpDvUWwVkNXpmpjc="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    dns: ["10.255.255.2"]
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    persistent-keepalive: 25
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 75
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
   - name: "🇦🇹 hamedp71"
     type: wireguard
     ip: "100.80.234.177/32"
@@ -905,58 +871,6 @@ proxies:
     udp: true
     mtu: 1280
     dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇨🇿 hamedp71-1"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: ""
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "185.246.210.3"
-    port: 443
-    public-key: "dAaOzl6DBAuFWC85UJUY378WwEHUoNqbE5lJMDfNamo="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    dns: ["10.255.255.2"]
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇫🇷 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "45.89.174.36"
-    port: 443
-    public-key: "3si2nD1DKbbkeZkdg3hLMfOYw1gdKbVFtTOj2NOA+nM="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    dns: ["10.255.255.2"]
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
@@ -1385,32 +1299,6 @@ proxies:
       h3: 3
       h4: 4
 
-  - name: "🇷🇺 hamedp71-1"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "188.124.42.116"
-    port: 65142
-    public-key: "gLPWBcPANL0mgwEkImb6PUJmR2ncz7S9DKIDDYvgJkk="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
   - name: "🇷🇺 hamedp71-2"
     type: wireguard
     ip: "100.80.234.177/32"
@@ -1462,32 +1350,6 @@ proxies:
       h2: 2
       h3: 3
       h4: 4
-
-  - name: "🇹🇼 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 185.189.163.176
-    port: 65142
-    public-key: "dAAkV3G3YFurH3+3198clav9vlh4FxB1asqNc0tLeCk="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
 
   - name: "🇸🇬 hamedp71"
     type: wireguard
@@ -1993,23 +1855,6 @@ proxy-groups:
       - "AR-hamedp71🇦🇷"
       - "NO-hamedp71🇳🇴"
       - "SE-hamedp71🇸🇪"
-      - "🇺🇸-hamedp71- § 0"
-      - "🇵🇾-hamedp71- § 1"
-      - "🇬🇧-hamedp71- § 2"
-      - "🇨🇦2-hamedp71- § 4"
-      - "🇺🇸2-hamedp71- § 5"
-      - "🇸🇬-hamedp71- § 6"
-      - "🇳🇱-hamedp71- § 7"
-      - "🇫🇮-hamedp71- § 8"
-      - "🇪🇸-hamedp71- § 9"
-      - "🇮🇳-hamedp71- § 10"
-      - "🇩🇪-hamedp71- § 11"
-      - "🇯🇵-hamedp71- § 12"
-      - "🇳🇱-hamedp71- § 13"
-      - "🇨🇦 -hamedp71- § 14"
-      - "🇹🇷-hamedp71- § 15"
-      - "🇺🇸3-hamedp71- § 16"
-      - "🇨🇦-hamedp71- § 17"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
@@ -2029,6 +1874,22 @@ proxy-groups:
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
       - "hamedp71-🇵🇱-68"
+      - "🇺🇸-hamedp71- § 0"
+      - "🇵🇾-hamedp71- § 1"
+      - "🇬🇧-hamedp71- § 2"
+      - "🇨🇦2-hamedp71- § 4"
+      - "🇺🇸2-hamedp71- § 5"
+      - "🇸🇬-hamedp71- § 6"
+      - "🇳🇱-hamedp71- § 7"
+      - "🇪🇸-hamedp71- § 9"
+      - "🇮🇳-hamedp71- § 10"
+      - "🇩🇪-hamedp71- § 11"
+      - "🇯🇵-hamedp71- § 12"
+      - "🇳🇱-hamedp71- § 13"
+      - "🇨🇦 -hamedp71- § 14"
+      - "🇹🇷-hamedp71- § 15"
+      - "🇺🇸3-hamedp71- § 16"
+      - "🇨🇦-hamedp71- § 17"
 
   - name: "🤍 وارپ"
     type: url-test
@@ -2036,7 +1897,6 @@ proxy-groups:
     interval: 60
     tolerance: 90
     proxies:
-      - "🇩🇪 hamedp71"
       - "🇦🇹 hamedp71"
       - "🇦🇺 hamedp71-1"
       - "🇦🇺 hamedp71-2"
@@ -2053,8 +1913,6 @@ proxy-groups:
       - "🇨🇭 hamedp71-1"
       - "🇨🇾 hamedp71"
       - "🇨🇿 hamedp71"
-      - "🇨🇿 hamedp71-1"
-      - "🇫🇷 hamedp71"
       - "🇫🇷 hamedp71-1"
       - "🇬🇧 hamedp71"
       - "🇭🇰 hamedp71"
@@ -2071,10 +1929,8 @@ proxy-groups:
       - "🇳🇴 hamedp71"
       - "🇳🇿 hamedp71"
       - "🇵🇦 hamedp71"
-      - "🇷🇺 hamedp71-1"
       - "🇷🇺 hamedp71-2"
       - "🇸🇪 hamedp71"
-      - "🇹🇼 hamedp71"
       - "🇸🇬 hamedp71"
       - "🇸🇬 hamedp71 1"
       - "🇺🇸 hamedp71 2"
@@ -2100,7 +1956,6 @@ proxy-groups:
       - "🇺🇸2-hamedp71- § 5"
       - "🇸🇬-hamedp71- § 6"
       - "🇳🇱-hamedp71- § 7"
-      - "🇫🇮-hamedp71- § 8"
       - "🇪🇸-hamedp71- § 9"
       - "🇮🇳-hamedp71- § 10"
       - "🇩🇪-hamedp71- § 11"
