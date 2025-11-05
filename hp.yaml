@@ -191,16 +191,7 @@ proxies:
     port: 50589
     cipher: chacha20-ietf-poly1305
     password: "e0AuSSE9kqrZnpK1RgcuPt"
-
-  - name: "🇬🇧 hamedp71 13"
-    type: hysteria2
-    server: 81.168.83.89
-    port: 2083
-    password: YwuvGJk36B
-    sni: kotlet.arshiacomplus.dpdns.org
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: "khameniiko@smad@ret"
+    
     
   - name: "🇳🇱 hamedp71 - 1"
     type: hysteria2
@@ -211,7 +202,6 @@ proxies:
     obfs: salamander
     obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: false
-
   - name: "🇳🇱 hamedp71 - 2"
     type: hysteria2
     server: 206.71.158.37
@@ -221,7 +211,6 @@ proxies:
     obfs: salamander
     obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: true
-
   - name: "🇳🇱 hamedp71 - 3"
     type: hysteria2
     server: 206.71.158.37
@@ -231,7 +220,6 @@ proxies:
     obfs: salamander
     obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: true
-
   - name: "🇳🇱 hamedp71 - 4"
     type: hysteria2
     server: 206.71.158.37
@@ -241,7 +229,6 @@ proxies:
     obfs: salamander
     obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: false
-
   - name: "🇳🇱 hamedp71 - 6"
     type: hysteria2
     server: 81.168.83.89
@@ -251,7 +238,24 @@ proxies:
     obfs: salamander
     obfs-password: "khameniiko@smad@ret"
     skip-cert-verify: true
-    
+  - name: "🇬🇧 hamedp71 - 9"
+    type: hysteria2
+    server: yapc-1.adamhayward.co.uk
+    port: 35000
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: true
+  - name: "🇬🇧 hamedp71 13"
+    type: hysteria2
+    server: 81.168.83.89
+    port: 2083
+    password: YwuvGJk36B
+    sni: kotlet.arshiacomplus.dpdns.org
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: "khameniiko@smad@ret"
 
 #لهستان
   - name: "hamedp71-🇵🇱-47"
@@ -1965,6 +1969,7 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
+      - "🇬🇧 hamedp71 - 9"
       - "🇬🇧 hamedp71 13"
       - "🇺🇸-hamedp71- § 0"
       - "🇵🇾-hamedp71- § 1"
@@ -2037,6 +2042,7 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
+      - "🇬🇧 hamedp71 - 9"
       - "🇬🇧 hamedp71 13"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
