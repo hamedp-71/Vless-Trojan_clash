@@ -93,6 +93,7 @@ proxies:
     tls: true
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
+    dialer-proxy: "VLESS-Entry"
 
   - name: "🇦🇲 Armenia - 1"
     type: vless
@@ -105,6 +106,7 @@ proxies:
     servername: vless.hubp.de
     client-fingerprint: chrome
     allowInsecure: true
+    dialer-proxy: "VLESS-Entry"
     ws-opts:
       path: "/snippets"
       headers:
@@ -442,7 +444,7 @@ proxies:
     sni: net2025.afsharidempire.uk
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
-    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
+    dialer-proxy: "VLESS-Entry"
 
   - name: "hamedp71-🇫🇷-2"
     type: hysteria2
@@ -451,7 +453,7 @@ proxies:
     password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
-    dialer-proxy: "🇩🇪 anytls-443"
+    dialer-proxy: "VLESS-Entry"
 
   - name: "🇩🇪 hamedp71"
     type: wireguard
