@@ -286,24 +286,7 @@ proxies:
     obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: true
 
-  - name: "hamedp71-🇳🇱-2"
-    type: hysteria2
-    server: net2025.afsharidempire.uk
-    port: 30205
-    password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
-    sni: net2025.afsharidempire.uk
-    obfs: salamander
-    obfs-password: GdQ4bgvT8RFwuWi2
-
-  - name: "hamedp71-🇫🇷-2"
-    type: hysteria2
-    server: 51.159.111.32
-    port: 5355
-    password: dongtaiwang.com
-    sni: www.bing.com
-    skip-cert-verify: true
-
-
+#لهستان
   - name: "hamedp71-🇵🇱-47"
     type: ss
     server: 217.30.10.70
@@ -2010,8 +1993,6 @@ proxy-groups:
       - "AR-hamedp71🇦🇷"
       - "NO-hamedp71🇳🇴"
       - "SE-hamedp71🇸🇪"
-      - "hamedp71-🇳🇱-2"
-      - "hamedp71-🇫🇷-2"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
@@ -2094,8 +2075,6 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
       - "🇬🇧 hamedp71 - 9"
-      - "hamedp71-🇳🇱-2"
-      - "hamedp71-🇫🇷-2"
       - "🇩🇪 hamedp71 1"
       - "🇬🇧 hamedp71 13"
       - "🇩🇪 hamedp71 2"
