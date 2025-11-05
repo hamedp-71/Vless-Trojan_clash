@@ -145,7 +145,7 @@ proxies:
     password: "c40641c1f89e7acb"
 
   # کانفیگ سوم - ایتالیا
-  - name: "IT-hamedp71🇮🇹"
+  - name: "DE-hamedp71🇩🇪"
     type: ss
     server: 176.126.83.158
     port: 990
@@ -166,7 +166,143 @@ proxies:
     server: 188.214.157.58
     port: 990
     cipher: chacha20-ietf-poly1305
+    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="   
+
+  # کانفیگ اول - آرژانتین
+  - name: "AR-hamedp71🇦🇷"
+    type: ss
+    server: 190.103.176.32
+    port: 990
+    cipher: chacha20-ietf-poly1305
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+
+  # کانفیگ دوم - نروژ
+  - name: "NO-hamedp71🇳🇴"
+    type: ss
+    server: 89.46.233.36
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+
+  # کانفیگ سوم - سوئد
+  - name: "SE-hamedp71🇸🇪"
+    type: ss
+    server: 78.40.116.11
+    port: 50589
+    cipher: chacha20-ietf-poly1305
+    password: "e0AuSSE9kqrZnpK1RgcuPt"
+  
+  - name: "🇩🇪 hamedp71 1"
+    type: hysteria2
+    server: hsdg.huasuan666.top
+    port: 22155
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    sni: hsdg.huasuan666.top
+    skip-cert-verify: true
+
+  - name: "🇬🇧 hamedp71 13"
+    type: hysteria2
+    server: 81.168.83.89
+    port: 2083
+    password: YwuvGJk36B
+    sni: kotlet.arshiacomplus.dpdns.org
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: "khameniiko@smad@ret"
+
+  - name: "🇩🇪 hamedp71 2"
+    type: hysteria2
+    server: 213.108.198.123
+    port: 22155
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    sni: hsdg.huasuan666.top
+    skip-cert-verify: true
+
+  - name: "🇭🇰 - hamedp71"
+    type: hysteria2
+    server: 103.136.150.23
+    port: 22153
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    sni: hsxg.huasuan666.top
+    skip-cert-verify: true
+    
+  - name: "🇳🇱 hamedp71 - 1"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36300
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: false
+
+  - name: "🇳🇱 hamedp71 - 2"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35000
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: true
+
+  - name: "🇳🇱 hamedp71 - 3"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36600
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: true
+
+  - name: "🇳🇱 hamedp71 - 4"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35200
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: false
+
+  - name: "🇳🇱 hamedp71 - 6"
+    type: hysteria2
+    server: 81.168.83.89
+    port: 2083
+    password: "YwuvGJk36B"
+    sni: ""
+    obfs: salamander
+    obfs-password: "khameniiko@smad@ret"
+    skip-cert-verify: true
+
+  - name: "🇬🇧 hamedp71 - 9"
+    type: hysteria2
+    server: yapc-1.adamhayward.co.uk
+    port: 35000
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: true
+
+  - name: "hamedp71-🇳🇱-2"
+    type: hysteria2
+    server: net2025.afsharidempire.uk
+    port: 30205
+    password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
+    sni: net2025.afsharidempire.uk
+    obfs: salamander
+    obfs-password: GdQ4bgvT8RFwuWi2
+
+  - name: "hamedp71-🇫🇷-2"
+    type: hysteria2
+    server: 51.159.111.32
+    port: 5355
+    password: dongtaiwang.com
+    sni: www.bing.com
+    skip-cert-verify: true
+
 
   - name: "hamedp71-🇵🇱-47"
     type: ss
@@ -252,6 +388,7 @@ proxies:
     cipher: aes-256-cfb
     password: "p9z5BVADH2YFs3MN"
     udp: true
+
 
   - name: "VLESS-Entry"
     type: vless
@@ -387,126 +524,6 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "JIhN6rBKkaEboLNXVSv5rq"
     dialer-proxy: "VLESS-Entry"
-    
-  
-  - name: "🇩🇪 hamedp71 1"
-    type: hysteria2
-    server: hsdg.huasuan666.top
-    port: 22155
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    sni: hsdg.huasuan666.top
-    skip-cert-verify: true
-
-  - name: "🇬🇧 hamedp71 13"
-    type: hysteria2
-    server: 81.168.83.89
-    port: 2083
-    password: YwuvGJk36B
-    sni: kotlet.arshiacomplus.dpdns.org
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: "khameniiko@smad@ret"
-
-  - name: "🇩🇪 hamedp71 2"
-    type: hysteria2
-    server: 213.108.198.123
-    port: 22155
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    sni: hsdg.huasuan666.top
-    skip-cert-verify: true
-
-  - name: "🇭🇰 - hamedp71"
-    type: hysteria2
-    server: 103.136.150.23
-    port: 22153
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    sni: hsxg.huasuan666.top
-    skip-cert-verify: true
-    
-  - name: "🇳🇱 hamedp71 - 1"
-    type: hysteria2
-    server: 206.71.158.37
-    port: 36300
-    password: "Yet-Another-Public-Config-1"
-    sni: "YAPC-1.afshin.ir"
-    obfs: salamander
-    obfs-password: "Yet-Another-Public-Config-1"
-    skip-cert-verify: false
-
-  - name: "🇳🇱 hamedp71 - 2"
-    type: hysteria2
-    server: 206.71.158.37
-    port: 35000
-    password: "Yet-Another-Public-Config-1"
-    sni: "YAPC-1.afshin.ir"
-    obfs: salamander
-    obfs-password: "Yet-Another-Public-Config-1"
-    skip-cert-verify: true
-
-  - name: "🇳🇱 hamedp71 - 3"
-    type: hysteria2
-    server: 206.71.158.37
-    port: 36600
-    password: "Yet-Another-Public-Config-1"
-    sni: "YAPC-1.afshin.ir"
-    obfs: salamander
-    obfs-password: "Yet-Another-Public-Config-1"
-    skip-cert-verify: true
-
-  - name: "🇳🇱 hamedp71 - 4"
-    type: hysteria2
-    server: 206.71.158.37
-    port: 35200
-    password: "Yet-Another-Public-Config-1"
-    sni: "YAPC-1.afshin.ir"
-    obfs: salamander
-    obfs-password: "Yet-Another-Public-Config-1"
-    skip-cert-verify: false
-
-  - name: "🇳🇱 hamedp71 - 6"
-    type: hysteria2
-    server: 81.168.83.89
-    port: 2083
-    password: "YwuvGJk36B"
-    sni: ""
-    obfs: salamander
-    obfs-password: "khameniiko@smad@ret"
-    skip-cert-verify: true
-
-  - name: "🇺🇸 hamedp71 - 8"
-    type: hysteria2
-    server: 108.165.213.197
-    port: 23891
-    password: "c232f411-96b5-4b07-b2f7-66a434725ffb"
-    sni: "fus01.mistea.top"
-    skip-cert-verify: true
-
-  - name: "🇬🇧 hamedp71 - 9"
-    type: hysteria2
-    server: yapc-1.adamhayward.co.uk
-    port: 35000
-    password: "Yet-Another-Public-Config-1"
-    sni: "YAPC-1.afshin.ir"
-    obfs: salamander
-    obfs-password: "Yet-Another-Public-Config-1"
-    skip-cert-verify: true
-
-  - name: "hamedp71-🇳🇱-2"
-    type: hysteria2
-    server: net2025.afsharidempire.uk
-    port: 30205
-    password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
-    sni: net2025.afsharidempire.uk
-    obfs: salamander
-    obfs-password: GdQ4bgvT8RFwuWi2
-
-  - name: "hamedp71-🇫🇷-2"
-    type: hysteria2
-    server: 51.159.111.32
-    port: 5355
-    password: dongtaiwang.com
-    sni: www.bing.com
-    skip-cert-verify: true
     
 #warp
   - name: "🇩🇪 hamedp71"
@@ -1990,6 +2007,9 @@ proxy-groups:
       - "IT-hamedp71🇮🇹"
       - "GB-hamedp71🇬🇧"
       - "MA-hamedp71🇲🇦"
+      - "AR-hamedp71🇦🇷"
+      - "NO-hamedp71🇳🇴"
+      - "SE-hamedp71🇸🇪"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       - "🇳🇱 hamedp71 - 1"
@@ -1997,7 +2017,6 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
-      - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
       - "🇩🇪 hamedp71 1"
       - "🇬🇧 hamedp71 13"
@@ -2049,6 +2068,9 @@ proxy-groups:
       - "IT-hamedp71🇮🇹"
       - "GB-hamedp71🇬🇧"
       - "MA-hamedp71🇲🇦"
+      - "AR-hamedp71🇦🇷"
+      - "NO-hamedp71🇳🇴"
+      - "SE-hamedp71🇸🇪"
       - "🇺🇸-hamedp71- § 0"
       - "🇵🇾-hamedp71- § 1"
       - "🇬🇧-hamedp71- § 2"
@@ -2071,7 +2093,6 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
-      - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
