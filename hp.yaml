@@ -120,7 +120,6 @@ proxies:
     skip-cert-verify: true
     network: tcp
 
-    
   # کانفیگ اول
   - name: "🇩🇪DE  hamedp71—372"
     type: ss
@@ -128,14 +127,6 @@ proxies:
     port: 990
     cipher: chacha20-ietf-poly1305
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-
-  # کانفیگ دوم
-  - name: "🇩🇪DE  hamedp71—340"
-    type: ss
-    server: 109.122.197.192
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "JNK7CvuvWTpF2Zi3d9ygt1"
     
 
   - name: "hamedp71-🇵🇱-47"
@@ -1955,7 +1946,6 @@ proxy-groups:
       - "hamedp71-01🇫🇷"
       - "hamedp71-02🇫🇷"
       - "🇩🇪DE  hamedp71—372"
-      - "🇩🇪DE  hamedp71—340"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       - "🇳🇱 hamedp71 - 1"
