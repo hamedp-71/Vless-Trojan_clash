@@ -95,6 +95,42 @@ proxies:
     servername: "suiany.makingirangreatagain.com"
     dialer-proxy: "VLESS-Entry"
 
+  # کانفیگ اول - نام رمزگشایی شده: hamedp71
+  - name: "hamedp71_01"
+    type: ssr
+    server: 62.100.205.48
+    port: 989
+    cipher: aes-256-cfb
+    password: "Zjh_mN2FDemNQUzJTajp3Mw" # این پسورد به صورت Base64 باقی می‌ماند
+    protocol: origin
+    obfs: plain
+    protocol-param: ""
+    obfs-param: ""
+
+  # کانفیگ دوم - نام رمزگشایی شده: hamedp71
+  - name: "hamedp71_02"
+    type: ssr
+    server: 150.107.46.21
+    port: 8083
+    cipher: aes-256-cfb
+    password: "aUZqnzScNO" # این پسورد به صورت Base64 باقی می‌ماند
+    protocol: origin
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: ""
+
+  # کانفیگ سوم - نام رمزگشایی شده: hamedp71
+  - name: "hamedp71_03"
+    type: ssr
+    server: 107.151.182.253
+    port: 8080
+    cipher: rc4-md5
+    password: "14fR`Pbe6E3HDZzsMOr6" # این پسورد به صورت Base64 باقی می‌ماند
+    protocol: origin
+    obfs: plain
+    protocol-param: ""
+    obfs-param: ""
+
   - name: "hamedp71-🇵🇱-47"
     type: ss
     server: 217.30.10.70
@@ -1911,6 +1947,9 @@ proxy-groups:
       - "🤍 وارپ"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
+      - "hamedp71_01"
+      - "hamedp71_02"
+      - "hamedp71_03"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
       - "🇳🇱 hamedp71 - 1"
