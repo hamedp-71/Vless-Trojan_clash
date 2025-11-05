@@ -127,15 +127,7 @@ proxies:
     port: 990
     cipher: chacha20-ietf-poly1305
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-    
-  # کانفیگ اول - ترکیه
-  - name: "TR-hamedp71🇹🇷"
-    type: ss
-    server: 5.188.36.93
-    port: 31348
-    cipher: chacha20-ietf-poly1305
-    password: "nYRhTCZdQLExK6ewVHgHS2mlv4FCysKyeyTTfhRdEgdeERN0"
-
+ 
   # کانفیگ دوم - ترکیه
   - name: "TR-hamedp71-01🇹🇷"
     type: ss
@@ -1956,7 +1948,6 @@ proxy-groups:
       - "hamedp71-01🇫🇷"
       - "hamedp71-02🇫🇷"
       - "🇩🇪DE  hamedp71—372"
-      - "TR-hamedp71🇹🇷"
       - "TR-hamedp71-01🇹🇷"
       - "DE-hamedp71🇩🇪"
       - "GB-hamedp71🇬🇧"
@@ -2012,7 +2003,6 @@ proxy-groups:
       - "hamedp71-01🇫🇷"
       - "hamedp71-02🇫🇷"
       - "🇩🇪DE  hamedp71—372"
-      - "TR-hamedp71🇹🇷"
       - "TR-hamedp71-01🇹🇷"
       - "DE-hamedp71🇩🇪"
       - "GB-hamedp71🇬🇧"
