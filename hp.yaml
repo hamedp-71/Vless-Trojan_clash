@@ -93,7 +93,6 @@ proxies:
     tls: true
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
-    dialer-proxy: "VLESS-Entry"
 
   - name: "hamedp71-🇨🇦"
     type: tuic
@@ -414,7 +413,6 @@ proxies:
     obfs: salamander
     obfs-password: "khameniiko@smad@ret"
     skip-cert-verify: true
-    dialer-proxy: "🇩🇪 anytls-443"
 
   - name: "🇺🇸 hamedp71 - 8"
     type: hysteria2
@@ -442,7 +440,6 @@ proxies:
     sni: net2025.afsharidempire.uk
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
-    dialer-proxy: "VLESS-Entry"
 
   - name: "hamedp71-🇫🇷-2"
     type: hysteria2
@@ -451,8 +448,8 @@ proxies:
     password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
-    dialer-proxy: "VLESS-Entry"
-
+    
+#warp
   - name: "🇩🇪 hamedp71"
     type: wireguard
     ip: "100.80.234.177/32"
