@@ -94,6 +94,33 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
+  # کانفیگ اول
+  - name: "hamedp71-01🇫🇷"
+    type: trojan
+    server: 51.44.233.53
+    port: 22222
+    password: "telegram-id-privatevpns"
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    # معادل allowInsecure=1
+    skip-cert-verify: true
+    network: tcp
+
+  # کانفیگ دوم
+  - name: "hamedp71-02🇫🇷"
+    type: trojan
+    server: 35.181.85.159
+    port: 22222
+    password: "telegram-id-privatevpns"
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    # معادل allowInsecure=1
+    skip-cert-verify: true
+    network: tcp
+
+#کانادا
   - name: "hamedp71-🇨🇦"
     type: tuic
     server: 40.233.77.57
@@ -1923,6 +1950,8 @@ proxy-groups:
       - "🤍 وارپ"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
+      - "hamedp71-01🇫🇷"
+      - "hamedp71-02🇫🇷"
       - "hamedp71-🇨🇦"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
