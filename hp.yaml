@@ -423,7 +423,7 @@ proxies:
     dialer-proxy: "VLESS-Entry"
     
 #warp
-- name: "🇳🇴NO#4-🇧🇪BE🇨🇭CH🇺🇸US"
+  - name: "🇳🇴NO#4-🇧🇪BE🇨🇭CH🇺🇸US"
     type: wireguard
     server: 95.173.205.164
     port: 51820
@@ -445,7 +445,7 @@ proxies:
       h3: 3
       h4: 4
 
-- name: "🇳🇴NO#3-🇨🇭CH🇺🇸US"
+  - name: "🇳🇴NO#3-🇨🇭CH🇺🇸US"
     type: wireguard
     server: 95.173.205.162
     port: 51820
