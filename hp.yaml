@@ -423,6 +423,50 @@ proxies:
     dialer-proxy: "VLESS-Entry"
     
 #warp
+- name: "🇳🇴NO#4-🇧🇪BE🇨🇭CH🇺🇸US"
+    type: wireguard
+    server: 95.173.205.164
+    port: 51820
+    ip: "10.2.0.2/32"
+    ipv6: "2002:a02:2::/128"
+    private-key: "+JNua6IqAxy8EEy5u7+944/tHETI2ZsV1fKbL0JXymg="
+    public-key: "gvATgChc03yBGWsC0m7YeKNiRVxlfqEhUucfoZ+n+X0="
+    allowed-ips: ["0.0.0.0/0", "::/0"]
+    dns: ["86.54.11.13", "86.54.11.11"]
+    udp: true
+    mtu: 1420
+    persistent-keepalive: 25
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
+- name: "🇳🇴NO#3-🇨🇭CH🇺🇸US"
+    type: wireguard
+    server: 95.173.205.162
+    port: 51820
+    ip: "10.2.0.2/32"
+    ipv6: "2002:a02:2::/128"
+    private-key: "eIP37hYagzQB0wh20HKfyLVLjVnWoxDpbOap3Z20vWo="
+    public-key: "jZ4R9rB/aiurfhPqm9XFyS9Euzdpwec//0rEz/bUPU0="
+    allowed-ips: ["0.0.0.0/0", "::/0"]
+    dns: ["86.54.11.13", "86.54.11.11"]
+    udp: true
+    mtu: 1420
+    persistent-keepalive: 25
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 70
+      h1: 1
+      h2: 2
+      h3: 3
+      h4: 4
+
   - name: "🇦🇹 hamedp71"
     type: wireguard
     ip: "100.80.234.177/32"
@@ -1847,6 +1891,8 @@ proxy-groups:
     interval: 60
     tolerance: 90
     proxies:
+      - "🇳🇴NO#4-🇧🇪BE🇨🇭CH🇺🇸US"
+      - "🇳🇴NO#3-🇨🇭CH🇺🇸US"
       - "🇦🇹 hamedp71"
       - "🇦🇺 hamedp71-1"
       - "🇦🇺 hamedp71-2"
