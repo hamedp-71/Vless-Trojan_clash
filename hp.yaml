@@ -434,7 +434,8 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     dns: ["86.54.11.13", "86.54.11.11"]
     udp: true
-    mtu: 1420
+    mtu: 1280
+    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
     persistent-keepalive: 25
     amnezia-wg-option:
       jc: 4
@@ -456,7 +457,8 @@ proxies:
     allowed-ips: ["0.0.0.0/0", "::/0"]
     dns: ["86.54.11.13", "86.54.11.11"]
     udp: true
-    mtu: 1420
+    mtu: 1280
+    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
     persistent-keepalive: 25
     amnezia-wg-option:
       jc: 4
