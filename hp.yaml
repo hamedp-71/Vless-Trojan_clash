@@ -1770,8 +1770,6 @@ proxy-groups:
     interval: 60
     tolerance: 90
     proxies:
-      - "🇳🇴NO#4-🇧🇪BE🇨🇭CH🇺🇸US"
-      - "🇳🇴NO#3-🇨🇭CH🇺🇸US"
       - "🇦🇹 hamedp71"
       - "🇦🇺 hamedp71-1"
       - "🇦🇺 hamedp71-2"
