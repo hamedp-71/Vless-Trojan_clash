@@ -1754,8 +1754,8 @@ proxy-groups:
   - name: "اتصال❤️خودکار"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: 150
-    tolerance: 60
+    interval: 30
+    tolerance: 120
     proxies:
       - "TUIC-hamedp71🇩🇪"
       - "TUIC-hamedp71-1🇩🇪"
