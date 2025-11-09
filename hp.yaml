@@ -156,23 +156,6 @@ proxies:
     port: 990
     cipher: chacha20-ietf-poly1305
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-
-  # کانفیگ دوم - نروژ
-  - name: "NO-hamedp71🇳🇴"
-    type: ss
-    server: 89.46.233.36
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-
-  # کانفیگ سوم - سوئد
-  - name: "SE-hamedp71🇸🇪"
-    type: ss
-    server: 78.40.116.11
-    port: 50589
-    cipher: chacha20-ietf-poly1305
-    password: "e0AuSSE9kqrZnpK1RgcuPt"
-    
     
   - name: "🇳🇱 hamedp71 - 1"
     type: hysteria2
@@ -218,15 +201,6 @@ proxies:
     sni: ""
     obfs: salamander
     obfs-password: "khameniiko@smad@ret"
-    skip-cert-verify: true
-  - name: "🇬🇧 hamedp71 - 9"
-    type: hysteria2
-    server: yapc-1.adamhayward.co.uk
-    port: 35000
-    password: "Yet-Another-Public-Config-1"
-    sni: "YAPC-1.afshin.ir"
-    obfs: salamander
-    obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: true
   - name: "🇬🇧 hamedp71 13"
     type: hysteria2
@@ -454,52 +428,6 @@ proxies:
     dialer-proxy: "VLESS-Entry"
     
 #warp
-  - name: "🇳🇴NO#4-🇧🇪BE🇨🇭CH🇺🇸US"
-    type: wireguard
-    server: 95.173.205.164
-    port: 51820
-    ip: "10.2.0.2/32"
-    ipv6: "2002:a02:2::/128"
-    private-key: "+JNua6IqAxy8EEy5u7+944/tHETI2ZsV1fKbL0JXymg="
-    public-key: "gvATgChc03yBGWsC0m7YeKNiRVxlfqEhUucfoZ+n+X0="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    dns: ["86.54.11.13", "86.54.11.11"]
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
-    persistent-keepalive: 25
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇳🇴NO#3-🇨🇭CH🇺🇸US"
-    type: wireguard
-    server: 95.173.205.162
-    port: 51820
-    ip: "10.2.0.2/32"
-    ipv6: "2002:a02:2::/128"
-    private-key: "eIP37hYagzQB0wh20HKfyLVLjVnWoxDpbOap3Z20vWo="
-    public-key: "jZ4R9rB/aiurfhPqm9XFyS9Euzdpwec//0rEz/bUPU0="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    dns: ["86.54.11.13", "86.54.11.11"]
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇩🇪 ShadowTLS-Proxy"
-    persistent-keepalive: 25
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
   - name: "🇦🇹 hamedp71"
     type: wireguard
     ip: "100.80.234.177/32"
@@ -1750,84 +1678,6 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇩🇪 Direct-VLESS"
-    type: vless
-    server: hdfynpv2d1.makingirangreatagain.com
-    port: 443
-    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
-    packet-encoding: xudp
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: hdfynpv2d1.makingirangreatagain.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
-      headers:
-        Host: hdfynpv2d1.makingirangreatagain.com
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇩🇪 AD-CDN-VLESS"
-    type: vless
-    server: hdfynpv2c1.farvaharforever.com
-    port: 443
-    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
-    packet-encoding: xudp
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: hdfynpv2c1.farvaharforever.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
-      headers:
-        Host: hdfynpv2c1.farvaharforever.com
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇩🇪 Telegram-VLESS"
-    type: vless
-    server: hdfynpv2d1.farvaharforever.com
-    port: 443
-    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
-    packet-encoding: xudp
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: hdfynpv2d1.farvaharforever.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
-      headers:
-        Host: hdfynpv2d1.farvaharforever.com
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-
 #Arista
 #Rayan
 #BPB
@@ -1846,13 +1696,10 @@ proxy-groups:
       - "GB-hamedp71🇬🇧"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
-      - "NO-hamedp71🇳🇴"
-      - "SE-hamedp71🇸🇪"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
-      - "🇳🇱 hamedp71 - 6"
       - "🇬🇧 hamedp71 - 9"
       - "🇬🇧 hamedp71 13"
       - "hamedp71-🇵🇱-47"
@@ -1882,14 +1729,11 @@ proxy-groups:
       - "GB-hamedp71🇬🇧"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
-      - "NO-hamedp71🇳🇴"
-      - "SE-hamedp71🇸🇪"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
-      - "🇬🇧 hamedp71 - 9"
       - "🇬🇧 hamedp71 13"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
