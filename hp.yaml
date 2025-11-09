@@ -133,14 +133,6 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
 
-  # کانفیگ چهارم - بریتانیا
-  - name: "GB-hamedp71🇬🇧"
-    type: ss
-    server: 57.129.140.88
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: "k1v5g9FefdoO"
-
   # کانفیگ پنجم - مراکش
   - name: "MA-hamedp71🇲🇦"
     type: ss
@@ -289,13 +281,6 @@ proxies:
     port: 9046
     cipher: aes-256-cfb
     password: "NvS8N4Vf8qAGPSCL"
-    udp: true
-  - name: "hamedp71-🇵🇱-68"
-    type: ss
-    server: 217.30.10.18
-    port: 9040
-    cipher: aes-256-cfb
-    password: "p9z5BVADH2YFs3MN"
     udp: true
 
 
@@ -1693,7 +1678,6 @@ proxy-groups:
       - "TUIC-hamedp71🇩🇪"
       - "TUIC-hamedp71-1🇩🇪"
       - "DE-hamedp71🇩🇪"
-      - "GB-hamedp71🇬🇧"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
       - "🇳🇱 hamedp71 - 1"
@@ -1713,7 +1697,6 @@ proxy-groups:
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
-      - "hamedp71-🇵🇱-68"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
 
@@ -1726,7 +1709,6 @@ proxy-groups:
       - "TUIC-hamedp71🇩🇪"
       - "TUIC-hamedp71-1🇩🇪"
       - "DE-hamedp71🇩🇪"
-      - "GB-hamedp71🇬🇧"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
       - "🇳🇱 hamedp71 - 1"
@@ -1746,7 +1728,6 @@ proxy-groups:
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
-      - "hamedp71-🇵🇱-68"
       - "🇺🇸-hamedp71- § 0"
       - "🇵🇾-hamedp71- § 1"
       - "🇬🇧-hamedp71- § 2"
