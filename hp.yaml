@@ -1723,11 +1723,6 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "⛓️عمو زنجیر باف⛓️"
       - "🤍 وارپ"
-      - "TUIC-hamedp71🇩🇪"
-      - "TUIC-hamedp71-1🇩🇪"
-      - "TUIC-hamedp71-2🇩🇪"
-      - "TUIC-🇩🇪 Dr-Anv-1"
-      - "TUIC-🇩🇪 Dr-Anv-2"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
@@ -1748,6 +1743,11 @@ proxy-groups:
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
+      - "TUIC-hamedp71🇩🇪"
+      - "TUIC-hamedp71-1🇩🇪"
+      - "TUIC-hamedp71-2🇩🇪"
+      - "TUIC-🇩🇪 Dr-Anv-1"
+      - "TUIC-🇩🇪 Dr-Anv-2"     
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
 
@@ -1757,11 +1757,6 @@ proxy-groups:
     interval: 30
     tolerance: 120
     proxies:
-      - "TUIC-hamedp71🇩🇪"
-      - "TUIC-hamedp71-1🇩🇪"
-      - "TUIC-hamedp71-2🇩🇪"
-      - "TUIC-🇩🇪 Dr-Anv-1"
-      - "TUIC-🇩🇪 Dr-Anv-2"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
@@ -1798,6 +1793,11 @@ proxy-groups:
       - "🇹🇷-hamedp71- § 15"
       - "🇺🇸3-hamedp71- § 16"
       - "🇨🇦-hamedp71- § 17"
+      - "TUIC-hamedp71🇩🇪"
+      - "TUIC-hamedp71-1🇩🇪"
+      - "TUIC-hamedp71-2🇩🇪"
+      - "TUIC-🇩🇪 Dr-Anv-1"
+      - "TUIC-🇩🇪 Dr-Anv-2"
 
   - name: "🤍 وارپ"
     type: url-test
