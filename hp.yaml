@@ -95,37 +95,35 @@ proxies:
     servername: "suiany.makingirangreatagain.com"
 
 
-  - name: "TUIC-hamedp71🇩🇪"
+  - name: TUIC-hamedp71🇩🇪
     type: tuic
     server: 217.160.125.125
     port: 14732
     uuid: db6d80b9-e5c5-4e56-a8ca-722ef5d86b52
-    password: "7adf542f542f808f0cb9053b70ac343f"
+    password: 7adf542f542f808f0cb9053b70ac343f
     sni: www.bing.com
     alpn:
       - h3
+    # مهم: این پارامتر جایگزین allow-insecure شده است
+    skip-cert-verify: true
     congestion_control: bbr
     udp_relay_mode: native
     reduce_rtt: true
-    max_udp_relay_packet_size: 8192
-    allow-insecure: true
-    disable_sni: false
 
-  - name: "TUIC-hamedp71-1🇩🇪"
+  - name: TUIC-hamedp71-1🇩🇪
     type: tuic
     server: 217.160.125.127
     port: 14853
     uuid: 86ad8f63-1302-410b-9fab-835d47776b5e
-    password: "f8c83c0399f1fd8fec5c27d20959a9aa"
+    password: f8c83c0399f1fd8fec5c27d20959a9aa
     sni: www.bing.com
     alpn:
       - h3
+    # مهم: این پارامتر جایگزین allow-insecure شده است
+    skip-cert-verify: true
     congestion_control: bbr
     udp_relay_mode: native
     reduce_rtt: true
-    max_udp_relay_packet_size: 8192
-    allow-insecure: true
-    disable_sni: false
 
   # کانفیگ سوم - ایتالیا
   - name: "DE-hamedp71🇩🇪"
