@@ -133,6 +133,64 @@ proxies:
     sni: "www.google.com"
     skip-cert-verify: true
 
+  - name: "🇹🇷 😎hamedp71 1"
+    type: hysteria2
+    server: kevin.vpny.online
+    port: 22002
+    password: "@KevinZakarian"
+    obfs: salamander
+    obfs-password: "KevinZakarian"
+    skip-cert-verify: true
+
+  - name: "🇺🇸 😎hamedp71 2"
+    type: hysteria2
+    server: 89.116.64.211
+    port: 11001
+    password: "4TImZd9aiT"
+    obfs: salamander
+    obfs-password: "KevinZakarian"
+    skip-cert-verify: true
+
+  - name: "🇫🇮 😎hamedp71 3"
+    type: hysteria2
+    server: channel1.saghetalaie.homes
+    port: 46914
+    password: "freehomesvpnchannel3"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.google.com"
+    skip-cert-verify: true
+
+  - name: "🇫🇷 😎hamedp71 4"
+    type: hysteria2
+    server: channel2.saghetalaie.homes
+    port: 46914
+    password: "freehomesvpnchannel3"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.google.com"
+    skip-cert-verify: true
+
+  - name: "🇳🇱 😎hamedp71 5"
+    type: hysteria2
+    server: channel3.saghetalaie.homes
+    port: 46914
+    password: "yhqy5AHofQq"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.bing.com"
+    skip-cert-verify: true
+
+  - name: "🇳🇱 😎hamedp71 6"
+    type: hysteria2
+    server: 206.71.158.23
+    port: 45000
+    password: "Telegram-->@Ln2Ray"
+    obfs: salamander
+    obfs-password: "Telegram-->@Ln2Ray"
+    sni: "gavazn.55994421.xyz"
+    skip-cert-verify: true
+
   - name: TUIC-hamedp71🇩🇪
     type: tuic
     server: 217.160.125.125
@@ -1765,6 +1823,12 @@ proxy-groups:
       - "🇫🇮🔥hamedp71🔥1"
       - "🇦🇺🔥hamedp71🔥2"
       - "🇳🇱🔥hamedp71🔥3"
+      - "🇹🇷 😎hamedp71 1"
+      - "🇺🇸 😎hamedp71 2"
+      - "🇫🇮 😎hamedp71 3"
+      - "🇫🇷 😎hamedp71 4"
+      - "🇳🇱 😎hamedp71 5"
+      - "🇳🇱 😎hamedp71 6"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
@@ -1799,10 +1863,16 @@ proxy-groups:
     interval: 30
     tolerance: 120
     proxies:
-      - "hy2-hamedp71🏴‍☠️"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇦🇺🔥hamedp71🔥2"
       - "🇳🇱🔥hamedp71🔥3"
+      - "🇹🇷 😎hamedp71 1"
+      - "🇺🇸 😎hamedp71 2"
+      - "🇫🇮 😎hamedp71 3"
+      - "🇫🇷 😎hamedp71 4"
+      - "🇳🇱 😎hamedp71 5"
+      - "🇳🇱 😎hamedp71 6"
+      - "hy2-hamedp71🏴‍☠️"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
