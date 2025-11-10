@@ -94,6 +94,14 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
+  - name: "hy2-hamedp71🇩🇪"
+    type: hysteria2
+    server: kevin.vpny.online
+    port: 22002
+    password: "@KevinZakarian"
+    obfs: salamander
+    obfs-password: "KevinZakarian"
+    skip-cert-verify: true
 
   - name: TUIC-hamedp71🇩🇪
     type: tuic
@@ -1723,6 +1731,7 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "⛓️عمو زنجیر باف⛓️"
       - "🤍 وارپ"
+      - "hy2-hamedp71🇩🇪"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
@@ -1757,6 +1766,7 @@ proxy-groups:
     interval: 30
     tolerance: 120
     proxies:
+      - "hy2-hamedp71🇩🇪"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
