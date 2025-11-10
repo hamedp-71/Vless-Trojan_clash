@@ -103,6 +103,36 @@ proxies:
     obfs-password: "KevinZakarian"
     skip-cert-verify: true
 
+  - name: "🇫🇮🔥hamedp71🔥1"
+    type: hysteria2
+    server: channel1.saghetalaie.homes
+    port: 46914
+    password: "freehomesvpnchannel3"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.google.com"
+    skip-cert-verify: true
+
+  - name: "🇦🇺🔥hamedp71🔥2"
+    type: hysteria2
+    server: channel2.saghetalaie.homes
+    port: 46914
+    password: "freehomesvpnchannel3"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.google.com"
+    skip-cert-verify: true
+
+  - name: "🇳🇱🔥hamedp71🔥3"
+    type: hysteria2
+    server: channel3.saghetalaie.homes
+    port: 46914
+    password: "yhqy5AHofQq"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.google.com"
+    skip-cert-verify: true
+
   - name: TUIC-hamedp71🇩🇪
     type: tuic
     server: 217.160.125.125
@@ -1732,6 +1762,9 @@ proxy-groups:
       - "⛓️عمو زنجیر باف⛓️"
       - "🤍 وارپ"
       - "hy2-hamedp71🇹🇷"
+      - "🇫🇮🔥hamedp71🔥1"
+      - "🇦🇺🔥hamedp71🔥2"
+      - "🇳🇱🔥hamedp71🔥3"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
@@ -1767,6 +1800,9 @@ proxy-groups:
     tolerance: 120
     proxies:
       - "hy2-hamedp71🇹🇷"
+      - "🇫🇮🔥hamedp71🔥1"
+      - "🇦🇺🔥hamedp71🔥2"
+      - "🇳🇱🔥hamedp71🔥3"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
