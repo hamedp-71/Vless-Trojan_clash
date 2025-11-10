@@ -191,49 +191,15 @@ proxies:
     sni: "gavazn.55994421.xyz"
     skip-cert-verify: true
 
-  - name: TUIC-hamedp71🇩🇪
-    type: tuic
-    server: 217.160.125.125
-    port: 14732
-    uuid: db6d80b9-e5c5-4e56-a8ca-722ef5d86b52
-    password: 7adf542f542f808f0cb9053b70ac343f
-    sni: www.bing.com
-    alpn:
-      - h3
-    # مهم: این پارامتر جایگزین allow-insecure شده است
-    skip-cert-verify: true
-    congestion_control: bbr
-    udp_relay_mode: native
-    reduce_rtt: true
-
-  - name: TUIC-hamedp71-1🇩🇪
-    type: tuic
-    server: 217.160.125.127
-    port: 14853
-    uuid: 86ad8f63-1302-410b-9fab-835d47776b5e
-    password: f8c83c0399f1fd8fec5c27d20959a9aa
-    sni: www.bing.com
-    alpn:
-      - h3
-    # مهم: این پارامتر جایگزین allow-insecure شده است
-    skip-cert-verify: true
-    congestion_control: bbr
-    udp_relay_mode: native
-    reduce_rtt: true
-
-  - name: TUIC-hamedp71-2🇩🇪
-    type: tuic
-    server: 217.160.125.128
-    port: 14713
-    uuid: 29e38174-279a-401e-b247-149409d0e81a
-    password: 7ec295f379c9bce0e9ee1bb56ec4b6c2
-    sni: www.bing.com
+  - name: "Hy2-hamedp71🇩🇪"
+    type: hysteria2
+    server: 212.227.65.132
+    port: 14850
+    password: "ieshare2025"
+    sni: "www.bing.com"
     alpn:
       - h3
     skip-cert-verify: true
-    congestion_control: bbr
-    udp_relay_mode: native
-    reduce_rtt: true
 
   - name: TUIC-🇩🇪 Dr-Anv-1
     type: tuic
@@ -1829,14 +1795,12 @@ proxy-groups:
       - "🇫🇷 😎hamedp71 4"
       - "🇳🇱 😎hamedp71 5"
       - "🇳🇱 😎hamedp71 6"
+      - "Hy2-hamedp71🇩🇪"
+      - "TUIC-🇩🇪 Dr-Anv-1"
+      - "TUIC-🇩🇪 Dr-Anv-2"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
-      - "AR-hamedp71🇦🇷"
-      - "TUIC-hamedp71🇩🇪"
-      - "TUIC-hamedp71-1🇩🇪"
-      - "TUIC-hamedp71-2🇩🇪"
-      - "TUIC-🇩🇪 Dr-Anv-1"
-      - "TUIC-🇩🇪 Dr-Anv-2"     
+      - "AR-hamedp71🇦🇷"  
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
@@ -1872,14 +1836,12 @@ proxy-groups:
       - "🇫🇷 😎hamedp71 4"
       - "🇳🇱 😎hamedp71 5"
       - "🇳🇱 😎hamedp71 6"
+      - "Hy2-hamedp71🇩🇪"
+      - "TUIC-🇩🇪 Dr-Anv-1"
+      - "TUIC-🇩🇪 Dr-Anv-2"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
-      - "TUIC-hamedp71🇩🇪"
-      - "TUIC-hamedp71-1🇩🇪"
-      - "TUIC-hamedp71-2🇩🇪"
-      - "TUIC-🇩🇪 Dr-Anv-1"
-      - "TUIC-🇩🇪 Dr-Anv-2"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
