@@ -201,6 +201,16 @@ proxies:
       - h3
     skip-cert-verify: true
 
+  - name: "Hy2-hamedp71-1🇩🇪"
+    type: hysteria2
+    server: 217.160.125.128
+    port: 14713
+    password: "ieshare2025"
+    sni: "www.bing.com"
+    alpn:
+      - h3
+    skip-cert-verify: true
+
   - name: "Hy2-🇩🇪 Dr-Anv-1"
     type: hysteria2
     server: 217.160.125.127
@@ -1772,6 +1782,7 @@ proxy-groups:
       - "🇳🇱 😎hamedp71 5"
       - "🇳🇱 😎hamedp71 6"
       - "Hy2-hamedp71🇩🇪"
+      - "Hy2-hamedp71-1🇩🇪"
       - "Hy2-🇩🇪 Dr-Anv-1"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
@@ -1812,6 +1823,7 @@ proxy-groups:
       - "🇳🇱 😎hamedp71 5"
       - "🇳🇱 😎hamedp71 6"
       - "Hy2-hamedp71🇩🇪"
+      - "Hy2-hamedp71-1🇩🇪"
       - "Hy2-🇩🇪 Dr-Anv-1"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
