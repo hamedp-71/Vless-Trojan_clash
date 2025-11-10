@@ -94,7 +94,7 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
-  - name: "hy2-hamedp71🇩🇪"
+  - name: "hy2-hamedp71🇹🇷"
     type: hysteria2
     server: kevin.vpny.online
     port: 22002
@@ -1731,7 +1731,7 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "⛓️عمو زنجیر باف⛓️"
       - "🤍 وارپ"
-      - "hy2-hamedp71🇩🇪"
+      - "hy2-hamedp71🇹🇷"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
@@ -1766,7 +1766,7 @@ proxy-groups:
     interval: 30
     tolerance: 120
     proxies:
-      - "hy2-hamedp71🇩🇪"
+      - "hy2-hamedp71🇹🇷"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
