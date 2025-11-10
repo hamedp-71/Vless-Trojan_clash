@@ -211,6 +211,16 @@ proxies:
       - h3
     skip-cert-verify: true
 
+  - name: "Hy2-hamedp71-2🇩🇪"
+    type: hysteria2
+    server: 87.106.82.84
+    port: 14197
+    password: "ieshare2025"
+    sni: "www.bing.com"
+    alpn:
+      - h3
+    skip-cert-verify: true
+
   - name: "Hy2-🇩🇪 Dr-Anv-1"
     type: hysteria2
     server: 217.160.125.127
@@ -1773,17 +1783,18 @@ proxy-groups:
       - "⛓️عمو زنجیر باف⛓️"
       - "hy2-hamedp71🏴‍☠️"
       - "🇫🇮🔥hamedp71🔥1"
-      - "🇦🇺🔥hamedp71🔥2"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇹🇷 😎hamedp71 1"
-      - "🇺🇸 😎hamedp71 2"
       - "🇫🇮 😎hamedp71 3"
-      - "🇫🇷 😎hamedp71 4"
       - "🇳🇱 😎hamedp71 5"
       - "🇳🇱 😎hamedp71 6"
       - "Hy2-hamedp71🇩🇪"
       - "Hy2-hamedp71-1🇩🇪"
+      - "Hy2-hamedp71-2🇩🇪"
       - "Hy2-🇩🇪 Dr-Anv-1"
+      - "🇦🇺🔥hamedp71🔥2"
+      - "🇺🇸 😎hamedp71 2"
+      - "🇫🇷 😎hamedp71 4"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"  
@@ -1814,17 +1825,18 @@ proxy-groups:
     tolerance: 120
     proxies:
       - "🇫🇮🔥hamedp71🔥1"
-      - "🇦🇺🔥hamedp71🔥2"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇹🇷 😎hamedp71 1"
-      - "🇺🇸 😎hamedp71 2"
       - "🇫🇮 😎hamedp71 3"
-      - "🇫🇷 😎hamedp71 4"
       - "🇳🇱 😎hamedp71 5"
       - "🇳🇱 😎hamedp71 6"
       - "Hy2-hamedp71🇩🇪"
       - "Hy2-hamedp71-1🇩🇪"
+      - "Hy2-hamedp71-2🇩🇪"
       - "Hy2-🇩🇪 Dr-Anv-1"
+      - "🇦🇺🔥hamedp71🔥2"
+      - "🇺🇸 😎hamedp71 2"
+      - "🇫🇷 😎hamedp71 4"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
