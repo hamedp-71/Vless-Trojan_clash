@@ -191,6 +191,18 @@ proxies:
     sni: "gavazn.55994421.xyz"
     skip-cert-verify: true
 
+  - name: "Dr-Anv 🇨🇦"
+    type: tuic
+    server: 40.233.77.57
+    port: 52434
+    uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+    password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+    sni: www.bing.com
+    alpn:
+      - h3
+    udp-relay-mode: native
+    congestion-controller: cubic
+    skip-cert-verify: true
 
   # کانفیگ سوم - ایتالیا
   - name: "DE-hamedp71🇩🇪"
@@ -1743,6 +1755,7 @@ proxy-groups:
       - "🤍 وارپ"
       - "⛓️عمو زنجیر باف⛓️"
       - "hy2-hamedp71🏴‍☠️"
+      - "Dr-Anv 🇨🇦"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇹🇷 😎hamedp71 1"
@@ -1781,6 +1794,7 @@ proxy-groups:
     interval: 30
     tolerance: 120
     proxies:
+      - "Dr-Anv 🇨🇦"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇹🇷 😎hamedp71 1"
