@@ -205,7 +205,7 @@ proxies:
     skip-cert-verify: true
 
   # کانفیگ سوم - ایتالیا
-  - name: "DE-hamedp71🇩🇪"
+  - name: "SS-hamedp71🇩🇪"
     type: ss
     server: 176.126.83.158
     port: 990
@@ -213,7 +213,7 @@ proxies:
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
 
   # کانفیگ پنجم - مراکش
-  - name: "MA-hamedp71🇲🇦"
+  - name: "SS-hamedp71🇲🇦"
     type: ss
     server: 188.214.157.58
     port: 990
@@ -221,7 +221,7 @@ proxies:
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="   
 
   # کانفیگ اول - آرژانتین
-  - name: "AR-hamedp71🇦🇷"
+  - name: "SS-hamedp71🇦🇷"
     type: ss
     server: 190.103.176.32
     port: 990
@@ -1765,15 +1765,15 @@ proxy-groups:
       - "🇦🇺🔥hamedp71🔥2"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇷 😎hamedp71 4"
-      - "MA-hamedp71🇲🇦"
+      - "SS-hamedp71🇲🇦"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
       - "🇬🇧 hamedp71 13"
-      - "DE-hamedp71🇩🇪"
-      - "AR-hamedp71🇦🇷"
+      - "SS-hamedp71🇩🇪"
+      - "SS-hamedp71🇦🇷"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -1804,15 +1804,15 @@ proxy-groups:
       - "🇦🇺🔥hamedp71🔥2"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇷 😎hamedp71 4"
-      - "MA-hamedp71🇲🇦"
+      - "SS-hamedp71🇲🇦"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
       - "🇬🇧 hamedp71 13"
-      - "DE-hamedp71🇩🇪"
-      - "AR-hamedp71🇦🇷"
+      - "SS-hamedp71🇩🇪"
+      - "SS-hamedp71🇦🇷"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
