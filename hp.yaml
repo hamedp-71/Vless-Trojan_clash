@@ -191,7 +191,7 @@ proxies:
     sni: "gavazn.55994421.xyz"
     skip-cert-verify: true
 
-  - name: "Dr-Anv 🇨🇦"
+  - name: Dr-Anv 🇨🇦
     type: tuic
     server: 40.233.77.57
     port: 52434
@@ -200,9 +200,10 @@ proxies:
     sni: www.bing.com
     alpn:
       - h3
-    udp-relay-mode: native
-    congestion-controller: cubic
+    # معادل allow_insecure=1
     skip-cert-verify: true
+    congestion_control: cubic
+    udp_relay_mode: native
 
   # کانفیگ سوم - ایتالیا
   - name: "SS-hamedp71🇩🇪"
