@@ -212,6 +212,9 @@ proxies:
     password: 2b195c17-5ff5-4b0d-a809-210b92212394
     sni: Singaporex-4.nezhasu.com
     skip-cert-verify: true
+    # اضافه کردن لایه مبهم‌سازی
+    obfs: salamander
+    obfs-password: 2b195c17-5ff5-4b0d-a809-210b92212394
 
   - name: 🇸🇬 hamedp71 ❤️ 2
     type: hysteria2
@@ -220,6 +223,8 @@ proxies:
     password: 2b195c17-5ff5-4b0d-a809-210b92212394
     sni: px4.nezhasu.com
     skip-cert-verify: true
+    obfs: salamander
+    obfs-password: 2b195c17-5ff5-4b0d-a809-210b92212394
 
   - name: 🇳🇱 hamedp71 ❤️ 3
     type: hysteria2
@@ -228,6 +233,8 @@ proxies:
     password: c232f411-96b5-4b07-b2f7-66a434725ffb
     sni: hl01.mistea.top
     skip-cert-verify: true
+    obfs: salamander
+    obfs-password: c232f411-96b5-4b07-b2f7-66a434725ffb
 
   - name: 🇲🇽 hamedp71 ❤️ 4
     type: hysteria2
@@ -236,6 +243,8 @@ proxies:
     password: 2b195c17-5ff5-4b0d-a809-210b92212394
     sni: gy6.nezhasu.com
     skip-cert-verify: true
+    obfs: salamander
+    obfs-password: 2b195c17-5ff5-4b0d-a809-210b92212394
 
   - name: 🇲🇽 hamedp71 ❤️ 5
     type: hysteria2
@@ -244,6 +253,8 @@ proxies:
     password: 2b195c17-5ff5-4b0d-a809-210b92212394
     sni: moxige1.nezhasu.com
     skip-cert-verify: true
+    obfs: salamander
+    obfs-password: 2b195c17-5ff5-4b0d-a809-210b92212394
 
   - name: 🇲🇽 hamedp71 ❤️ 6
     type: hysteria2
@@ -252,6 +263,8 @@ proxies:
     password: 2b195c17-5ff5-4b0d-a809-210b92212394
     sni: gy5.nezhasu.com
     skip-cert-verify: true
+    obfs: salamander
+    obfs-password: 2b195c17-5ff5-4b0d-a809-210b92212394
 
   - name: 🇩🇪 hamedp71 ❤️ 7
     type: hysteria2
@@ -260,6 +273,8 @@ proxies:
     password: 2b195c17-5ff5-4b0d-a809-210b92212394
     sni: falankefu1.nezhasu.com
     skip-cert-verify: true
+    obfs: salamander
+    obfs-password: 2b195c17-5ff5-4b0d-a809-210b92212394
 
   - name: 🇨🇦 hamedp71 ❤️ 8
     type: hysteria2
@@ -268,6 +283,8 @@ proxies:
     password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
     sni: "🔐"
     skip-cert-verify: true
+    obfs: salamander
+    obfs-password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
 
   # کانفیگ سوم - ایتالیا
   - name: "SS-hamedp71🇩🇪"
