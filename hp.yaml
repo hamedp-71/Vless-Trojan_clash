@@ -213,9 +213,9 @@ proxies:
     password: c232f411-96b5-4b07-b2f7-66a434725ffb
     sni: hl01.mistea.top
     skip-cert-verify: true
-    obfs: salamander
-    obfs-password: c232f411-96b5-4b07-b2f7-66a434725ffb
-    
+    up-speed: 50 mbps
+    down-speed: 200 mbps
+
 
   # کانفیگ سوم - ایتالیا
   - name: "SS-hamedp71🇩🇪"
