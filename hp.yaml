@@ -205,85 +205,16 @@ proxies:
     congestion_control: cubic
     udp_relay_mode: native
 
-  - name: 🇸🇬 hamedp71 ❤️ 1
-    type: hysteria2
-    server: 140.245.35.215
-    port: 443
-    password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    obfs: salamander
-    obfs-password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    sni: "Singaporex-4.nezhasu.com"
-    skip-cert-verify: true
 
-  - name: 🇸🇬 hamedp71 ❤️ 2
-    type: hysteria2
-    server: 140.245.47.133
-    port: 443
-    password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    obfs: salamander
-    obfs-password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    sni: "px4.nezhasu.com"
-    skip-cert-verify: true
-
-  - name: 🇳🇱 hamedp71 ❤️ 3
+  - name: 🇳🇱 hamedp71 ❤️
     type: hysteria2
     server: 193.142.59.41
     port: 23899
-    password: "c232f411-96b5-4b07-b2f7-66a434725ffb"
-    obfs: salamander
-    obfs-password: "c232f411-96b5-4b07-b2f7-66a434725ffb"
-    sni: "hl01.mistea.top"
+    password: c232f411-96b5-4b07-b2f7-66a434725ffb
+    sni: hl01.mistea.top
     skip-cert-verify: true
-
-  - name: 🇲🇽 hamedp71 ❤️ 4
-    type: hysteria2
-    server: 163.192.132.155
-    port: 443
-    password: "2b195c17-5ff5-4b0d-a809-210b92212394"
     obfs: salamander
-    obfs-password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    sni: "gy6.nezhasu.com"
-    skip-cert-verify: true
-
-  - name: 🇲🇽 hamedp71 ❤️ 5
-    type: hysteria2
-    server: 140.84.161.52
-    port: 443
-    password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    obfs: salamander
-    obfs-password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    sni: "moxige1.nezhasu.com"
-    skip-cert-verify: true
-
-  - name: 🇲🇽 hamedp71 ❤️ 6
-    type: hysteria2
-    server: 159.54.157.23
-    port: 443
-    password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    obfs: salamander
-    obfs-password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    sni: "gy5.nezhasu.com"
-    skip-cert-verify: true
-
-  - name: 🇩🇪 hamedp71 ❤️ 7
-    type: hysteria2
-    server: 79.76.117.160
-    port: 443
-    password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    obfs: salamander
-    obfs-password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    sni: "falankefu1.nezhasu.com"
-    skip-cert-verify: true
-
-  - name: 🇨🇦 hamedp71 ❤️ 8
-    type: hysteria2
-    server: 40.233.103.51
-    port: 47262
-    password: "862e90e1-2f26-4506-b8b9-0adf20da05fc"
-    obfs: salamander
-    obfs-password: "862e90e1-2f26-4506-b8b9-0adf20da05fc"
-    sni: "www.bing.com"
-    skip-cert-verify: true
+    obfs-password: c232f411-96b5-4b07-b2f7-66a434725ffb
     
 
   # کانفیگ سوم - ایتالیا
@@ -1848,14 +1779,7 @@ proxy-groups:
       - "🇦🇺🔥hamedp71🔥2"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇷 😎hamedp71 4"
-      - "🇸🇬 hamedp71 ❤️ 1"
-      - "🇸🇬 hamedp71 ❤️ 2"
-      - "🇳🇱 hamedp71 ❤️ 3"
-      - "🇲🇽 hamedp71 ❤️ 4"
-      - "🇲🇽 hamedp71 ❤️ 5"
-      - "🇲🇽 hamedp71 ❤️ 6"
-      - "🇩🇪 hamedp71 ❤️ 7"
-      - "🇨🇦 hamedp71 ❤️ 8"
+      - "🇳🇱 hamedp71 ❤️"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
@@ -1895,14 +1819,7 @@ proxy-groups:
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇷 😎hamedp71 4"
       - "🇩🇪 ShadowTLS-Proxy"
-      - "🇸🇬 hamedp71 ❤️ 1"
-      - "🇸🇬 hamedp71 ❤️ 2"
-      - "🇳🇱 hamedp71 ❤️ 3"
-      - "🇲🇽 hamedp71 ❤️ 4"
-      - "🇲🇽 hamedp71 ❤️ 5"
-      - "🇲🇽 hamedp71 ❤️ 6"
-      - "🇩🇪 hamedp71 ❤️ 7"
-      - "🇨🇦 hamedp71 ❤️ 8"
+      - "🇳🇱 hamedp71 ❤️"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
