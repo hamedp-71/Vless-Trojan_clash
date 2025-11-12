@@ -206,7 +206,7 @@ proxies:
     udp_relay_mode: native
 
 
-  - name: 🇳🇱 hamedp71 ❤️
+  - name: 🇳🇱+🇬🇧 hamedp71 ❤️
     type: hysteria2
     server: 193.142.59.41
     port: 23899
@@ -1770,12 +1770,12 @@ proxy-groups:
       - "🇩🇪 ShadowTLS-Proxy"
       - "hy2-hamedp71🏴‍☠️"
       - "Dr-Anv 🇨🇦"
-      - "🇳🇱 hamedp71 ❤️"
-      - "🇫🇮🔥hamedp71🔥1"
-      - "🇳🇱🔥hamedp71🔥3"
+      - "🇳🇱+🇬🇧 hamedp71 ❤️"
       - "🇹🇷 😎hamedp71 1"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
+      - "🇫🇮🔥hamedp71🔥1"
+      - "🇳🇱🔥hamedp71🔥3"
       - "🇫🇷 😎hamedp71 4"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
@@ -1809,13 +1809,13 @@ proxy-groups:
     tolerance: 120
     proxies:
       - "Dr-Anv 🇨🇦"
-      - "🇳🇱 hamedp71 ❤️"
+      - "🇳🇱+🇬🇧 hamedp71 ❤️"
       - "🇩🇪 ShadowTLS-Proxy"
-      - "🇫🇮🔥hamedp71🔥1"
-      - "🇳🇱🔥hamedp71🔥3"
       - "🇹🇷 😎hamedp71 1"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
+      - "🇫🇮🔥hamedp71🔥1"
+      - "🇳🇱🔥hamedp71🔥3"
       - "🇫🇷 😎hamedp71 4"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
