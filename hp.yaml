@@ -224,35 +224,6 @@ proxies:
     cipher: aes-256-cfb
     password: "wfLC2y7rzZyCmuyt"
 
-  - name: "hamedp71-31-🇩🇪"
-    type: vless
-    server: 45.12.133.176
-    port: 8880
-    uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-    network: grpc
-    tls: false
-    # مهم: این مقدار باید از سرویس‌دهنده دریافت و جایگزین شود
-    grpc-opts:
-      grpc-service-name: "YOUR_SERVICE_NAME_HERE"
-
-  # Shadowsocks: UDP غیرفعال شد
-  - name: "hamedp71-37-🇩🇪"
-    type: ss
-    server: 217.30.10.70
-    port: 9097
-    cipher: aes-256-cfb
-    password: "Sn5B7jTqr76aCJT8"
-    udp: false
-
-  # Shadowsocks: UDP غیرفعال شد
-  - name: "hamedp71-39-🇩🇪"
-    type: ss
-    server: 217.30.10.70
-    port: 9020
-    cipher: aes-256-cfb
-    password: "BNmAXXxHHYpTRdzu"
-    udp: false
-
   # Hysteria2 Servers
   - name: "hamedp71-48-🇩🇪"
     type: hysteria2
@@ -1877,9 +1848,6 @@ proxy-groups:
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
       - "hamedp71-28-🇵🇱"
-      - "hamedp71-31-🇩🇪"
-      - "hamedp71-37-🇩🇪"
-      - "hamedp71-39-🇩🇪"
       - "hamedp71-48-🇩🇪"
       - "hamedp71-49-🇩🇪"
       - "hamedp71-53-🇩🇪"
@@ -1926,9 +1894,6 @@ proxy-groups:
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
       - "hamedp71-28-🇵🇱"
-      - "hamedp71-31-🇩🇪"
-      - "hamedp71-37-🇩🇪"
-      - "hamedp71-39-🇩🇪"
       - "hamedp71-48-🇩🇪"
       - "hamedp71-49-🇩🇪"
       - "hamedp71-53-🇩🇪"
