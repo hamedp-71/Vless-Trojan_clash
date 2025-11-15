@@ -217,7 +217,7 @@ proxies:
     down-speed: 200 mbps
 
   # Shadowsocks Servers
-  - name: "hamedp71-28-🇩🇪"
+  - name: "hamedp71-🇵🇱-🇩🇪"
     type: ss
     server: 217.30.10.70
     port: 9093
@@ -1873,7 +1873,7 @@ proxy-groups:
       - "SS-hamedp71🇲🇦"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
-      - "hamedp71-28-🇩🇪"
+      - "hamedp71-28-🇵🇱"
       - "hamedp71-31-🇩🇪"
       - "hamedp71-37-🇩🇪"
       - "hamedp71-39-🇩🇪"
@@ -1922,7 +1922,7 @@ proxy-groups:
       - "SS-hamedp71🇲🇦"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
-      - "hamedp71-28-🇩🇪"
+      - "hamedp71-28-🇵🇱"
       - "hamedp71-31-🇩🇪"
       - "hamedp71-37-🇩🇪"
       - "hamedp71-39-🇩🇪"
