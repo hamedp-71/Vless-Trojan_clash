@@ -1828,6 +1828,7 @@ proxy-groups:
       - "🇩🇪 ShadowTLS-Proxy"
       - "hy2-hamedp71🏴‍☠️"
       - "Dr-Anv 🇨🇦"
+      - "hamedp71-48-🇩🇪"
       - "🇳🇱+🇬🇧 hamedp71 ❤️"
       - "🇹🇷 😎hamedp71 1"
       - "🇳🇱 😎hamedp71 6"
@@ -1848,7 +1849,6 @@ proxy-groups:
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
       - "hamedp71-28-🇵🇱"
-      - "hamedp71-48-🇩🇪"
       - "hamedp71-49-🇳🇱"
       - "hamedp71-53-🇳🇱"
       - "hamedp71-54-🇬🇧"
@@ -1873,6 +1873,7 @@ proxy-groups:
     tolerance: 120
     proxies:
       - "Dr-Anv 🇨🇦"
+      - "hamedp71-48-🇩🇪"
       - "🇳🇱+🇬🇧 hamedp71 ❤️"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇹🇷 😎hamedp71 1"
@@ -1894,7 +1895,6 @@ proxy-groups:
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
       - "hamedp71-28-🇵🇱"
-      - "hamedp71-48-🇩🇪"
       - "hamedp71-49-🇳🇱"
       - "hamedp71-53-🇳🇱"
       - "hamedp71-54-🇬🇧"
