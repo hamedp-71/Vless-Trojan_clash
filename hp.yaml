@@ -224,21 +224,6 @@ proxies:
     cipher: aes-256-cfb
     password: "wfLC2y7rzZyCmuyt"
 
-  - name: "hamedp71-37-🇩🇪"
-    type: ss
-    server: 217.30.10.70
-    port: 9097
-    cipher: aes-256-cfb
-    password: "Sn5B7jTqr76aCJT8"
-
-  - name: "hamedp71-39-🇩🇪"
-    type: ss
-    server: 217.30.10.70
-    port: 9020
-    cipher: aes-256-cfb
-    password: "BNmAXXxHHYpTRdzu"
-
-  # VLESS Server
   - name: "hamedp71-31-🇩🇪"
     type: vless
     server: 45.12.133.176
@@ -246,9 +231,27 @@ proxies:
     uuid: df0680ca-e43c-498d-ed86-8e196eedd012
     network: grpc
     tls: false
-    # serviceName در لینک مشخص نشده بود، بنابراین خالی گذاشته می‌شود
+    # مهم: این مقدار باید از سرویس‌دهنده دریافت و جایگزین شود
     grpc-opts:
-      grpc-service-name: ""
+      grpc-service-name: "YOUR_SERVICE_NAME_HERE"
+
+  # Shadowsocks: UDP غیرفعال شد
+  - name: "hamedp71-37-🇩🇪"
+    type: ss
+    server: 217.30.10.70
+    port: 9097
+    cipher: aes-256-cfb
+    password: "Sn5B7jTqr76aCJT8"
+    udp: false
+
+  # Shadowsocks: UDP غیرفعال شد
+  - name: "hamedp71-39-🇩🇪"
+    type: ss
+    server: 217.30.10.70
+    port: 9020
+    cipher: aes-256-cfb
+    password: "BNmAXXxHHYpTRdzu"
+    udp: false
 
   # Hysteria2 Servers
   - name: "hamedp71-48-🇩🇪"
