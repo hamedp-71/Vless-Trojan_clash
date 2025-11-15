@@ -205,7 +205,6 @@ proxies:
     congestion_control: cubic
     udp_relay_mode: native
 
-
   - name: 🇳🇱+🇬🇧 hamedp71 ❤️
     type: hysteria2
     server: 193.142.59.41
@@ -1909,8 +1908,8 @@ proxy-groups:
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
       - "hamedp71-14-🇵🇱"
-      - "hamedp71-17-🇯🇵"
-      - "hamedp71-19-🇯🇵"
+      - "hamedp71-17-🇻🇳"
+      - "hamedp71-19-🇻🇳"
       - "hamedp71-22-🇵🇱"
       - "hamedp71-25-🇵🇱"
       - "hamedp71-26-🇵🇱"
