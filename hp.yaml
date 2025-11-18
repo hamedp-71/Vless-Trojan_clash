@@ -308,50 +308,10 @@ proxies:
     skip-cert-verify: true
     udp: true
 
-  - name: "hamedp71-17-🇻🇳"
-    type: trojan
-    server: 58.152.110.216
-    port: 443
-    password: "2274c52572e721086f8bd8f88984643c"
-    sni: "www.nintendogames.net"
-    # allowInsecure فعال شد
-    skip-cert-verify: true
-    udp: true
-
-  - name: "hamedp71-19-🇻🇳"
-    type: trojan
-    server: 58.152.110.216
-    port: 443
-    password: "2274c52572e721086f8bd8f88984643c"
-    sni: "www.nintendogames.net"
-    # allowInsecure فعال شد
-    skip-cert-verify: true
-    udp: true
-
   - name: "hamedp71-22-🇵🇱"
     type: trojan
     server: 160.16.124.55
     port: 5553
-    password: "2274c52572e721086f8bd8f88984643c"
-    sni: "www.nintendogames.net"
-    # allowInsecure فعال شد
-    skip-cert-verify: true
-    udp: true
-
-  - name: "hamedp71-25-🇵🇱"
-    type: trojan
-    server: 160.16.57.238
-    port: 1334
-    password: "2274c52572e721086f8bd8f88984643c"
-    sni: "www.nintendogames.net"
-    # allowInsecure فعال شد
-    skip-cert-verify: true
-    udp: true
-
-  - name: "hamedp71-26-🇵🇱"
-    type: trojan
-    server: 160.16.236.32
-    port: 5552
     password: "2274c52572e721086f8bd8f88984643c"
     sni: "www.nintendogames.net"
     # allowInsecure فعال شد
@@ -1908,11 +1868,7 @@ proxy-groups:
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
       - "hamedp71-14-🇵🇱"
-      - "hamedp71-17-🇻🇳"
-      - "hamedp71-19-🇻🇳"
       - "hamedp71-22-🇵🇱"
-      - "hamedp71-25-🇵🇱"
-      - "hamedp71-26-🇵🇱"
       - "hamedp71-28-🇵🇱"
       - "hamedp71-49-🇳🇱"
       - "hamedp71-53-🇳🇱"
@@ -1937,9 +1893,9 @@ proxy-groups:
     interval: 30
     tolerance: 120
     proxies:
-      - "Dr-Anv 🇨🇦"
       - "hamedp71-48-🇩🇪"
       - "🇳🇱+🇬🇧 hamedp71 ❤️"
+      - "Dr-Anv 🇨🇦"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇹🇷 😎hamedp71 1"
       - "🇳🇱 😎hamedp71 6"
@@ -1960,11 +1916,7 @@ proxy-groups:
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
       - "hamedp71-14-🇵🇱"
-      - "hamedp71-17-🇻🇳"
-      - "hamedp71-19-🇻🇳"
       - "hamedp71-22-🇵🇱"
-      - "hamedp71-25-🇵🇱"
-      - "hamedp71-26-🇵🇱"
       - "hamedp71-28-🇵🇱"
       - "hamedp71-49-🇳🇱"
       - "hamedp71-53-🇳🇱"
