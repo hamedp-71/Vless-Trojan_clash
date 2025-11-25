@@ -205,16 +205,6 @@ proxies:
     congestion_control: cubic
     udp_relay_mode: native
 
-  - name: 🇳🇱+🇬🇧 hamedp71 ❤️
-    type: hysteria2
-    server: 193.142.59.41
-    port: 23899
-    password: c232f411-96b5-4b07-b2f7-66a434725ffb
-    sni: hl01.mistea.top
-    skip-cert-verify: true
-    up-speed: 50 mbps
-    down-speed: 200 mbps
-
   # Hysteria2 Servers
   - name: "hamedp71-48-🇩🇪"
     type: hysteria2
@@ -308,13 +298,6 @@ proxies:
     cipher: aes-256-cfb
     password: "S7KwUu7yBy58S3Ga"
     udp: true
-  - name: "hamedp71-🇵🇱-53"
-    type: ss
-    server: 217.30.10.18
-    port: 9027
-    cipher: aes-256-cfb
-    password: "EXN3S3eQpjE7EJu8"
-    udp: true
   - name: "hamedp71-🇵🇱-55"
     type: ss
     server: 217.30.10.18
@@ -350,14 +333,7 @@ proxies:
     cipher: aes-256-cfb
     password: "NvS8N4Vf8qAGPSCL"
     udp: true
-  - name: "hamedp71-🇵🇱-67"
-    type: ss
-    server: 217.30.10.70
-    port: 9046
-    cipher: aes-256-cfb
-    password: "NvS8N4Vf8qAGPSCL"
-    udp: true
-
+    
 
   - name: "VLESS-Entry"
     type: vless
@@ -1753,7 +1729,6 @@ proxy-groups:
       - "hy2-hamedp71🏴‍☠️"
       - "Dr-Anv 🇨🇦"
       - "hamedp71-48-🇩🇪"
-      - "🇳🇱+🇬🇧 hamedp71 ❤️"
       - "🇹🇷 😎hamedp71 1"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
@@ -1773,13 +1748,11 @@ proxy-groups:
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
       - "hamedp71-🇵🇱-52"
-      - "hamedp71-🇵🇱-53"
       - "hamedp71-🇵🇱-55"
       - "hamedp71-🇵🇱-60"
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
-      - "hamedp71-🇵🇱-67"
       - "🇩🇪 anytls-443"
       - "🇩🇪 ShadowTLS-Proxy"
 
@@ -1790,7 +1763,6 @@ proxy-groups:
     tolerance: 120
     proxies:
       - "hamedp71-48-🇩🇪"
-      - "🇳🇱+🇬🇧 hamedp71 ❤️"
       - "Dr-Anv 🇨🇦"
       - "🇹🇷 😎hamedp71 1"
       - "🇳🇱 😎hamedp71 6"
@@ -1811,13 +1783,11 @@ proxy-groups:
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
       - "hamedp71-🇵🇱-52"
-      - "hamedp71-🇵🇱-53"
       - "hamedp71-🇵🇱-55"
       - "hamedp71-🇵🇱-60"
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
-      - "hamedp71-🇵🇱-67"
       - "🇺🇸-hamedp71- § 0"
       - "🇵🇾-hamedp71- § 1"
       - "🇬🇧-hamedp71- § 2"
