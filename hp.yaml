@@ -95,26 +95,6 @@ proxies:
     servername: "suiany.makingirangreatagain.com"
 
 
-  - name: "🇬🇧 hamedp71 💚 1"
-    type: hysteria2
-    server: 132.145.21.45
-    port: 443
-    password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    sni: "lundun1.nezhasu.com"
-    skip-cert-verify: true
-    # برای پایداری بهتر اتصال در کلش متا
-    up-speed: 20 mbps
-    down-speed: 100 mbps
-
-  - name: "🇸🇬 hamedp71 💚 2"
-    type: hysteria2
-    server: 140.245.35.215
-    port: 443
-    password: "2b195c17-5ff5-4b0d-a809-210b92212394"
-    sni: "Singaporex-4.nezhasu.com"
-    skip-cert-verify: true
-    up-speed: 20 mbps
-    down-speed: 100 mbps
 
   - name: "🇺🇸 hamedp71 💚 3"
     type: hysteria2
@@ -142,16 +122,6 @@ proxies:
     port: 1743
     password: "537d7098-fdbe-11ef-8ebc-f23c93141fad"
     sni: "14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk"
-    skip-cert-verify: true
-    up-speed: 20 mbps
-    down-speed: 100 mbps
-
-  - name: "🇺🇸 hamedp71 💚 6"
-    type: hysteria2
-    server: 113.192.61.19
-    port: 63979
-    password: "9772ecf2-6732-4bfb-a8b1-f48af577c76c"
-    sni: "www.bing.com"
     skip-cert-verify: true
     up-speed: 20 mbps
     down-speed: 100 mbps
@@ -1816,6 +1786,8 @@ proxy-groups:
       - "🇹🇷 😎hamedp71 1"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
+      - "🇩🇪 hamedp71 💚 7"
+      - "🇹🇷 hamedp71 💚 8"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇫🇷 😎hamedp71 4"
@@ -1828,14 +1800,9 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
-      - "🇬🇧 hamedp71 💚 1"
-      - "🇸🇬 hamedp71 💚 2"
       - "🇺🇸 hamedp71 💚 3"
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
-      - "🇺🇸 hamedp71 💚 6"
-      - "🇩🇪 hamedp71 💚 7"
-      - "🇹🇷 hamedp71 💚 8"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -1861,6 +1828,8 @@ proxy-groups:
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
+      - "🇩🇪 hamedp71 💚 7"
+      - "🇹🇷 hamedp71 💚 8"
       - "🇫🇷 😎hamedp71 4"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
@@ -1871,14 +1840,9 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
-      - "🇬🇧 hamedp71 💚 1"
-      - "🇸🇬 hamedp71 💚 2"
       - "🇺🇸 hamedp71 💚 3"
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
-      - "🇺🇸 hamedp71 💚 6"
-      - "🇩🇪 hamedp71 💚 7"
-      - "🇹🇷 hamedp71 💚 8"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
