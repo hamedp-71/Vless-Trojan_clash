@@ -96,7 +96,37 @@ proxies:
 
 
 
+  - name: "🇭🇰 hamedp71 💚 1"
+    type: trojan
+    server: 58.152.110.120
+    port: 443
+    password: "2cf6d686799e6fa95316394064f26c0a"
+    sni: "www.nintendogames.net"
+    # allowInsecure=0 به معنی false است
+    skip-cert-verify: false
+    udp: true
+
+  - name: "🇯🇵 hamedp71 💚 2"
+    type: trojan
+    server: 160.16.107.37
+    port: 3093
+    password: "2cf6d686799e6fa95316394064f26c0a"
+    sni: "www.nintendogames.net"
+    # allowInsecure=0 به معنی false است
+    skip-cert-verify: false
+    udp: true
+
   - name: "🇺🇸 hamedp71 💚 3"
+    type: trojan
+    server: 160.16.63.16
+    port: 2890
+    password: "2cf6d686799e6fa95316394064f26c0a"
+    sni: "www.nintendogames.net"
+    # allowInsecure=1 به معنی true است
+    skip-cert-verify: true
+    udp: true
+
+  - name: "🇺🇸 hamedp71 💚 2"
     type: hysteria2
     server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
     port: 1743
@@ -1788,6 +1818,9 @@ proxy-groups:
       - "🇺🇸 😎hamedp71 2"
       - "🇩🇪 hamedp71 💚 7"
       - "🇹🇷 hamedp71 💚 8"
+      - "🇭🇰 hamedp71 💚 1"
+      - "🇯🇵 hamedp71 💚 2"
+      - "🇺🇸 hamedp71 💚 3"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇫🇷 😎hamedp71 4"
@@ -1800,7 +1833,7 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
-      - "🇺🇸 hamedp71 💚 3"
+      - "🇺🇸 hamedp71 💚 2"
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
       - "hamedp71-🇵🇱-47"
@@ -1830,6 +1863,9 @@ proxy-groups:
       - "🇳🇱🔥hamedp71🔥3"
       - "🇩🇪 hamedp71 💚 7"
       - "🇹🇷 hamedp71 💚 8"
+      - "🇭🇰 hamedp71 💚 1"
+      - "🇯🇵 hamedp71 💚 2"
+      - "🇺🇸 hamedp71 💚 3"
       - "🇫🇷 😎hamedp71 4"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
@@ -1840,7 +1876,7 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
-      - "🇺🇸 hamedp71 💚 3"
+      - "🇺🇸 hamedp71 💚 2"
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
       - "hamedp71-🇵🇱-47"
