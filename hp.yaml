@@ -94,6 +94,90 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
+
+  - name: "🇬🇧 hamedp71 💚 1"
+    type: hysteria2
+    server: 132.145.21.45
+    port: 443
+    password: "2b195c17-5ff5-4b0d-a809-210b92212394"
+    sni: "lundun1.nezhasu.com"
+    skip-cert-verify: true
+    # برای پایداری بهتر اتصال در کلش متا
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+
+  - name: "🇸🇬 hamedp71 💚 2"
+    type: hysteria2
+    server: 140.245.35.215
+    port: 443
+    password: "2b195c17-5ff5-4b0d-a809-210b92212394"
+    sni: "Singaporex-4.nezhasu.com"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+
+  - name: "🇺🇸 hamedp71 💚 3"
+    type: hysteria2
+    server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
+    port: 1743
+    password: "17cdeb6c-f046-11ee-bdac-f23c93141fad"
+    sni: "c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+
+  - name: "🇺🇸 hamedp71 💚 4"
+    type: hysteria2
+    server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+    port: 1743
+    password: "94931862-1484-11f0-9ab7-f23c95b6f51d"
+    sni: "98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+
+  - name: "🇺🇸 hamedp71 💚 5"
+    type: hysteria2
+    server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
+    port: 1743
+    password: "537d7098-fdbe-11ef-8ebc-f23c93141fad"
+    sni: "14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+
+  - name: "🇺🇸 hamedp71 💚 6"
+    type: hysteria2
+    server: 113.192.61.19
+    port: 63979
+    password: "9772ecf2-6732-4bfb-a8b1-f48af577c76c"
+    sni: "www.bing.com"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+
+  - name: "🇩🇪 hamedp71 💚 7"
+    type: hysteria2
+    server: de.eyucdn.xyz
+    port: 2056
+    password: "a084933d-0b41-4571-ae0c-7163b8c71ed1"
+    sni: "de.eyucdn.xyz"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+
+  - name: "🇹🇷 hamedp71 💚 8"
+    type: hysteria2
+    server: tr.xn--gmq00sc0nuve.shop
+    port: 21105
+    password: "da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d"
+    # چون SNI مشخص نشده بود، از آدرس سرور استفاده می‌شود
+    sni: "tr.xn--gmq00sc0nuve.shop"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+    
+
   - name: "hy2-hamedp71🏴‍☠️"
     type: hysteria2
     server: kevin.vpny.online
@@ -1744,6 +1828,14 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
+      - "🇬🇧 hamedp71 💚 1"
+      - "🇸🇬 hamedp71 💚 2"
+      - "🇺🇸 hamedp71 💚 3"
+      - "🇺🇸 hamedp71 💚 4"
+      - "🇺🇸 hamedp71 💚 5"
+      - "🇺🇸 hamedp71 💚 6"
+      - "🇩🇪 hamedp71 💚 7"
+      - "🇹🇷 hamedp71 💚 8"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -1779,6 +1871,14 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
+      - "🇬🇧 hamedp71 💚 1"
+      - "🇸🇬 hamedp71 💚 2"
+      - "🇺🇸 hamedp71 💚 3"
+      - "🇺🇸 hamedp71 💚 4"
+      - "🇺🇸 hamedp71 💚 5"
+      - "🇺🇸 hamedp71 💚 6"
+      - "🇩🇪 hamedp71 💚 7"
+      - "🇹🇷 hamedp71 💚 8"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
