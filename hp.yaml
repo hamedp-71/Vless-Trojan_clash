@@ -124,16 +124,6 @@ proxies:
     skip-cert-verify: false
     udp: true
 
-  - name: "🇺🇸 hamedp71 💚 3"
-    type: trojan
-    server: 160.16.63.16
-    port: 2890
-    password: "2cf6d686799e6fa95316394064f26c0a"
-    sni: "www.nintendogames.net"
-    # allowInsecure=1 به معنی true است
-    skip-cert-verify: true
-    udp: true
-
   - name: "🇺🇸 hamedp71 💚 2"
     type: hysteria2
     server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
@@ -362,13 +352,6 @@ proxies:
     skip-cert-verify: false
 
 #لهستان
-  - name: "🇵🇱 hamedp71 ☀️ 1"
-    type: ss
-    server: 217.30.10.18
-    port: 9011
-    cipher: aes-256-cfb
-    password: "M3t2ZEQcMGRWBjRa"
-    udp: true
   - name: "🇵🇱 hamedp71 ☀️ 3"
     type: ss
     server: 217.30.10.18
@@ -382,13 +365,6 @@ proxies:
     port: 9079
     cipher: aes-256-cfb
     password: "TPqX8edgbAURcAMb"
-    udp: true
-  - name: "🇻🇳 hamedp71 ☀️ 5"
-    type: ss
-    server: 103.186.154.33
-    port: 38388
-    cipher: aes-256-cfb
-    password: "Xn8jKdmDM00IeO%##fJAMtsEAEUOpH/YWYtYqDFnU0SV"
     udp: true
   - name: "🇵🇱 hamedp71 ☀️ 6"
     type: ss
@@ -1856,7 +1832,6 @@ proxy-groups:
       - "🇹🇷 hamedp71 💚 8"
       - "🇭🇰 hamedp71 💚 1"
       - "🇯🇵 hamedp71 💚 2"
-      - "🇺🇸 hamedp71 💚 3"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇫🇷 😎hamedp71 4"
@@ -1873,10 +1848,8 @@ proxy-groups:
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
       - "🇱🇹 hamedp71 ss 2"
-      - "🇵🇱 hamedp71 ☀️ 1"
       - "🇵🇱 hamedp71 ☀️ 3"
       - "🇵🇱 hamedp71 ☀️ 4"
-      - "🇻🇳 hamedp71 ☀️ 5"
       - "🇵🇱 hamedp71 ☀️ 6"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -1906,7 +1879,6 @@ proxy-groups:
       - "🇹🇷 hamedp71 💚 8"
       - "🇭🇰 hamedp71 💚 1"
       - "🇯🇵 hamedp71 💚 2"
-      - "🇺🇸 hamedp71 💚 3"
       - "🇫🇷 😎hamedp71 4"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
@@ -1921,10 +1893,8 @@ proxy-groups:
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
       - "🇱🇹 hamedp71 ss 2"
-      - "🇵🇱 hamedp71 ☀️ 1"
       - "🇵🇱 hamedp71 ☀️ 3"
       - "🇵🇱 hamedp71 ☀️ 4"
-      - "🇻🇳 hamedp71 ☀️ 5"
       - "🇵🇱 hamedp71 ☀️ 6"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
