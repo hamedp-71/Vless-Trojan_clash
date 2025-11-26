@@ -1864,7 +1864,7 @@ proxy-groups:
 
   - name: "اتصال❤️خودکار"
     type: url-test
-    url: "http://www.gstatic.com/generate_204"
+    url: "http://www.google.com/generate_204"
     interval: 30
     tolerance: 120
     proxies:
@@ -2007,7 +2007,7 @@ rule-providers:
   malware-cidr:
     type: http
     format: text
-    behavior: ipcidr  # <--- تغییر در اینجا
+    behavior: ipcidr
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware-ip.txt"
     path: "./ruleset/malware-cidr.txt"
     interval: 86400
@@ -2021,7 +2021,7 @@ rule-providers:
   phishing-cidr:
     type: http
     format: text
-    behavior: ipcidr  # <--- تغییر در اینجا
+    behavior: ipcidr
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing-ip.txt"
     path: "./ruleset/phishing-cidr.txt"
     interval: 86400
@@ -2049,7 +2049,7 @@ rule-providers:
   ir-cidr:
     type: http
     format: text
-    behavior: ipcidr  # <--- تغییر در اینجا
+    behavior: ipcidr
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt"
     path: "./ruleset/ir-cidr.txt"
     interval: 86400
