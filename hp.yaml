@@ -94,6 +94,70 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
+#ss
+  - name: "🇱🇹 hamedp71 ss 1"
+    type: ss
+    server: 45.87.175.187
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: "cvII85UrW6n0OGyfpHVS1u"
+    udp: true
+
+  - name: "🇱🇹 hamedp71 ss 2"
+    type: ss
+    server: 45.87.175.158
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+
+  - name: "🇱🇹 hamedp71 ss 3"
+    type: ss
+    server: 45.87.175.177
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: "cvII85UrW6n0OGyfpHVS1u"
+    udp: true
+
+  - name: "🇫🇮 hamedp71 ss 4"
+    type: ss
+    server: 37.143.129.230
+    port: 989
+    cipher: aes-256-cfb
+    password: "f8f7aCzcPKhsF8p3"
+    udp: true
+
+  - name: "🇭🇷 hamedp71 ss 5"
+    type: ss
+    server: 46.183.184.60
+    port: 989
+    cipher: aes-256-cfb
+    password: "f8f7aCzcPKhsF8p3"
+    udp: true
+
+  - name: "🇬🇷 hamedp71 ss 6"
+    type: ss
+    server: 192.71.166.100
+    port: 989
+    cipher: aes-256-cfb
+    password: "f8f7aCzcPKhsF8p3"
+    udp: true
+
+  - name: "🇮🇱 hamedp71 ss 7"
+    type: ss
+    server: 89.46.239.231
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: "ARgvGZywA+gacgGV26Bvmu05+wZmR/+j+AdU+Z8Bt44="
+    udp: true
+
+  - name: "🇮🇹 hamedp71 ss 8"
+    type: ss
+    server: 38.180.195.193
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "SwTShXYSQd404FIST8NFeJ"
+    udp: true
 
 
   - name: "🇭🇰 hamedp71 💚 1"
@@ -1836,6 +1900,14 @@ proxy-groups:
       - "🇺🇸 hamedp71 💚 2"
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
+      - "🇱🇹 hamedp71 ss 1"
+      - "🇱🇹 hamedp71 ss 2"
+      - "🇱🇹 hamedp71 ss 3"
+      - "🇫🇮 hamedp71 ss 4"
+      - "🇭🇷 hamedp71 ss 5"
+      - "🇬🇷 hamedp71 ss 6"
+      - "🇮🇱 hamedp71 ss 7"
+      - "🇮🇹 hamedp71 ss 8"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -1879,6 +1951,14 @@ proxy-groups:
       - "🇺🇸 hamedp71 💚 2"
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
+      - "🇱🇹 hamedp71 ss 1"
+      - "🇱🇹 hamedp71 ss 2"
+      - "🇱🇹 hamedp71 ss 3"
+      - "🇫🇮 hamedp71 ss 4"
+      - "🇭🇷 hamedp71 ss 5"
+      - "🇬🇷 hamedp71 ss 6"
+      - "🇮🇱 hamedp71 ss 7"
+      - "🇮🇹 hamedp71 ss 8"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
