@@ -104,6 +104,22 @@ proxies:
     udp: true
 
 
+  - name: "🇬🇧 uk--hamedp71"
+    type: trojan
+    server: uk1.test3.net
+    port: 443
+    password: "f6599bb0-d826-11f0-9ff4-1239d0255272"
+    # این کانفیگ از شبکه WebSocket استفاده می‌کند
+    network: ws
+    sni: "speedtest.net"
+    udp: true
+    ws-opts:
+      # مسیر WebSocket از لینک اصلی گرفته شده است
+      path: "/speedtest.net"
+      headers:
+        Host: "speedtest.net"
+        
+
   - name: "🇭🇰 hamedp71 💚 1"
     type: trojan
     server: 58.152.110.120
@@ -1822,6 +1838,7 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "🤍 وارپ"
       - "⛓️عمو زنجیر باف⛓️"
+      - "🇬🇧 uk--hamedp71"
       - "🇱🇹 hamedp71 ss 2"
       - "hy2-hamedp71🏴‍☠️"
       - "Dr-Anv 🇨🇦"
