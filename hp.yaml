@@ -103,23 +103,6 @@ proxies:
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
 
-
-  - name: "🇬🇧 uk--hamedp71"
-    type: trojan
-    server: uk1.test3.net
-    port: 443
-    password: "f6599bb0-d826-11f0-9ff4-1239d0255272"
-    # این کانفیگ از شبکه WebSocket استفاده می‌کند
-    network: ws
-    sni: "speedtest.net"
-    udp: true
-    ws-opts:
-      # مسیر WebSocket از لینک اصلی گرفته شده است
-      path: "/speedtest.net"
-      headers:
-        Host: "speedtest.net"
-        
-
   - name: "🇭🇰 hamedp71 💚 1"
     type: trojan
     server: 58.152.110.120
@@ -1838,10 +1821,8 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "🤍 وارپ"
       - "⛓️عمو زنجیر باف⛓️"
-      - "🇬🇧 uk--hamedp71"
       - "🇱🇹 hamedp71 ss 2"
       - "hy2-hamedp71🏴‍☠️"
-      - "Dr-Anv 🇨🇦"
       - "hamedp71-48-🇩🇪"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
@@ -1871,6 +1852,7 @@ proxy-groups:
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
+      - "Dr-Anv 🇨🇦"
       - "🇹🇷 😎hamedp71 1"
       - "🇩🇪 hamedp71 💚 7"
       - "🇹🇷 hamedp71 💚 8"
@@ -1883,11 +1865,10 @@ proxy-groups:
     type: url-test
     url: "http://www.google.com/generate_204"
     interval: 30
-    tolerance: 120
+    tolerance: 100
     proxies:
       - "🇱🇹 hamedp71 ss 2"
       - "hamedp71-48-🇩🇪"
-      - "Dr-Anv 🇨🇦"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇮🔥hamedp71🔥1"
@@ -1916,6 +1897,7 @@ proxy-groups:
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
+      - "Dr-Anv 🇨🇦"
       - "🇹🇷 😎hamedp71 1"
       - "🇩🇪 hamedp71 💚 7"
       - "🇹🇷 hamedp71 💚 8"
