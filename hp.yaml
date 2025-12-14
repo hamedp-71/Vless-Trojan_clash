@@ -80,12 +80,20 @@ proxies:
     password: "8JCsPssfgS8tiRwiMlhARg=="
     udp: true
 
-  - name: "🇧🇦 ba - hamedp71"
+  - name: "🇬🇷-hamedp71"
     type: ss
-    server: 45.154.204.7
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: "ARgvGZywA+gacgGV26Bvmu05+wZmR/+j+AdU+Z8Bt44="
+    server: 192.71.166.100
+    port: 989
+    cipher: aes-256-cfb
+    password: "f8f7aCzcPKhsF8p3"
+    udp: true
+
+  - name: "🇭🇷-hamedp71"
+    type: ss
+    server: 46.183.184.60
+    port: 989
+    cipher: aes-256-cfb
+    password: "f8f7aCzcPKhsF8p3"
     udp: true
 
 #ss
@@ -1818,8 +1826,9 @@ proxy-groups:
       - "🇱🇹 hamedp71 ss 2"
       - "hy2-hamedp71🏴‍☠️"
       - "🇨🇦 ca hamedp71"
-      - "🇧🇦 ba - hamedp71"
       - "hamedp71-48-🇩🇪"
+      - "🇬🇷-hamedp71"
+      - "🇭🇷-hamedp71"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇮🔥hamedp71🔥1"
@@ -1864,7 +1873,8 @@ proxy-groups:
       - "🇱🇹 hamedp71 ss 2"
       - "hamedp71-48-🇩🇪"
       - "🇨🇦 ca hamedp71"
-      - "🇧🇦 ba - hamedp71"
+      - "🇬🇷-hamedp71"
+      - "🇭🇷-hamedp71"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇮🔥hamedp71🔥1"
