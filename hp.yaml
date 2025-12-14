@@ -72,28 +72,6 @@ sniffer:
     QUIC:
       ports: [443, 8443]
 proxies:
-#ShadowTLS        
-  - name: "🇩🇪 ShadowTLS-Proxy"
-    type: ss
-    server: net2026.safavidempire.org
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "164c1a57-a952-4962-a848-77355f4864fc"
-    plugin: shadow-tls
-    plugin-opts:
-      host: www.google.com
-      password: "164c1a57-a952-4962-a848-77355f4864fc"
-      version: 3
-#AnyTLS
-  - name: "🇩🇪 anytls-443"
-    type: anytls
-    server: 80.240.26.147
-    port: 443
-    password: "qzJvszJHOB"
-    tls: true
-    sni: "suiany.makingirangreatagain.com"
-    servername: "suiany.makingirangreatagain.com"
-
 #ss
   - name: "🇱🇹 hamedp71 ss 2"
     type: ss
@@ -1858,8 +1836,6 @@ proxy-groups:
       - "🇹🇷 hamedp71 💚 8"
       - "🇭🇰 hamedp71 💚 1"
       - "🇯🇵 hamedp71 💚 2"
-      - "🇩🇪 anytls-443"
-      - "🇩🇪 ShadowTLS-Proxy"
 
   - name: "اتصال❤️خودکار"
     type: url-test
