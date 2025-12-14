@@ -72,6 +72,22 @@ sniffer:
     QUIC:
       ports: [443, 8443]
 proxies:
+  - name: "🇨🇦 ca hamedp71"
+    type: ss
+    server: 144.217.164.29
+    port: 12000
+    cipher: aes-256-gcm
+    password: "8JCsPssfgS8tiRwiMlhARg=="
+    udp: true
+
+  - name: "🇧🇦 ba - hamedp71"
+    type: ss
+    server: 45.154.204.7
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: "ARgvGZywA+gacgGV26Bvmu05+wZmR/+j+AdU+Z8Bt44="
+    udp: true
+
 #ss
   - name: "🇱🇹 hamedp71 ss 2"
     type: ss
@@ -1801,6 +1817,8 @@ proxy-groups:
       - "⛓️عمو زنجیر باف⛓️"
       - "🇱🇹 hamedp71 ss 2"
       - "hy2-hamedp71🏴‍☠️"
+      - "🇨🇦 ca hamedp71"
+      - "🇧🇦 ba - hamedp71"
       - "hamedp71-48-🇩🇪"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
@@ -1845,6 +1863,8 @@ proxy-groups:
     proxies:
       - "🇱🇹 hamedp71 ss 2"
       - "hamedp71-48-🇩🇪"
+      - "🇨🇦 ca hamedp71"
+      - "🇧🇦 ba - hamedp71"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇮🔥hamedp71🔥1"
