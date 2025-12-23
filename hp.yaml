@@ -344,13 +344,6 @@ proxies:
     cipher: aes-256-cfb
     password: "U6qnYRhfyDmn8sgn"
     udp: true
-  - name: "🇵🇱 hamedp71 ☀️ 4"
-    type: ss
-    server: 217.30.10.70
-    port: 9079
-    cipher: aes-256-cfb
-    password: "TPqX8edgbAURcAMb"
-    udp: true
   - name: "🇵🇱 hamedp71 ☀️ 6"
     type: ss
     server: 217.30.10.18
@@ -1826,7 +1819,6 @@ proxy-groups:
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
       - "🇵🇱 hamedp71 ☀️ 3"
-      - "🇵🇱 hamedp71 ☀️ 4"
       - "🇵🇱 hamedp71 ☀️ 6"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -1871,7 +1863,6 @@ proxy-groups:
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
       - "🇵🇱 hamedp71 ☀️ 3"
-      - "🇵🇱 hamedp71 ☀️ 4"
       - "🇵🇱 hamedp71 ☀️ 6"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
