@@ -160,7 +160,6 @@ proxies:
     up-speed: 20 mbps
     down-speed: 100 mbps
     
-
   - name: "hy2-hamedp71🏴‍☠️"
     type: hysteria2
     server: kevin.vpny.online
@@ -258,21 +257,28 @@ proxies:
     sni: "gavazn.55994421.xyz"
     skip-cert-verify: true
 
-  - name: Dr-Anv 🇨🇦
-    type: tuic
-    server: 40.233.77.57
-    port: 52434
-    uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
-    password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
-    sni: www.bing.com
-    alpn:
-      - h3
-    # معادل allow_insecure=1
-    skip-cert-verify: true
-    congestion_control: cubic
-    udp_relay_mode: native
 
   # Hysteria2 Servers
+  - name: "🇩🇪 DE hamedp71-10"
+    type: hysteria2
+    server: 77.90.41.197
+    port: 35000
+    password: "b4bd0613-ff7c-4f2f-954d-185915e6ddad"
+    sni: "api.kermanshahi.org"
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+
+  - name: "🇦🇪 AE hamedp71-10"
+    type: hysteria2
+    server: donate1.mahsa.homes
+    port: 16396
+    password: "freehomesvpnmahsa3"
+    sni: "www.google.com"
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+  
   - name: "hamedp71-48-🇩🇪"
     type: hysteria2
     server: 77.90.41.197
@@ -1801,6 +1807,8 @@ proxy-groups:
       - "🤍 وارپ"
       - "⛓️عمو زنجیر باف⛓️"
       - "SS-hamedp71🇩🇪"
+      - "🇩🇪 DE hamedp71-10"
+      - "🇦🇪 AE hamedp71-10"
       - "🇨🇦 ca hamedp71"
       - "hamedp71-48-🇩🇪"
       - "🇳🇱 😎hamedp71 6"
@@ -1829,7 +1837,6 @@ proxy-groups:
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
       - "hy2-hamedp71🏴‍☠️"
-      - "Dr-Anv 🇨🇦"
       - "SS-hamedp71🇦🇷"
       - "🇩🇪 hamedp71 💚 7"
       - "🇹🇷 hamedp71 💚 8"
@@ -1846,6 +1853,8 @@ proxy-groups:
     proxies:
       - "SS-hamedp71🇩🇪"
       - "hamedp71-48-🇩🇪"
+      - "🇩🇪 DE hamedp71-10"
+      - "🇦🇪 AE hamedp71-10"
       - "🇨🇦 ca hamedp71"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
@@ -1888,7 +1897,6 @@ proxy-groups:
       - "🇹🇷-hamedp71- § 15"
       - "🇺🇸3-hamedp71- § 16"
       - "🇨🇦-hamedp71- § 17"
-      - "Dr-Anv 🇨🇦"
       - "SS-hamedp71🇦🇷"
       - "🇩🇪 hamedp71 💚 7"
       - "🇹🇷 hamedp71 💚 8"
