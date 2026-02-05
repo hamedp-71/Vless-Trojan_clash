@@ -168,7 +168,6 @@ proxies:
     sni: "www.google.com"
     skip-cert-verify: true
 
-
   - name: "🇳🇱 😎hamedp71 5"
     type: hysteria2
     server: channel3.saghetalaie.homes
@@ -265,6 +264,16 @@ proxies:
     obfs: salamander
     obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: false
+  - name: "🇳🇱 hamedp71 - 5"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36400
+    password: "Yet-Another-Public-Config-1"
+    sni: "YAPC-1.afshin.ir"
+    obfs: salamander
+    obfs-password: "Yet-Another-Public-Config-1"
+    skip-cert-verify: false
+    
 
 #لهستان
   - name: "🇵🇱 hamedp71 ☀️ 3"
@@ -1730,21 +1739,22 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "🤍 وارپ"
       - "⛓️عمو زنجیر باف⛓️"
+      - "🇳🇱 hamedp71 - 1"
+      - "🇳🇱 hamedp71 - 2"
+      - "🇳🇱 hamedp71 - 3"
+      - "🇳🇱 hamedp71 - 4"
+      - "🇳🇱 hamedp71 - 5"
+      - "🇳🇱 😎hamedp71 6"
       - "SS-hamedp71🇩🇪"
       - "🇩🇪 DE hamedp71-10"
       - "🇫🇮 hamedp71-10"
       - "🇨🇦 ca hamedp71"
       - "hamedp71-48-🇩🇪"
-      - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
-      - "🇳🇱 hamedp71 - 1"
-      - "🇳🇱 hamedp71 - 2"
-      - "🇳🇱 hamedp71 - 3"
-      - "🇳🇱 hamedp71 - 4"
       - "🇺🇸 hamedp71 💚 2"
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
@@ -1766,21 +1776,22 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
+      - "🇳🇱 hamedp71 - 1"
+      - "🇳🇱 hamedp71 - 2"
+      - "🇳🇱 hamedp71 - 3"
+      - "🇳🇱 hamedp71 - 4"
+      - "🇳🇱 hamedp71 - 5"
+      - "🇳🇱 😎hamedp71 6"
       - "SS-hamedp71🇩🇪"
       - "hamedp71-48-🇩🇪"
       - "🇩🇪 DE hamedp71-10"
       - "🇫🇮 hamedp71-10"
       - "🇨🇦 ca hamedp71"
-      - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
-      - "🇳🇱 hamedp71 - 1"
-      - "🇳🇱 hamedp71 - 2"
-      - "🇳🇱 hamedp71 - 3"
-      - "🇳🇱 hamedp71 - 4"
       - "🇺🇸 hamedp71 💚 2"
       - "🇺🇸 hamedp71 💚 4"
       - "🇺🇸 hamedp71 💚 5"
