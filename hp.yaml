@@ -72,34 +72,6 @@ sniffer:
     QUIC:
       ports: [443, 8443]
 proxies:
-  - name: "hamedp71:🇬🇧 1"
-    type: ss
-    server: 141.98.101.179
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-
-  - name: "hamedp71:🇬🇧 2"
-    type: ss
-    server: 141.98.101.181
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-
-  - name: "hamedp71:🇬🇧 3"
-    type: ss
-    server: 141.98.101.182
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-
-  - name: "hamedp71:🇬🇧 4"
-    type: ss
-    server: 141.98.101.178
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-
 # Hysteria2 Servers
 # کانفیگ سوم - ایتالیا
 #لهستان
@@ -1798,10 +1770,6 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "🤍 وارپ"
       - "⛓️عمو زنجیر باف⛓️"
-      - "hamedp71:🇬🇧 1"
-      - "hamedp71:🇬🇧 2"
-      - "hamedp71:🇬🇧 3"
-      - "hamedp71:🇬🇧 4"
       
 
   - name: "اتصال❤️خودکار"
@@ -1874,6 +1842,7 @@ proxy-groups:
       - "Hamedvpns-2-🇬🇧"
       - "Hamedvpns-3-🇬🇧"
 
+
   - name: "🤍 وارپ"
     type: url-test
     url: "http://cp.cloudflare.com"
@@ -1929,9 +1898,11 @@ proxy-groups:
       - "🇿🇦 hamedp71 1"
       - "🇿🇦 hamedp71"
 
+
   - name: "⛓️عمو زنجیر باف⛓️"
     type: select
     proxies:
+      - "اتصال❤️خودکار"
       - "Hamedvpns-🇿🇦"
       - "Hamedvpns-1-🇿🇦"
       - "Hamedvpns-🇺🇸"
@@ -1991,7 +1962,8 @@ proxy-groups:
       - "Hamedvpns-🇵🇱"
       - "Hamedvpns-2-🇬🇧"
       - "Hamedvpns-3-🇬🇧"
-      
+
+
 rule-providers:
   malware:
     type: http
