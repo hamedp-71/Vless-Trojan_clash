@@ -120,99 +120,91 @@ proxies:
       path: "/trUnABr1RuanmVvjS1?ed=2560"
       headers:
         Host: "upn-a3b.pages.dev"
-    udp: true
-
-  - name: "hamedp71:🇬🇧20"
-    type: ss
-    server: 141.98.101.181
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-    
+    udp: true   
   - name: "Hamedvpns-🇿🇦"
     type: ss
     server: 102.133.165.160
     port: 16233
     cipher: chacha20-ietf-poly1305
     password: "Xsy8Ox4yOV3xLbpxtjzs3X"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-1-🇿🇦"
     type: ss
     server: 102.37.156.224
     port: 443
     cipher: chacha20-ietf-poly1305
     password: "aduB9HGxQHjzA2SBMjrHX6"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-🇺🇸"
     type: ss
     server: 156.146.38.167
     port: 443
     cipher: aes-128-gcm
     password: "shadowsocks"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-1-🇺🇸"
     type: ss
     server: 37.19.198.244
     port: 443
     cipher: aes-128-gcm
     password: "shadowsocks"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-2-🇺🇸"
     type: ss
     server: 173.244.56.6
     port: 443
     cipher: aes-128-gcm
     password: "shadowsocks"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-🇳🇱"
     type: ss
     server: 193.29.139.204
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-1-🇳🇱"
     type: ss
     server: 82.38.31.191
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-2-🇳🇱"
     type: ss
     server: 82.38.31.217
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-3-🇳🇱"
     type: ss
     server: 82.38.31.187
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-4-🇳🇱"
     type: ss
     server: 82.38.31.179
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-5-🇳🇱"
     type: ss
     server: 82.38.31.205
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-6-🇳🇱"
     type: ss
     server: 213.109.147.242
     port: 62685
     cipher: chacha20-ietf-poly1305
     password: "VpKABcOpNNA0l5G2AVOmw8"
-    dialer-proxy: "hamedp71:🇬🇧20"
+    dialer-proxy: "hamedp71-Trojan"
   - name: "Hamedvpns-7-🇳🇱"
     type: ss
     server: 82.38.31.184
@@ -1822,7 +1814,65 @@ proxy-groups:
       - "hamedp71:🇬🇧 2"
       - "hamedp71:🇬🇧 3"
       - "hamedp71:🇬🇧 4"
-      - "⛓️عمو زنجیر باف⛓️"
+      - "Hamedvpns-🇿🇦"
+      - "Hamedvpns-1-🇿🇦"
+      - "Hamedvpns-🇺🇸"
+      - "Hamedvpns-1-🇺🇸"
+      - "Hamedvpns-2-🇺🇸"
+      - "Hamedvpns-🇳🇱"
+      - "Hamedvpns-1-🇳🇱"
+      - "Hamedvpns-2-🇳🇱"
+      - "Hamedvpns-3-🇳🇱"
+      - "Hamedvpns-4-🇳🇱"
+      - "Hamedvpns-5-🇳🇱"
+      - "Hamedvpns-6-🇳🇱"
+      - "Hamedvpns-7-🇳🇱"
+      - "Hamedvpns-🇸🇬"
+      - "Hamedvpns-🇸🇯"
+      - "Hamedvpns-3-🇺🇸"
+      - "Hamedvpns-8-🇳🇱"
+      - "Hamedvpns-9-🇳🇱"
+      - "Hamedvpns-🇹🇼"
+      - "Hamedvpns-4-🇺🇸"
+      - "Hamedvpns-5-🇺🇸"
+      - "Hamedvpns-10-🇳🇱"
+      - "Hamedvpns-11-🇳🇱"
+      - "Hamedvpns-12-🇳🇱"
+      - "Hamedvpns-13-🇳🇱"
+      - "Hamedvpns-🇯🇵"
+      - "Hamedvpns-🇹🇩"
+      - "Hamedvpns-14-🇳🇱"
+      - "Hamedvpns-15-🇳🇱"
+      - "Hamedvpns-1-🇯🇵"
+      - "Hamedvpns-🇪🇦"
+      - "Hamedvpns-🇰🇷"
+      - "Hamedvpns-🇬🇧"
+      - "Hamedvpns-16-🇳🇱"
+      - "Hamedvpns-1-🇹🇼"
+      - "Hamedvpns-🇨🇦"
+      - "Hamedvpns-1-🇬🇧"
+      - "Hamedvpns-1-🇰🇷"
+      - "Hamedvpns-1-🇨🇦"
+      - "Hamedvpns-6-🇺🇸"
+      - "Hamedvpns-17-🇳🇱"
+      - "Hamedvpns-18-🇳🇱"
+      - "Hamedvpns-7-🇺🇸"
+      - "Hamedvpns-19-🇳🇱"
+      - "Hamedvpns-20-🇳🇱"
+      - "Hamedvpns-21-🇳🇱"
+      - "Hamedvpns-2-🇰🇷"
+      - "Hamedvpns-2-🇹🇼"
+      - "Hamedvpns-8-🇺🇸"
+      - "Hamedvpns-22-🇳🇱"
+      - "Hamedvpns-2-🇯🇵"
+      - "Hamedvpns-9-🇺🇸"
+      - "Hamedvpns-🇹🇯"
+      - "Hamedvpns-🇩🇪"
+      - "Hamedvpns-23-🇳🇱"
+      - "Hamedvpns-24-🇳🇱"
+      - "Hamedvpns-🇵🇱"
+      - "Hamedvpns-2-🇬🇧"
+      - "Hamedvpns-3-🇬🇧"
 
   - name: "🤍 وارپ"
     type: url-test
