@@ -1778,10 +1778,6 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - "hamedp71:🇬🇧 1"
-      - "hamedp71:🇬🇧 2"
-      - "hamedp71:🇬🇧 3"
-      - "hamedp71:🇬🇧 4"
       - "Hamedvpns-🇿🇦"
       - "Hamedvpns-1-🇿🇦"
       - "Hamedvpns-🇺🇸"
