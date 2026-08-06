@@ -1776,7 +1776,7 @@ proxy-groups:
     type: url-test
     url: "http://www.google.com/generate_204"
     interval: 30
-    tolerance: 120
+    tolerance: 100
     proxies:
       - "Hamedvpns-🇿🇦"
       - "Hamedvpns-1-🇿🇦"
@@ -1843,7 +1843,7 @@ proxy-groups:
     type: url-test
     url: "http://cp.cloudflare.com"
     interval: 60
-    tolerance: 60
+    tolerance: 90
     proxies:
       - "🇦🇹 hamedp71"
       - "🇦🇺 hamedp71-1"
