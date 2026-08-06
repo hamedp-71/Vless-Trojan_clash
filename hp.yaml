@@ -1775,7 +1775,7 @@ proxy-groups:
   - name: "اتصال❤️خودکار"
     type: url-test
     url: "http://www.google.com/generate_204"
-    interval: 60
+    interval: 30
     tolerance: 120
     proxies:
       - "Hamedvpns-🇿🇦"
@@ -1842,8 +1842,8 @@ proxy-groups:
   - name: "🤍 وارپ"
     type: url-test
     url: "http://cp.cloudflare.com"
-    interval: 30
-    tolerance: 300
+    interval: 60
+    tolerance: 60
     proxies:
       - "🇦🇹 hamedp71"
       - "🇦🇺 hamedp71-1"
