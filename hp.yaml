@@ -38,7 +38,7 @@ dns:
     - '10.202.10.10'   # رادار
     - '10.202.10.11'   # رادار
   nameserver-policy:
-    '+.ir': [proxy-server-nameserver]
+    '<+.ir>': [proxy-server-nameserver]
     'geosite:cn': [proxy-server-nameserver] 
 tun:
   enable: true
