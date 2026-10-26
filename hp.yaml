@@ -2,7 +2,7 @@ mixed-port: 7890
 ipv6: true
 allow-lan: true
 mode: rule
-log-level: info
+log-level: warning
 keepalive: true
 keep-alive-idle: 10
 keep-alive-interval: 15
@@ -10,10 +10,8 @@ unified-delay: false
 geo-auto-update: true
 geo-update-interval: 168
 external-controller: '127.0.0.1:9090'
-secret: 'Hpp@19921992'
-external-ui: ui
-# external-ui-url: 'https://github.com/haishanh/yacd/archive/gh-pages.zip'
 external-ui-url: 'https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip'
+external-ui: ui
 external-controller-cors:
   allow-origins: ['*']
   allow-private-network: true
@@ -24,21 +22,20 @@ hosts: {}
 dns:
   enable: true
   listen: 0.0.0.0:1053
-  ipv6: false
+  ipv6: true
   respect-rules: true
   use-hosts: true
   use-system-hosts: false
   nameserver:
-    - 'https://1.1.1.1/dns-query'
-    - 'https://8.8.8.8/dns-query'
-    - 'https://dns.quad9.net/dns-query'
+    - '8.8.8.8'
+    - '2001:4860:4860::8888'
+    - '8.8.4.4'
+    - '2001:4860:4860::8844'
   proxy-server-nameserver:
-    - '178.22.122.100' # شکن
-    - '185.51.200.2'   # شکن
-    - '10.202.10.10'   # رادار
-    - '10.202.10.11'   # رادار
-  nameserver-policy:
-    'geosite:ir': [proxy-server-nameserver]  # استفاده از geosite به جای wildcard دستی
+    - '8.8.8.8'
+    - '2001:4860:4860::8888'
+    - '8.8.4.4'
+    - '2001:4860:4860::8844'
 tun:
   enable: true
   stack: gvisor
@@ -46,9 +43,8 @@ tun:
   strict-route: true
   auto-detect-interface: true
   dns-hijack:
-  - 'tcp://any:53'
-  - 'udp://any:53'
-  mtu: 1330
+    - 'any:53'
+  mtu: 1280
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -59,492 +55,26 @@ sniffer:
       ports: [80, 8080, 8880, 2052, 2082, 2086, 2095]
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
-    QUIC:
-      ports: [443, 8443]
+
 proxies:
-# Hysteria2 Servers
-# کانفیگ سوم - ایتالیا
-#لهستان
-    
-#عموزنجیرباف
-  - name: "hamedp71-Trojan"
-    type: trojan
-    server: 188.42.88.142
-    port: 443
-    password: "@b]X;KpG4}3z}W1Y"
-    network: ws
-    sni: "upN-A3B.pAges.DEv"
-    skip-cert-verify: false
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-    ws-opts:
-      path: "/trUnABr1RuanmVvjS1?ed=2560"
-      headers:
-        Host: "upn-a3b.pages.dev"
-    udp: true   
-  - name: "Hamedvpns-🇿🇦"
-    type: ss
-    server: 102.133.165.160
-    port: 16233
-    cipher: chacha20-ietf-poly1305
-    password: "Xsy8Ox4yOV3xLbpxtjzs3X"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-1-🇿🇦"
-    type: ss
-    server: 102.37.156.224
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "aduB9HGxQHjzA2SBMjrHX6"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇺🇸"
-    type: ss
-    server: 156.146.38.167
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-1-🇺🇸"
-    type: ss
-    server: 37.19.198.244
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-2-🇺🇸"
-    type: ss
-    server: 173.244.56.6
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇳🇱"
-    type: ss
-    server: 193.29.139.204
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-1-🇳🇱"
-    type: ss
-    server: 82.38.31.191
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-2-🇳🇱"
-    type: ss
-    server: 82.38.31.217
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-3-🇳🇱"
-    type: ss
-    server: 82.38.31.187
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-4-🇳🇱"
-    type: ss
-    server: 82.38.31.179
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-5-🇳🇱"
-    type: ss
-    server: 82.38.31.205
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-6-🇳🇱"
-    type: ss
-    server: 213.109.147.242
-    port: 62685
-    cipher: chacha20-ietf-poly1305
-    password: "VpKABcOpNNA0l5G2AVOmw8"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-7-🇳🇱"
-    type: ss
-    server: 82.38.31.184
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇸🇬"
-    type: ss
-    server: 103.36.91.32
-    port: 8388
-    cipher: chacha20-ietf
-    password: "asd123456"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇸🇯"
-    type: ss
-    server: 185.213.23.63
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-3-🇺🇸"
-    type: ss
-    server: 37.19.198.160
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-8-🇳🇱"
-    type: ss
-    server: 109.201.152.181
-    port: 443
-    cipher: aes-128-cfb
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-9-🇳🇱"
-    type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "RFK38Cg7APneSB5cWDcpbm"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇹🇼"
-    type: ss
-    server: r3mrcg001286ek2.cybervena.com
-    port: 50099
-    cipher: chacha20-ietf-poly1305
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-4-🇺🇸"
-    type: ss
-    server: 37.19.198.236
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-5-🇺🇸"
-    type: ss
-    server: 156.146.38.170
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-10-🇳🇱"
-    type: ss
-    server: 82.38.31.218
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-11-🇳🇱"
-    type: ss
-    server: 82.38.31.189
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-12-🇳🇱"
-    type: ss
-    server: 82.38.31.214
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-13-🇳🇱"
-    type: ss
-    server: 82.38.31.208
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇯🇵"
-    type: ss
-    server: 149.22.87.204
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇹🇩"
-    type: ss
-    server: 154.46.31.106
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "QFWzCw2uX9B9i6qAYeFBIE"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-14-🇳🇱"
-    type: ss
-    server: 82.38.31.190
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-15-🇳🇱"
-    type: ss
-    server: 193.29.139.235
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-1-🇯🇵"
-    type: ss
-    server: 149.22.87.240
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇪🇦"
-    type: ss
-    server: 5.188.181.201
-    port: 9003
-    cipher: aes-256-cfb
-    password: "JdmRK9gMEqFgs8nP"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇰🇷"
-    type: ss
-    server: 221.139.79.57
-    port: 13979
-    cipher: aes-256-cfb
-    password: "qwerREWQ@@"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇬🇧"
-    type: ss
-    server: 146.70.61.37
-    port: 8080
-    cipher: rc4-md5
-    password: "14fFPrbezE3HDZzsMOr6"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-16-🇳🇱"
-    type: ss
-    server: 82.38.31.202
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-1-🇹🇼"
-    type: ss
-    server: r3mrcg00129437x.cybervena.com
-    port: 50099
-    cipher: chacha20-ietf-poly1305
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇨🇦"
-    type: ss
-    server: 137.184.174.93
-    port: 8080
-    cipher: rc4-md5
-    password: "14fFPrbezE3HDZzsMOr6"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-1-🇬🇧"
-    type: ss
-    server: 94.156.250.148
-    port: 7001
-    cipher: aes-256-gcm
-    password: "RexnBgU7EV5ADxG"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-1-🇰🇷"
-    type: ss
-    server: 115.161.136.145
-    port: 10099
-    cipher: chacha20-ietf-poly1305
-    password: "12242"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-1-🇨🇦"
-    type: ss
-    server: 149.22.95.183
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-6-🇺🇸"
-    type: ss
-    server: 156.146.38.168
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-17-🇳🇱"
-    type: ss
-    server: 82.38.31.176
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-18-🇳🇱"
-    type: ss
-    server: 82.38.31.210
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-7-🇺🇸"
-    type: ss
-    server: 156.146.38.169
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-19-🇳🇱"
-    type: ss
-    server: 82.38.31.194
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-20-🇳🇱"
-    type: ss
-    server: 82.38.31.35
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-21-🇳🇱"
-    type: ss
-    server: 82.38.31.199
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-2-🇰🇷"
-    type: ss
-    server: 218.237.185.230
-    port: 4652
-    cipher: aes-256-cfb
-    password: "qwerREWQ@@"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-2-🇹🇼"
-    type: ss
-    server: r3mrcg001287h3p.cybervena.com
-    port: 50099
-    cipher: chacha20-ietf-poly1305
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-8-🇺🇸"
-    type: ss
-    server: 108.181.57.93
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: "RSo52SbxW40r"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-22-🇳🇱"
-    type: ss
-    server: 193.29.139.151
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-2-🇯🇵"
-    type: ss
-    server: 149.22.87.241
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-9-🇺🇸"
-    type: ss
-    server: 173.244.56.9
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇹🇯"
-    type: ss
-    server: 38.180.113.194
-    port: 8119
-    cipher: aes-256-gcm
-    password: "cdBIDV42DCwnfIN"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇩🇪"
-    type: ss
-    server: 213.202.208.199
-    port: 7001
-    cipher: aes-256-gcm
-    password: "RexnBgU7EV5ADxG"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-23-🇳🇱"
-    type: ss
-    server: 82.38.31.186
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: "k1dBOmOB4oqi3Ump37a1bQ"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-24-🇳🇱"
-    type: ss
-    server: 92.112.126.90
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "9tqhMdIrTkgQ46PvhyAtMH"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-🇵🇱"
-    type: ss
-    server: 194.61.121.93
-    port: 7538
-    cipher: chacha20-ietf-poly1305
-    password: "U9YAoQBgg5VyGBc6vQv1sN"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-2-🇬🇧"
-    type: ss
-    server: 141.98.101.178
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-  - name: "Hamedvpns-3-🇬🇧"
-    type: ss
-    server: 141.98.101.182
-    port: 443
-    cipher: aes-128-gcm
-    password: "shadowsocks"
-    dialer-proxy: "hamedp71-Trojan"
-    
-#warp
-  - name: "🇦🇹 hamedp71"
+  - name: "🇮🇷 hamedp71-1"
     type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "89.187.168.67"
-    port: 65142
-    public-key: "KtJIKy9zsCXtKwFMQeGDEZVXtqw+X1+5z10Rh84/N0s="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
+    ip: 172.16.0.2/32
+    private-key: "pmrMu3TI7/I04KxLa+G9EVDdYLV/fh+blN5tKwTod+o="
+    server: 188.114.97.130
+    port: 1843
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    persistent-keepalive: 25
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 75
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇦🇺 hamedp71-1"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "103.1.213.212"
-    port: 65142
-    public-key: "jCi1I5HBTtwCblBbMzOFmOOFNG1GilYOZgst0kyq9gY="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    persistent-keepalive: 25
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 75
+      jmax: 250
       s1: 0
       s2: 0
       h1: 1
@@ -552,25 +82,25 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇦🇺 hamedp71-2"
+  - name: "🇮🇷 Warp - IPv4"
     type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "103.77.234.212"
-    port: 65142
-    public-key: "Jhhq6jvPxABM8OmzaM4/zJbcoRBR5OZalIHrZaFuXAU="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1
+    private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
+    server: 188.114.97.136
+    port: 1010
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
     dialer-proxy: ""
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 75
+      jmax: 250
       s1: 0
       s2: 0
       h1: 1
@@ -578,433 +108,33 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇦🇺 hamedp71-3"
+  - name: "🇩🇪 Warp - IPv4"
     type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "103.77.232.76"
-    port: 65142
-    public-key: "eSxX+L8qX+1MdmwjtlZGIDbDivFdURBh5Rm1KfUpYzc="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1
+    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
+    server: 188.114.98.105
+    port: 1010
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 75
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
+    dialer-proxy: "🇮🇷 Warp - IPv4"
 
-  - name: "🇦🇺 hamedp71-4"
+  - name: "🇮🇷 Warp - IPv6"
     type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "103.108.95.228"
-    port: 65142
-    public-key: "iY4MhQqQTP4uT7U4w9DfUEVxi5I3HJvjZcIL2dwmtTw="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 75
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇦🇺 hamedp71-5"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "116.206.228.180"
-    port: 65142
-    public-key: "r5BDU0T+VGZU6I+zuF3vlGrdORtgNvLhY08gQxrFRCw="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 75
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇦🇺 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "116.90.72.244"
-    port: 65142
-    public-key: "tEh6Z8bnFmQU2KWHWYOS7yuDFZgwn3LGOZAdR1hN8kU="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 75
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇦🇺 hamedp71-6"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "103.62.50.132"
-    port: 65142
-    public-key: "KvFr7Te5+RaFATDKJzrNXKf44ws8J6E9WbNVsMPvY1I="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 75
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇧🇦 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "185.99.3.25"
-    port: 65142
-    public-key: "6oMHpHHL3pq6Pdr2HoDRYuyjcyQGxfQaSRQR+HPyvgc="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 75
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇨🇦 hamedp71-1"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "23.191.80.4"
-    port: 65142
-    public-key: "w262TI0UyIg9pFunMiekVURYUuT/z4qXRor2Z7VcOn4="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇨🇦 hamedp71-2"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "198.8.92.100"
-    port: 65142
-    public-key: "YxWQDjNmU41PJXtoobFek3Y6nhICSLgsqH+QKPO5AQ8="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇨🇦 hamedp71-3"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "149.57.28.226"
-    port: 65142
-    public-key: "vwimooPysZvNdJULeFQVovYfqhsLG5gVdzgoTnfm+iE="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇨🇦 hamedp71-4"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "104.244.210.244"
-    port: 65142
-    public-key: "IMHoX/bhNghQVQB0pYKi14pwJhkOcLevpiMa7Khaz2I="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇨🇭 hamedp71-1"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "185.156.175.180"
-    port: 65142
-    public-key: "uFOg97vQhHVCUfZy/HwmGH+dR6/9lpeWZ5tV3PysHRE="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇨🇾 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "46.199.75.107"
-    port: 65142
-    public-key: "90fjr1sq0Hgv2l+DgMaaGQ009SDw7VxmzJwaYmclaFs="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇨🇿 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "185.246.210.3"
-    port: 65142
-    public-key: "dAaOzl6DBAuFWC85UJUY378WwEHUoNqbE5lJMDfNamo="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇫🇷 hamedp71-1"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "45.89.174.36"
-    port: 65142
-    public-key: "3si2nD1DKbbkeZkdg3hLMfOYw1gdKbVFtTOj2NOA+nM="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇬🇧 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "193.36.118.228"
-    port: 65142
-    public-key: "bGn6yuCFQWWF8+ZMGlJ0M6+IJRlkLXn0/UI/mvIyYwQ="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇭🇰 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "84.17.57.115"
-    port: 65142
-    public-key: "zi62xnrtbvAbaavB8MLoTF36BX/stxjfnGJ6mIsZYzg="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇮🇸 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: ""
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "37.156.216.148"
-    port: 443
-    public-key: "0CUpqMsVggxsjvdZewCsBFsw84goCitq0G9nytQhpDw="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    dns: ["10.255.255.2"]
-    allowed-ips: ["0.0.0.0/0", "::/0"]
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1
+    private-key: "GsKlQMftAHdzZjMC17pjwKl+Fs2EVoB8VvHb8JJVFr8="
+    server: "[2606:4700:d0::5db:987a:2353:9dcc]"
+    port: 3854
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -1012,397 +142,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇮🇸 hamedp71-1"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: ""
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "185.165.170.3"
-    port: 443
-    public-key: "ua7TUXkcSiiHeTyCok5b3PX9DkJ4l5yVvGlSmJ34WU8="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    dns: ["10.255.255.2"]
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇮🇸 hamedp71-2"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "185.165.170.3"
-    port: 65142
-    public-key: "ua7TUXkcSiiHeTyCok5b3PX9DkJ4l5yVvGlSmJ34WU8="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇮🇪 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "23.92.127.36"
-    port: 65142
-    public-key: "VgzE+XeQUxX54wMZdhRBU4Qxqba95iVpXi197ZbBBgA="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇰🇪 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "45.138.86.228"
-    port: 65142
-    public-key: "S/qPJPWnfwfb1pWIcKN8FH71j5dFt9eH2KbEeU1+QlE="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇱🇹 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: ""
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "37.156.216.148"
-    port: 443
-    public-key: "0CUpqMsVggxsjvdZewCsBFsw84goCitq0G9nytQhpDw="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    dns: ["10.255.255.2"]
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇱🇺 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "185.221.132.228"
-    port: 65142
-    public-key: "BzMLell5uUM/d9aNGaGMog+GFH36s4dFO0WuQ6/VxCg="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇲🇰 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "185.225.28.52"
-    port: 65142
-    public-key: "9J0kA4c4i7N/+6B+3j0zFkDTHocZNsw6eK6+sLZ1qCQ="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇳🇱 hamedp71-1"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "89.238.150.230"
-    port: 65142
-    public-key: "yrmgyxaJAxTEth7Gc8lXOQVHn9Gn/fzd4cLE+0WZjFI="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-      
-  - name: "🇳🇱 hamedp71-2"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "185.253.96.4"
-    port: 65142
-    public-key: "c9QHUQhVUNIYqcp5HQ4gwoSoKzAgK8uSsoiJUrlriDA="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇳🇴 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "37.120.203.68"
-    port: 65142
-    public-key: "y+Kvlfz0z8DF17hVvEezMml3SH3OaB2l5l09DPdQNCk="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇳🇿 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "103.108.94.164"
-    port: 80
-    public-key: "el0He87GLmmywBmn7ErEiuKd5Bjc6Q4zWciL86rYcxw="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇵🇦 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "138.186.142.204"
-    port: 65142
-    public-key: "3L8yhe+v7TzBeesOFxSdU2VUa8FG4PTuoiiUoV7DAGY="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇷🇺 hamedp71-2"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "94.242.50.185"
-    port: 65142
-    public-key: "Yom91OWyt0otz1S4hgQMhp1q1y8tpDvUWwVkNXpmpjc="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇸🇪 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: "79.142.76.199"
-    port: 65142
-    public-key: "P5X43E/SgvnJtbrKnJwLFxqFoZGsCghW2SxlXvfdzm0="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h3: 3
-      h4: 4
-
-  - name: "🇸🇬 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 156.146.56.112
-    port: 65142
-    public-key: "sv9o+LudivUcZh3f92hEFFu5KGCT/2QISYy3OpPC0h0="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
+      jmax: 100
       s1: 0
       s2: 0
       h1: 1
@@ -1410,545 +150,52 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇸🇬 hamedp71 1"
+  - name: "🇸🇪 Warp - IPv6"
     type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 103.107.198.228
-    port: 65142
-    public-key: "tJa6iPx6mpOktn5KoalMslWcpg6pRUdVx3bKDi3wtDg="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
+    ip: 172.16.0.2/32
+    private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
+    server: "188.114.96.151"
+    port: 943
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips:
+      - "0.0.0.0/0"
+      - "::/0"
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇺🇸 hamedp71 2"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 167.88.60.244
-    port: 65142
-    public-key: "/oz2frQv99JveBgmTXW22QXIEulQURK79BW+ugk8fCE="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇺🇸 hamedp71 3"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 23.94.74.100
-    port: 65142
-    public-key: "mRksyUF7wDK/8uBoPoEujp+yoUhjhq0N2LnNJFJnmiE="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇺🇸 hamedp71 4"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 104.255.169.111
-    port: 65142
-    public-key: "oIt9F8IfWqCvSQACrDcmfLPFrhn+RtG+Mr9/sd4VSSU="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇺🇸 hamedp71 5"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 199.217.104.228
-    port: 65142
-    public-key: "5yBJlSpfxd8Hq4+X4ZD60MYc6tosaMh5inQwA18XCCk="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇺🇸 hamedp71 6"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 198.12.64.36
-    port: 65142
-    public-key: "z77o+FZ5AcTxTvkNyjLv69ZqaQtzFoS6UdtTK1eyoE8="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇺🇸 hamedp71 7"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 23.95.42.212
-    port: 65142
-    public-key: "47tLjymDPpTIBerb+wn02/XNFABF4YDAGwOnijSoZmQ="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇺🇸 hamedp71 8"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 217.138.217.212
-    port: 65142
-    public-key: "fvmyuUJF8JvjzIts5bROwwZQ0zkSB7lk/q8E4G3+F20="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇺🇸 hamedp71 9"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 194.5.215.196
-    port: 65142
-    public-key: "1S9LgDyVSo2X34ZG8ukQQ7vqL5RpmXszNe0SYNjiUws="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4   
-
-  - name: "🇺🇸 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 198.147.22.227
-    port: 65142
-    public-key: "b5fIKEXhihCI7f4NOkQO/2BOd+bYHa0c05OylImgB0E="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇻🇳 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 103.9.79.220
-    port: 65142
-    public-key: "SxBT11IISNRou7thGo5A1QtaMjfzPIzZXDxdYEbDxhE="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇿🇦 hamedp71 1"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 165.73.248.92
-    port: 65142
-    public-key: "stPvzj5yM1z5Qg9H3gMvAKNPJLU0X3SeUSJPg3wqDR8="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇿🇦 hamedp71"
-    type: wireguard
-    ip: "100.80.234.177/32"
-    ipv6: "2001:db8:1::1/128"
-    private-key: "cIq+3tcHVT7gRMl4kIv0WE68ERiTmDtA7rhyHhLJ/mg="
-    server: 197.242.159.229
-    port: 65142
-    public-key: "Nh5LEJT44xbuvTQnv3OZ0bXi09BFXV4SBB1XVMI12Ec="
-    pre-shared-key: "N/gfMZSjvP8mbXfVP2hnD5CX8BkGvOyheJ67mCpD+QQ="
-    allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dns: ["10.255.255.2", "8.8.8.8"]
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 70
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-#Arista
-#Rayan
-#BPB
-#Game
+    dialer-proxy: "🇮🇷 Warp - IPv6"
 
 proxy-groups:
-  - name: "💚خانه"
-    type: select
-    proxies: 
-      - "اتصال❤️خودکار"
-      - "🤍 وارپ"
-      - "⛓️عمو زنجیر باف⛓️"
-      
-
-  - name: "اتصال❤️خودکار"
-    type: url-test
-    url: "http://www.google.com/generate_204"
-    interval: 30
-    tolerance: 100
-    proxies:
-      - "Hamedvpns-🇿🇦"
-      - "Hamedvpns-1-🇿🇦"
-      - "Hamedvpns-🇺🇸"
-      - "Hamedvpns-1-🇺🇸"
-      - "Hamedvpns-2-🇺🇸"
-      - "Hamedvpns-🇳🇱"
-      - "Hamedvpns-1-🇳🇱"
-      - "Hamedvpns-2-🇳🇱"
-      - "Hamedvpns-3-🇳🇱"
-      - "Hamedvpns-4-🇳🇱"
-      - "Hamedvpns-5-🇳🇱"
-      - "Hamedvpns-6-🇳🇱"
-      - "Hamedvpns-7-🇳🇱"
-      - "Hamedvpns-🇸🇬"
-      - "Hamedvpns-🇸🇯"
-      - "Hamedvpns-3-🇺🇸"
-      - "Hamedvpns-8-🇳🇱"
-      - "Hamedvpns-9-🇳🇱"
-      - "Hamedvpns-🇹🇼"
-      - "Hamedvpns-4-🇺🇸"
-      - "Hamedvpns-5-🇺🇸"
-      - "Hamedvpns-10-🇳🇱"
-      - "Hamedvpns-11-🇳🇱"
-      - "Hamedvpns-12-🇳🇱"
-      - "Hamedvpns-13-🇳🇱"
-      - "Hamedvpns-🇯🇵"
-      - "Hamedvpns-🇹🇩"
-      - "Hamedvpns-14-🇳🇱"
-      - "Hamedvpns-15-🇳🇱"
-      - "Hamedvpns-1-🇯🇵"
-      - "Hamedvpns-🇪🇦"
-      - "Hamedvpns-🇰🇷"
-      - "Hamedvpns-🇬🇧"
-      - "Hamedvpns-16-🇳🇱"
-      - "Hamedvpns-1-🇹🇼"
-      - "Hamedvpns-🇨🇦"
-      - "Hamedvpns-1-🇬🇧"
-      - "Hamedvpns-1-🇰🇷"
-      - "Hamedvpns-1-🇨🇦"
-      - "Hamedvpns-6-🇺🇸"
-      - "Hamedvpns-17-🇳🇱"
-      - "Hamedvpns-18-🇳🇱"
-      - "Hamedvpns-7-🇺🇸"
-      - "Hamedvpns-19-🇳🇱"
-      - "Hamedvpns-20-🇳🇱"
-      - "Hamedvpns-21-🇳🇱"
-      - "Hamedvpns-2-🇰🇷"
-      - "Hamedvpns-2-🇹🇼"
-      - "Hamedvpns-8-🇺🇸"
-      - "Hamedvpns-22-🇳🇱"
-      - "Hamedvpns-2-🇯🇵"
-      - "Hamedvpns-9-🇺🇸"
-      - "Hamedvpns-🇹🇯"
-      - "Hamedvpns-🇩🇪"
-      - "Hamedvpns-23-🇳🇱"
-      - "Hamedvpns-24-🇳🇱"
-      - "Hamedvpns-🇵🇱"
-      - "Hamedvpns-2-🇬🇧"
-      - "Hamedvpns-3-🇬🇧"
-
-
-  - name: "🤍 وارپ"
-    type: url-test
-    url: "http://cp.cloudflare.com"
-    interval: 60
-    tolerance: 90
-    proxies:
-      - "🇦🇹 hamedp71"
-      - "🇦🇺 hamedp71-1"
-      - "🇦🇺 hamedp71-2"
-      - "🇦🇺 hamedp71-3"
-      - "🇦🇺 hamedp71-4"
-      - "🇦🇺 hamedp71-5"
-      - "🇦🇺 hamedp71"
-      - "🇦🇺 hamedp71-6"
-      - "🇧🇦 hamedp71"
-      - "🇨🇦 hamedp71-1"
-      - "🇨🇦 hamedp71-2"
-      - "🇨🇦 hamedp71-3"
-      - "🇨🇦 hamedp71-4"
-      - "🇨🇭 hamedp71-1"
-      - "🇨🇾 hamedp71"
-      - "🇨🇿 hamedp71"
-      - "🇫🇷 hamedp71-1"
-      - "🇬🇧 hamedp71"
-      - "🇭🇰 hamedp71"
-      - "🇮🇸 hamedp71"
-      - "🇮🇸 hamedp71-1"
-      - "🇮🇸 hamedp71-2"
-      - "🇮🇪 hamedp71"
-      - "🇰🇪 hamedp71"
-      - "🇱🇹 hamedp71"
-      - "🇱🇺 hamedp71"
-      - "🇲🇰 hamedp71"
-      - "🇳🇱 hamedp71-1"
-      - "🇳🇱 hamedp71-2"
-      - "🇳🇴 hamedp71"
-      - "🇳🇿 hamedp71"
-      - "🇵🇦 hamedp71"
-      - "🇷🇺 hamedp71-2"
-      - "🇸🇪 hamedp71"
-      - "🇸🇬 hamedp71"
-      - "🇸🇬 hamedp71 1"
-      - "🇺🇸 hamedp71 2"
-      - "🇺🇸 hamedp71 3"
-      - "🇺🇸 hamedp71 4"
-      - "🇺🇸 hamedp71 5"
-      - "🇺🇸 hamedp71 6"
-      - "🇺🇸 hamedp71 7"
-      - "🇺🇸 hamedp71 8"
-      - "🇺🇸 hamedp71 9"
-      - "🇺🇸 hamedp71"
-      - "🇻🇳 hamedp71"
-      - "🇿🇦 hamedp71 1"
-      - "🇿🇦 hamedp71"
-
-
-  - name: "⛓️عمو زنجیر باف⛓️"
+  - name: "✅ انتخاب دستی"
     type: select
     proxies:
-      - "اتصال❤️خودکار"
-      - "Hamedvpns-🇿🇦"
-      - "Hamedvpns-1-🇿🇦"
-      - "Hamedvpns-🇺🇸"
-      - "Hamedvpns-1-🇺🇸"
-      - "Hamedvpns-2-🇺🇸"
-      - "Hamedvpns-🇳🇱"
-      - "Hamedvpns-1-🇳🇱"
-      - "Hamedvpns-2-🇳🇱"
-      - "Hamedvpns-3-🇳🇱"
-      - "Hamedvpns-4-🇳🇱"
-      - "Hamedvpns-5-🇳🇱"
-      - "Hamedvpns-6-🇳🇱"
-      - "Hamedvpns-7-🇳🇱"
-      - "Hamedvpns-🇸🇬"
-      - "Hamedvpns-🇸🇯"
-      - "Hamedvpns-3-🇺🇸"
-      - "Hamedvpns-8-🇳🇱"
-      - "Hamedvpns-9-🇳🇱"
-      - "Hamedvpns-🇹🇼"
-      - "Hamedvpns-4-🇺🇸"
-      - "Hamedvpns-5-🇺🇸"
-      - "Hamedvpns-10-🇳🇱"
-      - "Hamedvpns-11-🇳🇱"
-      - "Hamedvpns-12-🇳🇱"
-      - "Hamedvpns-13-🇳🇱"
-      - "Hamedvpns-🇯🇵"
-      - "Hamedvpns-🇹🇩"
-      - "Hamedvpns-14-🇳🇱"
-      - "Hamedvpns-15-🇳🇱"
-      - "Hamedvpns-1-🇯🇵"
-      - "Hamedvpns-🇪🇦"
-      - "Hamedvpns-🇰🇷"
-      - "Hamedvpns-🇬🇧"
-      - "Hamedvpns-16-🇳🇱"
-      - "Hamedvpns-1-🇹🇼"
-      - "Hamedvpns-🇨🇦"
-      - "Hamedvpns-1-🇬🇧"
-      - "Hamedvpns-1-🇰🇷"
-      - "Hamedvpns-1-🇨🇦"
-      - "Hamedvpns-6-🇺🇸"
-      - "Hamedvpns-17-🇳🇱"
-      - "Hamedvpns-18-🇳🇱"
-      - "Hamedvpns-7-🇺🇸"
-      - "Hamedvpns-19-🇳🇱"
-      - "Hamedvpns-20-🇳🇱"
-      - "Hamedvpns-21-🇳🇱"
-      - "Hamedvpns-2-🇰🇷"
-      - "Hamedvpns-2-🇹🇼"
-      - "Hamedvpns-8-🇺🇸"
-      - "Hamedvpns-22-🇳🇱"
-      - "Hamedvpns-2-🇯🇵"
-      - "Hamedvpns-9-🇺🇸"
-      - "Hamedvpns-🇹🇯"
-      - "Hamedvpns-🇩🇪"
-      - "Hamedvpns-23-🇳🇱"
-      - "Hamedvpns-24-🇳🇱"
-      - "Hamedvpns-🇵🇱"
-      - "Hamedvpns-2-🇬🇧"
-      - "Hamedvpns-3-🇬🇧"
+      - "🚀 انتخاب خودکار (بهترین)"
+      - "🌍 Global"
+      - "🇮🇷 hamedp71-1"
+      - "🇮🇷 Warp - IPv4"
+      - "🇩🇪 Warp - IPv4"
+      - "🇮🇷 Warp - IPv6"
+      - "🇸🇪 Warp - IPv6"
 
+  - name: "🚀 انتخاب خودکار (بهترین)"
+    type: url-test
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 15
+    proxies:
+      - "🇮🇷 hamedp71-1"
+      - "🇮🇷 Warp - IPv4"
+      - "🇩🇪 Warp - IPv4"
+      - "🇮🇷 Warp - IPv6"
+      - "🇸🇪 Warp - IPv6"
+
+  - name: "🌍 Global"
+    type: select
+    proxies:
+      - "🇩🇪 Warp - IPv4"
+      - "🇮🇷 Warp - IPv4"
+      - "🇮🇷 Warp - IPv6"
+      - "🇸🇪 Warp - IPv6"
 
 rule-providers:
   malware:
@@ -1958,26 +205,12 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.txt"
     path: "./ruleset/malware.txt"
     interval: 86400
-  malware-cidr:
-    type: http
-    format: text
-    behavior: ipcidr
-    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware-ip.txt"
-    path: "./ruleset/malware-cidr.txt"
-    interval: 86400
   phishing:
     type: http
     format: text
     behavior: domain
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.txt"
     path: "./ruleset/phishing.txt"
-    interval: 86400
-  phishing-cidr:
-    type: http
-    format: text
-    behavior: ipcidr
-    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing-ip.txt"
-    path: "./ruleset/phishing-cidr.txt"
     interval: 86400
   cryptominers:
     type: http
@@ -1986,50 +219,23 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.txt"
     path: "./ruleset/cryptominers.txt"
     interval: 86400
-  category-ads-all:
+  ads:
     type: http
     format: text
     behavior: domain
-    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/category-ads-all.txt"
-    path: "./ruleset/category-ads-all.txt"
-    interval: 86400
-  ir:
-    type: http
-    format: text
-    behavior: domain
-    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt"
-    path: "./ruleset/ir.txt"
-    interval: 86400
-  ir-cidr:
-    type: http
-    format: text
-    behavior: ipcidr
-    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt"
-    path: "./ruleset/ir-cidr.txt"
-    interval: 86400
-  ir-domains:
-    type: http
-    format: text
-    behavior: domain
-    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt"
-    path: ./ruleset/ir-domains.txt
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ads.txt"
+    path: "./ruleset/ads.txt"
     interval: 86400
 
 rules:
   - RULE-SET,malware,REJECT
   - RULE-SET,phishing,REJECT
   - RULE-SET,cryptominers,REJECT
-  - RULE-SET,category-ads-all,REJECT
-  - RULE-SET,malware-cidr,REJECT
-  - RULE-SET,phishing-cidr,REJECT
-  - GEOIP,IR,DIRECT
-  - RULE-SET,ir,DIRECT
-  - RULE-SET,ir-cidr,DIRECT
-  - RULE-SET,ir-domains,DIRECT
-  - MATCH,💚خانه
+  - RULE-SET,ads,REJECT
+  - MATCH,🚀 انتخاب خودکار (بهترین)
 
 ntp:
   enable: true
-  server: time.cloudflare.com
+  server: "time.apple.com"
   port: 123
   interval: 30
