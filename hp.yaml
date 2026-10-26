@@ -61,7 +61,7 @@ proxies:
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "pmrMu3TI7/I04KxLa+G9EVDdYLV/fh+blN5tKwTod+o="
-    server: 188.114.97.130
+    server: 162.159.197.36
     port: 1843
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips:
@@ -87,7 +87,7 @@ proxies:
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
-    server: 188.114.97.136
+    server: 162.159.197.109
     port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips:
