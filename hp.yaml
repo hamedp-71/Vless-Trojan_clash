@@ -37,9 +37,9 @@ dns:
     - '185.51.200.2'   # شکن
     - '10.202.10.10'   # رادار
     - '10.202.10.11'   # رادار
-  nameserver-policy:
-    '<+.ir>': [proxy-server-nameserver]
-    'geosite:cn': [proxy-server-nameserver] 
+  fake-ip-filter:
+    - '+.ir'          # دامنه‌های .ir مستقیماً resolve شوند (بدون Fake-IP)
+    - 'geosite:cn'
 tun:
   enable: true
   stack: gvisor
