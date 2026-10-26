@@ -3,9 +3,9 @@ ipv6: true
 allow-lan: true
 mode: rule
 log-level: warning
-keepalive: true
-keep-alive-idle: 10
-keep-alive-interval: 15
+disable-keep-alive: false
+keep-alive-idle: 30
+keep-alive-interval: 30
 unified-delay: false
 geo-auto-update: true
 geo-update-interval: 168
@@ -31,20 +31,29 @@ dns:
     - '2001:4860:4860::8888'
     - '8.8.4.4'
     - '2001:4860:4860::8844'
+    - '1.1.1.1'
+    - '2606:4700:4700::1111'
+    - '9.9.9.9'
+    - '2620:fe::fe'
   proxy-server-nameserver:
     - '8.8.8.8'
     - '2001:4860:4860::8888'
     - '8.8.4.4'
     - '2001:4860:4860::8844'
+    - '1.1.1.1'
+    - '2606:4700:4700::1111'
+    - '9.9.9.9'
+    - '2620:fe::fe'
 tun:
   enable: true
-  stack: gvisor
+  stack: mixed
   auto-route: true
   strict-route: true
   auto-detect-interface: true
   dns-hijack:
     - 'any:53'
   mtu: 1280
+
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -57,84 +66,91 @@ sniffer:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 
 proxies:
-  - name: "🇮🇷 hamedp71-1"
+  - name: "🇮🇷 Warp - IPv4-1"
     type: wireguard
     ip: 172.16.0.2/32
-    private-key: "pmrMu3TI7/I04KxLa+G9EVDdYLV/fh+blN5tKwTod+o="
+    ipv6: 2001:db8:1::1/128
+    private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
+    server: 188.114.99.48
+    port: 934
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips: ["0.0.0.0/0", "::/0"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 250
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
+
+  - name: "🇷🇴🇩🇪 Warp - IPv4-1"
+    type: wireguard
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1/128
+    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
+    server: 188.114.98.172
+    port: 934
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips: ["0.0.0.0/0", "::/0"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dialer-proxy: "🇮🇷 Warp - IPv4-1"
+
+  - name: "🇮🇷 Warp - IPv4-2"
+    type: wireguard
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1/128
+    private-key: "CKhobkhCpHDD2ygfXMp256m4SJ8UdOvRGevvgWkZU1A="
+    server: zula.ir
+    port: 1018
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    allowed-ips: ["0.0.0.0/0", "::/0"]
+    reserved: "AAAA"
+    udp: true
+    mtu: 1280
+    dialer-proxy: ""
+    amnezia-wg-option:
+      jc: 4
+      jmin: 40
+      jmax: 250
+      s1: 0
+      s2: 0
+      h1: 1
+      h2: 2
+      h4: 3
+      h3: 4
+
+  - name: "🇩🇪🇷🇴 Warp - IPv4-2"
+    type: wireguard
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1/128
+    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: 188.114.97.130
     port: 1843
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips:
-      - "0.0.0.0/0"
-      - "::/0"
+    allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇮🇷 Warp - IPv4"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
-    server: 188.114.97.136
-    port: 1010
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips:
-      - "0.0.0.0/0"
-      - "::/0"
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 Warp - IPv4"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.98.105
-    port: 1010
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips:
-      - "0.0.0.0/0"
-      - "::/0"
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4"
+    dialer-proxy: "🇮🇷 Warp - IPv4-2"
 
   - name: "🇮🇷 Warp - IPv6"
     type: wireguard
     ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "GsKlQMftAHdzZjMC17pjwKl+Fs2EVoB8VvHb8JJVFr8="
-    server: "[2606:4700:d0::5db:987a:2353:9dcc]"
-    port: 3854
+    ipv6: 2001:db8:1::1/128
+    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
+    server: "[2606:4700:d0::8be4:d75d:e714:abb1]"
+    port: 987
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips:
-      - "0.0.0.0/0"
-      - "::/0"
+    allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
@@ -142,7 +158,7 @@ proxies:
     amnezia-wg-option:
       jc: 4
       jmin: 40
-      jmax: 100
+      jmax: 250
       s1: 0
       s2: 0
       h1: 1
@@ -153,51 +169,57 @@ proxies:
   - name: "🇸🇪 Warp - IPv6"
     type: wireguard
     ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1/128
     private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
-    server: "188.114.96.151"
-    port: 943
+    server: 162.159.192.139
+    port: 934
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips:
-      - "0.0.0.0/0"
-      - "::/0"
+    allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
     dialer-proxy: "🇮🇷 Warp - IPv6"
 
 proxy-groups:
-  - name: "✅ انتخاب دستی"
+  - name: "🌐 گلوبال"
     type: select
     proxies:
       - "🚀 انتخاب خودکار (بهترین)"
-      - "🌍 Global"
-      - "🇮🇷 hamedp71-1"
-      - "🇮🇷 Warp - IPv4"
-      - "🇩🇪 Warp - IPv4"
+      - "🇮🇷 Warp - IPv4-1"
+      - "🇷🇴🇩🇪 Warp - IPv4-1"
+      - "🇮🇷 Warp - IPv4-2"
+      - "🇩🇪🇷🇴 Warp - IPv4-2"
       - "🇮🇷 Warp - IPv6"
       - "🇸🇪 Warp - IPv6"
 
   - name: "🚀 انتخاب خودکار (بهترین)"
     type: url-test
-    url: "https://www.gstatic.com/generate_204"
-    interval: 300
-    tolerance: 15
+    url: "http://www.gstatic.com/generate_204"
+    interval: 60
+    tolerance: 50
     proxies:
-      - "🇮🇷 hamedp71-1"
-      - "🇮🇷 Warp - IPv4"
-      - "🇩🇪 Warp - IPv4"
-      - "🇮🇷 Warp - IPv6"
-      - "🇸🇪 Warp - IPv6"
-
-  - name: "🌍 Global"
-    type: select
-    proxies:
-      - "🇩🇪 Warp - IPv4"
-      - "🇮🇷 Warp - IPv4"
+      - "🇮🇷 Warp - IPv4-1"
+      - "🇷🇴🇩🇪 Warp - IPv4-1"
+      - "🇮🇷 Warp - IPv4-2"
+      - "🇩🇪🇷🇴 Warp - IPv4-2"
       - "🇮🇷 Warp - IPv6"
       - "🇸🇪 Warp - IPv6"
 
 rule-providers:
+  ir:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt"
+    path: "./ruleset/ir.txt"
+    interval: 86400
+  ir-cidr:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt"
+    path: "./ruleset/ir-cidr.txt"
+    interval: 86400
   malware:
     type: http
     format: text
@@ -228,11 +250,13 @@ rule-providers:
     interval: 86400
 
 rules:
+  - RULE-SET,ir,DIRECT
+  - RULE-SET,ir-cidr,DIRECT
   - RULE-SET,malware,REJECT
   - RULE-SET,phishing,REJECT
   - RULE-SET,cryptominers,REJECT
   - RULE-SET,ads,REJECT
-  - MATCH,🚀 انتخاب خودکار (بهترین)
+  - MATCH,🌐 گلوبال
 
 ntp:
   enable: true
