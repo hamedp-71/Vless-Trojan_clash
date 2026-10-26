@@ -2007,6 +2007,13 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt"
     path: "./ruleset/ir-cidr.txt"
     interval: 86400
+  ir-domains:
+    type: http
+    format: text
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt"
+    path: ./ruleset/ir-domains.txt
+    interval: 86400
 
 rules:
   - RULE-SET,malware,REJECT
@@ -2018,6 +2025,7 @@ rules:
   - GEOIP,IR,DIRECT
   - RULE-SET,ir,DIRECT
   - RULE-SET,ir-cidr,DIRECT
+  - RULE-SET,ir-domains,DIRECT
   - MATCH,💚خانه
 
 ntp:
