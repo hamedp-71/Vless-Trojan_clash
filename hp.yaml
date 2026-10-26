@@ -39,16 +39,7 @@ dns:
     - '10.202.10.11'   # رادار
   nameserver-policy:
     'domain:+.ir': [proxy-server-nameserver]
-    'all': [nameserver]
-  fallback-filter:
-  geoip: true
-  geoip-code: IR
-  ipcidr:
-    - '240.0.0.0/4'
-  geosite:
-    - 'cn'
-  domain:
-    - '+.ir'
+    'geosite:cn': [proxy-server-nameserver] 
 tun:
   enable: true
   stack: gvisor
