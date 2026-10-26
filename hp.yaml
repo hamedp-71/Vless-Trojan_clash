@@ -61,8 +61,8 @@ proxies:
     type: wireguard
     ip: 172.16.0.2/32
     private-key: "pmrMu3TI7/I04KxLa+G9EVDdYLV/fh+blN5tKwTod+o="
-    server: 162.159.197.36
-    port: 1843
+    server: 162.159.192.177
+    port: 955
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips:
       - "0.0.0.0/0"
